@@ -64,20 +64,20 @@ def parse_emails(path: str, doc_id: int) -> list[dict]:
 
 def process(msg: dict) -> None:
     doc_url = msg["doc_url"]
-    name = os.path.basename(doc_url)
+    doc_id = os.path.basename(doc_url)
     with db.cursor() as cur:
         cur.execute(
-            "INSERT INTO document (name, url) VALUES (%s, %s) RETURNING id",
-            (name, doc_url),
+            "INSERT INTO document (name, url) VALUES (%s, %s) "
+            "ON CONFLICT (name) DO NOTHING",
+            (doc_id, doc_url),
         )
-        doc_id = cur.fetchone()[0]
-    log.info("stored document id=%s name=%s", doc_id, name)
+    log.info("stored document name=%s", doc_id)
 
-    emails = parse_emails(os.path.join(DATA_DIR, name), doc_id)
+    emails = parse_emails(os.path.join(DATA_DIR, doc_id), doc_id)
     for email in emails:
         producer.produce(
             topic=EMAILS_TOPIC,
-            key=str(doc_id).encode(),
+            key=doc_id.encode(),
             value=json.dumps(email).encode(),
         )
     producer.flush()

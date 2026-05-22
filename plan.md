@@ -79,7 +79,7 @@ Created by the `kafka-init-topics` Job (see `k8s-local/manifests/kafka/deploymen
 
 ## Assumptions
 
-- Document Storage holds only `{ id, url }` — no raw content stored server-side
+- Document Storage holds only `{ name, url }` — no raw content stored server-side
 - Parser Worker fetches document content directly via URL from the Kafka message; does not read Document Storage
 - Parser Worker stores raw email content to Email Storage, then produces `{ email_id }` to Kafka — no other DB writes
 - Dedup Worker is the sole writer for `thread_id` + `canon_order` fields on Email Storage
@@ -110,6 +110,5 @@ ES contains result of parsed douments -> email
 ## Postgres Configuration
 
 ### Table - Document
-- `id` (auto increment)
-- `name`
+- `name` (primary key, assumed unique)
 - `url`

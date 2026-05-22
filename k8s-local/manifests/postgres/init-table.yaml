@@ -32,8 +32,7 @@ spec:
             - |
               psql -h postgres.demo.svc.cluster.local -U app -d emaildb -c "
                 CREATE TABLE IF NOT EXISTS document (
-                  id   SERIAL PRIMARY KEY,
-                  name TEXT NOT NULL,
+                  name TEXT PRIMARY KEY,
                   url  TEXT NOT NULL
                 );"
               echo "Postgres table initialized."
