@@ -20,3 +20,5 @@ spec:
           env:
             - name: KAFKA_BOOTSTRAP
               value: kafka.demo.svc.cluster.local:9092
+            - name: ES_URL
+              value: http://elasticsearch.demo.svc.cluster.local:9200

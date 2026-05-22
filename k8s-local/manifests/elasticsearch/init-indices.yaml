@@ -29,13 +29,14 @@ spec:
                 -d '{
                   "mappings": {
                     "properties": {
-                      "id":          { "type": "keyword" },
-                      "doc_id":      { "type": "keyword" },
-                      "from":        { "type": "keyword" },
-                      "to":          { "type": "keyword" },
-                      "thread_id":   { "type": "keyword" },
-                      "canon_order": { "type": "keyword" },
-                      "content":     { "type": "text" }
+                      "id":           { "type": "keyword" },
+                      "doc_id":       { "type": "keyword" },
+                      "from":         { "type": "keyword" },
+                      "to":           { "type": "keyword" },
+                      "thread_id":    { "type": "keyword" },
+                      "canon_order":  { "type": "keyword" },
+                      "content":      { "type": "text" },
+                      "content_hash": { "type": "keyword" }
                     }
                   }
                 }'

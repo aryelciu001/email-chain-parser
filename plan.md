@@ -104,6 +104,7 @@ ES contains result of parsed douments -> email
 - `thread_id`: keyword
 - `canon_order`: keyword
 - `content`: text
+- `content_hash`: keyword (md5 of normalized content, for exact-duplicate detection)
 
 ---
 
