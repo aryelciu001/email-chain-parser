@@ -30,11 +30,16 @@ ingest:
 		-H "Content-Type: application/json" \
 		-d "{\"doc_url\":\"$(DOC)\"}"
 
+ingest-all:
+	for f in sample-data/*; do \
+		curl -s -X POST http://my.local/ingest \
+			-H "Content-Type: application/json" \
+			-d "{\"doc_url\":\"$$(basename $$f)\"}"; \
+		echo; \
+	done
+
 test:
 	curl -s http://my.local/health || echo "Run 'minikube tunnel' in another terminal first, then add '127.0.0.1 my.local' to /etc/hosts"
-
-scale:
-	kubectl -n demo scale deployment/server --replicas=4
 
 cluster-down:
 	kubectl delete namespace demo
@@ -56,3 +61,5 @@ log-email:
 
 restart-document:
 	kubectl -n demo rollout restart deployment/documents-consumer
+
+ready: test log-document log-email

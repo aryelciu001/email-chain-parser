@@ -55,13 +55,14 @@ echo "127.0.0.1 my.local" | sudo tee -a /etc/hosts
 Verify:
 
 ```bash
-make test          # GET /health → "ok"
+make ready          # GET /health → "ok", and workers should subscribe successfully to its respective topic
 ```
 
 ## Usage
 
 ```bash
-make ingest DOC=doc1.txt     # ingest a file from sample-data/
+make ingest DOC=doc1.txt    # ingest a file from sample-data/
+make ingest-all             # ingest all docs in sample-data/
 ```
 
 ## Inspecting
@@ -72,7 +73,6 @@ make get-apps          # deployments
 make log-server        # server logs
 make log-document      # documents-consumer logs
 make log-email         # emails-consumer logs
-make scale             # scale server to 4 replicas
 ```
 
 ## Teardown

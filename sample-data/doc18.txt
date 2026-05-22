@@ -1,0 +1,21 @@
+From ivan@example.com Sat Apr 20 08:00:00 2024
+From: ivan@example.com
+To: judy@example.com
+Date: Sat, 20 Apr 2024 08:00:00 +0000
+Subject: Lunch tomorrow?
+
+Hey Judy,
+
+Want to grab lunch tomorrow?
+
+Ivan
+
+From judy@example.com Sat Apr 20 09:30:00 2024
+From: judy@example.com
+To: ivan@example.com
+Date: Sat, 20 Apr 2024 09:30:00 +0000
+Subject: Re: Lunch tomorrow?
+
+Sure Ivan, how about the new Thai place around noon?
+
+Judy

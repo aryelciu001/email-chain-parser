@@ -1,0 +1,23 @@
+From dave@example.com Mon Feb  5 09:00:00 2024
+From: dave@example.com
+To: erin@example.com, frank@example.com
+Date: Mon, 5 Feb 2024 09:00:00 +0000
+Subject: Q2 budget review
+
+Hi Erin,
+
+Can you pull together the Q2 budget numbers before our review? Thanks.
+
+Dave
+
+From erin@example.com Mon Feb  5 10:30:00 2024
+From: erin@example.com
+To: dave@example.com, frank@example.com
+Date: Mon, 5 Feb 2024 10:30:00 +0000
+Subject: Re: Q2 budget review
+
+Hi Dave,
+
+Sure, I will have the Q2 figures ready by Thursday.
+
+Erin

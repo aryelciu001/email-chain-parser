@@ -4,7 +4,7 @@ metadata:
   name: documents-consumer
   namespace: demo
 spec:
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
       app: documents-consumer

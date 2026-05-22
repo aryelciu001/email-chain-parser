@@ -1,0 +1,11 @@
+From grace@example.com Tue Mar 12 03:15:00 2024
+From: grace@example.com
+To: heidi@example.com
+Date: Tue, 12 Mar 2024 03:15:00 +0000
+Subject: Production server down
+
+Hi Heidi,
+
+The production server went down at 3am. Are you able to investigate?
+
+Grace

@@ -4,7 +4,7 @@ metadata:
   name: emails-consumer
   namespace: demo
 spec:
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
       app: emails-consumer
