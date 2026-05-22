@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: emails-consumer
+  namespace: demo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: emails-consumer
+  template:
+    metadata:
+      labels:
+        app: emails-consumer
+    spec:
+      containers:
+        - name: emails-consumer
+          image: emails-consumer:local
+          imagePullPolicy: Never
+          env:
+            - name: KAFKA_BOOTSTRAP
+              value: kafka.demo.svc.cluster.local:9092

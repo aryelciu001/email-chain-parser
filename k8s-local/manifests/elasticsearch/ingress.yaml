@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: elasticsearch-ing
+  namespace: demo
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: my.local
+      http:
+        paths:
+          - path: /es(/|$)(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: elasticsearch
+                port:
+                  number: 9200
