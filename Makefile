@@ -45,8 +45,11 @@ cluster-down:
 get-apps:
 	kubectl -n demo get deployments
 
-check-consumer:
+log-server:
+	kubectl -n demo logs -l app=server
+
+log-document:
 	kubectl -n demo logs -l app=documents-consumer
 
-check-server:
-	kubectl -n demo logs -l app=server
+restart-document:
+	kubectl -n demo rollout restart deployment/documents-consumer

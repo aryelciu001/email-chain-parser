@@ -22,3 +22,14 @@ spec:
               value: kafka.demo.svc.cluster.local:9092
             - name: POSTGRES_DSN
               value: host=postgres.demo.svc.cluster.local dbname=emaildb user=app password=app
+            - name: DATA_DIR
+              value: /data/sample-data
+          volumeMounts:
+            - name: sample-data
+              mountPath: /data/sample-data
+              readOnly: true
+      volumes:
+        - name: sample-data
+          hostPath:
+            path: /data/sample-data
+            type: DirectoryOrCreate
