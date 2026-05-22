@@ -1,6 +1,6 @@
+import email
 import json
 import logging
-import mailbox
 import os
 import re
 import time
@@ -24,7 +24,6 @@ RETRY_TOPIC = "documents-retry"
 EMAILS_TOPIC = "emails"
 
 db = psycopg2.connect(POSTGRES_DSN)
-db.autocommit = True
 producer = Producer({"bootstrap.servers": KAFKA_BOOTSTRAP})
 
 
@@ -47,9 +46,13 @@ def normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def parse_emails(path: str, doc_id: int) -> list[dict]:
+def parse_emails(path: str, doc_id: str) -> list[dict]:
+    with open(path) as f:
+        raw = f.read()
+    chunks = [c for c in re.split(r"(?m)^From .*\n", raw) if c.strip()]
     emails = []
-    for order, m in enumerate(mailbox.mbox(path)):
+    for order, chunk in enumerate(chunks):
+        m = email.message_from_string(chunk)
         emails.append({
             "doc_id": doc_id,
             "canon_order": order,
@@ -65,26 +68,36 @@ def parse_emails(path: str, doc_id: int) -> list[dict]:
 def process(msg: dict) -> None:
     doc_url = msg["doc_url"]
     doc_id = os.path.basename(doc_url)
-    with db.cursor() as cur:
-        cur.execute(
-            "INSERT INTO document (name, url) VALUES (%s, %s) "
-            "ON CONFLICT (name) DO NOTHING",
-            (doc_id, doc_url),
-        )
-        if cur.rowcount == 0:
-            log.info("document name=%s already processed, skipping", doc_id)
-            return
-    log.info("stored document name=%s", doc_id)
+    try:
+        with db.cursor() as cur:
+            cur.execute(
+                "INSERT INTO document (name, url) VALUES (%s, %s) "
+                "ON CONFLICT (name) DO NOTHING",
+                (doc_id, doc_url),
+            )
+            if cur.rowcount == 0:
+                db.rollback()
+                log.info("document name=%s already processed, skipping", doc_id)
+                return
 
-    emails = parse_emails(os.path.join(DATA_DIR, doc_id), doc_id)
-    for email in emails:
-        producer.produce(
-            topic=EMAILS_TOPIC,
-            key=doc_id.encode(),
-            value=json.dumps(email).encode(),
-        )
-    producer.flush()
-    log.info("produced %s emails for doc_id=%s to %s", len(emails), doc_id, EMAILS_TOPIC)
+        emails = parse_emails(os.path.join(DATA_DIR, doc_id), doc_id)
+        errors: list = []
+        for email in emails:
+            producer.produce(
+                topic=EMAILS_TOPIC,
+                key=doc_id.encode(),
+                value=json.dumps(email).encode(),
+                on_delivery=lambda err, _m: err and errors.append(err),
+            )
+        producer.flush()
+        if errors:
+            raise RuntimeError(f"kafka delivery failed: {errors}")
+
+        db.commit()
+        log.info("stored document name=%s, produced %s emails to %s", doc_id, len(emails), EMAILS_TOPIC)
+    except Exception:
+        db.rollback()
+        raise
 
 
 def wait_for_topic(consumer: Consumer, topic: str, interval: float = 3.0) -> None:

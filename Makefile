@@ -51,5 +51,8 @@ log-server:
 log-document:
 	kubectl -n demo logs -l app=documents-consumer
 
+log-email:
+	kubectl -n demo logs -l app=emails-consumer
+
 restart-document:
 	kubectl -n demo rollout restart deployment/documents-consumer
