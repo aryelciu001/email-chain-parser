@@ -48,7 +48,7 @@ Created by the `kafka-init-topics` Job (see `k8s-local/manifests/kafka/deploymen
 ### Message Schemas
 
 - `documents`: `{ "doc_url": "<path>" }`
-- `emails`: `{ "email": <Email object>, "from": <list of email addresses>, "to": <list of email addresses>, "docId": <doc_id> }`
+- `emails`: `{ "doc_id": <doc_id>, "emails": [<Email object>, ...] }` — all emails parsed from one document in a single message
 
 ### Conventions
 

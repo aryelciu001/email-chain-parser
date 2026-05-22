@@ -19,24 +19,31 @@ Exact participant matching requires *all* `from` and *all* `to` to be identical.
 - `content_hash` — keyword, md5 of normalized content
 - `thread_id` — keyword
 
-## Algorithm — `process(msg)`
+## Message & thread propagation
+
+One `emails` message carries all emails of a document: `{ "doc_id", "emails": [...] }`.
+`process(msg)` sorts them by `canon_order` and processes in order, carrying a `thread_id`
+across the document (initially `None`). Each `process_email` returns the thread_id the
+email belongs to, which seeds the next email. This makes a new document **extend** the
+thread it matches.
+
+## Algorithm — `process_email(email, thread_id)`
 
 1. Compute `content_hash`, `from_key`, `to_key`.
 2. Query ES:
-   - `filter`: exact `term` match on `from_key` **and** `to_key` (identical participant sets).
+   - `filter`: exact `term` on `from_key` **and** `to_key`; **plus `term` on `thread_id`** when one is already known (scopes matching to the established thread so we only extend it).
    - `must`: `match` on `content` → BM25 relevance scoring.
    - Candidates returned sorted by score.
 3. If candidates exist, take the best (`hits[0]`):
-   - **Exact** — `best.content_hash == content_hash` → log, skip (no index).
+   - **Exact** — `best.content_hash == content_hash` → log, skip (no index). Return `best.thread_id`.
    - **Similar** — `Levenshtein.ratio(content, best.content) > 0.9`:
      - `id = best.id + "m"` (matching `doc1_2m` yields `doc1_2mm`)
-     - `thread_id = best.thread_id`
-     - index.
+     - `thread_id = best.thread_id`, index. Return it.
    - **Below threshold** → fall through to new.
-4. No candidate (or below threshold) → **new**:
+4. No candidate (or below threshold) → **new/extend**:
    - `id = "{docname}_{order}"` — strip `.txt`, e.g. `doc1_2`
-   - `thread_id = uuid4()`
-   - index.
+   - `thread_id =` carried-in thread_id if known (extends it), else `uuid4()` (brand-new thread)
+   - index. Return it.
 
 ## ID scheme
 

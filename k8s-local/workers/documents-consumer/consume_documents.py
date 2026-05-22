@@ -82,13 +82,12 @@ def process(msg: dict) -> None:
 
         emails = parse_emails(os.path.join(DATA_DIR, doc_id), doc_id)
         errors: list = []
-        for email in emails:
-            producer.produce(
-                topic=EMAILS_TOPIC,
-                key=doc_id.encode(),
-                value=json.dumps(email).encode(),
-                on_delivery=lambda err, _m: err and errors.append(err),
-            )
+        producer.produce(
+            topic=EMAILS_TOPIC,
+            key=doc_id.encode(),
+            value=json.dumps({"doc_id": doc_id, "emails": emails}).encode(),
+            on_delivery=lambda err, _m: err and errors.append(err),
+        )
         producer.flush()
         if errors:
             raise RuntimeError(f"kafka delivery failed: {errors}")
