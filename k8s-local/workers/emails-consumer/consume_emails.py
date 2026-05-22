@@ -28,7 +28,10 @@ def make_producer() -> Producer:
 
 
 def process(msg: dict) -> None:
-    pass
+    log.info(
+        "consumed email doc_id=%s canon_order=%s subject=%s",
+        msg.get("doc_id"), msg.get("canon_order"), msg.get("subject"),
+    )
 
 
 def wait_for_topic(consumer: Consumer, topic: str, interval: float = 3.0) -> None:
