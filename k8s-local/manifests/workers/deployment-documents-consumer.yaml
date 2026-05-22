@@ -20,3 +20,5 @@ spec:
           env:
             - name: KAFKA_BOOTSTRAP
               value: kafka.demo.svc.cluster.local:9092
+            - name: POSTGRES_DSN
+              value: host=postgres.demo.svc.cluster.local dbname=emaildb user=app password=app

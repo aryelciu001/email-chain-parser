@@ -3,15 +3,23 @@ import logging
 import os
 import time
 
+import psycopg2
 from confluent_kafka import Consumer, Producer
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
 KAFKA_BOOTSTRAP = os.environ.get("KAFKA_BOOTSTRAP", "kafka.demo.svc.cluster.local:9092")
+POSTGRES_DSN = os.environ.get(
+    "POSTGRES_DSN",
+    "host=postgres.demo.svc.cluster.local dbname=emaildb user=app password=app",
+)
 
 
 RETRY_TOPIC = "documents-retry"
+
+db = psycopg2.connect(POSTGRES_DSN)
+db.autocommit = True
 
 
 def make_consumer() -> Consumer:
@@ -28,7 +36,15 @@ def make_producer() -> Producer:
 
 
 def process(msg: dict) -> None:
-    log.info("consumed doc_url=%s", msg.get("doc_url"))
+    doc_url = msg["doc_url"]
+    name = os.path.basename(doc_url)
+    with db.cursor() as cur:
+        cur.execute(
+            "INSERT INTO document (name, url) VALUES (%s, %s) RETURNING id",
+            (name, doc_url),
+        )
+        doc_id = cur.fetchone()[0]
+    log.info("stored document id=%s name=%s", doc_id, name)
 
 
 def wait_for_topic(consumer: Consumer, topic: str, interval: float = 3.0) -> None:

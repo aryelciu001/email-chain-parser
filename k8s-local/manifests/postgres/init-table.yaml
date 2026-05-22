@@ -1,0 +1,39 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: postgres-init-table
+  namespace: demo
+spec:
+  template:
+    spec:
+      restartPolicy: OnFailure
+      initContainers:
+        - name: wait-for-postgres
+          image: postgres:16
+          env:
+            - name: PGPASSWORD
+              value: app
+          command:
+            - sh
+            - -c
+            - |
+              until pg_isready -h postgres.demo.svc.cluster.local -U app -d emaildb; do
+                echo "waiting for postgres..."; sleep 3;
+              done
+      containers:
+        - name: postgres-init
+          image: postgres:16
+          env:
+            - name: PGPASSWORD
+              value: app
+          command:
+            - sh
+            - -c
+            - |
+              psql -h postgres.demo.svc.cluster.local -U app -d emaildb -c "
+                CREATE TABLE IF NOT EXISTS document (
+                  id   SERIAL PRIMARY KEY,
+                  name TEXT NOT NULL,
+                  url  TEXT NOT NULL
+                );"
+              echo "Postgres table initialized."

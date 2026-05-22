@@ -1,22 +1,5 @@
 # Solution Plan
 
-## Schema
-
-### Document
-- `id`
-- `url`
-
-### Email
-- `id`
-- `doc_id`
-- `from` (emails, asc order)
-- `to` (emails, asc order)
-- `thread_id`
-- `canon_order`
-- `content`
-
----
-
 ## Architecture
 
 ### Components
@@ -51,6 +34,32 @@ User
 
 ---
 
+## Kafka Topics
+
+Created by the `kafka-init-topics` Job (see `k8s-local/manifests/kafka/deployment.yaml`). Auto-create is disabled (`KAFKA_AUTO_CREATE_TOPICS_ENABLE=false`).
+
+| Topic | Partitions | Replication | Producer | Consumer |
+|-------|-----------|-------------|----------|----------|
+| `documents` | 20 | 1 | Server (`POST /ingest`) | Parser Worker |
+| `documents-retry` | 20 | 1 | Parser Worker (on failure) | — |
+| `emails` | 20 | 1 | Parser Worker | Dedup Worker |
+| `emails-retry` | 20 | 1 | Dedup Worker (on failure) | — |
+
+### Message Schemas
+
+- `documents`: `{ "doc_url": "<path>" }`
+- `emails`: `{ "email": <Email object>, "from": <list of email addresses>, "to": <list of email addresses>, "docId": <doc_id> }`
+
+### Conventions
+
+- **Partitions = 20** — caps consumer parallelism per topic; consumers scale up to 20 active instances.
+- **Replication = 1** — single-broker local cluster; not production-safe.
+- **Retry topics** — failed messages are republished to `<topic>-retry` rather than blocking the main topic. No automatic redrive; retry topics are inspected/replayed manually.
+- **Manual offset commit** — consumers set `enable.auto.commit=false` and commit only after processing, giving at-least-once delivery.
+- **Topic-availability wait** — server and consumers poll `list_topics()` on startup until their topic exists before producing/subscribing, tolerating cold-start ordering against the init Job.
+
+---
+
 ## HTTP API
 
 | Method | Endpoint | Description |
@@ -81,7 +90,13 @@ User
 - `GET /documents?thread_id=x` returns all documents that have at least one email with `thread_id = x`
 - Hierarchy between canonical threads is implicit via `canon_order` prefix — no explicit `parent_id` field needed
 
-## ES Mapping
+---
+
+## ES Configuration
+
+ES contains result of parsed douments -> email
+
+### ES Mapping
 - `id`: keyword
 - `doc_id`: keyword
 - `from` (emails, asc order): keyword
@@ -89,3 +104,12 @@ User
 - `thread_id`: keyword
 - `canon_order`: keyword
 - `content`: text
+
+---
+
+## Postgres Configuration
+
+### Table - Document
+- `id` (auto increment)
+- `name`
+- `url`
