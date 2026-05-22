@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+import time
 
 from confluent_kafka import Consumer, Producer
 
@@ -30,9 +31,20 @@ def process(msg: dict) -> None:
     log.info("consumed doc_url=%s", msg.get("doc_url"))
 
 
+def wait_for_topic(consumer: Consumer, topic: str, interval: float = 3.0) -> None:
+    while True:
+        md = consumer.list_topics(timeout=10.0)
+        if topic in md.topics and md.topics[topic].error is None:
+            log.info("topic %s available", topic)
+            return
+        log.info("waiting for topic %s...", topic)
+        time.sleep(interval)
+
+
 def run() -> None:
     consumer = make_consumer()
     producer = make_producer()
+    wait_for_topic(consumer, "documents")
     consumer.subscribe(["documents"])
     log.info("subscribed to documents")
     while True:

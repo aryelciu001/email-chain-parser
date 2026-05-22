@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 from confluent_kafka import Producer
@@ -11,6 +12,16 @@ log = logging.getLogger(__name__)
 KAFKA_BOOTSTRAP = os.environ.get("KAFKA_BOOTSTRAP", "kafka.demo.svc.cluster.local:9092")
 
 producer = Producer({"bootstrap.servers": KAFKA_BOOTSTRAP})
+
+
+def wait_for_topic(topic: str, interval: float = 3.0) -> None:
+    while True:
+        md = producer.list_topics(timeout=10.0)
+        if topic in md.topics and md.topics[topic].error is None:
+            log.info("topic %s available", topic)
+            return
+        log.info("waiting for topic %s...", topic)
+        time.sleep(interval)
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -55,4 +66,5 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    wait_for_topic("documents")
     HTTPServer(("0.0.0.0", 8000), Handler).serve_forever()

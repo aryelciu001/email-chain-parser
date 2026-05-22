@@ -39,3 +39,14 @@ scale:
 cluster-down:
 	kubectl delete namespace demo
 	minikube stop
+
+# kubectl convenience
+
+get-apps:
+	kubectl -n demo get deployments
+
+check-consumer:
+	kubectl -n demo logs -l app=documents-consumer
+
+check-server:
+	kubectl -n demo logs -l app=server
