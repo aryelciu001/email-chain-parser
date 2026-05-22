@@ -71,6 +71,9 @@ def process(msg: dict) -> None:
             "ON CONFLICT (name) DO NOTHING",
             (doc_id, doc_url),
         )
+        if cur.rowcount == 0:
+            log.info("document name=%s already processed, skipping", doc_id)
+            return
     log.info("stored document name=%s", doc_id)
 
     emails = parse_emails(os.path.join(DATA_DIR, doc_id), doc_id)

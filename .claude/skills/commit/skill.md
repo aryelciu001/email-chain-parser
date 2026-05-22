@@ -1,6 +1,7 @@
-# Commit Skill
-
-Review git status and create a commit with an appropriate message.
+---
+name: commit
+description: Review git status and create a commit with an appropriate message.
+---
 
 ## Steps
 
