@@ -33,6 +33,8 @@ spec:
                       "doc_id":       { "type": "keyword" },
                       "from":         { "type": "keyword" },
                       "to":           { "type": "keyword" },
+                      "from_key":     { "type": "keyword" },
+                      "to_key":       { "type": "keyword" },
                       "thread_id":    { "type": "keyword" },
                       "canon_order":  { "type": "keyword" },
                       "content":      { "type": "text" },

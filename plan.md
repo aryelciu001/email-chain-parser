@@ -101,6 +101,8 @@ ES contains result of parsed douments -> email
 - `doc_id`: keyword
 - `from` (emails, asc order): keyword
 - `to` (emails, asc order): keyword
+- `from_key`: keyword (sorted `from` joined by `,`, for exact set match)
+- `to_key`: keyword (sorted `to` joined by `,`, for exact set match)
 - `thread_id`: keyword
 - `canon_order`: keyword
 - `content`: text
