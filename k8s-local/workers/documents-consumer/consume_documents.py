@@ -27,7 +27,7 @@ def make_producer() -> Producer:
 
 
 def process(msg: dict) -> None:
-    pass
+    log.info("consumed doc_url=%s", msg.get("doc_url"))
 
 
 def run() -> None:

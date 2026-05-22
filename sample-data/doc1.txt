@@ -1,0 +1,11 @@
+From alice@example.com Mon Jan  1 09:00:00 2024
+From: alice@example.com
+To: bob@example.com, carol@example.com
+Date: Mon, 1 Jan 2024 09:00:00 +0000
+Subject: Project kickoff
+
+Hi Bob,
+
+Let's schedule the project kickoff for next week. Does Tuesday work for you?
+
+Alice

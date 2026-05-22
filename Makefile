@@ -4,12 +4,17 @@ cluster-up:
 	minikube start --driver=docker
 	minikube addons enable ingress
 
+copy-data:
+	minikube ssh "sudo mkdir -p /data/sample-data"
+	for f in sample-data/*; do minikube cp $$f /data/sample-data/$$(basename $$f); done
+
 build:
 	minikube image build -t server:local ./k8s-local/server
 	minikube image build -t documents-consumer:local ./k8s-local/workers/documents-consumer
 	minikube image build -t emails-consumer:local ./k8s-local/workers/emails-consumer
 
 deploy:
+	kubectl wait --namespace ingress-nginx --for=condition=ready pod --selector=app.kubernetes.io/component=controller --timeout=120s
 	kubectl apply -f k8s-local/manifests/namespace.yaml
 	kubectl delete jobs -n demo --all --ignore-not-found
 	kubectl apply -R -f k8s-local/manifests/
@@ -20,11 +25,16 @@ tunnel:
 status:
 	kubectl -n demo get pods,svc,ingress
 
+ingest:
+	curl -s -X POST http://my.local/ingest \
+		-H "Content-Type: application/json" \
+		-d "{\"doc_url\":\"$(DOC)\"}"
+
 test:
-	curl -s http://demo.local/ || echo "Run 'minikube tunnel' in another terminal first, then add '127.0.0.1 demo.local' to /etc/hosts"
+	curl -s http://my.local/health || echo "Run 'minikube tunnel' in another terminal first, then add '127.0.0.1 my.local' to /etc/hosts"
 
 scale:
-	kubectl -n demo scale deployment/python-server --replicas=4
+	kubectl -n demo scale deployment/server --replicas=4
 
 cluster-down:
 	kubectl delete namespace demo

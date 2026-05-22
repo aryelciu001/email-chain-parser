@@ -73,11 +73,7 @@ spec:
             - -c
             - |
               /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka.demo.svc.cluster.local:9092 \
-                --create --if-not-exists --topic raw_docs --partitions 20 --replication-factor 1
+                --create --if-not-exists --topic documents --partitions 20 --replication-factor 1
               /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka.demo.svc.cluster.local:9092 \
-                --create --if-not-exists --topic raw_docs_retry --partitions 20 --replication-factor 1
-              /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka.demo.svc.cluster.local:9092 \
-                --create --if-not-exists --topic parsed_docs --partitions 20 --replication-factor 1
-              /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka.demo.svc.cluster.local:9092 \
-                --create --if-not-exists --topic parsed_docs_retry --partitions 20 --replication-factor 1
+                --create --if-not-exists --topic documents-retry --partitions 20 --replication-factor 1
               echo "Topics created."

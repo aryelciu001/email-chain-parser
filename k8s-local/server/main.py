@@ -1,4 +1,16 @@
+import json
+import logging
+import os
 from http.server import BaseHTTPRequestHandler, HTTPServer
+
+from confluent_kafka import Producer
+
+logging.basicConfig(level=logging.INFO)
+log = logging.getLogger(__name__)
+
+KAFKA_BOOTSTRAP = os.environ.get("KAFKA_BOOTSTRAP", "kafka.demo.svc.cluster.local:9092")
+
+producer = Producer({"bootstrap.servers": KAFKA_BOOTSTRAP})
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -10,6 +22,33 @@ class Handler(BaseHTTPRequestHandler):
         else:
             self.send_response(404)
             self.end_headers()
+
+    def do_POST(self):
+        if self.path != "/ingest":
+            self.send_response(404)
+            self.end_headers()
+            return
+
+        length = int(self.headers.get("Content-Length", 0))
+        try:
+            body = json.loads(self.rfile.read(length))
+            doc_url = body["doc_url"]
+        except (json.JSONDecodeError, KeyError):
+            self._respond(400, b"body must be JSON with doc_url field")
+            return
+
+        message = json.dumps({"doc_url": doc_url}).encode()
+        producer.produce(topic="documents", value=message)
+        producer.flush()
+        log.info("published doc_url=%s to documents", doc_url)
+
+        self._respond(202, json.dumps({"doc_url": doc_url, "status": "queued"}).encode())
+
+    def _respond(self, code: int, body: bytes) -> None:
+        self.send_response(code)
+        self.send_header("Content-Type", "application/json")
+        self.end_headers()
+        self.wfile.write(body)
 
     def log_message(self, format, *args):
         pass

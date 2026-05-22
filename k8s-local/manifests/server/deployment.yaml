@@ -19,9 +19,23 @@ spec:
           imagePullPolicy: Never
           ports:
             - containerPort: 8000
+          env:
+            - name: KAFKA_BOOTSTRAP
+              value: kafka.demo.svc.cluster.local:9092
+            - name: DATA_DIR
+              value: /data/sample-data
+          volumeMounts:
+            - name: sample-data
+              mountPath: /data/sample-data
+              readOnly: true
           readinessProbe:
             httpGet:
               path: /health
               port: 8000
             initialDelaySeconds: 3
             periodSeconds: 5
+      volumes:
+        - name: sample-data
+          hostPath:
+            path: /data/sample-data
+            type: DirectoryOrCreate
