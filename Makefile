@@ -13,7 +13,7 @@ build:
 	minikube image build -t documents-consumer:local ./k8s-local/workers/documents-consumer
 	minikube image build -t emails-consumer:local ./k8s-local/workers/emails-consumer
 
-deploy:
+deploy: copy-data
 	kubectl wait --namespace ingress-nginx --for=condition=ready pod --selector=app.kubernetes.io/component=controller --timeout=120s
 	kubectl apply -f k8s-local/manifests/namespace.yaml
 	kubectl delete jobs -n demo --all --ignore-not-found
