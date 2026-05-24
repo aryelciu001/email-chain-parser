@@ -124,6 +124,11 @@ h2 {
   background: #1e2130;
 }
 
+#docs-container {
+  display: grid;
+  gap: 0.75rem;
+}
+
 #docs-container .doc-item { background: #1a1d2e; }
 
 .doc-item:last-child { margin-bottom: 0; }

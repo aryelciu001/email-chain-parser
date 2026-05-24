@@ -15,7 +15,7 @@ export function escHtml(s) {
 export function buildDocItem(doc) {
   const item = document.createElement('div');
   item.className = 'doc-item';
-  const body = (doc.body || '').trim();
+  const content = (doc.content || '').trim();
   item.innerHTML = `
     <div class="doc-subject">
       ${escHtml(doc.subject || '(no subject)')}
@@ -29,7 +29,7 @@ export function buildDocItem(doc) {
       ${doc.thread_id ? `<span>thread: <code>${escHtml(doc.thread_id)}</code></span>` : ''}
       ${doc.canon_order != null ? `<span>#${doc.canon_order}</span>` : ''}
     </div>
-    ${body ? `<div class="doc-body">${escHtml(body)}</div>
+    ${content ? `<div class="doc-body">${escHtml(content)}</div>
       <button class="toggle-body">Show more</button>` : ''}
   `;
   item.querySelector('.toggle-body')?.addEventListener('click', function () {

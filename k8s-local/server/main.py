@@ -53,6 +53,12 @@ class Handler(BaseHTTPRequestHandler):
                 self._get_threads()
         elif parsed.path == "/api/docs":
             self._get_all_docs()
+        elif parsed.path == "/api/emails":
+            doc_id = params.get("doc_id", [None])[0]
+            if not doc_id:
+                self._respond(400, json.dumps({"error": "doc_id is required"}).encode())
+            else:
+                self._get_emails_by_doc(doc_id)
         else:
             self.send_response(404)
             self.end_headers()
@@ -108,6 +114,22 @@ class Handler(BaseHTTPRequestHandler):
             self._respond(200, json.dumps({"thread_id": thread_id, "doc_id": doc_id, "docs": docs, "total": len(docs)}).encode())
         except Exception as exc:
             log.error("failed to fetch thread docs thread_id=%s doc_id=%s: %s", thread_id, doc_id, exc)
+            self._respond(500, json.dumps({"error": str(exc)}).encode())
+
+    def _get_emails_by_doc(self, doc_id: str):
+        query = {
+            "size": 1000,
+            "query": {"term": {"doc_id": doc_id}},
+            "sort": [{"canon_order": "asc"}],
+        }
+        try:
+            resp = requests.post(f"{ES_URL}/{ES_INDEX}/_search", json=query, timeout=10)
+            resp.raise_for_status()
+            hits = resp.json()["hits"]["hits"]
+            emails = [h["_source"] for h in hits]
+            self._respond(200, json.dumps({"doc_id": doc_id, "emails": emails, "total": len(emails)}).encode())
+        except Exception as exc:
+            log.error("failed to fetch emails doc_id=%s: %s", doc_id, exc)
             self._respond(500, json.dumps({"error": str(exc)}).encode())
 
     def _get_all_docs(self):
