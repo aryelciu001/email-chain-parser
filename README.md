@@ -1,5 +1,7 @@
 # Email Ingestion & Deduplication
 
+![Architecture Diagram](./architecture-diagram.png)
+
 Prototype pipeline that ingests raw email threads (mbox `.txt` files), parses them into individual emails, and deduplicates them into canonical threads. Runs on local Kubernetes (minikube).
 
 See [plan.md](plan.md) for architecture and [assignment.md](assignment.md) for the spec.
