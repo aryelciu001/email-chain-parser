@@ -1,5 +1,7 @@
 # Solution Plan
 
+![Architecture Diagram](./architecture-diagram.png)
+
 ## Architecture
 
 ### Components
