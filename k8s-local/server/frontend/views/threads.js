@@ -29,7 +29,7 @@ function buildThreadCard({ thread_id, count, subject }) {
         ${subject ? `<span class="thread-subject">${escHtml(subject)}</span>` : ''}
       </div>
       <div class="thread-meta">
-        <span class="badge">${count} doc${count !== 1 ? 's' : ''}</span>
+        <span class="badge">${count} email${count !== 1 ? 's' : ''}</span>
         <span class="chevron">▼</span>
       </div>
     </div>
@@ -49,8 +49,12 @@ function buildThreadCard({ thread_id, count, subject }) {
       try {
         const data = await fetchJSON(`/api/threads?thread_id=${encodeURIComponent(thread_id)}`);
         docs.innerHTML = '';
-        (data.docs || []).forEach(doc => docs.appendChild(buildDocItem(doc)));
-        if (!data.docs?.length) docs.innerHTML = '<div class="error">No documents found.</div>';
+        const slots = groupByCanonOrder(data.docs || []);
+        if (!slots.length) {
+          docs.innerHTML = '<div class="error">No documents found.</div>';
+        } else {
+          slots.forEach(({ primary, others }) => docs.appendChild(buildSlot(primary, others)));
+        }
       } catch (e) {
         docs.innerHTML = `<div class="error">Failed: ${e.message}</div>`;
       }
@@ -58,4 +62,39 @@ function buildThreadCard({ thread_id, count, subject }) {
   });
 
   return card;
+}
+
+// Group docs by canon_order. Within each group, the primary is the original
+// (duplicate===false and id doesn't end with 'm'). Everything else is listed
+// by doc_id as duplicates/similars.
+function groupByCanonOrder(docs) {
+  const map = new Map();
+  for (const doc of docs) {
+    const order = doc.canon_order ?? 0;
+    if (!map.has(order)) map.set(order, []);
+    map.get(order).push(doc);
+  }
+  return [...map.entries()]
+    .sort(([a], [b]) => a - b)
+    .map(([, group]) => {
+      const primary = group.find(d => !d.duplicate && !d.id?.endsWith('m'))
+        ?? group.find(d => !d.duplicate)
+        ?? group[0];
+      const others = group.filter(d => d !== primary).map(d => d.doc_id).filter(Boolean);
+      return { primary, others };
+    });
+}
+
+function buildSlot(primary, others) {
+  const wrap = document.createElement('div');
+  wrap.className = 'canon-slot';
+  wrap.appendChild(buildDocItem(primary));
+  if (others.length) {
+    const list = document.createElement('div');
+    list.className = 'dup-list';
+    list.innerHTML = `<span class="dup-label">also in:</span> `
+      + others.map(id => `<span class="dup-doc-id">${escHtml(id)}</span>`).join('');
+    wrap.appendChild(list);
+  }
+  return wrap;
 }

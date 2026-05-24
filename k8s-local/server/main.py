@@ -70,6 +70,9 @@ class Handler(BaseHTTPRequestHandler):
                 "threads": {
                     "terms": {"field": "thread_id", "size": 10000},
                     "aggs": {
+                        "unique_orders": {
+                            "cardinality": {"field": "canon_order"}
+                        },
                         "first_email": {
                             "top_hits": {
                                 "size": 1,
@@ -89,7 +92,8 @@ class Handler(BaseHTTPRequestHandler):
             for b in buckets:
                 hits = b["first_email"]["hits"]["hits"]
                 subject = hits[0]["_source"].get("subject", "") if hits else ""
-                threads.append({"thread_id": b["key"], "count": b["doc_count"], "subject": subject})
+                count = b["unique_orders"]["value"]
+                threads.append({"thread_id": b["key"], "count": count, "subject": subject})
             self._respond(200, json.dumps({"threads": threads, "total": len(threads)}).encode())
         except Exception as exc:
             log.error("failed to fetch threads: %s", exc)

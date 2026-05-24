@@ -172,3 +172,27 @@ h2 {
 
 .loading { color: #4f46e5; font-size: 0.875rem; padding: 0.5rem 0; }
 .error   { color: #f87171; font-size: 0.875rem; padding: 0.5rem 0; }
+
+/* ── Canon slot (one per canon_order in a thread) ── */
+.canon-slot { margin-bottom: 0.5rem; }
+.canon-slot:last-child { margin-bottom: 0; }
+
+.dup-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.dup-label { color: #475569; }
+
+.dup-doc-id {
+  background: #1e2130;
+  border: 1px solid #2d3148;
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+  font-family: monospace;
+  color: #94a3b8;
+}
