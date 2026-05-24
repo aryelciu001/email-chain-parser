@@ -3,7 +3,7 @@ import logging
 import os
 import pathlib
 import time
-from http.server import BaseHTTPRequestHandler, HTTPServer
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
 import requests
@@ -221,4 +221,4 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     wait_for_topic("documents")
-    HTTPServer(("0.0.0.0", 8000), Handler).serve_forever()
+    ThreadingHTTPServer(("0.0.0.0", 8000), Handler).serve_forever()
