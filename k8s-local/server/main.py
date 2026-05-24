@@ -36,8 +36,10 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
         params = parse_qs(parsed.query)
-        if parsed.path in ("/", "/index.html"):
+        if parsed.path in ("/", "/threads", "/docs"):
             self._serve_file(FRONTEND_DIR / "index.html", "text/html; charset=utf-8")
+        elif self._is_static(parsed.path):
+            self._serve_static(parsed.path)
         elif parsed.path == "/api/health":
             self.send_response(200)
             self.end_headers()
@@ -49,6 +51,8 @@ class Handler(BaseHTTPRequestHandler):
                 self._get_thread_docs(thread_id, doc_id)
             else:
                 self._get_threads()
+        elif parsed.path == "/api/docs":
+            self._get_all_docs()
         else:
             self.send_response(404)
             self.end_headers()
@@ -106,6 +110,25 @@ class Handler(BaseHTTPRequestHandler):
             log.error("failed to fetch thread docs thread_id=%s doc_id=%s: %s", thread_id, doc_id, exc)
             self._respond(500, json.dumps({"error": str(exc)}).encode())
 
+    def _get_all_docs(self):
+        query = {
+            "size": 0,
+            "aggs": {
+                "docs": {
+                    "terms": {"field": "doc_id", "size": 10000, "order": {"_key": "asc"}}
+                }
+            }
+        }
+        try:
+            resp = requests.post(f"{ES_URL}/{ES_INDEX}/_search", json=query, timeout=10)
+            resp.raise_for_status()
+            buckets = resp.json()["aggregations"]["docs"]["buckets"]
+            docs = [{"doc_id": b["key"], "count": b["doc_count"]} for b in buckets]
+            self._respond(200, json.dumps({"docs": docs, "total": len(docs)}).encode())
+        except Exception as exc:
+            log.error("failed to fetch all docs: %s", exc)
+            self._respond(500, json.dumps({"error": str(exc)}).encode())
+
     def do_POST(self):
         if self.path != "/api/ingest":
             self.send_response(404)
@@ -126,6 +149,27 @@ class Handler(BaseHTTPRequestHandler):
         log.info("published doc_url=%s to documents", doc_url)
 
         self._respond(202, json.dumps({"doc_url": doc_url, "status": "queued"}).encode())
+
+    _MIME = {
+        ".html": "text/html; charset=utf-8",
+        ".css":  "text/css; charset=utf-8",
+        ".js":   "application/javascript; charset=utf-8",
+    }
+
+    def _is_static(self, url_path: str) -> bool:
+        return pathlib.PurePosixPath(url_path).suffix in self._MIME
+
+    def _serve_static(self, url_path: str) -> None:
+        # strip leading slash, resolve inside frontend dir only
+        rel = pathlib.PurePosixPath(url_path).relative_to("/")
+        file_path = (FRONTEND_DIR / rel).resolve()
+        # prevent path traversal outside frontend dir
+        if not str(file_path).startswith(str(FRONTEND_DIR.resolve())):
+            self.send_response(403)
+            self.end_headers()
+            return
+        content_type = self._MIME.get(file_path.suffix, "application/octet-stream")
+        self._serve_file(file_path, content_type)
 
     def _serve_file(self, path: pathlib.Path, content_type: str) -> None:
         try:
