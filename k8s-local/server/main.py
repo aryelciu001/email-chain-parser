@@ -39,8 +39,9 @@ class Handler(BaseHTTPRequestHandler):
             self.wfile.write(b"ok")
         elif parsed.path == "/threads":
             thread_id = params.get("thread_id", [None])[0]
-            if thread_id:
-                self._get_thread_docs(thread_id)
+            doc_id = params.get("doc_id", [None])[0]
+            if thread_id or doc_id:
+                self._get_thread_docs(thread_id, doc_id)
             else:
                 self._get_threads()
         else:
@@ -66,10 +67,15 @@ class Handler(BaseHTTPRequestHandler):
             log.error("failed to fetch threads: %s", exc)
             self._respond(500, json.dumps({"error": str(exc)}).encode())
 
-    def _get_thread_docs(self, thread_id: str):
+    def _get_thread_docs(self, thread_id: str | None, doc_id: str | None):
+        filters = []
+        if thread_id:
+            filters.append({"term": {"thread_id": thread_id}})
+        if doc_id:
+            filters.append({"term": {"doc_id": doc_id}})
         query = {
             "size": 1000,
-            "query": {"term": {"thread_id": thread_id}},
+            "query": {"bool": {"filter": filters}},
             "sort": [{"canon_order": "asc"}],
         }
         try:
@@ -77,9 +83,9 @@ class Handler(BaseHTTPRequestHandler):
             resp.raise_for_status()
             hits = resp.json()["hits"]["hits"]
             docs = [h["_source"] for h in hits]
-            self._respond(200, json.dumps({"thread_id": thread_id, "docs": docs, "total": len(docs)}).encode())
+            self._respond(200, json.dumps({"thread_id": thread_id, "doc_id": doc_id, "docs": docs, "total": len(docs)}).encode())
         except Exception as exc:
-            log.error("failed to fetch thread docs thread_id=%s: %s", thread_id, exc)
+            log.error("failed to fetch thread docs thread_id=%s doc_id=%s: %s", thread_id, doc_id, exc)
             self._respond(500, json.dumps({"error": str(exc)}).encode())
 
     def do_POST(self):
