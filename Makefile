@@ -22,9 +22,6 @@ deploy: copy-data
 tunnel:
 	minikube tunnel
 
-status:
-	kubectl -n demo get pods,svc,ingress
-
 ingest:
 	curl -s -X POST http://my.local/ingest \
 		-H "Content-Type: application/json" \
@@ -62,4 +59,4 @@ log-email:
 restart-document:
 	kubectl -n demo rollout restart deployment/documents-consumer
 
-ready: test log-document log-email
+ready: log-document log-email

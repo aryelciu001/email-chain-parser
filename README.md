@@ -35,8 +35,8 @@ make deploy
 > **Wait ~1-2 minutes after `make deploy`.** Kafka topics and the Postgres table are
 > created by init Jobs that run *after* Kafka/Postgres become ready. The server and
 > consumers block until their topics exist (logging `waiting for topic ...`), so
-> ingestion will not work until those Jobs finish. Check readiness with `make status`
-> — wait until all pods are `Running` and the init Jobs show `Completed`.
+> ingestion will not work until those Jobs finish. Check readiness with `make ready`
+> to check if topic is subscribed by their respective consumers.
 
 ### Expose the ingress
 
@@ -52,18 +52,14 @@ Add the host to `/etc/hosts` (one time):
 echo "127.0.0.1 my.local" | sudo tee -a /etc/hosts
 ```
 
-Verify:
-
-```bash
-make ready          # GET /health → "ok", and workers should subscribe successfully to its respective topic
-```
-
 ## Usage
 
+1. Run this to ingest the documents
 ```bash
-make ingest DOC=doc1.txt    # ingest a file from sample-data/
 make ingest-all             # ingest all docs in sample-data/
 ```
+
+2. Once everything is ingested, you can use `notebooks/visualize-canon-threads.ipynb` to visualise the hierarchy.
 
 ## Inspecting
 
