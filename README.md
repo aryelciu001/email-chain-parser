@@ -61,7 +61,7 @@ echo "127.0.0.1 my.local" | sudo tee -a /etc/hosts
 make ingest-all             # ingest all docs in sample-data/
 ```
 
-2. Once everything is ingested, you can use `notebooks/visualize-canon-threads.ipynb` to visualise the hierarchy.
+2. Once everything is ingested, you can use `my.local` frontend to view the result.
 
 ## Inspecting
 
