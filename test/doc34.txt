@@ -1,0 +1,49 @@
+From: Quinn Perez <quinn.perez@initech.com>
+To: Frank Davis <frank.davis@umbrella-corp.net>, Irene Clark <irene.clark@umbrella-corp.net>
+Cc: Victor Robinson <victor.robinson@acmecorp.com>
+Date: Mon, 30 Sep 2024 06:00:18
+Subject: Re: Performance Review Cycle
+Message-ID: <7b41e5d20cc4fa20@initech.com>
+
+Hi all,
+
+Thanks for a productive Sprint Planning today. Here's a summary of what we decided:
+
+DECISIONS:
+- We will proceed with Option A for the Notification Hub migration (projected savings: $428K/yr)
+- Titan launch date moved to Q1 (from original Q3 target)
+- Marketing team will own the Data Governance workstream going forward
+
+OPEN QUESTIONS:
+- How does this affect the CloudSync Inc. contract timeline? (Grace to investigate)
+- Do we need additional headcount for Data Analyst? (Irene to assess)
+
+Full notes: https://confluence.internal/b9056414a5ae
+
+Regards,
+Quinn
+
+----------------------------------------
+> From: Quinn Perez <quinn.perez@initech.com>
+> To: Irene Clark <irene.clark@umbrella-corp.net>, Victor Robinson <victor.robinson@acmecorp.com>, Grace White <grace.white@starkindustries.com>
+> Cc: Fatima Hernandez <fatima.hernandez@umbrella-corp.net>, Wendy Hernandez <wendy.hernandez@umbrella-corp.net>
+> Date: Sat, 28 Sep 2024 08:47:53
+> Subject: Re: Performance Review Cycle
+> Message-ID: <14dfcf0b2ddabb55@initech.com>
+> 
+> Hi Irene,
+> 
+> Thanks for the update. Some notes:
+> 
+> - Agreed on the Search Index approach. Wendy and I discussed this yesterday and we're aligned.
+> - For the Legal budget, I'd suggest we cap it at $368K for now and revisit in Q3.
+> - The response time improvement looks promising — let's make sure we have proper monitoring via Logging Service before going live.
+> 
+> I'll update the Phoenix tracker accordingly.
+> 
+> Thanks,
+> Quinn
+> ---
+> Quinn Perez | Data Scientist
+> Initech
+> M: +1-362-282-3845 | E: quinn.perez@initech.com

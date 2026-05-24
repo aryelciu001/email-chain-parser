@@ -1,0 +1,30 @@
+From: Miguel Rodriguez <miguel.rodriguez@wayneenterprises.com>
+To: Carol Anderson <carol.anderson@umbrella-corp.net>
+Cc: Paul Moore <paul.moore@lexcorp.biz>
+Date: September 28, 2024 at 06:53 AM
+Subject: Re: Security Audit Findings
+Message-ID: <d2986307d79aa286@wayneenterprises.com>
+
+Hi Paul,
+
+I've reviewed the proposal and have some concerns about the Titan approach.
+Specifically:
+
+1. The proposed timeline seems aggressive given the Finance team's current
+bandwidth (they're already at 36% capacity with Notification Hub work)
+2. We haven't accounted for the Search Index deprecation in Q2
+3. The $200K budget allocation for StreamLine Solutions seems high compared to
+NetSecure Pro who quoted $105K
+4. Carol's team hasn't signed off on the GraphQL Migration dependency
+
+I'd suggest we revisit this in our next standup meeting.
+
+Best,
+Miguel
+
+Best,
+Miguel Rodriguez
+Director of Engineering, Legal
+Wayneenterprises
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---

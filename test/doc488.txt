@@ -1,0 +1,141 @@
+From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+To: Priya Wilson <priya.wilson@umbrella-corp.net>, Hank Garcia <hank.garcia@initech.com>, Zara Wilson <zara.wilson@oscorp.com>
+Date: 06/27/2024 05:12 AM
+Subject: Re: Infrastructure Cost Analysis
+Message-ID: <111919610b476966@starkindustries.com>
+
+Hi Zara,
+
+Just a heads up — the Analytics Pipeline deployment (v7.9.50) is scheduled for
+Thursday at 13:30 UTC. Expected downtime is approximately 30 minutes.
+
+Changes include:
+- PR #1009: Refactor rate limiting
+- PR #1014: Titan feature flag rollout
+- Config update for APAC region
+
+Please make sure your team is aware and has saved any in-progress work. We'll
+send a notification to #data science once complete.
+
+Thanks,
+Quinn
+
+> From: Zara Wilson <zara.wilson@oscorp.com>
+> To: Hank Garcia <hank.garcia@initech.com>, Quinn Hernandez <quinn.hernandez@starkindustries.com>, Priya Wilson <priya.wilson@umbrella-corp.net>
+> Date: 06/26/2024 11:35 AM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <1748adea05a1dea8@oscorp.com>
+> 
+> Hi Priya,
+> 
+> I've reviewed the budget and have some concerns about the Horizon approach.
+> Specifically:
+> 
+> 1. The proposed timeline seems aggressive given the Legal team's current
+> bandwidth (they're already at 14% capacity with Analytics Pipeline work)
+> 2. We haven't accounted for the Search Index deprecation in Q4
+> 3. The $154K budget allocation for DataFlow Systems seems high compared to
+> DataFlow Systems who quoted $118K
+> 4. Quinn's team hasn't signed off on the Incident Response dependency
+> 
+> I'd suggest we revisit this in our next standup meeting.
+> 
+> Best,
+> Zara
+
+
+> From: Priya Wilson <priya.wilson@umbrella-corp.net>
+> To: Hank Garcia <hank.garcia@initech.com>, Zara Wilson <zara.wilson@oscorp.com>
+> Date: 06/24/2024 10:54 PM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <1064e9f75fa0a726@umbrella-corp.net>
+> 
+> Hi Quinn,
+> 
+> Thanks for flagging this. I've escalated to the Legal team and they're
+> looking
+> into the Logging Service issue. Current status:
+> 
+> - Root cause: expired TLS certificate
+> - Impact: ~75 users affected in EMEA
+> - ETA for fix: 16:30 GMT today
+> - Severity: P3
+> 
+> I'll keep this thread updated as we learn more. Quinn is the point
+> person if you
+> need immediate assistance.
+> 
+> Workaround: Use the mobile app.
+> 
+> Regards,
+> Priya
+> 
+> Best,
+> Priya Wilson
+> Architect, Data Science
+> Umbrella Corp
+> 
+> DISCLAIMER: The information contained in this email is intended only for
+> the person or entity to which it is addressed and may contain
+> confidential and/or privileged material. Unauthorized review, use,
+> disclosure or distribution is prohibited.
+> 
+
+
+> From: Zara Wilson <zara.wilson@oscorp.com>
+> To: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> Date: 06/24/2024 02:48 AM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <f086300bbd49a2fc@oscorp.com>
+> 
+> Hi Quinn,
+> 
+> Quick update on Project Catalyst: we've completed the integration phase and are
+> on track for the milestone. Key highlights:
+> 
+> - Migrated 172 services to the new Legacy CRM architecture
+> - Reduced churn rate by 36% across all endpoints
+> - Identified 8 blocking issues (see JIRA-3838 for details)
+> 
+> The Operations team has been instrumental in this effort. Quinn has volunteered
+> to lead the next phase.
+> 
+> Let me know if you have questions.
+> 
+> Thanks,
+> Zara
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Priya Wilson <priya.wilson@umbrella-corp.net>
+> Date: 06/23/2024 04:28 PM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <bd5ee2bddd4db47f@starkindustries.com>
+> 
+> Hi Zara,
+> 
+> I've reviewed the budget and have some concerns about the Neptune approach.
+> Specifically:
+> 
+> 1. The proposed timeline seems aggressive given the Product team's current
+> bandwidth (they're already at 53% capacity with Analytics Pipeline work)
+> 2. We haven't accounted for the Legacy CRM deprecation in Q1
+> 3. The $291K budget allocation for StreamLine Solutions seems high compared to
+> Pinnacle Analytics who quoted $248K
+> 4. Priya's team hasn't signed off on the OKR Planning dependency
+> 
+> I'd suggest we revisit this in our next sync meeting.
+> 
+> Best,
+> Quinn
+> 
+> Best,
+> Quinn Hernandez
+> VP of Product, Marketing
+> Starkindustries
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 

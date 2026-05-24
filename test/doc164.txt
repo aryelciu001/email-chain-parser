@@ -1,0 +1,59 @@
+From: Olivia Lewis <olivia.lewis@initech.com>
+To: Olivia Ramirez <olivia.ramirez@globex.io>, Karen Wilson <karen.wilson@lexcorp.biz>
+Cc: Alice Brown <alice.brown@cyberdyne.systems>, Alice Anderson <alice.anderson@umbrella-corp.net>
+Date: 02 Aug 2024, 10:54
+Subject: FW: Vendor Proposal - Pinnacle Analytics
+Message-ID: <1d42ee6a708865a2@initech.com>
+
+Team,
+
+Effective Wednesday, we're updating the Remote Work policy. Key changes:
+
+1. Sales approval is now required for any Analytics Pipeline changes in
+production (previously only staging required approval)
+2. All PRs affecting Aurora must include security review
+3. EMEA deployments will follow a new rolling strategy
+4. Incident response SLA updated: P1 = 12min, P2 = 40min
+
+Full policy doc: https://wiki.internal/policies/0c3e9f38af
+
+Please review by EOD Friday and flag any concerns to Alice.
+
+Thanks,
+Olivia
+
+Best,
+Olivia Lewis
+Director of Engineering, Finance
+Initech
+
+----------------------------------------
+>  From: Olivia Ramirez <olivia.ramirez@globex.io>
+>  To: Olivia Lewis <olivia.lewis@initech.com>, Karen Wilson <karen.wilson@lexcorp.biz>
+>  Cc: Alice Brown <alice.brown@cyberdyne.systems>, Alice Anderson <alice.anderson@umbrella-corp.net>
+>  Date: 01 Aug 2024, 15:05
+>  Subject: FW: Vendor Proposal - Pinnacle Analytics
+>  Message-ID: <625d1ccffc306f6b@globex.io>
+>  
+>  Olivia — 
+>  
+>  Got it, makes sense. I'll loop in Karen from Product to get their
+>  perspective on the Legacy CRM changes. In the meantime, I've created a
+>  shared doc where we can track the open items:
+>  
+>    https://docs.google.com/d/6c4b761a28b734fe
+>  
+>  Current open items (7 total):
+>  - Vanguard integration testing (owner: Olivia)
+>  - DataFlow Systems contract review (owner: Olivia)
+>  - Observability Stack documentation (owner: Karen)
+>  
+>  Please add any additional concerns there. I'll consolidate everything before
+>  our Monday sync.
+>  
+>  Thanks,
+>  Olivia
+>  ---
+>  Olivia Ramirez
+>  Globex | Product Department
+>  Phone: +1-759-916-7072 | Email: olivia.ramirez@globex.io

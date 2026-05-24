@@ -1,0 +1,145 @@
+From: Mona Martin <mona.martin@acmecorp.com>
+To: Rachel Lee <rachel.lee@globex.io>, Leo Miller <leo.miller@globex.io>
+Date: February 23, 2024 at 05:54 AM
+Subject: FW: Vendor Proposal - DataFlow Systems
+Message-ID: <075455530bb98ef1@acmecorp.com>
+
+Thanks Rachel,
+
+I reviewed the proposal for Incident Response. Some thoughts:
+
+- Section 7 needs more detail on the rollback strategy
+- The response time numbers in Table 4 don't match what I see in the Search
+Index dashboard (showing 61% vs your 71%)
+- Can we add a dependency map for the Payment Gateway integration?
+- The timeline for Finance involvement seems optimistic
+
+Happy to discuss in our Thursday sync.
+
+Cheers,
+Mona
+--
+Mona Martin
+Acmecorp | Marketing Department
+Phone: +1-498-557-3797 | Email: mona.martin@acmecorp.com
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+----------------------------------------
+> From: Mona Martin <mona.martin@acmecorp.com>
+> To: Leo Miller <leo.miller@globex.io>, Rachel Lee <rachel.lee@globex.io>
+> Date: February 21, 2024 at 12:04 PM
+> Subject: FW: Vendor Proposal - DataFlow Systems
+> Message-ID: <779a2971c291855c@acmecorp.com>
+> 
+> Hi Leo,
+> 
+> Quick update on Project Aurora: we've completed the UAT phase and are on
+> track for the milestone. Key highlights:
+> 
+> - Migrated 120 services to the new Logging Service architecture
+> - Reduced conversion rate by 63% across all endpoints
+> - Identified 7 blocking issues (see JIRA-8007 for details)
+> 
+> The Engineering team has been instrumental in this effort. Leo has
+> volunteered to lead the next phase.
+> 
+> Let me know if you have questions.
+> 
+> Thanks,
+> Mona
+> --
+> Mona Martin
+> Acmecorp | Marketing Department
+> Phone: +1-498-557-3797 | Email: mona.martin@acmecorp.com
+
+
+----------------------------------------
+> From: Leo Miller <leo.miller@globex.io>
+> To: Mona Martin <mona.martin@acmecorp.com>, Rachel Lee <rachel.lee@globex.io>
+> Date: February 20, 2024 at 01:52 PM
+> Subject: FW: Vendor Proposal - DataFlow Systems
+> Message-ID: <ac6487512d470baf@globex.io>
+> 
+> Hi Mona,
+> 
+> Quick update on Project Zenith: we've completed the testing phase and are on
+> track for the milestone. Key highlights:
+> 
+> - Migrated 139 services to the new Analytics Pipeline architecture
+> - Reduced NPS score by 50% across all endpoints
+> - Identified 6 blocking issues (see JIRA-8076 for details)
+> 
+> The Product team has been instrumental in this effort. Mona has volunteered
+> to lead the next phase.
+> 
+> Let me know if you have questions.
+> 
+> Thanks,
+> Leo
+> ---
+> Leo Miller | Staff Engineer
+> Globex
+> M: +1-379-662-9273 | E: leo.miller@globex.io
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 
+
+
+----------------------------------------
+> From: Leo Miller <leo.miller@globex.io>
+> To: Rachel Lee <rachel.lee@globex.io>
+> Date: February 19, 2024 at 11:51 PM
+> Subject: FW: Vendor Proposal - DataFlow Systems
+> Message-ID: <98a674f1e6612aae@globex.io>
+> 
+> Hi Rachel,
+> 
+> Just a heads up — the Auth Service deployment (v9.8.17) is scheduled for
+> Wednesday at 14:00 IST. Expected downtime is approximately 5 minutes.
+> 
+> Changes include:
+> - PR #3124: Add authentication flow
+> - PR #3132: Catalyst feature flag rollout
+> - Config update for North America region
+> 
+> Please make sure your team is aware and has saved any in-progress work.
+> We'll send a notification to #support once complete.
+> 
+> Thanks,
+> Leo
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+----------------------------------------
+> From: Rachel Lee <rachel.lee@globex.io>
+> To: Mona Martin <mona.martin@acmecorp.com>
+> Date: February 19, 2024 at 01:03 AM
+> Subject: FW: Vendor Proposal - DataFlow Systems
+> Message-ID: <fe53a594424e6e0e@globex.io>
+> 
+> All,
+> 
+> Following up from the Architecture Summit earlier today. Here are the action
+> items:
+> 
+> - @Leo: Finalize the proposal by Friday (target: 4/24)
+> - @Leo: Schedule the GraphQL Migration review with Legal
+> - @Leo: Update the User Directory configuration per our discussion
+> - @Rachel: Send out the revised Project Aurora timeline by EOW
+> 
+> Next meeting: Monday at 14:00. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Rachel
+> 
+> Best,
+> Rachel Lee
+> VP of Product, Finance
+> Globex
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 

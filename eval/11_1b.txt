@@ -1,0 +1,57 @@
+From: David Thompson <david.thompson@acmecorp.com>
+To: Carol Smith <carol.smith@lexcorp.biz>
+Cc: Frank Jones <frank.jones@cyberdyne.systems>
+Date: September 28, 2024 at 11:54 AM
+Subject: Re: Training Session: Agile Retrospectives
+Message-ID: <7b88aa4df339d9ec@acmecorp.com>
+
+Hi Frank,
+
+Just a heads up — the API Gateway deployment (v9.15.1) is scheduled for
+Monday at 13:30 JST. Expected downtime is approximately 5 minutes.
+
+Changes include:
+- PR #7353: Remove caching layer
+- PR #7357: Vanguard feature flag rollout
+- Config update for LATAM region
+
+Please make sure your team is aware and has saved any in-progress work.
+We'll send a notification to #marketing once complete.
+
+Thanks,
+David
+--
+David Thompson
+Acmecorp | Sales Department
+Phone: +1-845-818-1459 | Email: david.thompson@acmecorp.com
+
+>  From: Miguel White <miguel.white@lexcorp.biz>
+>  To: Carol Smith <carol.smith@lexcorp.biz>, Wendy Jones <wendy.jones@cyberdyne.systems>
+>  Cc: David Thompson <david.thompson@acmecorp.com>
+>  Date: September 27, 2024 at 08:29 AM
+>  Subject: Training Session: Agile Retrospectives
+>  Message-ID: <00dd5fbfdd6a2c7d@lexcorp.biz>
+>  
+>  Eve — 
+>  
+>  Got it, makes sense. I'll loop in Priya from Sales to get their
+>  perspective on the User Directory changes. In the meantime, I've created
+>  a shared doc where we can track the open items:
+>  
+>    https://docs.google.com/d/7f39f8317fbdb198
+>  
+>  Current open items (4 total):
+>  - Phoenix integration testing (owner: Eve)
+>  - NetSecure Pro contract review (owner: Miguel)
+>  - GraphQL Migration documentation (owner: Priya)
+>  
+>  Please add any additional concerns there. I'll consolidate everything
+>  before our Monday sync.
+>  
+>  Thanks,
+>  Miguel
+>  
+>  Best,
+>  Miguel White
+>  VP of Product, Data Science
+>  Lexcorp

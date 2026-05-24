@@ -1,0 +1,93 @@
+From: Fatima Lopez <fatima.lopez@cyberdyne.systems>
+To: Quinn Hernandez <quinn.hernandez@cyberdyne.systems>, Leo Sanchez <leo.sanchez@cyberdyne.systems>, Paul Harris <paul.harris@cyberdyne.systems>
+Date: 09/13/2024 05:01 PM
+Subject: Re: Finance Weekly Standup Notes
+Message-ID: <1ae33246e8745307@cyberdyne.systems>
+
+Hi Paul,
+
+Thanks for the update. Some notes:
+
+- Agreed on the Analytics Pipeline approach. Quinn and I discussed this during the Sprint Planning and we're aligned.
+- For the Sales budget, I'd suggest we cap it at $166K for now and revisit in Q1.
+- The throughput improvement looks promising — let's make sure we have proper monitoring via API Gateway before going live.
+
+I'll update the Titan tracker accordingly.
+
+Regards,
+Fatima
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+
+
+----------------------------------------
+| From: Paul Harris <paul.harris@cyberdyne.systems>
+| To: Leo Sanchez <leo.sanchez@cyberdyne.systems>, Quinn Hernandez <quinn.hernandez@cyberdyne.systems>, Fatima Lopez <fatima.lopez@cyberdyne.systems>
+| Date: 09/11/2024 06:17 PM
+| Subject: Re: Finance Weekly Standup Notes
+| Message-ID: <ca9c59dd9f89e1d3@cyberdyne.systems>
+| 
+| Thanks Leo,
+| 
+| I reviewed the spec for OKR Planning. Some thoughts:
+| 
+| - Section 6 needs more detail on the rollback strategy
+| - The engagement numbers in Table 3 don't match what I see in the Notification Hub dashboard (showing 64% vs your 66%)
+| - Can we add a dependency map for the CI/CD Platform integration?
+| - The timeline for Support involvement seems optimistic
+| 
+| Happy to discuss in our Tuesday sync.
+| 
+| Cheers,
+| Paul
+| ---
+| Paul Harris | Director of Engineering
+| Cyberdyne
+| M: +1-227-739-4296 | E: paul.harris@cyberdyne.systems
+
+
+----------------------------------------
+| From: Quinn Hernandez <quinn.hernandez@cyberdyne.systems>
+| To: Leo Sanchez <leo.sanchez@cyberdyne.systems>
+| Date: 09/11/2024 05:25 PM
+| Subject: Re: Finance Weekly Standup Notes
+| Message-ID: <75a74ff9a5337783@cyberdyne.systems>
+| 
+| Hi Paul,
+| 
+| Thanks for the update. Some notes:
+| 
+| - Agreed on the Analytics Pipeline approach. Fatima and I discussed this yesterday and we're aligned.
+| - For the Product budget, I'd suggest we cap it at $257K for now and revisit in Q3.
+| - The engagement improvement looks promising — let's make sure we have proper monitoring via Logging Service before going live.
+| 
+| I'll update the Aurora tracker accordingly.
+| 
+| Regards,
+| Quinn
+
+
+----------------------------------------
+| From: Quinn Hernandez <quinn.hernandez@cyberdyne.systems>
+| To: Fatima Lopez <fatima.lopez@cyberdyne.systems>
+| Date: 09/10/2024 01:02 AM
+| Subject: Finance Weekly Standup Notes
+| Message-ID: <c6f07f5b2f31675f@cyberdyne.systems>
+| 
+| All,
+| 
+| Following up from the All-Hands earlier today. Here are the action items:
+| 
+| - @Leo: Finalize the spec by Wednesday (target: 8/14)
+| - @Paul: Schedule the Security Hardening review with Legal
+| - @Leo: Update the Search Index configuration per our discussion
+| - @Quinn: Send out the revised Project Falcon timeline by EOW
+| 
+| Next meeting: Wednesday at 8:30. Calendar invite to follow.
+| 
+| Thanks everyone,
+| Quinn
+| --
+| Quinn Hernandez
+| Cyberdyne | Sales Department
+| Phone: +1-463-704-2046 | Email: quinn.hernandez@cyberdyne.systems

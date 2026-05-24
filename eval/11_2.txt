@@ -1,0 +1,61 @@
+From: Priya Clark <priya.clark@umbrella-corp.net>
+To: Wendy Jones <wendy.jones@cyberdyne.systems>, Carol Smith <carol.smith@lexcorp.biz>
+Cc: Eve Taylor <eve.taylor@initech.com>, David Thompson <david.thompson@acmecorp.com>
+Date: September 28, 2024 at 04:19 AM
+Subject: Re: Training Session: Agile Retrospectives
+Message-ID: <123c42f4f1ad7470@umbrella-corp.net>
+
+Team,
+
+Effective Thursday, we're updating the PTO Accrual policy. Key changes:
+
+1. Marketing approval is now required for any Notification Hub changes
+in production (previously only staging required approval)
+2. All PRs affecting Falcon must include security review
+3. APAC deployments will follow a new rolling strategy
+4. Incident response SLA updated: P1 = 18min, P2 = 81min
+
+Full policy doc: https://wiki.internal/policies/771251cd01
+
+Please review by EOD Friday and flag any concerns to Frank.
+
+Thanks,
+Priya
+--
+Priya Clark
+Umbrella Corp | Product Department
+Phone: +1-285-520-8114 | Email: priya.clark@umbrella-corp.net
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+> From: Miguel White <miguel.white@lexcorp.biz>
+> To: Carol Smith <carol.smith@lexcorp.biz>, Wendy Jones <wendy.jones@cyberdyne.systems>
+> Cc: David Thompson <david.thompson@acmecorp.com>
+> Date: September 27, 2024 at 08:29 AM
+> Subject: Training Session: Agile Retrospectives
+> Message-ID: <00dd5fbfdd6a2c7d@lexcorp.biz>
+> 
+> Eve — 
+> 
+> Got it, makes sense. I'll loop in Priya from Sales to get their
+> perspective on the User Directory changes. In the meantime, I've created
+> a shared doc where we can track the open items:
+> 
+>   https://docs.google.com/d/7f39f8317fbdb198
+> 
+> Current open items (4 total):
+> - Phoenix integration testing (owner: Eve)
+> - NetSecure Pro contract review (owner: Miguel)
+> - GraphQL Migration documentation (owner: Priya)
+> 
+> Please add any additional concerns there. I'll consolidate everything
+> before our Monday sync.
+> 
+> Thanks,
+> Miguel
+> 
+> Best,
+> Miguel White
+> VP of Product, Data Science
+> Lexcorp

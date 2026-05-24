@@ -1,0 +1,28 @@
+From: Uma Clark <uma.clark@globex.io>
+To: Rachel Robinson <rachel.robinson@umbrella-corp.net>
+Date: March 31, 2024 at 04:27 AM
+Message-ID: <44e15206ebcf51d2@globex.io>
+Subject: Re: Code Review - PR #9101
+
+Frank — 
+
+Got it, makes sense. I'll loop in Rachel from Data Science to get their
+perspective on the Analytics Pipeline changes. In the meantime, I've created
+a shared doc where we can track the open items:
+
+  https://docs.google.com/d/b73ce398c39f506a
+
+Current open items (5 total):
+- Apex integration testing (owner: Frank)
+- NetSecure Pro contract review (owner: Uma)
+- Data Governance documentation (owner: Rachel)
+
+Please add any additional concerns there. I'll consolidate everything before
+our Tuesday sync.
+
+Thanks,
+Uma
+--
+Uma Clark
+Globex | Sales Department
+Phone: +1-766-712-1180 | Email: uma.clark@globex.io

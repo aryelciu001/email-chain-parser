@@ -1,0 +1,55 @@
+[
+  {
+    "from": [
+      "tina.taylor@starkindustries.com"
+    ],
+    "to": [
+      "david.gonzalez@acmecorp.com"
+    ],
+    "cc": [
+      "fatima.lee@lexcorp.biz"
+    ],
+    "date": "22 May 2024, 11:51",
+    "subject": "Meeting Notes: Finance Sync 8/12",
+    "message_id": "<6e8fe727c11597cd@starkindustries.com>",
+    "content": "Hi Irene,\n\nI had a call with DataFlow Systems today about the Analytics Pipeline\nintegration. Key takeaways:\n\n- They can deliver the testing phase by 11/11, which is 2 weeks behind our\nschedule\n- Pricing: $352K for the base package + $76K for Security Hardening add-on\n- They require a 3-year commitment minimum\n- Technical contact will be Olivia Davis (Product Manager)\n\nFor comparison, DataFlow Systems quoted $359K with a more flexible contract.\n\nShould we bring this to the Board Meeting for a final decision?\n\nBest,\nTina\n---\nTina Taylor\nArchitect | Starkindustries\n+1-989-809-1066",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "irene.gonzalez@globex.io"
+    ],
+    "to": [
+      "david.gonzalez@acmecorp.com",
+      "fatima.lee@lexcorp.biz",
+      "leo.miller@cyberdyne.systems"
+    ],
+    "cc": [
+      "grace.martinez@umbrella-corp.net",
+      "tina.taylor@starkindustries.com"
+    ],
+    "date": "22 May 2024, 20:13",
+    "subject": "Re: Meeting Notes: Finance Sync 8/12",
+    "message_id": "<af63b99aa0c94486@globex.io>",
+    "content": "David \u2014 \n\nGot it, makes sense. I'll loop in Grace from Engineering to get their\nperspective on the CI/CD Platform changes. In the meantime, I've created a\nshared doc where we can track the open items:\n\nhttps://docs.google.com/d/9b04d152845ec0a3\n\nCurrent open items (7 total):\n- Aurora integration testing (owner: David)\n- StreamLine Solutions contract review (owner: Irene)\n- Observability Stack documentation (owner: Grace)\n\nPlease add any additional concerns there. I'll consolidate everything before our\nFriday sync.\n\nThanks,\nIrene\n--\nIrene Gonzalez\nGlobex | Marketing Department\nPhone: +1-476-139-9252 | Email: irene.gonzalez@globex.io\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "tina.taylor@starkindustries.com"
+    ],
+    "to": [
+      "david.gonzalez@acmecorp.com",
+      "fatima.lee@lexcorp.biz",
+      "olivia.garcia@wayneenterprises.com"
+    ],
+    "cc": [
+      "leo.miller@cyberdyne.systems"
+    ],
+    "date": "23 May 2024, 17:57",
+    "subject": "Re: Meeting Notes: Finance Sync 8/12",
+    "message_id": "<aeaae2226eb8c0cd@starkindustries.com>",
+    "content": "Thanks Fatima,\n\nI reviewed the proposal for Security Hardening. Some thoughts:\n\n- Section 6 needs more detail on the rollback strategy\n- The response time numbers in Table 4 don't match what I see in the API Gateway\ndashboard (showing 5% vs your 12%)\n- Can we add a dependency map for the CI/CD Platform integration?\n- The timeline for Sales involvement seems optimistic\n\nHappy to discuss in our Monday sync.\n\nCheers,\nTina\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 2
+  }
+]

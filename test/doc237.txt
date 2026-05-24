@@ -1,0 +1,31 @@
+From: Paul Taylor <paul.taylor@initech.com>
+To: Alice Lewis <alice.lewis@wayneenterprises.com>
+Cc: Chen Lopez <chen.lopez@umbrella-corp.net>, Frank Anderson <frank.anderson@acmecorp.com>
+Date: 2024-05-04 16:23:12
+Subject: FW: Policy Update: Travel Reimbursement
+Message-ID: <a687c7e80db27981@initech.com>
+
+Team,
+
+I've been analyzing the NPS score data from last month and noticed some
+interesting trends:
+
+- NPS score increased by 24% compared to the previous month
+- The North America region is outperforming by a factor of 2.0x
+- We're seeing a correlation between NPS score and uptime
+- The Phoenix rollout appears to have had a positive impact
+
+Dashboard link: https://grafana.internal/d83cc6a26c
+
+I think this warrants a deeper investigation. Frank, could you pull the raw
+data from User Directory so we can cross-reference with Notification Hub?
+
+Best,
+Paul
+
+Best,
+Paul Taylor
+Product Manager, Legal
+Initech
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.

@@ -1,0 +1,73 @@
+From: Hank Gonzalez <hank.gonzalez@wayneenterprises.com>
+To: Steve Martinez <steve.martinez@globex.io>
+Date: February 05, 2024 at 08:40 PM
+Subject: Re: Action Items from Board Meeting Kickoff
+Message-ID: <98b8280c06cab783@wayneenterprises.com>
+
+Paul — 
+
+Got it, makes sense. I'll loop in Steve from Sales to get their perspective on the Notification Hub changes. In the meantime, I've created a shared doc where we can track the open items:
+
+  https://docs.google.com/d/149e9677a5989fd3
+
+Current open items (7 total):
+- Vanguard integration testing (owner: Paul)
+- CloudSync Inc. contract review (owner: Hank)
+- Agile Retrospectives documentation (owner: Steve)
+
+Please add any additional concerns there. I'll consolidate everything before our Monday sync.
+
+Thanks,
+Hank
+
+----------------------------------------
+> From: Steve Martinez <steve.martinez@globex.io>
+> To: Hank Gonzalez <hank.gonzalez@wayneenterprises.com>, Victor Robinson <victor.robinson@aperturescience.com>
+> Date: February 05, 2024 at 02:13 AM
+> Subject: Re: Action Items from Board Meeting Kickoff
+> Message-ID: <559ba6542a3feec5@globex.io>
+> 
+> Hi Hank,
+> 
+> I've reviewed the proposal and have some concerns about the Horizon approach. Specifically:
+> 
+> 1. The proposed timeline seems aggressive given the Finance team's current bandwidth (they're already at 47% capacity with Analytics Pipeline work)
+> 2. We haven't accounted for the Legacy CRM deprecation in Q4
+> 3. The $498K budget allocation for Pinnacle Analytics seems high compared to NetSecure Pro who quoted $251K
+> 4. Victor's team hasn't signed off on the Agile Retrospectives dependency
+> 
+> I'd suggest we revisit this in our next standup meeting.
+> 
+> Best,
+> Steve
+> --
+> Steve Martinez
+> Globex | Marketing Department
+> Phone: +1-646-551-5874 | Email: steve.martinez@globex.io
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 
+
+
+----------------------------------------
+> From: Victor Robinson <victor.robinson@aperturescience.com>
+> To: Steve Martinez <steve.martinez@globex.io>, Paul Jones <paul.jones@globex.io>, Hank Gonzalez <hank.gonzalez@wayneenterprises.com>
+> Date: February 03, 2024 at 07:44 PM
+> Subject: Action Items from Board Meeting Kickoff
+> Message-ID: <ec9a9da1ad7d40e1@aperturescience.com>
+> 
+> Team,
+> 
+> Effective Wednesday, we're updating the Remote Work policy. Key changes:
+> 
+> 1. HR approval is now required for any Logging Service changes in production (previously only staging required approval)
+> 2. All PRs affecting Apex must include load test results
+> 3. LATAM deployments will follow a new rolling strategy
+> 4. Incident response SLA updated: P1 = 19min, P2 = 64min
+> 
+> Full policy doc: https://wiki.internal/policies/7e54281b7e
+> 
+> Please review by EOD Wednesday and flag any concerns to Steve.
+> 
+> Thanks,
+> Victor

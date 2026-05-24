@@ -1,0 +1,38 @@
+[
+  {
+    "from": [
+      "quinn.perez@initech.com"
+    ],
+    "to": [
+      "grace.white@starkindustries.com",
+      "irene.clark@umbrella-corp.net",
+      "victor.robinson@acmecorp.com"
+    ],
+    "cc": [
+      "fatima.hernandez@umbrella-corp.net",
+      "wendy.hernandez@umbrella-corp.net"
+    ],
+    "date": "Sat, 28 Sep 2024 08:47:53",
+    "subject": "Re: Performance Review Cycle",
+    "message_id": "<14dfcf0b2ddabb55@initech.com>",
+    "content": "Hi Irene,\n\nThanks for the update. Some notes:\n\n- Agreed on the Search Index approach. Wendy and I discussed this yesterday and we're aligned.\n- For the Legal budget, I'd suggest we cap it at $368K for now and revisit in Q3.\n- The response time improvement looks promising \u2014 let's make sure we have proper monitoring via Logging Service before going live.\n\nI'll update the Phoenix tracker accordingly.\n\nThanks,\nQuinn\n---\nQuinn Perez | Data Scientist\nInitech\nM: +1-362-282-3845 | E: quinn.perez@initech.com",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "frank.davis@umbrella-corp.net"
+    ],
+    "to": [
+      "fatima.hernandez@umbrella-corp.net",
+      "grace.white@starkindustries.com"
+    ],
+    "cc": [
+      "wendy.hernandez@umbrella-corp.net"
+    ],
+    "date": "Sun, 29 Sep 2024 16:54:53",
+    "subject": "Re: Performance Review Cycle",
+    "message_id": "<4d0134e14593ea72@umbrella-corp.net>",
+    "content": "Hi Irene,\n\nJust a heads up \u2014 the Logging Service deployment (v9.15.76) is scheduled for Thursday at 8:30 PST. Expected downtime is approximately 20 minutes.\n\nChanges include:\n- PR #2079: Remove rate limiting\n- PR #2087: Vanguard feature flag rollout\n- Config update for LATAM region\n\nPlease make sure your team is aware and has saved any in-progress work. We'll send a notification to #data science once complete.\n\nThanks,\nFrank\n--\nFrank Davis\nEngineering Manager | Umbrella Corp\n+1-454-487-1247",
+    "canon_order": 1
+  }
+]

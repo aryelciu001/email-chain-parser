@@ -1,0 +1,138 @@
+From: Jack Thomas <jack.thomas@oscorp.com>
+To: Yuki Gonzalez <yuki.gonzalez@lexcorp.biz>
+Date: 2024-07-26 20:50:33
+Subject: Re: Incident Report #2087
+Message-ID: <240ace5381419082@oscorp.com>
+
+Team,
+
+I've been analyzing the error rate data from last sprint and noticed some
+interesting trends:
+
+- error rate increased by 61% compared to the previous sprint
+- The APAC region is outperforming by a factor of 1.8x
+- We're seeing a correlation between error rate and retention
+- The Falcon rollout appears to have had a positive impact
+
+Dashboard link: https://grafana.internal/979bec0f6f
+
+I think this warrants a deeper investigation. Yuki, could you pull the raw data
+from CI/CD Platform so we can cross-reference with Auth Service?
+
+Best,
+Jack
+--
+Jack Thomas
+Architect | Oscorp
++1-518-565-5937
+
+> From: Steve Taylor <steve.taylor@globex.io>
+> To: Quinn Anderson <quinn.anderson@oscorp.com>, Jack Thomas <jack.thomas@oscorp.com>
+> Date: 2024-07-24 22:45:01
+> Subject: Re: Incident Report #2087
+> Message-ID: <8b1c31dbd5d98402@globex.io>
+> 
+> Hi Yuki,
+> 
+> Thanks for the update. A few quick thoughts:
+> 
+> - Agreed on the Legacy CRM approach. Jack and I discussed this during the Launch
+> Retrospective and we're aligned.
+> - For the Finance budget, I'd suggest we cap it at $158K for now and revisit in
+> Q1.
+> - The engagement improvement looks promising — let's make sure we have proper
+> monitoring via CI/CD Platform before going live.
+> 
+> I'll update the Neptune tracker accordingly.
+> 
+> Regards,
+> Steve
+> --
+> Steve Taylor
+> Globex | Sales Department
+> Phone: +1-340-981-9986 | Email: steve.taylor@globex.io
+
+
+> From: Yuki Gonzalez <yuki.gonzalez@lexcorp.biz>
+> To: Jack Thomas <jack.thomas@oscorp.com>, Steve Taylor <steve.taylor@globex.io>, Quinn Anderson <quinn.anderson@oscorp.com>
+> Date: 2024-07-23 11:38:16
+> Subject: Re: Incident Report #2087
+> Message-ID: <18f5c9175082cde0@lexcorp.biz>
+> 
+> Hi Quinn,
+> 
+> Thanks for the update. Some notes:
+> 
+> - Agreed on the Auth Service approach. Jack and I discussed this yesterday and
+> we're aligned.
+> - For the Legal budget, I'd suggest we cap it at $317K for now and revisit in
+> Q4.
+> - The throughput improvement looks promising — let's make sure we have proper
+> monitoring via User Directory before going live.
+> 
+> I'll update the Apex tracker accordingly.
+> 
+> Best,
+> Yuki
+> 
+> Best,
+> Yuki Gonzalez
+> Principal Engineer, Engineering
+> Lexcorp
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 
+
+
+> From: Quinn Anderson <quinn.anderson@oscorp.com>
+> To: Jack Thomas <jack.thomas@oscorp.com>
+> Date: 2024-07-23 11:08:05
+> Subject: Re: Incident Report #2087
+> Message-ID: <57739c24e794ed1f@oscorp.com>
+> 
+> Yuki — 
+> 
+> Got it, makes sense. I'll loop in Jack from Legal to get their perspective on
+> the API Gateway changes. In the meantime, I've created a shared doc where we can
+> track the open items:
+> 
+>   https://docs.google.com/d/ef0d3930a7b6c95b
+> 
+> Current open items (4 total):
+> - Phoenix integration testing (owner: Yuki)
+> - CloudSync Inc. contract review (owner: Quinn)
+> - Security Hardening documentation (owner: Jack)
+> 
+> Please add any additional concerns there. I'll consolidate everything before our
+> Tuesday sync.
+> 
+> Thanks,
+> Quinn
+
+
+> From: Steve Taylor <steve.taylor@globex.io>
+> To: Quinn Anderson <quinn.anderson@oscorp.com>, Yuki Gonzalez <yuki.gonzalez@lexcorp.biz>
+> Date: 2024-07-23 01:37:48
+> Subject: Re: Incident Report #2087
+> Message-ID: <2d47fdeebb632f21@globex.io>
+> 
+> All,
+> 
+> Following up from the Design Review earlier today. Here are the action items:
+> 
+> - @Quinn: Finalize the proposal by Thursday (target: 3/8)
+> - @Jack: Schedule the AWS Cost Optimization review with Engineering
+> - @Quinn: Update the Payment Gateway configuration per our discussion
+> - @Steve: Send out the revised Project Neptune timeline by EOW
+> 
+> Next meeting: Thursday at 14:00. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Steve
+> --
+> Steve Taylor
+> Technical Lead | Globex
+> +1-340-981-9986
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 

@@ -1,0 +1,90 @@
+From: Irene Smith <irene.smith@cyberdyne.systems>
+To: Quinn Moore <quinn.moore@initech.com>
+Cc: Quinn Rodriguez <quinn.rodriguez@initech.com>
+Date: 12/08/2024 08:38 AM
+Subject: Re: Operations Weekly Standup Notes
+Message-ID: <fecf148c852b64bb@cyberdyne.systems>
+
+Hi Quinn,
+
+I had a call with DataFlow Systems today about the User Directory
+integration. Key takeaways:
+
+- They can deliver the integration phase by 10/26, which is 3 weeks behind
+our schedule
+- Pricing: $450K for the base package + $95K for OKR Planning add-on
+- They require a 1-year commitment minimum
+- Technical contact will be Yuki Hernandez (VP of Product)
+
+For comparison, DataFlow Systems quoted $359K with a more flexible contract.
+
+Should we bring this to the Roadmap Sync for a final decision?
+
+Best,
+Irene
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+
+
+| From: Leo Thomas <leo.thomas@acmecorp.com>
+| To: Quinn Moore <quinn.moore@initech.com>
+| Cc: Quinn Rodriguez <quinn.rodriguez@initech.com>
+| Date: 12/06/2024 12:27 PM
+| Subject: Re: Operations Weekly Standup Notes
+| Message-ID: <bf3a8952de1b5b42@acmecorp.com>
+| 
+| Hi Fatima,
+| 
+| I had a call with NetSecure Pro today about the Auth Service integration.
+| Key takeaways:
+| 
+| - They can deliver the design phase by 3/27, which is 4 weeks ahead of our
+| schedule
+| - Pricing: $133K for the base package + $32K for Incident Response add-on
+| - They require a 2-year commitment minimum
+| - Technical contact will be Paul Sanchez (Staff Engineer)
+| 
+| For comparison, CloudSync Inc. quoted $71K with a more flexible contract.
+| 
+| Should we bring this to the Roadmap Sync for a final decision?
+| 
+| Best,
+| Leo
+| 
+| Best,
+| Leo Thomas
+| DevOps Engineer, HR
+| Acmecorp
+
+
+| From: Quinn Rodriguez <quinn.rodriguez@initech.com>  
+| To: Irene Smith <irene.smith@cyberdyne.systems>, Leo Thomas <leo.thomas@acmecorp.com>
+| Cc: Fatima Martin <fatima.martin@globex.io>, Quinn Moore <quinn.moore@initech.com>  
+| Date: 12/06/2024 10:33 AM   
+| Subject: Operations Weekly Standup Notes  
+| Message-ID: <bfcf837cb0c234a6@initech.com>  
+| 
+| Hi Quinn,
+| 
+| Thanks for flagging this. I&#39;ve escalated to the Marketing team and they're
+| looking into the Analytics Pipeline issue. Current status:
+| 
+| - Root cause: clock skew between replicas    
+| - Impact: ~70 users affected in APAC
+| - ETA for fix: 11:30 CST today  
+| - Severity: P1
+|  
+| I'll keep this thread updated as we learn more. Irene is the point person if
+| you need immediate assistance.
+|     
+| Workaround: Use the mobile app.
+| 
+| Regards,
+| Quinn
+| --- 
+| Quinn Rodriguez | Senior Software Engineer
+| Initech
+| M: +1-676-779-5859 | E: quinn.rodriguez@initech.com   
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited. 
+| 

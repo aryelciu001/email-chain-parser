@@ -1,0 +1,22 @@
+From: Grace Perez <grace.perez@starkindustries.com>
+To: Victor Harris <victor.harris@globex.io>, Wendy Sanchez <wendy.sanchez@umbrella-corp.net>
+Cc: Frank Martinez <frank.martinez@globex.io>
+Date: Thu, 05 Sep 2024 07:05:20
+Subject: FW: Policy Update: Data Retention
+Message-ID: <bd00efc44ea59bc0@starkindustries.com>
+
+Team,
+
+Effective Monday, we're updating the Access Control policy. Key changes:
+
+1. Engineering approval is now required for any Legacy CRM changes in production (previously only staging required approval)
+2. All PRs affecting Titan must include integration tests
+3. EMEA deployments will follow a new feature-flag strategy
+4. Incident response SLA updated: P1 = 29min, P2 = 39min
+
+Full policy doc: https://wiki.internal/policies/265757339f
+
+Please review by EOD Tuesday and flag any concerns to Eve.
+
+Thanks,
+Grace

@@ -1,0 +1,27 @@
+From: Jack Smith <jack.smith@cyberdyne.systems>
+To: Quinn Rodriguez <quinn.rodriguez@wayneenterprises.com>, Paul Lopez <paul.lopez@initech.com>
+Date: January 20, 2024 at 12:53 PM
+Subject: Training Session: OKR Planning
+Message-ID: <48009dbd6fd8883a@cyberdyne.systems>
+
+Hi Paul,
+
+Just a heads up — the CI/CD Platform deployment (v4.1.96) is scheduled
+for Wednesday at 16:30 EST. Expected downtime is approximately 15
+minutes.
+
+Changes include:
+- PR #8872: Update rate limiting
+- PR #8878: Aurora feature flag rollout
+- Config update for LATAM region
+
+Please make sure your team is aware and has saved any in-progress work.
+We'll send a notification to #data science once complete.
+
+Thanks,
+Jack
+
+Best,
+Jack Smith
+Principal Engineer, Product
+Cyberdyne

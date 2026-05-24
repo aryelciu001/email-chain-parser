@@ -1,0 +1,17 @@
+[
+  {
+    "from": [
+      "eve.brown@umbrella-corp.net"
+    ],
+    "to": [
+      "frank.white@wayneenterprises.com",
+      "priya.smith@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "09/14/2024 07:35 AM",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<082407faec6f933f@umbrella-corp.net>",
+    "content": "Hi Frank,\n\nQuick update on Project Apex: we've completed the integration phase and are\non track for the milestone. Key highlights:\n\n- Migrated 5 services to the new CI/CD Platform architecture\n- Reduced engagement by 37% across all endpoints\n- Identified 11 blocking issues (see JIRA-8511 for details)\n\nThe Operations team has been instrumental in this effort. Frank has\nvolunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nEve\n---\nEve Brown | Technical Lead\nUmbrella Corp\nM: +1-864-100-5780 | E: eve.brown@umbrella-corp.net\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 0
+  }
+]

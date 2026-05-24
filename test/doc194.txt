@@ -1,0 +1,113 @@
+From: Steve Rodriguez <steve.rodriguez@umbrella-corp.net>
+To: Paul Clark <paul.clark@acmecorp.com>, Tina Robinson <tina.robinson@umbrella-corp.net>, Karen Harris <karen.harris@aperturescience.com>
+Cc: Miguel Hernandez <miguel.hernandez@lexcorp.biz>
+Date: April 14, 2024 at 06:59 PM
+Subject: Re: Action Items from Hackathon Kickoff
+Message-ID: <1304a7dd57ed09fd@umbrella-corp.net>
+
+Hi Miguel,
+
+I had a call with CloudSync Inc. today about the Payment Gateway integration. Key takeaways:
+
+- They can deliver the alpha phase by 12/6, which is 3 weeks behind our schedule
+- Pricing: $302K for the base package + $14K for Kubernetes Fundamentals add-on
+- They require a 3-year commitment minimum
+- Technical contact will be Victor Rodriguez (Engineering Manager)
+
+For comparison, NetSecure Pro quoted $234K with a more flexible contract.
+
+Should we bring this to the Team Offsite for a final decision?
+
+Best,
+Steve
+
+Best,
+Steve Rodriguez
+Senior Software Engineer, Operations
+Umbrella Corp
+
+----------------------------------------
+| From: Paul Clark <paul.clark@acmecorp.com>
+| To: Tina Robinson <tina.robinson@umbrella-corp.net>, Steve Rodriguez <steve.rodriguez@umbrella-corp.net>, Karen Harris <karen.harris@aperturescience.com>
+| Cc: Miguel Hernandez <miguel.hernandez@lexcorp.biz>
+| Date: April 13, 2024 at 12:56 AM
+| Subject: Re: Action Items from Hackathon Kickoff
+| Message-ID: <12d4833d54e9ffc0@acmecorp.com>
+| 
+| Hi Miguel,
+| 
+| Thanks for flagging this. I've escalated to the Engineering team and they're looking into the User Directory issue. Current status:
+| 
+| - Root cause: clock skew between replicas
+| - Impact: ~123 users affected in EMEA
+| - ETA for fix: 9:00 GMT today
+| - Severity: P3
+| 
+| I'll keep this thread updated as we learn more. Steve is the point person if you need immediate assistance.
+| 
+| Workaround: Use the mobile app.
+| 
+| Regards,
+| Paul
+| --
+| Paul Clark
+| Acmecorp | Operations Department
+| Phone: +1-289-113-2838 | Email: paul.clark@acmecorp.com
+
+
+----------------------------------------
+| From: Tina Robinson <tina.robinson@umbrella-corp.net>
+| To: Miguel Hernandez <miguel.hernandez@lexcorp.biz>, Steve Rodriguez <steve.rodriguez@umbrella-corp.net>
+| Cc: Paul Clark <paul.clark@acmecorp.com>
+| Date: April 12, 2024 at 12:25 PM
+| Subject: Re: Action Items from Hackathon Kickoff
+| Message-ID: <748978a2a6bacae0@umbrella-corp.net>
+| 
+| Hi Steve,
+| 
+| Just a heads up — the Analytics Pipeline deployment (v9.15.46) is scheduled for Friday at 8:00 JST. Expected downtime is approximately 10 minutes.
+| 
+| Changes include:
+| - PR #6512: Remove rate limiting
+| - PR #6515: Vanguard feature flag rollout
+| - Config update for EMEA region
+| 
+| Please make sure your team is aware and has saved any in-progress work. We'll send a notification to #marketing once complete.
+| 
+| Thanks,
+| Tina
+| --
+| Tina Robinson
+| Umbrella Corp | Finance Department
+| Phone: +1-911-237-4414 | Email: tina.robinson@umbrella-corp.net
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+| 
+
+
+----------------------------------------
+| From: Karen Harris <karen.harris@aperturescience.com>
+| To: Paul Clark <paul.clark@acmecorp.com>, Steve Rodriguez <steve.rodriguez@umbrella-corp.net>
+| Cc: Tina Robinson <tina.robinson@umbrella-corp.net>, Miguel Hernandez <miguel.hernandez@lexcorp.biz>
+| Date: April 11, 2024 at 10:15 PM
+| Subject: Action Items from Hackathon Kickoff
+| Message-ID: <cad86af0b5ee25c8@aperturescience.com>
+| 
+| Hi Paul,
+| 
+| Quick update on Project Horizon: we've completed the beta phase and are on track for the milestone. Key highlights:
+| 
+| - Migrated 13 services to the new Search Index architecture
+| - Reduced churn rate by 45% across all endpoints
+| - Identified 7 blocking issues (see JIRA-5394 for details)
+| 
+| The Operations team has been instrumental in this effort. Steve has volunteered to lead the next phase.
+| 
+| Let me know if you have questions.
+| 
+| Thanks,
+| Karen
+| ---
+| Karen Harris | Senior Software Engineer
+| Aperturescience
+| M: +1-339-420-5010 | E: karen.harris@aperturescience.com

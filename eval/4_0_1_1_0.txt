@@ -1,0 +1,131 @@
+From: Carol Lewis <carol.lewis@wayneenterprises.com>
+To: Wendy Lewis <wendy.lewis@cyberdyne.systems>, Rachel Lopez <rachel.lopez@umbrella-corp.net>, Rachel Smith <rachel.smith@initech.com>
+Cc: Mona Smith <mona.smith@starkindustries.com>, Uma Davis <uma.davis@lexcorp.biz>
+Date: 19 Aug 2024, 19:39
+Subject: Re: Reminder: Architecture Summit on 5/15
+Message-ID: <2285cfb52b0d5e62@wayneenterprises.com>
+
+Hi Rachel,
+
+Thanks for flagging this. I've escalated to the Legal team and they're looking into the API Gateway issue. Current status:
+
+- Root cause: race condition in queue consumer
+- Impact: ~165 users affected in EMEA
+- ETA for fix: 17:30 IST today
+- Severity: P2
+
+I'll keep this thread updated as we learn more. Rachel is the point person if you need immediate assistance.
+
+Workaround: Contact support for manual override.
+
+Regards,
+Carol
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+----------------------------------------
+| From: Wendy Lewis <wendy.lewis@cyberdyne.systems>
+| To: Rachel Lopez <rachel.lopez@umbrella-corp.net>
+| Cc: Mona Smith <mona.smith@starkindustries.com>, Carol Lewis <carol.lewis@wayneenterprises.com>
+| Date: 19 Aug 2024, 07:20
+| Subject: Re: Reminder: Architecture Summit on 5/15
+| Message-ID: <7f6267f3dcb21efe@cyberdyne.systems>
+| 
+| Hi Carol,
+| 
+| Thanks for the update. Some notes:
+| 
+| - Agreed on the Notification Hub approach. Mona and I discussed this yesterday and we're aligned.
+| - For the Finance budget, I'd suggest we cap it at $159K for now and revisit in Q1.
+| - The NPS score improvement looks promising — let's make sure we have proper monitoring via Payment Gateway before going live.
+| 
+| I'll update the Phoenix tracker accordingly.
+| 
+| Cheers,
+| Wendy
+
+
+----------------------------------------
+| From: Rachel Smith <rachel.smith@initech.com>
+| To: Uma Davis <uma.davis@lexcorp.biz>, Wendy Lewis <wendy.lewis@cyberdyne.systems>
+| Cc: Mona Smith <mona.smith@starkindustries.com>, Carol Lewis <carol.lewis@wayneenterprises.com>
+| Date: 18 Aug 2024, 15:05
+| Subject: Re: Reminder: Architecture Summit on 5/15
+| Message-ID: <463d5e6a5b2459d0@initech.com>
+| 
+| Hi Uma,
+| 
+| I had a call with CloudSync Inc. today about the User Directory integration. Key takeaways:
+| 
+| - They can deliver the UAT phase by 1/17, which is 5 weeks ahead of our schedule
+| - Pricing: $189K for the base package + $47K for Incident Response add-on
+| - They require a 2-year commitment minimum
+| - Technical contact will be Steve Smith (Staff Engineer)
+| 
+| For comparison, DataFlow Systems quoted $110K with a more flexible contract.
+| 
+| Should we bring this to the Architecture Summit for a final decision?
+| 
+| Best,
+| Rachel
+| 
+| Best,
+| Rachel Smith
+| Data Scientist, Finance
+| Initech
+| 
+| --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+| 
+
+
+----------------------------------------
+| From: Mona Smith <mona.smith@starkindustries.com>
+| To: Rachel Lopez <rachel.lopez@umbrella-corp.net>
+| Cc: Wendy Lewis <wendy.lewis@cyberdyne.systems>
+| Date: 17 Aug 2024, 13:55
+| Subject: Re: Reminder: Architecture Summit on 5/15
+| Message-ID: <6b011557a25839ce@starkindustries.com>
+| 
+| All,
+| 
+| Following up from the Hackathon earlier today. Here are the action items:
+| 
+| - @Rachel: Finalize the spec by Wednesday (target: 7/19)
+| - @Wendy: Schedule the Data Governance review with Operations
+| - @Rachel: Update the API Gateway configuration per our discussion
+| - @Mona: Send out the revised Project Apex timeline by EOW
+| 
+| Next meeting: Wednesday at 16:00. Calendar invite to follow.
+| 
+| Thanks everyone,
+| Mona
+| --
+| Mona Smith
+| Starkindustries | Support Department
+| Phone: +1-686-614-8394 | Email: mona.smith@starkindustries.com
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 
+
+
+----------------------------------------
+| From: Rachel Smith <rachel.smith@initech.com>
+| To: Wendy Lewis <wendy.lewis@cyberdyne.systems>, Uma Davis <uma.davis@lexcorp.biz>, Rachel Lopez <rachel.lopez@umbrella-corp.net>
+| Cc: Mona Smith <mona.smith@starkindustries.com>, Carol Lewis <carol.lewis@wayneenterprises.com>
+| Date: 16 Aug 2024, 09:04
+| Subject: Reminder: Architecture Summit on 5/15
+| Message-ID: <9265550763a25284@initech.com>
+| 
+| Hi Uma,
+| 
+| Thanks for the update. A few quick thoughts:
+| 
+| - Agreed on the CI/CD Platform approach. Wendy and I discussed this yesterday and we're aligned.
+| - For the Support budget, I'd suggest we cap it at $232K for now and revisit in Q4.
+| - The uptime improvement looks promising — let's make sure we have proper monitoring via Legacy CRM before going live.
+| 
+| I'll update the Neptune tracker accordingly.
+| 
+| Cheers,
+| Rachel

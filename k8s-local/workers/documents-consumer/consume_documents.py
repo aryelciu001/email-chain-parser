@@ -1,13 +1,14 @@
-import email
 import json
 import logging
 import os
 import re
 import time
+from datetime import datetime
 from email.utils import getaddresses
 
 import psycopg2
 from confluent_kafka import Consumer, Producer
+from dateutil import parser as dateparser
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -17,7 +18,7 @@ POSTGRES_DSN = os.environ.get(
     "POSTGRES_DSN",
     "host=postgres.demo.svc.cluster.local dbname=emaildb user=app password=app",
 )
-DATA_DIR = os.environ.get("DATA_DIR", "/data/sample-data")
+DATA_DIR = os.environ.get("DATA_DIR", "/data/test")
 
 
 RETRY_TOPIC = "documents-retry"
@@ -25,6 +26,11 @@ EMAILS_TOPIC = "emails"
 
 db = psycopg2.connect(POSTGRES_DSN)
 producer = Producer({"bootstrap.servers": KAFKA_BOOTSTRAP})
+
+SEPARATOR = re.compile(r"\n-{40}\n")
+QUOTE_PREFIX = re.compile(r"^[|>]+ *", re.MULTILINE)
+INLINE_QUOTE_START = re.compile(r"\n(>{1,}|[|]) *From:", re.IGNORECASE)
+HEADER_RE = re.compile(r"^(From|To|Cc|Date|Subject|Message-ID):\s*(.+)", re.IGNORECASE)
 
 
 def make_consumer() -> Consumer:
@@ -42,26 +48,88 @@ def addrs(header: str | None) -> list[str]:
     return sorted(a.lower() for _, a in getaddresses([header]) if a)
 
 
-def normalize(text: str) -> str:
-    return re.sub(r"\s+", " ", text).strip()
+def strip_prefix(block: str) -> str:
+    return QUOTE_PREFIX.sub("", block)
+
+
+def parse_block(block: str) -> dict:
+    lines = block.splitlines()
+    headers: dict[str, str] = {}
+    body_lines: list[str] = []
+    in_body = False
+    for line in lines:
+        if in_body:
+            body_lines.append(line)
+            continue
+        if line.strip() == "":
+            in_body = True
+            continue
+        m = HEADER_RE.match(line)
+        if m:
+            key = m.group(1).lower().replace("-", "_")
+            headers[key] = m.group(2).strip()
+        else:
+            in_body = True
+            body_lines.append(line)
+    return {
+        "from": addrs(headers.get("from")),
+        "to": addrs(headers.get("to")),
+        "cc": addrs(headers.get("cc")),
+        "date": headers.get("date"),
+        "subject": headers.get("subject"),
+        "message_id": headers.get("message_id"),
+        "content": "\n".join(body_lines).strip(),
+    }
+
+
+def split_inline(block: str) -> list[tuple[str, bool]]:
+    parts = []
+    remaining = block
+    quoted = False
+    while True:
+        m = INLINE_QUOTE_START.search(remaining)
+        if not m:
+            parts.append((remaining, quoted))
+            break
+        parts.append((remaining[: m.start()], quoted))
+        remaining = remaining[m.start() + 1:]
+        quoted = True
+    return parts
+
+
+def parse_date(date_str: str | None) -> datetime:
+    if not date_str:
+        return datetime.min
+    try:
+        return dateparser.parse(date_str, ignoretz=True)
+    except Exception:
+        return datetime.min
 
 
 def parse_emails(path: str, doc_id: str) -> list[dict]:
     with open(path) as f:
         raw = f.read()
-    chunks = [c for c in re.split(r"(?m)^From .*\n", raw) if c.strip()]
+
+    sep_blocks = SEPARATOR.split(raw)
     emails = []
-    for order, chunk in enumerate(chunks):
-        m = email.message_from_string(chunk)
-        emails.append({
-            "doc_id": doc_id,
-            "canon_order": order,
-            "from": addrs(m["From"]),
-            "to": addrs(m["To"]),
-            "subject": m["Subject"],
-            "date": m["Date"],
-            "content": normalize(m.get_payload()),
-        })
+    for sep_idx, block in enumerate(sep_blocks):
+        block = block.strip()
+        if not block:
+            continue
+        if sep_idx > 0:
+            block = strip_prefix(block)
+        for text, is_quoted in split_inline(block):
+            text = text.strip()
+            if not text:
+                continue
+            if is_quoted:
+                text = strip_prefix(text)
+            emails.append(parse_block(text))
+
+    emails.sort(key=lambda e: parse_date(e.get("date")))
+    for i, e in enumerate(emails):
+        e["doc_id"] = doc_id
+        e["canon_order"] = i
     return emails
 
 

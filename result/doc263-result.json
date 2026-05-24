@@ -1,0 +1,77 @@
+[
+  {
+    "from": [
+      "steve.taylor@globex.io"
+    ],
+    "to": [
+      "quinn.anderson@oscorp.com",
+      "yuki.gonzalez@lexcorp.biz"
+    ],
+    "cc": [],
+    "date": "2024-07-23 01:37:48",
+    "subject": "Re: Incident Report #2087",
+    "message_id": "<2d47fdeebb632f21@globex.io>",
+    "content": "All,\n\nFollowing up from the Design Review earlier today. Here are the action items:\n\n- @Quinn: Finalize the proposal by Thursday (target: 3/8)\n- @Jack: Schedule the AWS Cost Optimization review with Engineering\n- @Quinn: Update the Payment Gateway configuration per our discussion\n- @Steve: Send out the revised Project Neptune timeline by EOW\n\nNext meeting: Thursday at 14:00. Calendar invite to follow.\n\nThanks everyone,\nSteve\n--\nSteve Taylor\nTechnical Lead | Globex\n+1-340-981-9986\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "quinn.anderson@oscorp.com"
+    ],
+    "to": [
+      "jack.thomas@oscorp.com"
+    ],
+    "cc": [],
+    "date": "2024-07-23 11:08:05",
+    "subject": "Re: Incident Report #2087",
+    "message_id": "<57739c24e794ed1f@oscorp.com>",
+    "content": "Yuki \u2014 \n\nGot it, makes sense. I'll loop in Jack from Legal to get their perspective on\nthe API Gateway changes. In the meantime, I've created a shared doc where we can\ntrack the open items:\n\nhttps://docs.google.com/d/ef0d3930a7b6c95b\n\nCurrent open items (4 total):\n- Phoenix integration testing (owner: Yuki)\n- CloudSync Inc. contract review (owner: Quinn)\n- Security Hardening documentation (owner: Jack)\n\nPlease add any additional concerns there. I'll consolidate everything before our\nTuesday sync.\n\nThanks,\nQuinn",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "yuki.gonzalez@lexcorp.biz"
+    ],
+    "to": [
+      "jack.thomas@oscorp.com",
+      "quinn.anderson@oscorp.com",
+      "steve.taylor@globex.io"
+    ],
+    "cc": [],
+    "date": "2024-07-23 11:38:16",
+    "subject": "Re: Incident Report #2087",
+    "message_id": "<18f5c9175082cde0@lexcorp.biz>",
+    "content": "Hi Quinn,\n\nThanks for the update. Some notes:\n\n- Agreed on the Auth Service approach. Jack and I discussed this yesterday and\nwe're aligned.\n- For the Legal budget, I'd suggest we cap it at $317K for now and revisit in\nQ4.\n- The throughput improvement looks promising \u2014 let's make sure we have proper\nmonitoring via User Directory before going live.\n\nI'll update the Apex tracker accordingly.\n\nBest,\nYuki\n\nBest,\nYuki Gonzalez\nPrincipal Engineer, Engineering\nLexcorp\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "steve.taylor@globex.io"
+    ],
+    "to": [
+      "jack.thomas@oscorp.com",
+      "quinn.anderson@oscorp.com"
+    ],
+    "cc": [],
+    "date": "2024-07-24 22:45:01",
+    "subject": "Re: Incident Report #2087",
+    "message_id": "<8b1c31dbd5d98402@globex.io>",
+    "content": "Hi Yuki,\n\nThanks for the update. A few quick thoughts:\n\n- Agreed on the Legacy CRM approach. Jack and I discussed this during the Launch\nRetrospective and we're aligned.\n- For the Finance budget, I'd suggest we cap it at $158K for now and revisit in\nQ1.\n- The engagement improvement looks promising \u2014 let's make sure we have proper\nmonitoring via CI/CD Platform before going live.\n\nI'll update the Neptune tracker accordingly.\n\nRegards,\nSteve\n--\nSteve Taylor\nGlobex | Sales Department\nPhone: +1-340-981-9986 | Email: steve.taylor@globex.io",
+    "canon_order": 3
+  },
+  {
+    "from": [
+      "steve.taylor@globex.io"
+    ],
+    "to": [
+      "jack.thomas@oscorp.com",
+      "yuki.gonzalez@lexcorp.biz"
+    ],
+    "cc": [],
+    "date": "2024-07-25 21:19:46",
+    "subject": "Re: Incident Report #2087",
+    "message_id": "<ace5af0390ee74d4@globex.io>",
+    "content": "Hi Yuki,\n\nI had a call with NetSecure Pro today about the Search Index integration. Key\ntakeaways:\n\n- They can deliver the design phase by 2/11, which is 1 weeks behind our\nschedule\n- Pricing: $444K for the base package + $22K for Kubernetes Fundamentals add-on\n- They require a 2-year commitment minimum\n- Technical contact will be Uma Johnson (DevOps Engineer)\n\nFor comparison, Pinnacle Analytics quoted $345K with a more flexible contract.\n\nShould we bring this to the Sprint Planning for a final decision?\n\nBest,\nSteve\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 4
+  }
+]

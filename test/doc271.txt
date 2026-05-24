@@ -1,0 +1,167 @@
+From: Fatima Lee <fatima.lee@lexcorp.biz>
+To: David Gonzalez <david.gonzalez@acmecorp.com>
+Cc: Tina Taylor <tina.taylor@starkindustries.com>, Irene Gonzalez <irene.gonzalez@globex.io>
+Date: May 24, 2024 at 05:52 AM
+Subject: Re: Meeting Notes: Finance Sync 8/12
+Message-ID: <c0f05b4522ff7658@lexcorp.biz>
+
+Hi Leo,
+
+I've reviewed the budget and have some concerns about the Aurora approach.
+Specifically:
+
+1. The proposed timeline seems aggressive given the Engineering team's current
+bandwidth (they're already at 34% capacity with Auth Service work)
+2. We haven't accounted for the CI/CD Platform deprecation in Q4
+3. The $214K budget allocation for NetSecure Pro seems high compared to
+NetSecure Pro who quoted $146K
+4. David's team hasn't signed off on the Data Governance dependency
+
+I'd suggest we revisit this in our next 1:1 meeting.
+
+Best,
+Fatima
+
+Best,
+Fatima Lee
+DevOps Engineer, Legal
+Lexcorp
+
+DISCLAIMER: The information contained in this email is intended only for the
+person or entity to which it is addressed and may contain confidential and/or
+privileged material. Unauthorized review, use, disclosure or distribution is
+prohibited.
+
+
+| From: Fatima Lee <fatima.lee@lexcorp.biz>   
+| To: David Gonzalez <david.gonzalez@acmecorp.com>, Olivia Garcia <olivia.garcia@wayneenterprises.com>
+| Cc: Irene Gonzalez <irene.gonzalez@globex.io>   
+| Date: May 23, 2024 at 05:17 AM
+| Subject: Re: Meeting Notes: Finance Sync 8/12    
+| Message-ID: <70bb9d99a3490b14@lexcorp.biz>
+|    
+| Hi David,
+| 
+| I had a call with NetSecure Pro today about the Payment Gateway integration. Key 
+| takeaways:
+| 
+| - They can deliver the alpha phase by 11/5, which is 3 weeks ahead of our    
+| schedule
+| - Pricing: $255K for the base package + $35K for Observability Stack add-on
+| - They require a 3-year commitment minimum
+| - Technical contact will be Tina Williams (Engineering Manager)   
+| 
+| For comparison, NetSecure Pro quoted $292K with a more flexible contract.
+| 
+| Should we bring this to the Roadmap Sync for a final decision?
+| 
+| Best,
+| Fatima    
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 
+
+
+| From: Olivia Garcia <olivia.garcia@wayneenterprises.com>
+| To: Leo Miller <leo.miller@cyberdyne.systems>
+| Cc: Tina Taylor <tina.taylor@starkindustries.com>
+| Date: May 23, 2024 at 02:00 AM
+| Subject: Re: Meeting Notes: Finance Sync 8/12
+| Message-ID: <40f0c243c299dbc8@wayneenterprises.com>
+| 
+| Grace — 
+| 
+| Got it, makes sense. I'll loop in David from Sales to get their
+| perspective on
+| the Auth Service changes. In the meantime, I've created a shared doc
+| where we
+| can track the open items:
+| 
+|   https://docs.google.com/d/577ef1154f3240ad
+| 
+| Current open items (7 total):
+| - Phoenix integration testing (owner: Grace)
+| - CloudSync Inc. contract review (owner: Olivia)
+| - Zero Trust Architecture documentation (owner: David)
+| 
+| Please add any additional concerns there. I'll consolidate everything
+| before our
+| Wednesday sync.
+| 
+| Thanks,
+| Olivia
+| 
+| Best,
+| Olivia Garcia
+| QA Lead, Legal
+| Wayneenterprises
+
+
+| From: Irene Gonzalez <irene.gonzalez@globex.io>
+| Cc: Grace Martinez <grace.martinez@umbrella-corp.net>, Tina Taylor <tina.taylor@starkindustries.com>
+| To: David Gonzalez <david.gonzalez@acmecorp.com>, Fatima Lee <fatima.lee@lexcorp.biz>, Leo Miller <leo.miller@cyberdyne.systems>
+| Date: May 22, 2024 at 08:13 PM
+| Subject: Re: Meeting Notes: Finance Sync 8/12
+| Message-ID: <af63b99aa0c94486@globex.io>
+| 
+| David — 
+| 
+| Got it, makes sense. I'll loop in Grace from Engineering to get their
+| perspective on the CI/CD Platform changes. In the meantime, I've created a
+| shared doc where we can track the open items:
+| 
+|  https://docs.google.com/d/9b04d152845ec0a3
+| 
+| Current open items (7 total):
+| - Aurora integration testing (owner: David)
+| - StreamLine Solutions contract review (owner: Irene)
+| - Observability Stack documentation (owner: Grace)
+| 
+| Please add any additional concerns there. I'll consolidate everything before
+| our
+| Friday sync.
+| 
+| Thanks,
+| Irene
+| --
+| Irene Gonzalez
+| Globex | Marketing Department
+| Phone: +1-476-139-9252 | Email: irene.gonzalez@globex.io
+| 
+| --- This communication is intended for the addressee only. It may contain
+| privileged or confidential information. If you have received this email in
+| error, please notify the sender and delete this message. ---
+| 
+
+
+| From: Tina Taylor <tina.taylor@starkindustries.com>    
+| To: David Gonzalez <david.gonzalez@acmecorp.com>
+| Cc: Fatima Lee <fatima.lee@lexcorp.biz>  
+| Date: May 22, 2024 at 11:51 AM
+| Subject: Meeting Notes: Finance Sync 8/12
+| Message-ID: <6e8fe727c11597cd@starkindustries.com>
+| 
+| Hi Irene,    
+| 
+| I had a call with DataFlow Systems today about the Analytics Pipeline
+| integration. Key takeaways:
+| 
+| - They can deliver the testing phase by 11/11, which is 2 weeks behind
+| our
+| schedule  
+| - Pricing: $352K for the base package + $76K for Security Hardening
+| add-on 
+| - They require a 3-year commitment minimum
+| - Technical contact will be Olivia Davis (Product Manager)
+| 
+| For comparison, DataFlow Systems quoted $359K with a more flexible
+| contract.
+| 
+| Should we bring this to the Board Meeting for a final decision?
+| 
+| Best,
+| Tina    
+| --
+| Tina Taylor
+| Architect | Starkindustries
+| +1-989-809-1066

@@ -1,0 +1,29 @@
+From: Chen Davis <chen.davis@globex.io>
+To: Jack Anderson <jack.anderson@initech.com>
+Cc: Bob Miller <bob.miller@globex.io>, Chen Rodriguez <chen.rodriguez@starkindustries.com>
+Date: 2024-07-08 21:05:15
+Subject: FW: Policy Update: Travel Reimbursement
+Message-ID: <aeaa9a5df6092d57@globex.io>
+
+Hi Alice,
+
+Just a heads up — the Notification Hub deployment (v5.4.99) is scheduled
+for Thursday at 11:30 JST. Expected downtime is approximately 20
+minutes.
+
+Changes include:
+- PR #5524: Remove caching layer
+- PR #5541: Titan feature flag rollout
+- Config update for APAC region
+
+Please make sure your team is aware and has saved any in-progress work.
+We'll send a notification to #data science once complete.
+
+Thanks,
+Chen
+--
+Chen Davis
+Software Engineer | Globex
++1-556-415-2887
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.

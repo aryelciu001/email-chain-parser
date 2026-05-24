@@ -1,0 +1,49 @@
+From: Bob Lopez <bob.lopez@globex.io>
+To: Quinn Sanchez <quinn.sanchez@starkindustries.com>, Miguel Lopez <miguel.lopez@lexcorp.biz>, Yuki Perez <yuki.perez@initech.com>
+Date: 2024-07-27 04:27:26 
+Subject: FW: Contract Renewal - StreamLine Solutions
+Message-ID: <bc5aff4d2bf10351@globex.io>
+
+Hi Miguel,
+ 
+Quick update on Project Vanguard: we've completed the design phase and
+are on track for the milestone. Key highlights:
+
+
+- Migrated 118 services to the new Auth Service architecture
+- Reduced NPS score by 19% across all endpoints
+- Identified 9 blocking issues (see JIRA-6890 for details)
+
+The Legal team has been instrumental in this effort. Yuki has    
+volunteered to lead the next phase.   
+
+Let me know if you have questions.
+    
+Thanks,
+Bob   
+
+> From: Quinn Sanchez <quinn.sanchez@starkindustries.com>
+> To: Yuki Perez <yuki.perez@initech.com>, Miguel Lopez <miguel.lopez@lexcorp.biz>, Bob Lopez <bob.lopez@globex.io>
+> Date: 2024-07-26 10:18:12
+> Subject: FW: Contract Renewal - StreamLine Solutions
+> Message-ID: <012715220082c8a0@starkindustries.com>
+> 
+> Hi Yuki,
+> 
+> Thanks for the update. A few quick thoughts:
+> 
+> - Agreed on the CI/CD Platform approach. Miguel and I discussed this
+> during the Architecture Summit and we're aligned.
+> - For the Engineering budget, I'd suggest we cap it at $165K for now and
+> revisit in Q4.
+> - The conversion rate improvement looks promising — let's make sure we
+> have proper monitoring via Logging Service before going live.
+> 
+> I'll update the Zenith tracker accordingly.
+> 
+> Talk soon,
+> Quinn
+> --
+> Quinn Sanchez
+> Starkindustries | Finance Department
+> Phone: +1-301-491-7118 | Email: quinn.sanchez@starkindustries.com

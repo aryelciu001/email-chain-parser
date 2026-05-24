@@ -1,0 +1,18 @@
+[
+  {
+    "from": [
+      "grace.johnson@starkindustries.com"
+    ],
+    "to": [
+      "chen.martin@acmecorp.com",
+      "karen.martinez@acmecorp.com",
+      "miguel.clark@lexcorp.biz"
+    ],
+    "cc": [],
+    "date": "12/10/2024 09:06 AM",
+    "subject": "Marketing Weekly Standup Notes",
+    "message_id": "<354c0bb07524d532@starkindustries.com>",
+    "content": "Karen \u2014 \n\nGot it, makes sense. I'll loop in Chen from Data Science to get their\nperspective on the Search Index changes. In the meantime, I've created a shared\ndoc where we can track the open items:\n\n  https://docs.google.com/d/36660e59856b4de5\n\nCurrent open items (6 total):\n- Vanguard integration testing (owner: Karen)\n- Pinnacle Analytics contract review (owner: Grace)\n- GraphQL Migration documentation (owner: Chen)\n\nPlease add any additional concerns there. I'll consolidate everything before our\nMonday sync.\n\nThanks,\nGrace",
+    "canon_order": 0
+  }
+]

@@ -1,0 +1,54 @@
+From: Quinn Lewis <quinn.lewis@initech.com>
+To: Alice Ramirez <alice.ramirez@umbrella-corp.net>, Quinn Thomas <quinn.thomas@wayneenterprises.com>, Alice Davis <alice.davis@wayneenterprises.com>
+Cc: Leo Taylor <leo.taylor@cyberdyne.systems>
+Date: 2024-11-17 22:32:19
+Subject: Re: Training Session: Agile Retrospectives
+Message-ID: <451e5151abbdbbd0@initech.com>
+
+Hi Frank,
+
+Just a heads up — the User Directory deployment (v5.13.31) is scheduled for
+Wednesday at 12:00 CET. Expected downtime is approximately 45 minutes.
+
+Changes include:
+- PR #9650: Update caching layer
+- PR #9651: Aurora feature flag rollout
+- Config update for LATAM region
+
+Please make sure your team is aware and has saved any in-progress work. We'll
+send a notification to #product once complete.
+
+Thanks,
+Quinn
+
+----------------------------------------
+> From: Alice Davis <alice.davis@wayneenterprises.com>
+> To: Leo Taylor <leo.taylor@cyberdyne.systems>
+> Cc: Frank Robinson <frank.robinson@aperturescience.com>
+> Date: 2024-11-17 16:08:59
+> Subject: Training Session: Agile Retrospectives
+> Message-ID: <fd3d79b34d50c20b@wayneenterprises.com>
+> 
+> Team,
+> 
+> Effective Tuesday, we're updating the PTO Accrual policy. Key changes:
+> 
+> 1. HR approval is now required for any Auth Service changes in production
+> (previously only staging required approval)
+> 2. All PRs affecting Aurora must include load test results
+> 3. LATAM deployments will follow a new canary strategy
+> 4. Incident response SLA updated: P1 = 28min, P2 = 51min
+> 
+> Full policy doc: https://wiki.internal/policies/c137aece13
+> 
+> Please review by EOD Friday and flag any concerns to Quinn.
+> 
+> Thanks,
+> Alice
+> --
+> Alice Davis
+> Software Engineer | Wayneenterprises
+> +1-632-539-3841
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 

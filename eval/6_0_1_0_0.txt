@@ -1,0 +1,159 @@
+From: Zara Lewis <zara.lewis@cyberdyne.systems>
+To: Jack Lee <jack.lee@globex.io>
+Cc: Yuki Johnson <yuki.johnson@starkindustries.com>
+Date: 2024-07-08 16:59:45
+Subject: Re: Performance Review Cycle
+Message-ID: <bcdec59a50199fef@cyberdyne.systems>
+
+Hi Jack,
+
+Thanks for flagging this. I've escalated to the Sales team and they're looking
+into the Search Index issue. Current status:
+
+- Root cause: expired TLS certificate
+- Impact: ~130 users affected in EMEA
+- ETA for fix: 13:00 EST today
+- Severity: P2
+
+I'll keep this thread updated as we learn more. Yuki is the point person if you
+need immediate assistance.
+
+Workaround: Contact support for manual override.
+
+Regards,
+Zara
+--
+Zara Lewis
+Cyberdyne | Legal Department
+Phone: +1-620-997-5922 | Email: zara.lewis@cyberdyne.systems
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+
+
+----------------------------------------
+| From: Jack Lee <jack.lee@globex.io>
+| To: Zara Lewis <zara.lewis@cyberdyne.systems>
+| Cc: Yuki Johnson <yuki.johnson@starkindustries.com>, Rachel Perez <rachel.perez@initech.com>
+| Date: 2024-07-07 01:49:44
+| Subject: Re: Performance Review Cycle
+| Message-ID: <3a407ea723626676@globex.io>
+| 
+| Hi all,
+| 
+| Thanks for a productive Team Offsite today. Here's a summary of what we decided:
+| 
+| DECISIONS:
+| - We will proceed with Option C for the Notification Hub migration (projected
+| savings: $390K/yr)
+| - Phoenix launch date moved to Q3 (from original Q3 target)
+| - HR team will own the Kubernetes Fundamentals workstream going forward
+| 
+| OPEN QUESTIONS:
+| - How does this affect the Pinnacle Analytics contract timeline? (Zara to
+| investigate)
+| - Do we need additional headcount for UX Designer? (Yuki to assess)
+| 
+| Full notes: https://confluence.internal/42af504a2c50
+| 
+| Regards,
+| Jack
+| --
+| Jack Lee
+| Globex | Legal Department
+| Phone: +1-409-994-7443 | Email: jack.lee@globex.io
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 
+
+
+----------------------------------------
+| From: Zara Miller <zara.miller@acmecorp.com>
+| To: Zara Lewis <zara.lewis@cyberdyne.systems>, Jack Lee <jack.lee@globex.io>
+| Cc: Rachel Perez <rachel.perez@initech.com>, Yuki Johnson <yuki.johnson@starkindustries.com>
+| Date: 2024-07-06 00:49:03
+| Subject: Re: Performance Review Cycle
+| Message-ID: <96f07ee634f3711c@acmecorp.com>
+| 
+| Team,
+| 
+| I've been analyzing the throughput data from last quarter and noticed some
+| interesting trends:
+| 
+| - throughput increased by 9% compared to the previous quarter
+| - The EMEA region is outperforming by a factor of 2.9x
+| - We're seeing a correlation between throughput and throughput
+| - The Zenith rollout appears to have had a positive impact
+| 
+| Dashboard link: https://grafana.internal/2dab9820cf
+| 
+| I think this warrants a deeper investigation. Rachel, could you pull the raw
+| data from User Directory so we can cross-reference with Legacy CRM?
+| 
+| Best,
+| Zara
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 
+
+
+----------------------------------------
+| From: Rachel Perez <rachel.perez@initech.com>
+| To: Priya Lewis <priya.lewis@lexcorp.biz>, Zara Miller <zara.miller@acmecorp.com>, Zara Lewis <zara.lewis@cyberdyne.systems>
+| Cc: Jack Lee <jack.lee@globex.io>
+| Date: 2024-07-04 22:38:32
+| Subject: Re: Performance Review Cycle
+| Message-ID: <1fe3851d203e8599@initech.com>
+| 
+| Team,
+| 
+| I've been analyzing the conversion rate data from last sprint and noticed some
+| interesting trends:
+| 
+| - conversion rate decreased by 42% compared to the previous sprint
+| - The LATAM region is outperforming by a factor of 3.1x
+| - We're seeing a correlation between conversion rate and p99 latency
+| - The Vanguard rollout appears to have had no measurable impact
+| 
+| Dashboard link: https://grafana.internal/5f5a2e9fe5
+| 
+| I think this warrants a deeper investigation. Priya, could you pull the raw data
+| from API Gateway so we can cross-reference with API Gateway?
+| 
+| Best,
+| Rachel
+| --
+| Rachel Perez
+| DevOps Engineer | Initech
+| +1-325-686-6306
+
+
+----------------------------------------
+| From: Yuki Johnson <yuki.johnson@starkindustries.com>
+| To: Rachel Perez <rachel.perez@initech.com>
+| Cc: Zara Lewis <zara.lewis@cyberdyne.systems>, Zara Miller <zara.miller@acmecorp.com>
+| Date: 2024-07-03 04:57:03
+| Subject: Re: Performance Review Cycle
+| Message-ID: <a810a1821b67baee@starkindustries.com>
+| 
+| All,
+| 
+| Following up from the Launch Retrospective earlier today. Here are the action
+| items:
+| 
+| - @Rachel: Finalize the budget by Monday (target: 11/13)
+| - @Rachel: Schedule the Kubernetes Fundamentals review with Support
+| - @Jack: Update the Payment Gateway configuration per our discussion
+| - @Yuki: Send out the revised Project Phoenix timeline by EOW
+| 
+| Next meeting: Wednesday at 15:00. Calendar invite to follow.
+| 
+| Thanks everyone,
+| Yuki
+| 
+| Best,
+| Yuki Johnson
+| DevOps Engineer, Sales
+| Starkindustries
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 

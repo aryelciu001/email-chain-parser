@@ -1,0 +1,25 @@
+From: Steve Taylor <steve.taylor@globex.io>
+To: Quinn Anderson <quinn.anderson@oscorp.com>, Yuki Gonzalez <yuki.gonzalez@lexcorp.biz>
+Date: 23 Jul 2024, 01:37
+Subject: Re: Incident Report #2087
+Message-ID: <2d47fdeebb632f21@globex.io>
+
+All,
+
+Following up from the Design Review earlier today. Here are the action items:
+
+- @Quinn: Finalize the proposal by Thursday (target: 3/8)
+- @Jack: Schedule the AWS Cost Optimization review with Engineering
+- @Quinn: Update the Payment Gateway configuration per our discussion
+- @Steve: Send out the revised Project Neptune timeline by EOW
+
+Next meeting: Thursday at 14:00. Calendar invite to follow.
+
+Thanks everyone,
+Steve
+--
+Steve Taylor
+Technical Lead | Globex
++1-340-981-9986
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---

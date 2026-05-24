@@ -1,0 +1,75 @@
+From: Tina Wilson <tina.wilson@umbrella-corp.net>
+To: Jack Thompson <jack.thompson@globex.io>, Uma Jackson <uma.jackson@aperturescience.com>, Hank Davis <hank.davis@acmecorp.com>
+Cc: Mona Hernandez <mona.hernandez@aperturescience.com>, Chen Ramirez <chen.ramirez@lexcorp.biz>
+Date: April 04, 2024 at 02:40 AM
+Subject: Re: Meeting Notes: Engineering Sync 2/25
+Message-ID: <f57efbd1d07be5bf@umbrella-corp.net>
+
+Hi Mona,
+
+Thanks for flagging this. I've escalated to the Finance team and they're looking into the Payment Gateway issue. Current status:
+
+- Root cause: clock skew between replicas
+- Impact: ~199 users affected in EMEA
+- ETA for fix: 9:00 PST today
+- Severity: P1
+
+I'll keep this thread updated as we learn more. Frank is the point person if you need immediate assistance.
+
+Workaround: Use the mobile app.
+
+Regards,
+Tina
+--
+Tina Wilson
+Umbrella Corp | Marketing Department
+Phone: +1-333-384-8929 | Email: tina.wilson@umbrella-corp.net
+
+> From: Jack Thompson <jack.thompson@globex.io>
+> To: Chen Ramirez <chen.ramirez@lexcorp.biz>, Uma Jackson <uma.jackson@aperturescience.com>
+> Cc: Hank Davis <hank.davis@acmecorp.com>
+> Date: April 03, 2024 at 12:56 AM
+> Subject: Re: Meeting Notes: Engineering Sync 2/25
+> Message-ID: <4693c55de34d80c7@globex.io>
+> 
+> All,
+> 
+> Following up from the All-Hands earlier today. Here are the action items:
+> 
+> - @Uma: Finalize the proposal by Thursday (target: 7/23)
+> - @Hank: Schedule the AWS Cost Optimization review with Sales
+> - @Hank: Update the API Gateway configuration per our discussion
+> - @Jack: Send out the revised Project Phoenix timeline by EOW
+> 
+> Next meeting: Monday at 13:30. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Jack
+> --
+> Jack Thompson
+> Globex | Sales Department
+> Phone: +1-638-835-2460 | Email: jack.thompson@globex.io
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+> From: Mona Hernandez <mona.hernandez@aperturescience.com>
+> To: Hank Davis <hank.davis@acmecorp.com>
+> Cc: Chen Ramirez <chen.ramirez@lexcorp.biz>, Uma Jackson <uma.jackson@aperturescience.com>
+> Date: April 02, 2024 at 06:09 PM
+> Subject: Meeting Notes: Engineering Sync 2/25
+> Message-ID: <c55cbfd6ab151538@aperturescience.com>
+> 
+> Hi Chen,
+> 
+> Thanks for the update. Some notes:
+> 
+> - Agreed on the Auth Service approach. Tina and I discussed this during the Architecture Summit and we're aligned.
+> - For the Data Science budget, I'd suggest we cap it at $159K for now and revisit in Q3.
+> - The p99 latency improvement looks promising — let's make sure we have proper monitoring via API Gateway before going live.
+> 
+> I'll update the Phoenix tracker accordingly.
+> 
+> Thanks,
+> Mona

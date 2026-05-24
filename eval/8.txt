@@ -1,0 +1,20 @@
+From: Quinn Johnson <quinn.johnson@umbrella-corp.net>
+To: Bob Johnson <bob.johnson@cyberdyne.systems>, Zara Clark <zara.clark@aperturescience.com>
+Subject: Re: Project Falcon Status Update
+Date: 15 Aug 2024, 11:13
+Message-ID: <6c3d750c648ffb63@umbrella-corp.net>
+
+Thanks Zara,
+
+I reviewed the RFC for Kubernetes Fundamentals. Some thoughts:
+
+- Section 6 needs more detail on the rollback strategy
+- The conversion rate numbers in Table 3 don't match what I see in the
+Notification Hub dashboard (showing 55% vs your 56%)
+- Can we add a dependency map for the Payment Gateway integration?
+- The timeline for Product involvement seems optimistic
+
+Happy to discuss in our Tuesday sync.
+
+Cheers,
+Quinn

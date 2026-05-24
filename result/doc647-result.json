@@ -1,0 +1,47 @@
+[
+  {
+    "from": [
+      "paul.davis@lexcorp.biz"
+    ],
+    "to": [
+      "frank.thomas@initech.com",
+      "yuki.white@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "January 24, 2024 at 10:01 PM",
+    "subject": "Re: Incident Report #9958",
+    "message_id": "<5debcbbed414639d@lexcorp.biz>",
+    "content": "Frank \u2014 \n\nGot it, makes sense. I'll loop in Frank from Engineering to get their\nperspective on the Payment Gateway changes. In the meantime, I've\ncreated a shared doc where we can track the open items:\n\nhttps://docs.google.com/d/07e1cd7dca89a167\n\nCurrent open items (8 total):\n- Catalyst integration testing (owner: Frank)\n- StreamLine Solutions contract review (owner: Paul)\n- Agile Retrospectives documentation (owner: Frank)\n\nPlease add any additional concerns there. I'll consolidate everything\nbefore our Thursday sync.\n\nThanks,\nPaul",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "nate.lewis@lexcorp.biz"
+    ],
+    "to": [
+      "frank.thomas@initech.com"
+    ],
+    "cc": [],
+    "date": "January 26, 2024 at 09:15 PM",
+    "subject": "Re: Incident Report #9958",
+    "message_id": "<9fe7ff0f685c7f6b@lexcorp.biz>",
+    "content": "Hi Paul,\n\nI had a call with NetSecure Pro today about the Legacy CRM integration.\nKey takeaways:\n\n- They can deliver the beta phase by 9/4, which is 6 weeks ahead of our\nschedule\n- Pricing: $205K for the base package + $59K for AWS Cost Optimization\nadd-on\n- They require a 1-year commitment minimum\n- Technical contact will be Uma Lee (VP of Product)\n\nFor comparison, DataFlow Systems quoted $149K with a more flexible\ncontract.\n\nShould we bring this to the All-Hands for a final decision?\n\nBest,\nNate\n---\nNate Lewis | Data Scientist\nLexcorp\nM: +1-397-341-5818 | E: nate.lewis@lexcorp.biz\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "paul.davis@lexcorp.biz"
+    ],
+    "to": [
+      "frank.thomas@initech.com",
+      "nate.lewis@lexcorp.biz",
+      "yuki.white@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "January 27, 2024 at 05:26 PM",
+    "subject": "Re: Incident Report #9958",
+    "message_id": "<cbf104fa0b05c9a7@lexcorp.biz>",
+    "content": "Hi Nate,\n\nI've reviewed the plan and have some concerns about the Vanguard\napproach. Specifically:\n\n1. The proposed timeline seems aggressive given the Finance team's\ncurrent bandwidth (they're already at 25% capacity with Payment Gateway\nwork)\n2. We haven't accounted for the CI/CD Platform deprecation in Q4\n3. The $161K budget allocation for NetSecure Pro seems high compared to\nPinnacle Analytics who quoted $95K\n4. Nate's team hasn't signed off on the AWS Cost Optimization dependency\n\nI'd suggest we revisit this in our next planning meeting.\n\nBest,\nPaul\n--\nPaul Davis\nTechnical Lead | Lexcorp\n+1-268-810-9534",
+    "canon_order": 2
+  }
+]

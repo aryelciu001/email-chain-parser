@@ -1,0 +1,17 @@
+[
+  {
+    "from": [
+      "bob.lopez@starkindustries.com"
+    ],
+    "to": [
+      "tina.robinson@starkindustries.com",
+      "victor.ramirez@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "Sat, 08 Jun 2024 11:35:51",
+    "subject": "FW: Contract Renewal - CloudSync Inc.",
+    "message_id": "<9061a722131c5c2e@starkindustries.com>",
+    "content": "Tina \u2014 \n\nGot it, makes sense. I'll loop in Victor from Sales to get their perspective\non the API Gateway changes. In the meantime, I've created a shared doc where\nwe can track the open items:\n\n  https://docs.google.com/d/140f6969d5213fd0\n\nCurrent open items (5 total):\n- Horizon integration testing (owner: Tina)\n- CloudSync Inc. contract review (owner: Bob)\n- Incident Response documentation (owner: Victor)\n\nPlease add any additional concerns there. I'll consolidate everything before\nour Monday sync.\n\nThanks,\nBob",
+    "canon_order": 0
+  }
+]

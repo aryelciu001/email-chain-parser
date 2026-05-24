@@ -1,0 +1,153 @@
+From: Zara Martin <zara.martin@umbrella-corp.net>
+To: Rachel Davis <rachel.davis@initech.com>
+Cc: Quinn Garcia <quinn.garcia@cyberdyne.systems>
+Date: 05 Feb 2024, 03:17
+Subject: Re: Client Feedback - Northwind Traders Account
+Message-ID: <7736b9c5d82eae7a@umbrella-corp.net>
+
+Hi Steve,
+
+Thanks for the update. Some notes:
+
+- Agreed on the Search Index approach. Steve and I discussed this during
+the Board Meeting and we're aligned.
+- For the Support budget, I'd suggest we cap it at $112K for now and
+revisit in Q1.
+- The conversion rate improvement looks promising — let's make sure we
+have proper monitoring via Logging Service before going live.
+
+I'll update the Neptune tracker accordingly.
+
+Best,
+Zara
+--
+Zara Martin
+Senior Product Manager | Umbrella Corp
++1-744-317-7266
+
+----------------------------------------
+> From: Grace Hernandez <grace.hernandez@lexcorp.biz>
+> To: Zara Martin <zara.martin@umbrella-corp.net>
+> Cc: Fatima Brown <fatima.brown@acmecorp.com>
+> Date: 04 Feb 2024, 07:39
+> Subject: Re: Client Feedback - Northwind Traders Account
+> Message-ID: <0f8db3ee29a0b4ba@lexcorp.biz>
+> 
+> Steve — 
+> 
+> Got it, makes sense. I'll loop in Quinn from Legal to get their
+> perspective on the Logging Service changes. In the meantime, I've
+> created a shared doc where we can track the open items:
+> 
+>   https://docs.google.com/d/b1d10e7bafa44212
+> 
+> Current open items (3 total):
+> - Titan integration testing (owner: Steve)
+> - StreamLine Solutions contract review (owner: Grace)
+> - OKR Planning documentation (owner: Quinn)
+> 
+> Please add any additional concerns there. I'll consolidate everything
+> before our Tuesday sync.
+> 
+> Thanks,
+> Grace
+> ---
+> Grace Hernandez | Staff Engineer
+> Lexcorp
+> M: +1-637-777-7906 | E: grace.hernandez@lexcorp.biz
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+----------------------------------------
+> From: Quinn Garcia <quinn.garcia@cyberdyne.systems>
+> To: Grace Hernandez <grace.hernandez@lexcorp.biz>, Rachel Davis <rachel.davis@initech.com>
+> Cc: Fatima Brown <fatima.brown@acmecorp.com>
+> Date: 03 Feb 2024, 06:58
+> Subject: Re: Client Feedback - Northwind Traders Account
+> Message-ID: <426ebbad715b9f65@cyberdyne.systems>
+> 
+> Hi Steve,
+> 
+> Just a heads up — the Search Index deployment (v7.2.27) is scheduled for
+> Wednesday at 10:00 PST. Expected downtime is approximately 30 minutes.
+> 
+> Changes include:
+> - PR #6000: Remove caching layer
+> - PR #6017: Apex feature flag rollout
+> - Config update for North America region
+> 
+> Please make sure your team is aware and has saved any in-progress work.
+> We'll send a notification to #sales once complete.
+> 
+> Thanks,
+> Quinn
+> 
+> Best,
+> Quinn Garcia
+> Product Manager, Engineering
+> Cyberdyne
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+----------------------------------------
+> From: Quinn Garcia <quinn.garcia@cyberdyne.systems>
+> To: Grace Hernandez <grace.hernandez@lexcorp.biz>, Zara Martin <zara.martin@umbrella-corp.net>
+> Cc: Rachel Davis <rachel.davis@initech.com>, Fatima Brown <fatima.brown@acmecorp.com>
+> Date: 02 Feb 2024, 07:45
+> Subject: Re: Client Feedback - Northwind Traders Account
+> Message-ID: <75faf1f19d0fdde6@cyberdyne.systems>
+> 
+> Hi Rachel,
+> 
+> Thanks for flagging this. I've escalated to the Support team and they're
+> looking into the Payment Gateway issue. Current status:
+> 
+> - Root cause: unhandled null pointer in batch job
+> - Impact: ~85 users affected in LATAM
+> - ETA for fix: 9:30 EST today
+> - Severity: P1
+> 
+> I'll keep this thread updated as we learn more. Fatima is the point
+> person if you need immediate assistance.
+> 
+> Workaround: Switch to backup endpoint.
+> 
+> Regards,
+> Quinn
+> ---
+> Quinn Garcia | Product Manager
+> Cyberdyne
+> M: +1-771-274-8705 | E: quinn.garcia@cyberdyne.systems
+
+
+----------------------------------------
+> From: Rachel Davis <rachel.davis@initech.com>
+> To: Quinn Garcia <quinn.garcia@cyberdyne.systems>, Steve Taylor <steve.taylor@aperturescience.com>, Grace Hernandez <grace.hernandez@lexcorp.biz>
+> Cc: Zara Martin <zara.martin@umbrella-corp.net>
+> Date: 01 Feb 2024, 16:19
+> Subject: Re: Client Feedback - Northwind Traders Account
+> Message-ID: <9d072cf6072f0b6f@initech.com>
+> 
+> Hi Fatima,
+> 
+> Quick update on Project Phoenix: we've completed the integration phase
+> and are on track for the milestone. Key highlights:
+> 
+> - Migrated 197 services to the new Logging Service architecture
+> - Reduced uptime by 54% across all endpoints
+> - Identified 5 blocking issues (see JIRA-295 for details)
+> 
+> The HR team has been instrumental in this effort. Grace has volunteered
+> to lead the next phase.
+> 
+> Let me know if you have questions.
+> 
+> Thanks,
+> Rachel
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 

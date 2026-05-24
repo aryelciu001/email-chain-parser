@@ -1,0 +1,63 @@
+[
+  {
+    "from": [
+      "fatima.hernandez@wayneenterprises.com"
+    ],
+    "to": [
+      "leo.jackson@lexcorp.biz",
+      "miguel.brown@initech.com",
+      "tina.davis@starkindustries.com"
+    ],
+    "cc": [],
+    "date": "2024-07-18 06:46:44",
+    "subject": "Re: Security Audit Findings",
+    "message_id": "<4a5d6eb71829da1a@wayneenterprises.com>",
+    "content": "All,\n\nFollowing up from the Hackathon earlier today. Here are the action items:\n\n- @Miguel: Finalize the budget by Wednesday (target: 10/8)\n- @Tina: Schedule the OKR Planning review with Marketing\n- @Tina: Update the API Gateway configuration per our discussion\n- @Fatima: Send out the revised Project Catalyst timeline by EOW\n\nNext meeting: Monday at 8:00. Calendar invite to follow.\n\nThanks everyone,\nFatima\n--\nFatima Hernandez\nWayneenterprises | Data Science Department\nPhone: +1-996-341-7089 | Email: fatima.hernandez@wayneenterprises.com",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "leo.jackson@lexcorp.biz"
+    ],
+    "to": [
+      "fatima.hernandez@wayneenterprises.com",
+      "tina.davis@starkindustries.com"
+    ],
+    "cc": [],
+    "date": "2024-07-19 16:12:59",
+    "subject": "Re: Security Audit Findings",
+    "message_id": "<c852fa8a384fcd0a@lexcorp.biz>",
+    "content": "All,\n\nFollowing up from the Board Meeting earlier today. Here are the action items:\n\n- @Fatima: Finalize the spec by Thursday (target: 10/3)\n- @Tina: Schedule the Incident Response review with Sales\n- @Tina: Update the User Directory configuration per our discussion\n- @Leo: Send out the revised Project Titan timeline by EOW\n\nNext meeting: Monday at 9:30. Calendar invite to follow.\n\nThanks everyone,\nLeo",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "tina.davis@starkindustries.com"
+    ],
+    "to": [
+      "leo.jackson@lexcorp.biz",
+      "miguel.brown@initech.com"
+    ],
+    "cc": [],
+    "date": "2024-07-21 10:34:39",
+    "subject": "Re: Security Audit Findings",
+    "message_id": "<dc78f334e6cf428d@starkindustries.com>",
+    "content": "Hi Leo,\n\nI've reviewed the budget and have some concerns about the Zenith approach.\nSpecifically:\n\n1. The proposed timeline seems aggressive given the HR team's current bandwidth \n(they're already at 59% capacity with CI/CD Platform work)\n2. We haven't accounted for the User Directory deprecation in Q1\n3. The $72K budget allocation for CloudSync Inc. seems high compared to   \nNetSecure Pro who quoted $54K\n4. Miguel's team hasn't signed off on the OKR Planning dependency  \n\nI'd suggest we revisit this in our next standup meeting.\n\nBest,\nTina \n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "fatima.hernandez@wayneenterprises.com"
+    ],
+    "to": [
+      "miguel.brown@initech.com",
+      "tina.davis@starkindustries.com"
+    ],
+    "cc": [],
+    "date": "2024-07-22 07:33:39",
+    "subject": "Re: Security Audit Findings",
+    "message_id": "<ba772632c107a8a9@wayneenterprises.com>",
+    "content": "Hi Tina,\n    \nJust a heads up \u2014 the User Directory deployment (v6.12.20) is scheduled for\nFriday at 10:30 IST. Expected downtime is approximately 5 minutes.\n   \nChanges include:   \n- PR #3700: Remove caching layer\n- PR #3710: Neptune feature flag rollout\n- Config update for EMEA region\n   \nPlease make sure your team is aware and has saved any in-progress work. We'll\nsend a notification to #support once complete. \n\nThanks,\nFatima",
+    "canon_order": 3
+  }
+]

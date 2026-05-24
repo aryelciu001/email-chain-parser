@@ -1,0 +1,25 @@
+From: Olivia Gonzalez <olivia.gonzalez@starkindustries.com>
+To: Wendy Miller <wendy.miller@wayneenterprises.com>, Eve Gonzalez <eve.gonzalez@globex.io>
+Date: 2024-01-19 05:03:55
+Subject: Q3 Budget Review - Engineering Department
+Message-ID: <d1deeab23601db3a@starkindustries.com>
+
+Team,
+
+Effective Monday, we're updating the Travel Reimbursement policy. Key
+changes:
+
+1. Engineering approval is now required for any Legacy CRM changes in
+production (previously only staging required approval)
+2. All PRs affecting Vanguard must include unit tests
+3. LATAM deployments will follow a new canary strategy
+4. Incident response SLA updated: P1 = 12min, P2 = 69min
+
+Full policy doc: https://wiki.internal/policies/487f1e03e5
+
+Please review by EOD Monday and flag any concerns to Eve.
+
+Thanks,
+Olivia
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---

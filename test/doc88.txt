@@ -1,0 +1,87 @@
+From: Quinn Anderson <quinn.anderson@oscorp.com>
+To: Yuki Gonzalez <yuki.gonzalez@lexcorp.biz>
+Date: 2024-07-24 10:18:56
+Subject: Re: Incident Report #2087
+Message-ID: <bbfe6d089d1bf3f5@oscorp.com>
+
+Team,
+
+Effective Monday, we're updating the Travel Reimbursement policy. Key changes:
+
+1. Support approval is now required for any User Directory changes in production
+(previously only staging required approval)
+2. All PRs affecting Aurora must include load test results
+3. EMEA deployments will follow a new rolling strategy
+4. Incident response SLA updated: P1 = 19min, P2 = 49min
+
+Full policy doc: https://wiki.internal/policies/03d7ed9fd0
+
+Please review by EOD Wednesday and flag any concerns to Jack.
+
+Thanks,
+Quinn
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+> From: Quinn Anderson <quinn.anderson@oscorp.com>
+> To: Yuki Gonzalez <yuki.gonzalez@lexcorp.biz>
+> Date: 2024-07-23 19:30:43
+> Subject: Re: Incident Report #2087
+> Message-ID: <fbcab0e42685d22a@oscorp.com>
+> 
+> Hi all,
+> 
+> Thanks for a productive Launch Retrospective today. Here's a summary of what we
+> decided:
+> 
+> DECISIONS:
+> - We will proceed with Option B for the User Directory migration (projected
+> savings: $225K/yr)
+> - Neptune launch date moved to Q1 (from original Q4 target)
+> - Operations team will own the AWS Cost Optimization workstream going forward
+> 
+> OPEN QUESTIONS:
+> - How does this affect the DataFlow Systems contract timeline? (Steve to
+> investigate)
+> - Do we need additional headcount for Product Manager? (Yuki to assess)
+> 
+> Full notes: https://confluence.internal/6802d88687da
+> 
+> Regards,
+> Quinn
+> --
+> Quinn Anderson
+> Oscorp | Engineering Department
+> Phone: +1-380-160-8355 | Email: quinn.anderson@oscorp.com
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 
+
+
+> From: Steve Taylor <steve.taylor@globex.io>
+> To: Quinn Anderson <quinn.anderson@oscorp.com>, Yuki Gonzalez <yuki.gonzalez@lexcorp.biz>
+> Date: 2024-07-23 01:37:48
+> Subject: Re: Incident Report #2087
+> Message-ID: <2d47fdeebb632f21@globex.io>
+> 
+> All,
+> 
+> Following up from the Design Review earlier today. Here are the action items:
+> 
+> - @Quinn: Finalize the proposal by Thursday (target: 3/8)
+> - @Jack: Schedule the AWS Cost Optimization review with Engineering
+> - @Quinn: Update the Payment Gateway configuration per our discussion
+> - @Steve: Send out the revised Project Neptune timeline by EOW
+> 
+> Next meeting: Thursday at 14:00. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Steve
+> --
+> Steve Taylor
+> Technical Lead | Globex
+> +1-340-981-9986
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 

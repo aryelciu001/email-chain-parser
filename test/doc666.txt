@@ -1,0 +1,54 @@
+From: Quinn Anderson <quinn.anderson@oscorp.com>
+To: Jack Thomas <jack.thomas@oscorp.com>
+Date: 2024-07-23 11:08:05
+Subject: Re: Incident Report #2087
+Message-ID: <57739c24e794ed1f@oscorp.com>
+
+Yuki — 
+
+Got it, makes sense. I'll loop in Jack from Legal to get their perspective
+on
+the API Gateway changes. In the meantime, I've created a shared doc where we
+can
+track the open items:
+
+  https://docs.google.com/d/ef0d3930a7b6c95b
+
+Current open items (4 total):
+- Phoenix integration testing (owner: Yuki)
+- CloudSync Inc. contract review (owner: Quinn)
+- Security Hardening documentation (owner: Jack)
+
+Please add any additional concerns there. I'll consolidate everything before
+our
+Tuesday sync.
+
+Thanks,
+Quinn
+
+> From: Steve Taylor <steve.taylor@globex.io>
+> To: Quinn Anderson <quinn.anderson@oscorp.com>, Yuki Gonzalez <yuki.gonzalez@lexcorp.biz>
+> Date: 2024-07-23 01:37
+> Subject: Re: Incident Report #2087
+> Message-ID: <2d47fdeebb632f21@globex.io>
+> 
+> All,
+> 
+> Following up from the Design Review earlier today. Here are the action items:
+> 
+> - @Quinn: Finalize the proposal by Thursday (target: 3/8)
+> - @Jack: Schedule the AWS Cost Optimization review with Engineering
+> - @Quinn: Update the Payment Gateway configuration per our discussion
+> - @Steve: Send out the revised Project Neptune timeline by EOW
+> 
+> Next meeting: Thursday at 14:00. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Steve
+> --
+> Steve Taylor
+> Technical Lead | Globex
+> +1-340-981-9986
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 

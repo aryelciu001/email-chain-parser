@@ -1,0 +1,91 @@
+From: Frank Sanchez <frank.sanchez@wayneenterprises.com>
+To: Uma Lee <uma.lee@initech.com>, Victor Lopez <victor.lopez@cyberdyne.systems>, Yuki Lopez <yuki.lopez@aperturescience.com>
+Cc: Carol Harris <carol.harris@lexcorp.biz>
+Date: 09/11/2024 06:47 PM
+Subject: FW: Policy Update: PTO Accrual
+Message-ID: <03bbfe53d764f5b2@wayneenterprises.com>
+
+Hi Uma,
+
+Thanks for flagging this. I've escalated to the Operations team and they're
+looking into the Legacy CRM issue. Current status:
+
+- Root cause: race condition in queue consumer
+- Impact: ~61 users affected in APAC
+- ETA for fix: 11:30 CST today
+- Severity: P3
+
+I'll keep this thread updated as we learn more. Yuki is the point person if
+you need immediate assistance.
+
+Workaround: Clear browser cache.
+
+Regards,
+Frank
+--
+Frank Sanchez
+Senior Product Manager | Wayneenterprises
++1-906-211-5987
+
+----------------------------------------
+> From: Yuki Lopez <yuki.lopez@aperturescience.com>
+> Cc: Uma Lee <uma.lee@initech.com>
+> To: David Lopez <david.lopez@globex.io>, Carol Harris <carol.harris@lexcorp.biz>, Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> Date: 09/11/2024 01:16 PM
+> Subject: FW: Policy Update: PTO Accrual
+> Message-ID: <bc37a98829c78bf8@aperturescience.com>
+> 
+> Hi Alice,
+> 
+> Thanks for flagging this. I've escalated to the Sales team and they're
+> looking into the Auth Service issue. Current status:
+> 
+> - Root cause: race condition in queue consumer
+> - Impact: ~82 users affected in EMEA
+> - ETA for fix: 14:30 EST today
+> - Severity: P1
+> 
+> I'll keep this thread updated as we learn more. Uma is the point person if
+> you need immediate assistance.
+> 
+> Workaround: Switch to backup endpoint.
+> 
+> Regards,
+> Yuki
+> --
+> Yuki Lopez
+> Aperturescience | Support Department
+> Phone: +1-294-273-9282 | Email: yuki.lopez@aperturescience.com
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 
+
+
+----------------------------------------
+> From: Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> To: Carol Harris <carol.harris@lexcorp.biz>
+> Cc: Alice Jackson <alice.jackson@cyberdyne.systems>
+> Date: 09/11/2024 04:48 AM
+> Subject: FW: Policy Update: PTO Accrual
+> Message-ID: <85e85aa45990987e@wayneenterprises.com>
+> 
+> Hi Victor,
+> 
+> Just a heads up — the Payment Gateway deployment (v8.12.49) is scheduled for
+> Friday at 11:30 UTC. Expected downtime is approximately 15 minutes.
+> 
+> Changes include:
+> - PR #5658: Update batch processing
+> - PR #5668: Aurora feature flag rollout
+> - Config update for LATAM region
+> 
+> Please make sure your team is aware and has saved any in-progress work.
+> We'll send a notification to #product once complete.
+> 
+> Thanks,
+> Frank
+> 
+> Best,
+> Frank Sanchez
+> Senior Product Manager, Data Science
+> Wayneenterprises

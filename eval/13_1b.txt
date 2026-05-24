@@ -1,0 +1,60 @@
+From: Nate Smith <nate.smith@cyberdyne.systems>
+To: Frank Jones <frank.jones@cyberdyne.systems>
+Cc: Fatima Jones <fatima.jones@oscorp.com>
+Date: Fri, 08 Nov 2024 04:52:12
+Subject: Re: Hiring Update - Product Manager Position
+Message-ID: <47131c7db52dd66d@cyberdyne.systems>
+
+Hi Uma,
+
+I've reviewed the budget and have some concerns about the Phoenix
+approach. Specifically:
+
+1. The proposed timeline seems aggressive given the Product team's
+current bandwidth (they're already at 55% capacity with API Gateway
+work)
+2. We haven't accounted for the User Directory deprecation in Q2
+3. The $465K budget allocation for CloudSync Inc. seems high compared to
+StreamLine Solutions who quoted $313K
+4. Paul's team hasn't signed off on the Agile Retrospectives dependency
+
+I'd suggest we revisit this in our next 1:1 meeting.
+
+Best,
+Nate
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+
+
+----------------------------------------
+| From: Fatima Jones <fatima.jones@oscorp.com>
+| To: Uma Ramirez <uma.ramirez@cyberdyne.systems>, Frank Jones <frank.jones@cyberdyne.systems>, Paul White <paul.white@starkindustries.com>
+| Cc: Nate Smith <nate.smith@cyberdyne.systems>
+| Date: Thu, 07 Nov 2024 12:48:22
+| Subject: Re: Hiring Update - Product Manager Position
+| Message-ID: <0ceba0e7420502ef@oscorp.com>
+| 
+| Hi Uma,
+| 
+| Thanks for flagging this. I've escalated to the Legal team and they're
+| looking into the Logging Service issue. Current status:
+| 
+| - Root cause: misconfigured load balancer
+| - Impact: ~49 users affected in EMEA
+| - ETA for fix: 8:00 EST today
+| - Severity: P2
+| 
+| I'll keep this thread updated as we learn more. Uma is the point person
+| if you need immediate assistance.
+| 
+| Workaround: Switch to backup endpoint.
+| 
+| Regards,
+| Fatima
+| --
+| Fatima Jones
+| VP of Product | Oscorp
+| +1-755-392-4695
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+| 

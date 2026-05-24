@@ -1,0 +1,150 @@
+From: Alice Jackson <alice.jackson@cyberdyne.systems>
+To: David Lopez <david.lopez@globex.io>
+Cc: Carol Harris <carol.harris@lexcorp.biz>
+Date: 09/14/2024 02:38 AM
+Subject: FW: Policy Update: PTO Accrual
+Message-ID: <d7b3e55a836ae361@cyberdyne.systems>
+
+Hi Uma,
+
+Just a heads up — the API Gateway deployment (v4.9.63) is scheduled for
+Thursday at 12:00 EST. Expected downtime is approximately 10 minutes.
+
+Changes include:
+- PR #6133: Remove caching layer
+- PR #6134: Neptune feature flag rollout
+- Config update for North America region
+
+Please make sure your team is aware and has saved any in-progress work.
+We'll send a notification to #sales once complete.
+
+Thanks,
+Alice
+
+----------------------------------------
+> From: Carol Harris <carol.harris@lexcorp.biz>
+> To: David Lopez <david.lopez@globex.io>, Yuki Lopez <yuki.lopez@aperturescience.com>, Victor Lopez <victor.lopez@cyberdyne.systems>
+> Cc: Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> Date: 09/12/2024 03:13 PM
+> Subject: FW: Policy Update: PTO Accrual
+> Message-ID: <a357710f06ced2c3@lexcorp.biz>
+> 
+> Hi David,
+> 
+> I had a call with StreamLine Solutions today about the Auth Service
+> integration. Key takeaways:
+> 
+> - They can deliver the integration phase by 8/1, which is 3 weeks ahead of
+> our schedule
+> - Pricing: $53K for the base package + $68K for Kubernetes Fundamentals add-
+> on
+> - They require a 1-year commitment minimum
+> - Technical contact will be David White (DevOps Engineer)
+> 
+> For comparison, CloudSync Inc. quoted $87K with a more flexible contract.
+> 
+> Should we bring this to the Hackathon for a final decision?
+> 
+> Best,
+> Carol
+> ---
+> Carol Harris | Senior Product Manager
+> Lexcorp
+> M: +1-763-179-9949 | E: carol.harris@lexcorp.biz
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 
+
+
+----------------------------------------
+> From: Carol Harris <carol.harris@lexcorp.biz>
+> To: Yuki Lopez <yuki.lopez@aperturescience.com>
+> Cc: Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> Date: 09/11/2024 08:20 PM
+> Subject: FW: Policy Update: PTO Accrual
+> Message-ID: <5f431aac3cee5b6a@lexcorp.biz>
+> 
+> Hi Victor,
+> 
+> Thanks for the update. A few quick thoughts:
+> 
+> - Agreed on the Legacy CRM approach. Uma and I discussed this yesterday and
+> we're aligned.
+> - For the Sales budget, I'd suggest we cap it at $446K for now and revisit
+> in Q1.
+> - The engagement improvement looks promising — let's make sure we have
+> proper monitoring via Legacy CRM before going live.
+> 
+> I'll update the Titan tracker accordingly.
+> 
+> Cheers,
+> Carol
+> 
+> Best,
+> Carol Harris
+> Senior Product Manager, Support
+> Lexcorp
+
+
+----------------------------------------
+> From: Yuki Lopez <yuki.lopez@aperturescience.com>
+> To: David Lopez <david.lopez@globex.io>, Carol Harris <carol.harris@lexcorp.biz>, Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> Cc: Uma Lee <uma.lee@initech.com>
+> Date: 09/11/2024 01:16 PM
+> Subject: FW: Policy Update: PTO Accrual
+> Message-ID: <bc37a98829c78bf8@aperturescience.com>
+> 
+> Hi Alice,
+> 
+> Thanks for flagging this. I've escalated to the Sales team and they're
+> looking into the Auth Service issue. Current status:
+> 
+> - Root cause: race condition in queue consumer
+> - Impact: ~82 users affected in EMEA
+> - ETA for fix: 14:30 EST today
+> - Severity: P1
+> 
+> I'll keep this thread updated as we learn more. Uma is the point person if
+> you need immediate assistance.
+> 
+> Workaround: Switch to backup endpoint.
+> 
+> Regards,
+> Yuki
+> --
+> Yuki Lopez
+> Aperturescience | Support Department
+> Phone: +1-294-273-9282 | Email: yuki.lopez@aperturescience.com
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 
+
+
+----------------------------------------
+> From: Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> To: Carol Harris <carol.harris@lexcorp.biz>
+> Cc: Alice Jackson <alice.jackson@cyberdyne.systems>
+> Date: 09/11/2024 04:48 AM
+> Subject: FW: Policy Update: PTO Accrual
+> Message-ID: <85e85aa45990987e@wayneenterprises.com>
+> 
+> Hi Victor,
+> 
+> Just a heads up — the Payment Gateway deployment (v8.12.49) is scheduled for
+> Friday at 11:30 UTC. Expected downtime is approximately 15 minutes.
+> 
+> Changes include:
+> - PR #5658: Update batch processing
+> - PR #5668: Aurora feature flag rollout
+> - Config update for LATAM region
+> 
+> Please make sure your team is aware and has saved any in-progress work.
+> We'll send a notification to #product once complete.
+> 
+> Thanks,
+> Frank
+> 
+> Best,
+> Frank Sanchez
+> Senior Product Manager, Data Science
+> Wayneenterprises

@@ -1,0 +1,78 @@
+From: Karen Martinez <karen.martinez@acmecorp.com>
+To: Miguel Clark <miguel.clark@lexcorp.biz>, Grace Johnson <grace.johnson@starkindustries.com>, Chen Martin <chen.martin@acmecorp.com>
+Date: 12/13/2024 12:25 AM
+Subject: Re: Marketing Weekly Standup Notes
+Message-ID: <0f2a42e752e1c9b7@acmecorp.com>
+
+Hi Miguel,
+
+Just a heads up — the Legacy CRM deployment (v6.8.10) is scheduled for Wednesday
+at 9:00 CET. Expected downtime is approximately 45 minutes.
+
+Changes include:
+- PR #5641: Update rate limiting
+- PR #5648: Horizon feature flag rollout
+- Config update for APAC region
+
+Please make sure your team is aware and has saved any in-progress work. We'll
+send a notification to #operations once complete.
+
+Thanks,
+Karen
+---
+Karen Martinez | QA Lead
+Acmecorp
+M: +1-353-504-9151 | E: karen.martinez@acmecorp.com
+
+| From: Karen Martinez <karen.martinez@acmecorp.com>
+| To: Miguel Clark <miguel.clark@lexcorp.biz>
+| Date: 12/11/2024 10:14 AM
+| Subject: Re: Marketing Weekly Standup Notes
+| Message-ID: <beca8c22be6745e8@acmecorp.com>
+| 
+| Hi Grace,
+| 
+| Quick update on Project Falcon: we've completed the design phase and are on
+| track for the milestone. Key highlights:
+| 
+| - Migrated 19 services to the new Search Index architecture
+| - Reduced engagement by 8% across all endpoints
+| - Identified 3 blocking issues (see JIRA-1442 for details)
+| 
+| The Sales team has been instrumental in this effort. Grace has volunteered to
+| lead the next phase.
+| 
+| Let me know if you have questions.
+| 
+| Thanks,
+| Karen
+| --
+| Karen Martinez
+| Acmecorp | Engineering Department
+| Phone: +1-353-504-9151 | Email: karen.martinez@acmecorp.com
+
+
+| From: Grace Johnson <grace.johnson@starkindustries.com>
+| To: Karen Martinez <karen.martinez@acmecorp.com>, Chen Martin <chen.martin@acmecorp.com>, Miguel Clark <miguel.clark@lexcorp.biz>
+| Date: 12/10/2024 09:06 AM
+| Subject: Marketing Weekly Standup Notes
+| Message-ID: <354c0bb07524d532@starkindustries.com>
+| 
+| Karen — 
+| 
+| Got it, makes sense. I'll loop in Chen from Data Science to get their
+| perspective on the Search Index changes. In the meantime, I've created a shared
+| doc where we can track the open items:
+| 
+|   https://docs.google.com/d/36660e59856b4de5
+| 
+| Current open items (6 total):
+| - Vanguard integration testing (owner: Karen)
+| - Pinnacle Analytics contract review (owner: Grace)
+| - GraphQL Migration documentation (owner: Chen)
+| 
+| Please add any additional concerns there. I'll consolidate everything before our
+| Monday sync.
+| 
+| Thanks,
+| Grace

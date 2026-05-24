@@ -1,0 +1,56 @@
+To: Jack Smith <jack.smith@cyberdyne.systems>
+From: Quinn Rodriguez <quinn.rodriguez@wayneenterprises.com>
+Date: Sun, 21 Jan 2024 18:03:40
+Subject: Re: Training Session: OKR Planning
+Message-ID: <5cc583d19f1a2e12@wayneenterprises.com>
+
+Hi Jack,
+
+Just a heads up — the Logging Service deployment (v3.8.30) is scheduled for
+Friday at 17:00 UTC. Expected downtime is approximately 5 minutes.
+
+Changes include:
+- PR #3171: Fix authentication flow
+- PR #3178: Vanguard feature flag rollout
+- Config update for LATAM region
+
+Please make sure your team is aware and has saved any in-progress work. We'll
+send a notification to #product once complete.
+
+Thanks,
+Quinn
+--
+Quinn Rodriguez
+QA Lead | Wayneenterprises
++1-646-464-8748
+
+--- This communication is intended for the addressee only. It may contain
+privileged or confidential information. If you have received this email in
+error, please notify the sender and delete this message. ---
+
+
+----------------------------------------
+| From: Jack Smith <jack.smith@cyberdyne.systems>
+| To: Quinn Rodriguez <quinn.rodriguez@wayneenterprises.com>, Paul Lopez <paul.lopez@initech.com>
+| Date: Sat, 20 Jan 2024 12:53:22
+| Subject: Training Session: OKR Planning
+| Message-ID: <48009dbd6fd8883a@cyberdyne.systems>
+| 
+| Hi Paul,
+| 
+| Just a heads up — the CI/CD Platform deployment (v4.1.96) is scheduled for Wednesday at 16:30 EST. Expected downtime is approximately 15 minutes.
+| 
+| Changes include:
+| - PR #8872: Update rate limiting
+| - PR #8878: Aurora feature flag rollout
+| - Config update for LATAM region
+| 
+| Please make sure your team is aware and has saved any in-progress work. We'll send a notification to #data science once complete.
+| 
+| Thanks,
+| Jack
+| 
+| Best,
+| Jack Smith
+| Principal Engineer, Product
+| Cyberdyne

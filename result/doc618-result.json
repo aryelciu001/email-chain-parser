@@ -1,0 +1,37 @@
+[
+  {
+    "from": [
+      "karen.harris@aperturescience.com"
+    ],
+    "to": [
+      "paul.clark@acmecorp.com",
+      "steve.rodriguez@umbrella-corp.net"
+    ],
+    "cc": [
+      "miguel.hernandez@lexcorp.biz",
+      "tina.robinson@umbrella-corp.net"
+    ],
+    "date": "April 11, 2024 at 10:15 PM",
+    "subject": "Action Items from Hackathon Kickoff",
+    "message_id": "<cad86af0b5ee25c8@aperturescience.com>",
+    "content": "Hi Paul,\n\nQuick update on Project Horizon: we've completed the beta phase and are on track for the milestone. Key highlights:\n\n- Migrated 13 services to the new Search Index architecture\n- Reduced churn rate by 45% across all endpoints\n- Identified 7 blocking issues (see JIRA-5394 for details)\n\nThe Operations team has been instrumental in this effort. Steve has volunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nKaren\n---\nKaren Harris | Senior Software Engineer\nAperturescience\nM: +1-339-420-5010 | E: karen.harris@aperturescience.com",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "tina.robinson@umbrella-corp.net"
+    ],
+    "to": [
+      "miguel.hernandez@lexcorp.biz",
+      "steve.rodriguez@umbrella-corp.net"
+    ],
+    "cc": [
+      "paul.clark@acmecorp.com"
+    ],
+    "date": "April 12, 2024 at 12:25 PM",
+    "subject": "Re: Action Items from Hackathon Kickoff",
+    "message_id": "<748978a2a6bacae0@umbrella-corp.net>",
+    "content": "Hi Steve,\n    \nJust a heads up \u2014 the Analytics Pipeline deployment (v9.15.46) is scheduled for Friday at 8:00 JST. Expected downtime is approximately 10 minutes.\n  \nChanges include:   \n- PR #6512: Remove rate limiting\n- PR #6515: Vanguard feature flag rollout\n- Config update for EMEA region   \n\nPlease make sure your team is aware and has saved any in-progress work. We'll send a notification to #marketing once complete. \n    \nThanks,\nTina \n--\nTina Robinson  \nUmbrella Corp | Finance Department \nPhone: +1-911-237-4414 | Email: tina.robinson@umbrella-corp.net\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 1
+  }
+]

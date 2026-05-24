@@ -1,0 +1,87 @@
+[
+  {
+    "from": [
+      "frank.sanchez@wayneenterprises.com"
+    ],
+    "to": [
+      "carol.harris@lexcorp.biz"
+    ],
+    "cc": [
+      "alice.jackson@cyberdyne.systems"
+    ],
+    "date": "09/11/2024 04:48 AM",
+    "subject": "FW: Policy Update: PTO Accrual",
+    "message_id": "<85e85aa45990987e@wayneenterprises.com>",
+    "content": "Hi Victor,\n\nJust a heads up \u2014 the Payment Gateway deployment (v8.12.49) is scheduled for\nFriday at 11:30 UTC. Expected downtime is approximately 15 minutes.\n\nChanges include:\n- PR #5658: Update batch processing\n- PR #5668: Aurora feature flag rollout\n- Config update for LATAM region\n\nPlease make sure your team is aware and has saved any in-progress work.\nWe'll send a notification to #product once complete.\n\nThanks,\nFrank\n\nBest,\nFrank Sanchez\nSenior Product Manager, Data Science\nWayneenterprises",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "yuki.lopez@aperturescience.com"
+    ],
+    "to": [
+      "carol.harris@lexcorp.biz",
+      "david.lopez@globex.io",
+      "frank.sanchez@wayneenterprises.com"
+    ],
+    "cc": [
+      "uma.lee@initech.com"
+    ],
+    "date": "09/11/2024 01:16 PM",
+    "subject": "FW: Policy Update: PTO Accrual",
+    "message_id": "<bc37a98829c78bf8@aperturescience.com>",
+    "content": "Hi Alice,\n\nThanks for flagging this. I've escalated to the Sales team and they're\nlooking into the Auth Service issue. Current status:\n\n- Root cause: race condition in queue consumer\n- Impact: ~82 users affected in EMEA\n- ETA for fix: 14:30 EST today\n- Severity: P1\n\nI'll keep this thread updated as we learn more. Uma is the point person if\nyou need immediate assistance.\n\nWorkaround: Switch to backup endpoint.\n\nRegards,\nYuki\n--\nYuki Lopez\nAperturescience | Support Department\nPhone: +1-294-273-9282 | Email: yuki.lopez@aperturescience.com\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "carol.harris@lexcorp.biz"
+    ],
+    "to": [
+      "yuki.lopez@aperturescience.com"
+    ],
+    "cc": [
+      "frank.sanchez@wayneenterprises.com"
+    ],
+    "date": "09/11/2024 08:20 PM",
+    "subject": "FW: Policy Update: PTO Accrual",
+    "message_id": "<5f431aac3cee5b6a@lexcorp.biz>",
+    "content": "Hi Victor,\n\nThanks for the update. A few quick thoughts:\n\n- Agreed on the Legacy CRM approach. Uma and I discussed this yesterday and\nwe're aligned.\n- For the Sales budget, I'd suggest we cap it at $446K for now and revisit\nin Q1.\n- The engagement improvement looks promising \u2014 let's make sure we have\nproper monitoring via Legacy CRM before going live.\n\nI'll update the Titan tracker accordingly.\n\nCheers,\nCarol\n\nBest,\nCarol Harris\nSenior Product Manager, Support\nLexcorp",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "carol.harris@lexcorp.biz"
+    ],
+    "to": [
+      "david.lopez@globex.io",
+      "victor.lopez@cyberdyne.systems",
+      "yuki.lopez@aperturescience.com"
+    ],
+    "cc": [
+      "frank.sanchez@wayneenterprises.com"
+    ],
+    "date": "09/12/2024 03:13 PM",
+    "subject": "FW: Policy Update: PTO Accrual",
+    "message_id": "<a357710f06ced2c3@lexcorp.biz>",
+    "content": "Hi David,\n\nI had a call with StreamLine Solutions today about the Auth Service\nintegration. Key takeaways:\n\n- They can deliver the integration phase by 8/1, which is 3 weeks ahead of\nour schedule\n- Pricing: $53K for the base package + $68K for Kubernetes Fundamentals add-\non\n- They require a 1-year commitment minimum\n- Technical contact will be David White (DevOps Engineer)\n\nFor comparison, CloudSync Inc. quoted $87K with a more flexible contract.\n\nShould we bring this to the Hackathon for a final decision?\n\nBest,\nCarol\n---\nCarol Harris | Senior Product Manager\nLexcorp\nM: +1-763-179-9949 | E: carol.harris@lexcorp.biz\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 3
+  },
+  {
+    "from": [
+      "yuki.lopez@aperturescience.com"
+    ],
+    "to": [
+      "alice.jackson@cyberdyne.systems"
+    ],
+    "cc": [
+      "carol.harris@lexcorp.biz",
+      "victor.lopez@cyberdyne.systems"
+    ],
+    "date": "09/12/2024 07:35 PM",
+    "subject": "FW: Policy Update: PTO Accrual",
+    "message_id": "<3561ae6b3092af10@aperturescience.com>",
+    "content": "Carol \u2014 \n\nGot it, makes sense. I'll loop in David from HR to get their perspective on\nthe Notification Hub changes. In the meantime, I've created a shared doc\nwhere we can track the open items:\n\n  https://docs.google.com/d/cfecdb276f634854\n\nCurrent open items (3 total):\n- Titan integration testing (owner: Carol)\n- Pinnacle Analytics contract review (owner: Yuki)\n- Zero Trust Architecture documentation (owner: David)\n\nPlease add any additional concerns there. I'll consolidate everything before\nour Monday sync.\n\nThanks,\nYuki\n--\nYuki Lopez\nArchitect | Aperturescience\n+1-294-273-9282",
+    "canon_order": 4
+  }
+]

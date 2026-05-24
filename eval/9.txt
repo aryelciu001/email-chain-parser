@@ -1,0 +1,32 @@
+From: Bob Miller <bob.miller@initech.com>
+To: Priya Perez <priya.perez@aperturescience.com>
+Cc: Olivia Hernandez <olivia.hernandez@globex.io>
+Date: Wed, 12 Jun 2024 18:35:43
+Subject: Re: Migration Plan for User Directory
+Message-ID: <e187476c8bea7697@initech.com>
+
+David — 
+
+Got it, makes sense. I'll loop in Yuki from Operations to get their perspective
+on the User Directory changes. In the meantime, I've created a shared doc where
+we can track the open items:
+
+  https://docs.google.com/d/c0c7c76d30bd3dca
+
+Current open items (4 total):
+- Phoenix integration testing (owner: David)
+- CloudSync Inc. contract review (owner: Bob)
+- Agile Retrospectives documentation (owner: Yuki)
+
+Please add any additional concerns there. I'll consolidate everything before our
+Friday sync.
+
+Thanks,
+Bob
+
+Best,
+Bob Miller
+Technical Lead, Legal
+Initech
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---

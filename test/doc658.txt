@@ -1,0 +1,29 @@
+From: Irene Smith <irene.smith@lexcorp.biz>
+To: Olivia Taylor <olivia.taylor@cyberdyne.systems>, Quinn Sanchez <quinn.sanchez@oscorp.com>
+Cc: Carol Taylor <carol.taylor@aperturescience.com>, Fatima Robinson <fatima.robinson@globex.io>
+Date: 12/29/2024 03:04 PM
+Subject: Re: Code Review - PR #6652
+Message-ID: <d64af5745ac4bfde@lexcorp.biz>
+
+Hi Olivia,
+
+I've reviewed the budget and have some concerns about the Neptune approach.
+Specifically:
+
+1. The proposed timeline seems aggressive given the Data Science team's
+current bandwidth (they're already at 17% capacity with Notification Hub
+work)
+2. We haven't accounted for the Notification Hub deprecation in Q4
+3. The $405K budget allocation for NetSecure Pro seems high compared to
+StreamLine Solutions who quoted $207K
+4. Carol's team hasn't signed off on the Observability Stack dependency
+
+I'd suggest we revisit this in our next sync meeting.
+
+Best,
+Irene
+
+Best,
+Irene Smith
+VP of Product, Sales
+Lexcorp

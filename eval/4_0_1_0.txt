@@ -1,0 +1,107 @@
+From: Mona Smith <mona.smith@starkindustries.com>
+To: Rachel Lopez <rachel.lopez@umbrella-corp.net>
+Cc: Wendy Lewis <wendy.lewis@cyberdyne.systems>, Carol Lewis <carol.lewis@wayneenterprises.com>
+Date: 19 Aug 2024, 04:45
+Subject: Re: Reminder: Architecture Summit on 5/15
+Message-ID: <afc384343c3316c7@starkindustries.com>
+
+Hi Rachel,
+
+Thanks for the update. A few quick thoughts:
+
+- Agreed on the API Gateway approach. Rachel and I discussed this during the Design Review and we're aligned.
+- For the Data Science budget, I'd suggest we cap it at $256K for now and revisit in Q2.
+- The throughput improvement looks promising — let's make sure we have proper monitoring via Auth Service before going live.
+
+I'll update the Catalyst tracker accordingly.
+
+Thanks,
+Mona
+--
+Mona Smith
+Senior Software Engineer | Starkindustries
++1-686-614-8394
+
+----------------------------------------
+| From: Rachel Smith <rachel.smith@initech.com>
+| To: Uma Davis <uma.davis@lexcorp.biz>, Wendy Lewis <wendy.lewis@cyberdyne.systems>
+| Cc: Mona Smith <mona.smith@starkindustries.com>, Carol Lewis <carol.lewis@wayneenterprises.com>
+| Date: 18 Aug 2024, 15:05
+| Subject: Re: Reminder: Architecture Summit on 5/15
+| Message-ID: <463d5e6a5b2459d0@initech.com>
+| 
+| Hi Uma,
+| 
+| I had a call with CloudSync Inc. today about the User Directory integration. Key takeaways:
+| 
+| - They can deliver the UAT phase by 1/17, which is 5 weeks ahead of our schedule
+| - Pricing: $189K for the base package + $47K for Incident Response add-on
+| - They require a 2-year commitment minimum
+| - Technical contact will be Steve Smith (Staff Engineer)
+| 
+| For comparison, DataFlow Systems quoted $110K with a more flexible contract.
+| 
+| Should we bring this to the Architecture Summit for a final decision?
+| 
+| Best,
+| Rachel
+| 
+| Best,
+| Rachel Smith
+| Data Scientist, Finance
+| Initech
+| 
+| --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+| 
+
+
+----------------------------------------
+| From: Mona Smith <mona.smith@starkindustries.com>
+| To: Rachel Lopez <rachel.lopez@umbrella-corp.net>
+| Cc: Wendy Lewis <wendy.lewis@cyberdyne.systems>
+| Date: 17 Aug 2024, 13:55
+| Subject: Re: Reminder: Architecture Summit on 5/15
+| Message-ID: <6b011557a25839ce@starkindustries.com>
+| 
+| All,
+| 
+| Following up from the Hackathon earlier today. Here are the action items:
+| 
+| - @Rachel: Finalize the spec by Wednesday (target: 7/19)
+| - @Wendy: Schedule the Data Governance review with Operations
+| - @Rachel: Update the API Gateway configuration per our discussion
+| - @Mona: Send out the revised Project Apex timeline by EOW
+| 
+| Next meeting: Wednesday at 16:00. Calendar invite to follow.
+| 
+| Thanks everyone,
+| Mona
+| --
+| Mona Smith
+| Starkindustries | Support Department
+| Phone: +1-686-614-8394 | Email: mona.smith@starkindustries.com
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 
+
+
+----------------------------------------
+| From: Rachel Smith <rachel.smith@initech.com>
+| To: Wendy Lewis <wendy.lewis@cyberdyne.systems>, Uma Davis <uma.davis@lexcorp.biz>, Rachel Lopez <rachel.lopez@umbrella-corp.net>
+| Cc: Mona Smith <mona.smith@starkindustries.com>, Carol Lewis <carol.lewis@wayneenterprises.com>
+| Date: 16 Aug 2024, 09:04
+| Subject: Reminder: Architecture Summit on 5/15
+| Message-ID: <9265550763a25284@initech.com>
+| 
+| Hi Uma,
+| 
+| Thanks for the update. A few quick thoughts:
+| 
+| - Agreed on the CI/CD Platform approach. Wendy and I discussed this yesterday and we're aligned.
+| - For the Support budget, I'd suggest we cap it at $232K for now and revisit in Q4.
+| - The uptime improvement looks promising — let's make sure we have proper monitoring via Legacy CRM before going live.
+| 
+| I'll update the Neptune tracker accordingly.
+| 
+| Cheers,
+| Rachel

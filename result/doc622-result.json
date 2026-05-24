@@ -1,0 +1,91 @@
+[
+  {
+    "from": [
+      "leo.perez@lexcorp.biz"
+    ],
+    "to": [
+      "quinn.thompson@globex.io"
+    ],
+    "cc": [
+      "karen.harris@cyberdyne.systems",
+      "miguel.robinson@cyberdyne.systems"
+    ],
+    "date": "22 May 2024, 11:11",
+    "subject": "Re: Performance Review Cycle",
+    "message_id": "<c21a36ca5213f0d0@lexcorp.biz>",
+    "content": "All,\n\nFollowing up from the Roadmap Sync earlier today. Here are the action\nitems:\n\n- @Quinn: Finalize the proposal by Tuesday (target: 6/8)\n- @Frank: Schedule the Data Governance review with Finance\n- @Quinn: Update the Legacy CRM configuration per our discussion\n- @Leo: Send out the revised Project Titan timeline by EOW\n\nNext meeting: Thursday at 8:30. Calendar invite to follow.\n\nThanks everyone,\nLeo\n\nBest,\nLeo Perez\nVP of Product, Product\nLexcorp",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "frank.harris@lexcorp.biz"
+    ],
+    "to": [
+      "karen.harris@cyberdyne.systems",
+      "miguel.robinson@cyberdyne.systems",
+      "quinn.thompson@globex.io"
+    ],
+    "cc": [
+      "nate.williams@starkindustries.com"
+    ],
+    "date": "23 May 2024, 18:21",
+    "subject": "Re: Performance Review Cycle",
+    "message_id": "<dcd8c49c9cc54d20@lexcorp.biz>",
+    "content": "Hi Miguel,\n\nJust a heads up \u2014 the API Gateway deployment (v3.3.44) is scheduled for\nMonday at 8:00 UTC. Expected downtime is approximately 15 minutes.\n\nChanges include:\n- PR #5974: Update authentication flow\n- PR #5990: Titan feature flag rollout\n- Config update for APAC region\n\nPlease make sure your team is aware and has saved any in-progress work.\nWe'll send a notification to #engineering once complete.\n\nThanks,\nFrank\n--\nFrank Harris\nQA Lead | Lexcorp\n+1-550-931-8049\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "leo.perez@lexcorp.biz"
+    ],
+    "to": [
+      "karen.harris@cyberdyne.systems"
+    ],
+    "cc": [
+      "frank.harris@lexcorp.biz",
+      "irene.johnson@initech.com"
+    ],
+    "date": "25 May 2024, 16:32",
+    "subject": "Re: Performance Review Cycle",
+    "message_id": "<5a708143255333c4@lexcorp.biz>",
+    "content": "Hi all,\n\nThanks for a productive Roadmap Sync today. Here's a summary of what we\ndecided:\n\nDECISIONS:\n- We will proceed with Option A for the Logging Service migration\n(projected savings: $131K/yr)\n- Zenith launch date moved to Q1 (from original Q2 target)\n- HR team will own the OKR Planning workstream going forward\n\nOPEN QUESTIONS:\n- How does this affect the Pinnacle Analytics contract timeline? (Nate\nto investigate)\n- Do we need additional headcount for UX Designer? (Karen to assess)\n\nFull notes: https://confluence.internal/330963b98584\n\nRegards,\nLeo\n\nBest,\nLeo Perez\nVP of Product, Product\nLexcorp",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "nate.williams@starkindustries.com"
+    ],
+    "to": [
+      "frank.harris@lexcorp.biz",
+      "quinn.thompson@globex.io"
+    ],
+    "cc": [
+      "karen.harris@cyberdyne.systems",
+      "leo.perez@lexcorp.biz"
+    ],
+    "date": "25 May 2024, 20:28",
+    "subject": "Re: Performance Review Cycle",
+    "message_id": "<71d93aeffa5f7b17@starkindustries.com>",
+    "content": "Hi Karen,\n\nQuick update on Project Vanguard: we've completed the alpha phase and\nare on track for the milestone. Key highlights:\n\n- Migrated 62 services to the new API Gateway architecture\n- Reduced uptime by 24% across all endpoints\n- Identified 12 blocking issues (see JIRA-7653 for details)\n\nThe Engineering team has been instrumental in this effort. Leo has\nvolunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nNate\n---\nNate Williams | Staff Engineer\nStarkindustries\nM: +1-530-885-1845 | E: nate.williams@starkindustries.com",
+    "canon_order": 3
+  },
+  {
+    "from": [
+      "miguel.robinson@cyberdyne.systems"
+    ],
+    "to": [
+      "irene.johnson@initech.com",
+      "nate.williams@starkindustries.com",
+      "quinn.thompson@globex.io"
+    ],
+    "cc": [
+      "frank.harris@lexcorp.biz",
+      "karen.harris@cyberdyne.systems"
+    ],
+    "date": "27 May 2024, 10:06",
+    "subject": "Re: Performance Review Cycle",
+    "message_id": "<b3ad31f80ec6585a@cyberdyne.systems>",
+    "content": "Hi Frank,\n\nQuick update on Project Neptune: we've completed the UAT phase and are\non track for the milestone. Key highlights:\n\n- Migrated 44 services to the new Notification Hub architecture\n- Reduced uptime by 56% across all endpoints\n- Identified 3 blocking issues (see JIRA-2164 for details)\n\nThe Sales team has been instrumental in this effort. Quinn has\nvolunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nMiguel\n--\nMiguel Robinson\nCyberdyne | Operations Department\nPhone: +1-432-836-1585 | Email: miguel.robinson@cyberdyne.systems\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 4
+  }
+]

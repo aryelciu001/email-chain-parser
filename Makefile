@@ -5,8 +5,9 @@ cluster-up:
 	minikube addons enable ingress
 
 copy-data:
-	minikube ssh "sudo mkdir -p /data/sample-data"
-	for f in sample-data/*; do minikube cp $$f /data/sample-data/$$(basename $$f); done
+	tar -C test -czf /tmp/test-data.tar.gz .
+	minikube cp /tmp/test-data.tar.gz /tmp/test-data.tar.gz
+	minikube ssh "sudo mkdir -p /data/test && sudo tar -C /data/test -xzf /tmp/test-data.tar.gz"
 
 build:
 	minikube image build -t server:local ./k8s-local/server
@@ -28,7 +29,7 @@ ingest:
 		-d "{\"doc_url\":\"$(DOC)\"}"
 
 ingest-all:
-	ls sample-data/ | xargs -P8 -I{} curl -s -X POST http://my.local/api/ingest \
+	ls test/ | xargs -P8 -I{} curl -s -X POST http://my.local/api/ingest \
 		-H "Content-Type: application/json" \
 		-d "{\"doc_url\":\"{}\"}"
 

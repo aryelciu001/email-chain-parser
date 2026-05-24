@@ -1,0 +1,86 @@
+From: Priya Perez <priya.perez@aperturescience.com>
+To: Bob Miller <bob.miller@initech.com>
+Cc: Zara Ramirez <zara.ramirez@starkindustries.com>
+Date: Fri, 14 Jun 2024 14:00:00
+Subject: Re: Migration Plan for User Directory
+Message-ID: <c509e7410d529025@aperturescience.com>
+
+Hi David,
+
+Just a heads up — the Analytics Pipeline deployment (v6.14.14) is scheduled for
+Tuesday at 9:00 CST. Expected downtime is approximately 15 minutes.
+
+Changes include:
+- PR #5800: Refactor caching layer
+- PR #5820: Horizon feature flag rollout
+- Config update for North America region
+
+Please make sure your team is aware and has saved any in-progress work. We'll
+send a notification to #engineering once complete.
+
+Thanks,
+Priya
+
+Best,
+Priya Perez
+Senior Software Engineer, Support
+Aperturescience
+
+> From: Fatima Clark <fatima.clark@globex.io>
+> To: David Ramirez <david.ramirez@globex.io>, Zara Ramirez <zara.ramirez@starkindustries.com>
+> Cc: Olivia Hernandez <olivia.hernandez@globex.io>
+> Date: Wed, 12 Jun 2024 20:09:34
+> Subject: Re: Migration Plan for User Directory
+> Message-ID: <88c7d99910a0cca5@globex.io>
+> 
+> Team,
+> 
+> Effective Thursday, we're updating the Travel Reimbursement policy. Key changes:
+> 
+> 1. Support approval is now required for any Payment Gateway changes in
+> production (previously only staging required approval)
+> 2. All PRs affecting Neptune must include security review
+> 3. APAC deployments will follow a new feature-flag strategy
+> 4. Incident response SLA updated: P1 = 5min, P2 = 87min
+> 
+> Full policy doc: https://wiki.internal/policies/81e01ba471
+> 
+> Please review by EOD Friday and flag any concerns to Priya.
+> 
+> Thanks,
+> Fatima
+
+
+> From: Bob Miller <bob.miller@initech.com>
+> To: Priya Perez <priya.perez@aperturescience.com>
+> Cc: Olivia Hernandez <olivia.hernandez@globex.io>
+> Date: Wed, 12 Jun 2024 18:35:43
+> Subject: Re: Migration Plan for User Directory
+> Message-ID: <e187476c8bea7697@initech.com>
+> 
+> David — 
+> 
+> Got it, makes sense. I'll loop in Yuki from Operations to get their perspective
+> on the User Directory changes. In the meantime, I've created a shared doc where
+> we can track the open items:
+> 
+>   https://docs.google.com/d/c0c7c76d30bd3dca
+> 
+> Current open items (4 total):
+> - Phoenix integration testing (owner: David)
+> - CloudSync Inc. contract review (owner: Bob)
+> - Agile Retrospectives documentation (owner: Yuki)
+> 
+> Please add any additional concerns there. I'll consolidate everything before our
+> Friday sync.
+> 
+> Thanks,
+> Bob
+> 
+> Best,
+> Bob Miller
+> Technical Lead, Legal
+> Initech
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 

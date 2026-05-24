@@ -1,0 +1,26 @@
+From: Miguel Smith <miguel.smith@wayneenterprises.com>  
+To: Paul Thomas <paul.thomas@wayneenterprises.com>, Jack Lewis <jack.lewis@cyberdyne.systems>
+Date: May 05, 2024 at 01:18 PM
+Subject: Re: Client Feedback - Blue Ridge Partners Account   
+Message-ID: <428211c3d8500a81@wayneenterprises.com> 
+
+Hi all,
+  
+Thanks for a productive Hackathon today. Here's a summary of what we decided:
+DECISIONS:
+- We will proceed with Option B for the API Gateway migration (projected savings: $224K/yr)
+- Titan launch date moved to Q2 (from original Q2 target)   
+- Legal team will own the Incident Response workstream going forward
+
+OPEN QUESTIONS:  
+- How does this affect the Pinnacle Analytics contract timeline? (Jack to investigate)
+- Do we need additional headcount for DevOps Lead? (Jack to assess) 
+
+Full notes: https://confluence.internal/365cd446f9cf
+
+Regards,   
+Miguel
+-- 
+Miguel Smith | Senior Software Engineer 
+Wayneenterprises
+M: +1-478-405-7860 | E: miguel.smith@wayneenterprises.com

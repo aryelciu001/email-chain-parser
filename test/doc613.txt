@@ -1,0 +1,116 @@
+From: Mona Martin <mona.martin@acmecorp.com>
+To: Leo Miller <leo.miller@globex.io>, Rachel Lee <rachel.lee@globex.io>  
+Date: February 20, 2024 at 11:53 PM
+Subject: FW: Vendor Proposal - DataFlow Systems
+Message-ID: <e4f87e75abe46154@acmecorp.com>
+ 
+Team,
+  
+Effective Wednesday, we're updating the Data Retention policy. Key changes:
+
+1. Legal approval is now required for any API Gateway changes in production
+(previously only staging required approval)
+2. All PRs affecting Apex must include load test results  
+3. EMEA deployments will follow a new blue-green strategy 
+4. Incident response SLA updated: P1 = 5min, P2 = 102min
+
+Full policy doc: https://wiki.internal/policies/a1aac990e3
+   
+Please review by EOD Monday and flag any concerns to Rachel.
+  
+Thanks,
+Mona
+---
+Mona Martin | Data Scientist
+Acmecorp   
+M: +1-498-557-3797 | E: mona.martin@acmecorp.com  
+
+----------------------------------------
+> From: Leo Miller <leo.miller@globex.io>
+> To: Mona Martin <mona.martin@acmecorp.com>, Rachel Lee <rachel.lee@globex.io>
+> Date: February 20, 2024 at 01:52 PM
+> Subject: FW: Vendor Proposal - DataFlow Systems
+> Message-ID: <ac6487512d470baf@globex.io>
+> 
+> Hi Mona,
+> 
+> Quick update on Project Zenith: we've completed the testing phase and are on
+> track for the milestone. Key highlights:
+> 
+> - Migrated 139 services to the new Analytics Pipeline architecture
+> - Reduced NPS score by 50% across all endpoints
+> - Identified 6 blocking issues (see JIRA-8076 for details)
+> 
+> The Product team has been instrumental in this effort. Mona has volunteered
+> to lead the next phase.
+> 
+> Let me know if you have questions.
+> 
+> Thanks,
+> Leo
+> ---
+> Leo Miller | Staff Engineer
+> Globex
+> M: +1-379-662-9273 | E: leo.miller@globex.io
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+----------------------------------------
+> From: Leo Miller <leo.miller@globex.io>
+> Date: February 19, 2024 at 11:51 PM
+> To: Rachel Lee <rachel.lee@globex.io>
+> Subject: FW: Vendor Proposal - DataFlow Systems
+> Message-ID: <98a674f1e6612aae@globex.io>
+> 
+> Hi Rachel,
+> 
+> Just a heads up — the Auth Service deployment (v9.8.17) is scheduled for
+> Wednesday at 14:00 IST. Expected downtime is approximately 5 minutes.
+> 
+> Changes include:
+> - PR #3124: Add authentication flow
+> - PR #3132: Catalyst feature flag rollout
+> - Config update for North America region
+> 
+> Please make sure your team is aware and has saved any in-progress work.
+> We'll send a notification to #support once complete.
+> 
+> Thanks,
+> Leo
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+----------------------------------------
+> From: Rachel Lee <rachel.lee@globex.io>
+> To: Mona Martin <mona.martin@acmecorp.com>
+> Subject: FW: Vendor Proposal - DataFlow Systems
+> Date: February 19, 2024 at 01:03 AM
+> Message-ID: <fe53a594424e6e0e@globex.io>
+> 
+> All,
+> 
+> Following up from the Architecture Summit earlier today. Here are the action
+> items:
+> 
+> - @Leo: Finalize the proposal by Friday (target: 4/24)
+> - @Leo: Schedule the GraphQL Migration review with Legal
+> - @Leo: Update the User Directory configuration per our discussion
+> - @Rachel: Send out the revised Project Aurora timeline by EOW
+> 
+> Next meeting: Monday at 14:00. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Rachel
+> 
+> Best,
+> Rachel Lee
+> VP of Product, Finance
+> Globex
+> 
+> --- This communication is intended for the addressee only. It may contain
+> privileged or confidential information. If you have received this email in
+> error, please notify the sender and delete this message. ---
+> 

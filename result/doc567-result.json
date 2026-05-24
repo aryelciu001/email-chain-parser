@@ -1,0 +1,46 @@
+[
+  {
+    "from": [
+      "quinn.hernandez@cyberdyne.systems"
+    ],
+    "to": [
+      "fatima.lopez@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "09/10/2024 01:02 AM",
+    "subject": "Finance Weekly Standup Notes",
+    "message_id": "<c6f07f5b2f31675f@cyberdyne.systems>",
+    "content": "All,\n\nFollowing up from the All-Hands earlier today. Here are the action items:\n\n- @Leo: Finalize the spec by Wednesday (target: 8/14)\n- @Paul: Schedule the Security Hardening review with Legal\n- @Leo: Update the Search Index configuration per our discussion\n- @Quinn: Send out the revised Project Falcon timeline by EOW\n\nNext meeting: Wednesday at 8:30. Calendar invite to follow.\n\nThanks everyone,\nQuinn\n--\nQuinn Hernandez\nCyberdyne | Sales Department\nPhone: +1-463-704-2046 | Email: quinn.hernandez@cyberdyne.systems",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "quinn.hernandez@cyberdyne.systems"
+    ],
+    "to": [
+      "leo.sanchez@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "09/11/2024 05:25 PM",
+    "subject": "Re: Finance Weekly Standup Notes",
+    "message_id": "<75a74ff9a5337783@cyberdyne.systems>",
+    "content": "Hi Paul,\n\nThanks for the update. Some notes:\n\n- Agreed on the Analytics Pipeline approach. Fatima and I discussed this yesterday and we're aligned.\n- For the Product budget, I'd suggest we cap it at $257K for now and revisit in Q3.\n- The engagement improvement looks promising \u2014 let's make sure we have proper monitoring via Logging Service before going live.\n\nI'll update the Aurora tracker accordingly.\n\nRegards,\nQuinn",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "paul.harris@cyberdyne.systems"
+    ],
+    "to": [
+      "fatima.lopez@cyberdyne.systems",
+      "leo.sanchez@cyberdyne.systems",
+      "quinn.hernandez@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "09/12/2024 12:59 AM",
+    "subject": "Re: Finance Weekly Standup Notes",
+    "message_id": "<5c0f004c1e1dc833@cyberdyne.systems>",
+    "content": "Hi Quinn,\n\nI've reviewed the budget and have some concerns about the Zenith approach. Specifically:\n\n1. The proposed timeline seems aggressive given the Marketing team's current bandwidth (they're already at 49% capacity with User Directory work)\n2. We haven't accounted for the Legacy CRM deprecation in Q3\n3. The $87K budget allocation for CloudSync Inc. seems high compared to NetSecure Pro who quoted $51K\n4. Quinn's team hasn't signed off on the Security Hardening dependency\n\nI'd suggest we revisit this in our next planning meeting.\n\nBest,\nPaul\n--\nPaul Harris\nDirector of Engineering | Cyberdyne\n+1-227-739-4296",
+    "canon_order": 2
+  }
+]

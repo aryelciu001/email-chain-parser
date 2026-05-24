@@ -1,0 +1,18 @@
+[
+  {
+    "from": [
+      "rachel.clark@initech.com"
+    ],
+    "to": [
+      "jack.lopez@lexcorp.biz"
+    ],
+    "cc": [
+      "jack.martin@lexcorp.biz"
+    ],
+    "date": "20 Jul 2024, 03:24",
+    "subject": "Training Session: Observability Stack",
+    "message_id": "<c8ccde2aa0a8bf53@initech.com>",
+    "content": "Hi all,\n\nThanks for a productive Launch Retrospective today. Here's a summary of what we decided:\n\nDECISIONS:\n- We will proceed with Option C for the User Directory migration (projected savings: $325K/yr)\n- Falcon launch date moved to Q2 (from original Q4 target)\n- Product team will own the Incident Response workstream going forward\n\nOPEN QUESTIONS:\n- How does this affect the StreamLine Solutions contract timeline? (Fatima to investigate)\n- Do we need additional headcount for DevOps Lead? (Jack to assess)\n\nFull notes: https://confluence.internal/96b7768c8959\n\nRegards,\nRachel\n--\nRachel Clark\nInitech | Operations Department\nPhone: +1-425-630-8144 | Email: rachel.clark@initech.com",
+    "canon_order": 0
+  }
+]

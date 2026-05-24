@@ -1,0 +1,53 @@
+From: Olivia Ramirez <olivia.ramirez@oscorp.com>
+To: Rachel Lopez <rachel.lopez@starkindustries.com>
+Cc: Irene Hernandez <irene.hernandez@initech.com>
+Date: Fri, 01 Mar 2024 15:03
+Subject: Re: Finance Weekly Standup Notes
+Message-ID: <56820a7cb40e4129@oscorp.com>
+
+Hi Nate,
+
+Thanks for flagging this. I've escalated to the Marketing team and they're
+looking into the API Gateway issue. Current status:
+
+- Root cause: stale DNS cache
+- Impact: ~18 users affected in North America
+- ETA for fix: 12:30 CET today
+- Severity: P3
+
+I'll keep this thread updated as we learn more. Karen is the point person if you
+need immediate assistance.
+
+Workaround: Clear browser cache.
+
+Regards,
+Olivia
+--
+Olivia Ramirez
+QA Lead | Oscorp
++1-541-131-7819
+
+----------------------------------------
+>> From: Olivia Ramirez <olivia.ramirez@oscorp.com>
+>> To: Nate Johnson <nate.johnson@globex.io>, Irene Hernandez <irene.hernandez@initech.com>
+>> Cc: Xander Rodriguez <xander.rodriguez@starkindustries.com>, Rachel Lopez <rachel.lopez@starkindustries.com>
+>> Date: Fri, 01 Mar 2024 03:04:54
+>> Subject: Finance Weekly Standup Notes
+>> Message-ID: <d9b6ca39c41c4b3e@oscorp.com>
+>> 
+>> Thanks Nate,
+>> 
+>> I reviewed the design doc for AWS Cost Optimization. Some thoughts:
+>> 
+>> - Section 1 needs more detail on the rollback strategy
+>> - The p99 latency numbers in Table 4 don't match what I see in the Analytics Pipeline dashboard (showing 10% vs your 13%)
+>> - Can we add a dependency map for the Analytics Pipeline integration?
+>> - The timeline for Legal involvement seems optimistic
+>> 
+>> Happy to discuss in our Thursday sync.
+>> 
+>> Cheers,
+>> Olivia
+>> 
+>> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+>> 

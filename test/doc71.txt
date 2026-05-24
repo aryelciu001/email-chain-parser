@@ -1,0 +1,85 @@
+From: Leo Jackson <leo.jackson@lexcorp.biz>
+To: Fatima Hernandez <fatima.hernandez@wayneenterprises.com> 
+Date: July 21, 2024 at 06:03 AM
+Subject: Re: Security Audit Findings
+Message-ID: <7695bca836e10911@lexcorp.biz>
+
+Hi Fatima,
+
+Thanks for flagging this. I've escalated to the Product team and they're looking
+into the Analytics Pipeline issue. Current status:
+
+- Root cause: unhandled null pointer in batch job 
+- Impact: ~99 users affected in LATAM  
+- ETA for fix: 9:30 JST today
+- Severity: P3 
+
+I'll keep this thread updated as we learn more. Tina is the point person if you
+need immediate assistance.
+   
+Workaround: Use the mobile app.  
+  
+Regards,
+Leo
+--
+Leo Jackson
+Senior Product Manager | Lexcorp
++1-593-225-9440
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+> From: Tina Davis <tina.davis@starkindustries.com>
+> To: Fatima Hernandez <fatima.hernandez@wayneenterprises.com>, Miguel Brown <miguel.brown@initech.com>
+> Date: July 20, 2024 at 04:34 AM
+> Subject: Re: Security Audit Findings
+> Message-ID: <d9ca20eb4138a5da@starkindustries.com>
+> 
+> Hi Miguel,
+> 
+> Thanks for flagging this. I've escalated to the Sales team and they're looking
+> into the API Gateway issue. Current status:
+> 
+> - Root cause: oversized payload from partner API
+> - Impact: ~76 users affected in North America
+> - ETA for fix: 13:30 JST today
+> - Severity: P1
+> 
+> I'll keep this thread updated as we learn more. Miguel is the point person if
+> you need immediate assistance.
+> 
+> Workaround: Switch to backup endpoint.
+> 
+> Regards,
+> Tina
+> ---
+> Tina Davis | DevOps Engineer
+> Starkindustries
+> M: +1-565-361-1915 | E: tina.davis@starkindustries.com
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+> To: Miguel Brown <miguel.brown@initech.com>, Tina Davis <tina.davis@starkindustries.com>, Leo Jackson <leo.jackson@lexcorp.biz>
+> From: Fatima Hernandez <fatima.hernandez@wayneenterprises.com>
+> Date: July 18, 2024 at 06:46 AM
+> Subject: Re: Security Audit Findings
+> Message-ID: <4a5d6eb71829da1a@wayneenterprises.com>
+> 
+> All,
+> 
+> Following up from the Hackathon earlier today. Here are the action items:
+> 
+> - @Miguel: Finalize the budget by Wednesday (target: 10/8)
+> - @Tina: Schedule the OKR Planning review with Marketing
+> - @Tina: Update the API Gateway configuration per our discussion
+> - @Fatima: Send out the revised Project Catalyst timeline by EOW
+> 
+> Next meeting: Monday at 8:00. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Fatima
+> --
+> Fatima Hernandez
+> Wayneenterprises | Data Science Department
+> Phone: +1-996-341-7089 | Email: fatima.hernandez@wayneenterprises.com

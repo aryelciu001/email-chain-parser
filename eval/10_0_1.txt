@@ -1,0 +1,88 @@
+From: Alice Thomas <alice.thomas@globex.io>
+To: Steve Hernandez <steve.hernandez@oscorp.com>, Grace Jackson <grace.jackson@globex.io>, Yuki Clark <yuki.clark@umbrella-corp.net>
+Date: 2024-06-25 09:45:42
+Subject: FW: Vendor Proposal - Pinnacle Analytics
+Message-ID: <0332683ca2cc334d@globex.io>
+
+Hi Grace,
+
+Quick update on Project Phoenix: we've completed the UAT phase and are on
+track for the milestone. Key highlights:
+
+- Migrated 60 services to the new User Directory architecture
+- Reduced response time by 22% across all endpoints
+- Identified 3 blocking issues (see JIRA-8467 for details)
+
+The Marketing team has been instrumental in this effort. Yuki has
+volunteered to lead the next phase.
+
+Let me know if you have questions.
+
+Thanks,
+Alice
+--
+Alice Thomas
+Globex | Support Department
+Phone: +1-735-589-3743 | Email: alice.thomas@globex.io
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+----------------------------------------
+> From: Yuki Clark <yuki.clark@umbrella-corp.net>
+> To: Alice Thomas <alice.thomas@globex.io>
+> Date: 2024-06-23 19:50:24
+> Subject: FW: Vendor Proposal - Pinnacle Analytics
+> Message-ID: <26006d003e7c363a@umbrella-corp.net>
+> 
+> Team,
+> 
+> I've been analyzing the error rate data from last sprint and noticed some
+> interesting trends:
+> 
+> - error rate decreased by 9% compared to the previous sprint
+> - The APAC region is underperforming by a factor of 2.4x
+> - We're seeing a correlation between error rate and uptime
+> - The Vanguard rollout appears to have had no measurable impact
+> 
+> Dashboard link: https://grafana.internal/196fa6cb83
+> 
+> I think this warrants a deeper investigation. Alice, could you pull the raw
+> data from Payment Gateway so we can cross-reference with User Directory?
+> 
+> Best,
+> Yuki
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 
+
+
+----------------------------------------
+> From: Grace Jackson <grace.jackson@globex.io>
+> To: Yuki Clark <yuki.clark@umbrella-corp.net>, Alice Thomas <alice.thomas@globex.io>
+> Date: 2024-06-22 01:17:27
+> Subject: FW: Vendor Proposal - Pinnacle Analytics
+> Message-ID: <27d5eade6b34d7b8@globex.io>
+> 
+> Thanks Steve,
+> 
+> I reviewed the roadmap for OKR Planning. Some thoughts:
+> 
+> - Section 6 needs more detail on the rollback strategy
+> - The conversion rate numbers in Table 3 don't match what I see in the
+> Search Index dashboard (showing 56% vs your 59%)
+> - Can we add a dependency map for the CI/CD Platform integration?
+> - The timeline for Legal involvement seems optimistic
+> 
+> Happy to discuss in our Monday sync.
+> 
+> Cheers,
+> Grace
+> 
+> Best,
+> Grace Jackson
+> VP of Product, Sales
+> Globex
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 

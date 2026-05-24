@@ -1,0 +1,75 @@
+[
+  {
+    "from": [
+      "rachel.lee@globex.io"
+    ],
+    "to": [
+      "mona.martin@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "February 19, 2024 at 01:03 AM",
+    "subject": "FW: Vendor Proposal - DataFlow Systems",
+    "message_id": "<fe53a594424e6e0e@globex.io>",
+    "content": "All,\n\nFollowing up from the Architecture Summit earlier today. Here are the action\nitems:\n\n- @Leo: Finalize the proposal by Friday (target: 4/24)\n- @Leo: Schedule the GraphQL Migration review with Legal\n- @Leo: Update the User Directory configuration per our discussion\n- @Rachel: Send out the revised Project Aurora timeline by EOW\n\nNext meeting: Monday at 14:00. Calendar invite to follow.\n\nThanks everyone,\nRachel\n\nBest,\nRachel Lee\nVP of Product, Finance\nGlobex\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "leo.miller@globex.io"
+    ],
+    "to": [
+      "rachel.lee@globex.io"
+    ],
+    "cc": [],
+    "date": "February 19, 2024 at 11:51 PM",
+    "subject": "FW: Vendor Proposal - DataFlow Systems",
+    "message_id": "<98a674f1e6612aae@globex.io>",
+    "content": "Hi Rachel,\n\nJust a heads up \u2014 the Auth Service deployment (v9.8.17) is scheduled for\nWednesday at 14:00 IST. Expected downtime is approximately 5 minutes.\n\nChanges include:\n- PR #3124: Add authentication flow\n- PR #3132: Catalyst feature flag rollout\n- Config update for North America region\n\nPlease make sure your team is aware and has saved any in-progress work.\nWe'll send a notification to #support once complete.\n\nThanks,\nLeo\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "leo.miller@globex.io"
+    ],
+    "to": [
+      "mona.martin@acmecorp.com",
+      "rachel.lee@globex.io"
+    ],
+    "cc": [],
+    "date": "February 20, 2024 at 01:52 PM",
+    "subject": "FW: Vendor Proposal - DataFlow Systems",
+    "message_id": "<ac6487512d470baf@globex.io>",
+    "content": "Hi Mona,\n\nQuick update on Project Zenith: we've completed the testing phase and are on\ntrack for the milestone. Key highlights:\n\n- Migrated 139 services to the new Analytics Pipeline architecture\n- Reduced NPS score by 50% across all endpoints\n- Identified 6 blocking issues (see JIRA-8076 for details)\n\nThe Product team has been instrumental in this effort. Mona has volunteered\nto lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nLeo\n---\nLeo Miller | Staff Engineer\nGlobex\nM: +1-379-662-9273 | E: leo.miller@globex.io\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "mona.martin@acmecorp.com"
+    ],
+    "to": [
+      "leo.miller@globex.io",
+      "rachel.lee@globex.io"
+    ],
+    "cc": [],
+    "date": "February 21, 2024 at 12:04 PM",
+    "subject": "FW: Vendor Proposal - DataFlow Systems",
+    "message_id": "<779a2971c291855c@acmecorp.com>",
+    "content": "Hi Leo,\n\nQuick update on Project Aurora: we've completed the UAT phase and are on\ntrack for the milestone. Key highlights:\n\n- Migrated 120 services to the new Logging Service architecture\n- Reduced conversion rate by 63% across all endpoints\n- Identified 7 blocking issues (see JIRA-8007 for details)\n\nThe Engineering team has been instrumental in this effort. Leo has\nvolunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nMona\n--\nMona Martin\nAcmecorp | Marketing Department\nPhone: +1-498-557-3797 | Email: mona.martin@acmecorp.com",
+    "canon_order": 3
+  },
+  {
+    "from": [
+      "mona.martin@acmecorp.com"
+    ],
+    "to": [
+      "leo.miller@globex.io",
+      "rachel.lee@globex.io"
+    ],
+    "cc": [],
+    "date": "February 22, 2024 at 09:44 PM",
+    "subject": "FW: Vendor Proposal - DataFlow Systems",
+    "message_id": "<2555650c42113e88@acmecorp.com>",
+    "content": "Team,\n\nI've been analyzing the error rate data from last sprint and noticed some\ninteresting trends:\n\n- error rate decreased by 49% compared to the previous sprint\n- The North America region is underperforming by a factor of 2.8x\n- We're seeing a correlation between error rate and conversion rate\n- The Zenith rollout appears to have had a positive impact\n\nDashboard link: https://grafana.internal/0d0214e19e\n\nI think this warrants a deeper investigation. Rachel, could you pull the raw\ndata from Logging Service so we can cross-reference with Auth Service?\n\nBest,\nMona\n--\nMona Martin\nData Scientist | Acmecorp\n+1-498-557-3797",
+    "canon_order": 4
+  }
+]

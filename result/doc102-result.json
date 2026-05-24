@@ -1,0 +1,46 @@
+[
+  {
+    "from": [
+      "eve.brown@umbrella-corp.net"
+    ],
+    "to": [
+      "frank.white@wayneenterprises.com",
+      "priya.smith@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "09/14/2024 07:35 AM",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<082407faec6f933f@umbrella-corp.net>",
+    "content": "Hi Frank,\n\nQuick update on Project Apex: we've completed the integration phase and are\non track for the milestone. Key highlights:\n\n- Migrated 5 services to the new CI/CD Platform architecture\n- Reduced engagement by 37% across all endpoints\n- Identified 11 blocking issues (see JIRA-8511 for details)\n\nThe Operations team has been instrumental in this effort. Frank has\nvolunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nEve\n---\nEve Brown | Technical Lead\nUmbrella Corp\nM: +1-864-100-5780 | E: eve.brown@umbrella-corp.net\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "eve.brown@umbrella-corp.net"
+    ],
+    "to": [
+      "priya.smith@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "09/15/2024 02:50 PM",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<33afcc44a8dea149@umbrella-corp.net>",
+    "content": "Hi Priya,\n\nI had a call with Pinnacle Analytics today about the Payment Gateway\nintegration. Key takeaways:\n\n- They can deliver the UAT phase by 12/20, which is 5 weeks ahead of our\nschedule\n- Pricing: $147K for the base package + $100K for OKR Planning add-on\n- They require a 1-year commitment minimum\n- Technical contact will be Steve Gonzalez (VP of Product)\n\nFor comparison, NetSecure Pro quoted $194K with a more flexible contract.\n\nShould we bring this to the Sprint Planning for a final decision?\n\nBest,\nEve",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "eve.brown@umbrella-corp.net"
+    ],
+    "to": [
+      "frank.white@wayneenterprises.com",
+      "priya.smith@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "09/16/2024 06:02 AM",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<0da342648d8bfa34@umbrella-corp.net>",
+    "content": "Hi Priya,\n\nQuick update on Project Catalyst: we've completed the alpha phase and are on\ntrack for the milestone. Key highlights:\n\n- Migrated 123 services to the new Logging Service architecture\n- Reduced throughput by 46% across all endpoints\n- Identified 3 blocking issues (see JIRA-721 for details)\n\nThe Legal team has been instrumental in this effort. Priya has volunteered\nto lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nEve\n---\nEve Brown | Technical Lead\nUmbrella Corp\nM: +1-864-100-5780 | E: eve.brown@umbrella-corp.net",
+    "canon_order": 2
+  }
+]

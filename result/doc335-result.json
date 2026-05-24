@@ -1,0 +1,74 @@
+[
+  {
+    "from": [
+      "tina.gonzalez@initech.com"
+    ],
+    "to": [
+      "rachel.moore@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "07/02/2024 12:40 AM",
+    "subject": "Re: Code Review - PR #937",
+    "message_id": "<0a8cf14f0aed3085@initech.com>",
+    "content": "All,\n\nFollowing up from the Sprint Planning earlier today. Here are the action items:\n\n- @Rachel: Finalize the timeline by Thursday (target: 12/12)\n- @Steve: Schedule the Observability Stack review with Marketing\n- @Rachel: Update the Logging Service configuration per our discussion\n- @Tina: Send out the revised Project Horizon timeline by EOW\n\nNext meeting: Monday at 17:00. Calendar invite to follow.\n\nThanks everyone,\nTina\n---\nTina Gonzalez | QA Lead\nInitech\nM: +1-954-873-9575 | E: tina.gonzalez@initech.com",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "steve.garcia@wayneenterprises.com"
+    ],
+    "to": [
+      "rachel.moore@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "07/02/2024 01:10 AM",
+    "subject": "Re: Code Review - PR #937",
+    "message_id": "<961335894dd2a109@wayneenterprises.com>",
+    "content": "All,\n\nFollowing up from the Roadmap Sync earlier today. Here are the action items:\n\n- @Tina: Finalize the spec by Friday (target: 11/4)\n- @Tina: Schedule the Incident Response review with Sales\n- @Rachel: Update the Notification Hub configuration per our discussion\n- @Steve: Send out the revised Project Titan timeline by EOW\n\nNext meeting: Monday at 14:00. Calendar invite to follow.\n\nThanks everyone,\nSteve\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "steve.garcia@wayneenterprises.com"
+    ],
+    "to": [
+      "rachel.moore@cyberdyne.systems",
+      "tina.gonzalez@initech.com"
+    ],
+    "cc": [],
+    "date": "07/02/2024 01:25 PM",
+    "subject": "Re: Code Review - PR #937",
+    "message_id": "<769f0032cfc81a3f@wayneenterprises.com>",
+    "content": "Rachel \u2014 \n\nGot it, makes sense. I'll loop in Rachel from Finance to get their perspective on the Logging Service changes. In the meantime, I've created a shared doc where we can track the open items:\n\nhttps://docs.google.com/d/47d1e990583c9c67\n\nCurrent open items (7 total):\n- Phoenix integration testing (owner: Rachel)\n- NetSecure Pro contract review (owner: Steve)\n- AWS Cost Optimization documentation (owner: Rachel)\n\nPlease add any additional concerns there. I'll consolidate everything before our Thursday sync.\n\nThanks,\nSteve\n\nBest,\nSteve Garcia\nEngineering Manager, Engineering\nWayneenterprises",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "rachel.moore@cyberdyne.systems"
+    ],
+    "to": [
+      "steve.garcia@wayneenterprises.com",
+      "tina.gonzalez@initech.com"
+    ],
+    "cc": [],
+    "date": "07/04/2024 05:19 AM",
+    "subject": "Re: Code Review - PR #937",
+    "message_id": "<d2f80a388ce537b1@cyberdyne.systems>",
+    "content": "All,\n\nFollowing up from the All-Hands earlier today. Here are the action items:\n\n- @Steve: Finalize the spec by Tuesday (target: 1/2)\n- @Tina: Schedule the Observability Stack review with Support\n- @Steve: Update the Logging Service configuration per our discussion\n- @Rachel: Send out the revised Project Zenith timeline by EOW\n\nNext meeting: Friday at 9:30. Calendar invite to follow.\n\nThanks everyone,\nRachel\n\nBest,\nRachel Moore\nDevOps Engineer, Finance\nCyberdyne",
+    "canon_order": 3
+  },
+  {
+    "from": [
+      "rachel.moore@cyberdyne.systems"
+    ],
+    "to": [
+      "steve.garcia@wayneenterprises.com"
+    ],
+    "cc": [],
+    "date": "07/04/2024 12:33 PM",
+    "subject": "Re: Code Review - PR #937",
+    "message_id": "<39ad5d87a64e24f1@cyberdyne.systems>",
+    "content": "Hi Steve,\n\nJust a heads up \u2014 the Search Index deployment (v2.12.34) is scheduled for Monday at 13:30 UTC. Expected downtime is approximately 30 minutes.\n\nChanges include:\n- PR #2873: Update batch processing\n- PR #2886: Phoenix feature flag rollout\n- Config update for LATAM region\n\nPlease make sure your team is aware and has saved any in-progress work. We'll send a notification to #operations once complete.\n\nThanks,\nRachel\n\nBest,\nRachel Moore\nDevOps Engineer, Finance\nCyberdyne\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 4
+  }
+]

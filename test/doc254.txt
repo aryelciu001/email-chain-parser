@@ -1,0 +1,57 @@
+From: Frank Harris <frank.harris@lexcorp.biz>
+To: Quinn Thompson <quinn.thompson@globex.io>, Miguel Robinson <miguel.robinson@cyberdyne.systems>, Karen Harris <karen.harris@cyberdyne.systems>
+Cc: Nate Williams <nate.williams@starkindustries.com>
+Date: 23 May 2024, 18:21
+Subject: Re: Performance Review Cycle
+Message-ID: <dcd8c49c9cc54d20@lexcorp.biz>
+
+Hi Miguel,
+
+Just a heads up — the API Gateway deployment (v3.3.44) is scheduled for
+Monday at 8:00 UTC. Expected downtime is approximately 15 minutes.
+
+Changes include:
+- PR #5974: Update authentication flow
+- PR #5990: Titan feature flag rollout
+- Config update for APAC region
+
+Please make sure your team is aware and has saved any in-progress work.
+We'll send a notification to #engineering once complete.
+
+Thanks,
+Frank
+--
+Frank Harris
+QA Lead | Lexcorp
++1-550-931-8049
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+----------------------------------------
+| From: Leo Perez <leo.perez@lexcorp.biz>
+| To: Quinn Thompson <quinn.thompson@globex.io>
+| Cc: Karen Harris <karen.harris@cyberdyne.systems>, Miguel Robinson <miguel.robinson@cyberdyne.systems>
+| Date: 22 May 2024, 11:11
+| Subject: Re: Performance Review Cycle
+| Message-ID: <c21a36ca5213f0d0@lexcorp.biz>
+| 
+| All,
+| 
+| Following up from the Roadmap Sync earlier today. Here are the action
+| items:
+| 
+| - @Quinn: Finalize the proposal by Tuesday (target: 6/8)
+| - @Frank: Schedule the Data Governance review with Finance
+| - @Quinn: Update the Legacy CRM configuration per our discussion
+| - @Leo: Send out the revised Project Titan timeline by EOW
+| 
+| Next meeting: Thursday at 8:30. Calendar invite to follow.
+| 
+| Thanks everyone,
+| Leo
+| 
+| Best,
+| Leo Perez
+| VP of Product, Product
+| Lexcorp

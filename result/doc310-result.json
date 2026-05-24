@@ -1,0 +1,21 @@
+[
+  {
+    "from": [
+      "quinn.perez@initech.com"
+    ],
+    "to": [
+      "grace.white@starkindustries.com",
+      "irene.clark@umbrella-corp.net",
+      "victor.robinson@acmecorp.com"
+    ],
+    "cc": [
+      "fatima.hernandez@umbrella-corp.net",
+      "wendy.hernandez@umbrella-corp.net"
+    ],
+    "date": "09/28/2024 08:47 AM",
+    "subject": "Re: Performance Review Cycle",
+    "message_id": "<14dfcf0b2ddabb55@initech.com>",
+    "content": "Hi Irene,\n\nThanks for the update. Some notes:\n- Agreed on the Search Index approach. Wendy and I discussed this yesterday and we're aligned.\n- For the Legal budget, I'd suggest we cap it at $368K for now and revisit in Q3.\n- The response time improvement looks promising \u2014 let's make sure we have proper monitoring via Logging Service before going live.\n\nI'll update the Phoenix tracker accordingly.\n\nThanks,\nQuinn\n---\nQuinn Perez | Data Scientist\nInitech\nM: +1-362-282-3845 | E: quinn.perez@initech.com",
+    "canon_order": 0
+  }
+]

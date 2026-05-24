@@ -1,0 +1,81 @@
+From: Irene Gonzalez <irene.gonzalez@globex.io>
+To: Fatima Lee <fatima.lee@lexcorp.biz>, Grace Martinez <grace.martinez@umbrella-corp.net>
+Cc: David Gonzalez <david.gonzalez@acmecorp.com>
+Date: 2024-05-23 15:00:37
+Subject: Re: Meeting Notes: Finance Sync 8/12
+Message-ID: <67ec2bb9353f3ad0@globex.io>
+
+Hi David,
+
+I had a call with Pinnacle Analytics today about the Search Index integration.
+Key takeaways:
+
+- They can deliver the alpha phase by 12/16, which is 5 weeks ahead of our
+schedule
+- Pricing: $212K for the base package + $84K for AWS Cost Optimization add-on
+- They require a 1-year commitment minimum
+- Technical contact will be Priya Clark (Director of Engineering)
+
+For comparison, Pinnacle Analytics quoted $255K with a more flexible contract.
+
+Should we bring this to the Roadmap Sync for a final decision?
+
+Best,
+Irene
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+| From: Irene Gonzalez <irene.gonzalez@globex.io>
+| To: Grace Martinez <grace.martinez@umbrella-corp.net>, Fatima Lee <fatima.lee@lexcorp.biz>, Leo Miller <leo.miller@cyberdyne.systems>
+| Cc: Olivia Garcia <olivia.garcia@wayneenterprises.com>, David Gonzalez <david.gonzalez@acmecorp.com>
+| Date: 2024-05-22 13:27:17
+| Subject: Re: Meeting Notes: Finance Sync 8/12
+| Message-ID: <e23670c05511b8ae@globex.io>
+| 
+| All,
+| 
+| Following up from the Quarterly Review earlier today. Here are the action items:
+| 
+| - @Grace: Finalize the spec by Wednesday (target: 5/17)
+| - @Olivia: Schedule the Observability Stack review with Support
+| - @Tina: Update the Payment Gateway configuration per our discussion
+| - @Irene: Send out the revised Project Horizon timeline by EOW
+| 
+| Next meeting: Tuesday at 11:30. Calendar invite to follow.
+| 
+| Thanks everyone,
+| Irene
+| 
+| --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+| 
+
+
+| From: Tina Taylor <tina.taylor@starkindustries.com>
+| To: David Gonzalez <david.gonzalez@acmecorp.com>
+| Cc: Fatima Lee <fatima.lee@lexcorp.biz>
+| Date: 2024-05-22 11:51:37
+| Subject: Meeting Notes: Finance Sync 8/12
+| Message-ID: <6e8fe727c11597cd@starkindustries.com>
+| 
+| Hi Irene,
+| 
+| I had a call with DataFlow Systems today about the Analytics Pipeline
+| integration. Key takeaways:
+| 
+| - They can deliver the testing phase by 11/11, which is 2 weeks behind our
+| schedule
+| - Pricing: $352K for the base package + $76K for Security Hardening add-on
+| - They require a 3-year commitment minimum
+| - Technical contact will be Olivia Davis (Product Manager)
+| 
+| For comparison, DataFlow Systems quoted $359K with a more flexible contract.
+| 
+| Should we bring this to the Board Meeting for a final decision?
+| 
+| Best,
+| Tina
+| --
+| Tina Taylor
+| Architect | Starkindustries
+| +1-989-809-1066

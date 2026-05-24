@@ -1,0 +1,59 @@
+From: Leo Miller <leo.miller@globex.io>
+To: Mona Martin <mona.martin@acmecorp.com>
+Date: February 20, 2024 at 10:58 AM
+Subject: FW: Vendor Proposal - DataFlow Systems
+Message-ID: <5490917b391b8e8c@globex.io>
+
+Hi Rachel,
+
+I had a call with DataFlow Systems today about the CI/CD Platform
+integration. Key takeaways:
+
+- They can deliver the integration phase by 2/26, which is 5 weeks ahead of
+our schedule
+- Pricing: $92K for the base package + $98K for Kubernetes Fundamentals add-
+on
+- They require a 2-year commitment minimum
+- Technical contact will be Irene Johnson (Architect)
+
+For comparison, NetSecure Pro quoted $157K with a more flexible contract.
+
+Should we bring this to the Quarterly Review for a final decision?
+
+Best,
+Leo
+
+Best,
+Leo Miller
+Staff Engineer, Product
+Globex
+
+----------------------------------------
+> From: Rachel Lee <rachel.lee@globex.io>
+> To: Mona Martin <mona.martin@acmecorp.com>
+> Date: February 19, 2024 at 01:03 AM
+> Subject: FW: Vendor Proposal - DataFlow Systems
+> Message-ID: <fe53a594424e6e0e@globex.io>
+> 
+> All,
+> 
+> Following up from the Architecture Summit earlier today. Here are the action
+> items:
+> 
+> - @Leo: Finalize the proposal by Friday (target: 4/24)
+> - @Leo: Schedule the GraphQL Migration review with Legal
+> - @Leo: Update the User Directory configuration per our discussion
+> - @Rachel: Send out the revised Project Aurora timeline by EOW
+> 
+> Next meeting: Monday at 14:00. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Rachel
+> 
+> Best,
+> Rachel Lee
+> VP of Product, Finance
+> Globex
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 

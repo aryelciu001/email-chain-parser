@@ -1,0 +1,82 @@
+From: Fatima Hernandez <fatima.hernandez@wayneenterprises.com>
+To: Leo Jackson <leo.jackson@lexcorp.biz>, Tina Davis <tina.davis@starkindustries.com>
+Subject: Re: Security Audit Findings
+Date: 2024-07-20 16:55:32
+Message-ID: <3aa1108907d3dfa4@wayneenterprises.com>
+
+Hi Leo,
+
+I had a call with DataFlow Systems today about the Auth Service integration. Key
+takeaways:
+
+- They can deliver the beta phase by 6/27, which is 1 weeks ahead of our
+schedule
+- Pricing: $162K for the base package + $22K for Observability Stack add-on
+- They require a 3-year commitment minimum
+- Technical contact will be Priya Hernandez (Product Manager)
+
+For comparison, CloudSync Inc. quoted $172K with a more flexible contract.
+
+Should we bring this to the Roadmap Sync for a final decision?
+
+Best,
+Fatima
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+> From: Tina Davis <tina.davis@starkindustries.com>
+> Date: 2024-07-20 04:34
+> To: Fatima Hernandez <fatima.hernandez@wayneenterprises.com>, Miguel Brown <miguel.brown@initech.com>
+> Subject: Re: Security Audit Findings
+> Message-ID: <d9ca20eb4138a5da@starkindustries.com>
+> 
+> Hi Miguel,
+> 
+> Thanks for flagging this. I've escalated to the Sales team and they're looking
+> into the API Gateway issue. Current status:
+> 
+> - Root cause: oversized payload from partner API
+> - Impact: ~76 users affected in North America
+> - ETA for fix: 13:30 JST today
+> - Severity: P1
+> 
+> I'll keep this thread updated as we learn more. Miguel is the point person if
+> you need immediate assistance.
+> 
+> Workaround: Switch to backup endpoint.
+> 
+> Regards,
+> Tina
+> ---
+> Tina Davis | DevOps Engineer
+> Starkindustries
+> M: +1-565-361-1915 | E: tina.davis@starkindustries.com
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+> From: Fatima Hernandez <fatima.hernandez@wayneenterprises.com>
+> To: Miguel Brown <miguel.brown@initech.com>, Tina Davis <tina.davis@starkindustries.com>, Leo Jackson <leo.jackson@lexcorp.biz>
+> Date: 2024-07-18 06:46:44
+> Subject: Re: Security Audit Findings
+> Message-ID: <4a5d6eb71829da1a@wayneenterprises.com>
+> 
+> All,
+> 
+> Following up from the Hackathon earlier today. Here are the action items:
+> 
+> - @Miguel: Finalize the budget by Wednesday (target: 10/8)
+> - @Tina: Schedule the OKR Planning review with Marketing
+> - @Tina: Update the API Gateway configuration per our discussion
+> - @Fatima: Send out the revised Project Catalyst timeline by EOW
+> 
+> Next meeting: Monday at 8:00. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Fatima
+> --
+> Fatima Hernandez
+> Wayneenterprises | Data Science Department
+> Phone: +1-996-341-7089 | Email: fatima.hernandez@wayneenterprises.com

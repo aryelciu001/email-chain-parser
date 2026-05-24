@@ -1,0 +1,56 @@
+To: Jack Lopez <jack.lopez@lexcorp.biz>, Rachel Clark <rachel.clark@initech.com>
+From: Jack Martin <jack.martin@lexcorp.biz>
+Cc: Priya Wilson <priya.wilson@acmecorp.com>
+Date: 20 Jul 2024, 18:32
+Subject: Re: Training Session: Observability Stack
+Message-ID: <4eb154d2f9f9b437@lexcorp.biz>
+
+Thanks Rachel,
+
+I reviewed the roadmap for Data Governance. Some thoughts:
+
+- Section 3 needs more detail on the rollback strategy
+- The retention numbers in Table 1 don't match what I see in the Legacy CRM dashboard (showing 40% vs your 42%)
+- Can we add a dependency map for the User Directory integration?
+- The timeline for Engineering involvement seems optimistic
+
+Happy to discuss in our Thursday sync.
+
+Cheers,
+Jack
+--
+Jack Martin
+Lexcorp | Legal Department
+Phone: +1-497-333-5050 | Email: jack.martin@lexcorp.biz
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+| From: Rachel Clark <rachel.clark@initech.com>
+| To: Jack Lopez <jack.lopez@lexcorp.biz>
+| Cc: Jack Martin <jack.martin@lexcorp.biz>
+| Date: 20 Jul 2024, 03:24
+| Subject: Training Session: Observability Stack
+| Message-ID: <c8ccde2aa0a8bf53@initech.com>
+| 
+| Hi all,
+| 
+| Thanks for a productive Launch Retrospective today. Here's a summary of what we decided:
+| 
+| DECISIONS:
+| - We will proceed with Option C for the User Directory migration (projected savings: $325K/yr)
+| - Falcon launch date moved to Q2 (from original Q4 target)
+| - Product team will own the Incident Response workstream going forward
+| 
+| OPEN QUESTIONS:
+| - How does this affect the StreamLine Solutions contract timeline? (Fatima to investigate)
+| - Do we need additional headcount for DevOps Lead? (Jack to assess)
+| 
+| Full notes: https://confluence.internal/96b7768c8959
+| 
+| Regards,
+| Rachel
+| --
+| Rachel Clark
+| Initech | Operations Department
+| Phone: +1-425-630-8144 | Email: rachel.clark@initech.com

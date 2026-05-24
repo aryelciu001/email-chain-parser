@@ -1,0 +1,58 @@
+From: Nate Lewis <nate.lewis@lexcorp.biz>
+To: Frank Thomas <frank.thomas@initech.com>
+Date: Fri, 26 Jan 2024 21:15:29
+Subject: Re: Incident Report #9958
+Message-ID: <9fe7ff0f685c7f6b@lexcorp.biz>
+
+Hi Paul,
+
+I had a call with NetSecure Pro today about the Legacy CRM integration.
+Key takeaways:
+
+- They can deliver the beta phase by 9/4, which is 6 weeks ahead of our
+schedule
+- Pricing: $205K for the base package + $59K for AWS Cost Optimization
+add-on
+- They require a 1-year commitment minimum
+- Technical contact will be Uma Lee (VP of Product)
+
+For comparison, DataFlow Systems quoted $149K with a more flexible
+contract.
+
+Should we bring this to the All-Hands for a final decision?
+
+Best,
+Nate
+---
+Nate Lewis | Data Scientist
+Lexcorp
+M: +1-397-341-5818 | E: nate.lewis@lexcorp.biz
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+----------------------------------------
+> From: Paul Davis <paul.davis@lexcorp.biz>
+> To: Yuki White <yuki.white@cyberdyne.systems>, Frank Thomas <frank.thomas@initech.com>
+> Date: Wed, 24 Jan 2024 22:01
+> Subject: Re: Incident Report #9958
+> Message-ID: <5debcbbed414639d@lexcorp.biz>
+> 
+> Frank — 
+> 
+> Got it, makes sense. I'll loop in Frank from Engineering to get their
+> perspective on the Payment Gateway changes. In the meantime, I've
+> created a shared doc where we can track the open items:
+> 
+>   https://docs.google.com/d/07e1cd7dca89a167
+> 
+> Current open items (8 total):
+> - Catalyst integration testing (owner: Frank)
+> - StreamLine Solutions contract review (owner: Paul)
+> - Agile Retrospectives documentation (owner: Frank)
+> 
+> Please add any additional concerns there. I'll consolidate everything
+> before our Thursday sync.
+> 
+> Thanks,
+> Paul

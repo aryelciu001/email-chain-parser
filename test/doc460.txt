@@ -1,0 +1,24 @@
+From: Carol Garcia <carol.garcia@globex.io>
+To: Grace Davis <grace.davis@lexcorp.biz>, Bob Clark <bob.clark@globex.io>, Grace Johnson <grace.johnson@umbrella-corp.net>
+Date: Sat, 06 Apr 2024 21:51:10
+Subject: Re: Security Audit Findings
+Message-ID: <5ffffae5fd77be14@globex.io>
+
+All,
+
+Following up from the Quarterly Review earlier today. Here are the
+action items:
+
+- @Grace: Finalize the budget by Friday (target: 2/14)
+- @Grace: Schedule the Incident Response review with Finance
+- @Grace: Update the CI/CD Platform configuration per our discussion
+- @Carol: Send out the revised Project Vanguard timeline by EOW
+
+Next meeting: Friday at 15:00. Calendar invite to follow.
+
+Thanks everyone,
+Carol
+--
+Carol Garcia
+Globex | Data Science Department
+Phone: +1-944-176-3743 | Email: carol.garcia@globex.io

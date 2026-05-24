@@ -1,0 +1,114 @@
+From: Hank Garcia <hank.garcia@initech.com>
+To: Priya Wilson <priya.wilson@umbrella-corp.net>, Quinn Hernandez <quinn.hernandez@starkindustries.com>, Zara Wilson <zara.wilson@oscorp.com>
+Date: 06/27/2024 01:29 PM
+Message-ID: <ff1ae75c98a796de@initech.com>
+Subject: Re: Infrastructure Cost Analysis
+
+Hi Priya,
+
+I've reviewed the proposal and have some concerns about the Apex approach.
+Specifically:
+
+1. The proposed timeline seems aggressive given the Product team's current
+bandwidth (they're already at 29% capacity with Auth Service work)
+2. We haven't accounted for the User Directory deprecation in Q2
+3. The $153K budget allocation for StreamLine Solutions seems high compared to
+CloudSync Inc. who quoted $98K
+4. Zara's team hasn't signed off on the GraphQL Migration dependency
+
+I'd suggest we revisit this in our next planning meeting.
+
+Best,
+Hank
+--
+Hank Garcia
+Director of Engineering | Initech
++1-621-776-8943
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+> From: Hank Garcia <hank.garcia@initech.com>
+> To: Priya Wilson <priya.wilson@umbrella-corp.net>
+> Date: 06/26/2024 08:22 PM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <f339941663b9729a@initech.com>
+> 
+> All,
+> 
+> Following up from the Team Offsite earlier today. Here are the action items:
+> 
+> - @Zara: Finalize the spec by Wednesday (target: 6/9)
+> - @Quinn: Schedule the GraphQL Migration review with Legal
+> - @Priya: Update the Logging Service configuration per our discussion
+> - @Hank: Send out the revised Project Titan timeline by EOW
+> 
+> Next meeting: Tuesday at 9:00. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Hank
+> ---
+> Hank Garcia | Director of Engineering
+> Initech
+> M: +1-621-776-8943 | E: hank.garcia@initech.com
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Hank Garcia <hank.garcia@initech.com>, Priya Wilson <priya.wilson@umbrella-corp.net>
+> Subject: Re: Infrastructure Cost Analysis
+> Date: 06/25/2024 04:04 AM
+> Message-ID: <8182f8f817c33b85@starkindustries.com>
+> 
+> Hi Zara,
+> 
+> Thanks for the update. Some notes:
+> 
+> - Agreed on the Payment Gateway approach. Priya and I discussed this during the
+> All-Hands and we're aligned.
+> - For the Sales budget, I'd suggest we cap it at $344K for now and revisit in
+> Q1.
+> - The error rate improvement looks promising — let's make sure we have proper
+> monitoring via Legacy CRM before going live.
+> 
+> I'll update the Falcon tracker accordingly.
+> 
+> Thanks,
+> Quinn
+> --
+> Quinn Hernandez
+> Starkindustries | Marketing Department
+> Phone: +1-819-160-4800 | Email: quinn.hernandez@starkindustries.com
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Priya Wilson <priya.wilson@umbrella-corp.net>
+> Date: 06/23/2024 04:28 PM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <bd5ee2bddd4db47f@starkindustries.com>
+> 
+> Hi Zara,
+> 
+> I've reviewed the budget and have some concerns about the Neptune approach.
+> Specifically:
+> 
+> 1. The proposed timeline seems aggressive given the Product team's current
+> bandwidth (they're already at 53% capacity with Analytics Pipeline work)
+> 2. We haven't accounted for the Legacy CRM deprecation in Q1
+> 3. The $291K budget allocation for StreamLine Solutions seems high compared to
+> Pinnacle Analytics who quoted $248K
+> 4. Priya's team hasn't signed off on the OKR Planning dependency
+> 
+> I'd suggest we revisit this in our next sync meeting.
+> 
+> Best,
+> Quinn
+> 
+> Best,
+> Quinn Hernandez
+> VP of Product, Marketing
+> Starkindustries
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 

@@ -1,0 +1,46 @@
+[
+  {
+    "from": [
+      "miguel.smith@wayneenterprises.com"
+    ],
+    "to": [
+      "jack.lewis@cyberdyne.systems",
+      "paul.thomas@wayneenterprises.com"
+    ],
+    "cc": [],
+    "date": "May 05, 2024 at 01:18 PM",
+    "subject": "Re: Client Feedback - Blue Ridge Partners Account",
+    "message_id": "<428211c3d8500a81@wayneenterprises.com>",
+    "content": "Hi all,\n\nThanks for a productive Hackathon today. Here's a summary of what we decided:\n\nDECISIONS:\n- We will proceed with Option B for the API Gateway migration (projected savings: $224K/yr)\n- Titan launch date moved to Q2 (from original Q2 target)\n- Legal team will own the Incident Response workstream going forward\n\nOPEN QUESTIONS:\n- How does this affect the Pinnacle Analytics contract timeline? (Jack to investigate)\n- Do we need additional headcount for DevOps Lead? (Jack to assess)\n\nFull notes: https://confluence.internal/365cd446f9cf\n\nRegards,\nMiguel\n---\nMiguel Smith | Senior Software Engineer\nWayneenterprises\nM: +1-478-405-7860 | E: miguel.smith@wayneenterprises.com",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "miguel.smith@wayneenterprises.com"
+    ],
+    "to": [
+      "chen.martinez@lexcorp.biz",
+      "paul.thomas@wayneenterprises.com"
+    ],
+    "cc": [],
+    "date": "May 06, 2024 at 11:29 AM",
+    "subject": "Re: Client Feedback - Blue Ridge Partners Account",
+    "message_id": "<f92df562a50a06fe@wayneenterprises.com>",
+    "content": "Hi Paul,\n\nThanks for the update. A few quick thoughts:\n\n- Agreed on the User Directory approach. Chen and I discussed this yesterday and we're aligned.\n- For the Finance budget, I'd suggest we cap it at $278K for now and revisit in Q2.\n- The NPS score improvement looks promising \u2014 let's make sure we have proper monitoring via Analytics Pipeline before going live.\n\nI'll update the Horizon tracker accordingly.\n\nBest,\nMiguel\n\nBest,\nMiguel Smith\nSenior Software Engineer, Operations\nWayneenterprises\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "paul.thomas@wayneenterprises.com"
+    ],
+    "to": [
+      "chen.martinez@lexcorp.biz"
+    ],
+    "cc": [],
+    "date": "May 07, 2024 at 06:15 PM",
+    "subject": "Re: Client Feedback - Blue Ridge Partners Account",
+    "message_id": "<efa5e997bc67836f@wayneenterprises.com>",
+    "content": "Hi Jack,\n\nJust a heads up \u2014 the Notification Hub deployment (v9.4.75) is scheduled for\nFriday at 10:30 CST. Expected downtime is approximately 30 minutes.\n\nChanges include:\n- PR #1801: Add rate limiting\n- PR #1809: Titan feature flag rollout\n- Config update for APAC region\n\nPlease make sure your team is aware and has saved any in-progress work. We'll\nsend a notification to #operations once complete.\n\nThanks,\nPaul\n---\nPaul Thomas | DevOps Engineer\nWayneenterprises\nM: +1-855-325-3863 | E: paul.thomas@wayneenterprises.com\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive\nand confidential use of the intended recipient. If you are not the intended\nrecipient, please do not read, distribute, or take action based on this\nmessage. If you have received this in error, please notify the sender\nimmediately and delete this message from your system.",
+    "canon_order": 2
+  }
+]

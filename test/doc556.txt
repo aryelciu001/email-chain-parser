@@ -1,0 +1,54 @@
+From: Eve Brown <eve.brown@umbrella-corp.net>
+To: Priya Smith <priya.smith@acmecorp.com>
+Date: 09/15/2024 02:50 PM
+Subject: Re: Migration Plan for Logging Service 
+Message-ID: <33afcc44a8dea149@umbrella-corp.net>
+
+Hi Priya,
+
+I had a call with Pinnacle Analytics today about the Payment Gateway 
+integration. Key takeaways:    
+   
+- They can deliver the UAT phase by 12/20, which is 5 weeks ahead of our
+schedule
+- Pricing: $147K for the base package + $100K for OKR Planning add-on
+- They require a 1-year commitment minimum
+- Technical contact will be Steve Gonzalez (VP of Product)
+
+For comparison, NetSecure Pro quoted $194K with a more flexible
+contract.
+
+Should we bring this to the Sprint Planning for a final decision?
+   
+Best,  
+Eve  
+
+| From: Eve Brown <eve.brown@umbrella-corp.net>
+| To: Frank White <frank.white@wayneenterprises.com>, Priya Smith <priya.smith@acmecorp.com>
+| Date: 09/14/2024 07:35 AM
+| Subject: Re: Migration Plan for Logging Service
+| Message-ID: <082407faec6f933f@umbrella-corp.net>
+| 
+| Hi Frank,
+| 
+| Quick update on Project Apex: we've completed the integration phase and are
+| on track for the milestone. Key highlights:
+| 
+| - Migrated 5 services to the new CI/CD Platform architecture
+| - Reduced engagement by 37% across all endpoints
+| - Identified 11 blocking issues (see JIRA-8511 for details)
+| 
+| The Operations team has been instrumental in this effort. Frank has
+| volunteered to lead the next phase.
+| 
+| Let me know if you have questions.
+| 
+| Thanks,
+| Eve
+| -- 
+| Eve Brown | Technical Lead
+| Umbrella Corp
+| M: +1-864-100-5780 | E: eve.brown@umbrella-corp.net
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 

@@ -1,0 +1,53 @@
+[
+  {
+    "from": [
+      "rachel.clark@initech.com"
+    ],
+    "to": [
+      "jack.lopez@lexcorp.biz"
+    ],
+    "cc": [
+      "jack.martin@lexcorp.biz"
+    ],
+    "date": "Sat, 20 Jul 2024 03:24:36",
+    "subject": "Training Session: Observability Stack",
+    "message_id": "<c8ccde2aa0a8bf53@initech.com>",
+    "content": "Hi all,\n\nThanks for a productive Launch Retrospective today. Here's a summary of what we decided:\n\nDECISIONS:\n- We will proceed with Option C for the User Directory migration (projected savings: $325K/yr)\n- Falcon launch date moved to Q2 (from original Q4 target)\n- Product team will own the Incident Response workstream going forward\n\nOPEN QUESTIONS:\n- How does this affect the StreamLine Solutions contract timeline? (Fatima to investigate)\n- Do we need additional headcount for DevOps Lead? (Jack to assess)\n\nFull notes: https://confluence.internal/96b7768c8959\n\nRegards,\nRachel\n--\nRachel Clark\nInitech | Operations Department\nPhone: +1-425-630-8144 | Email: rachel.clark@initech.com",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "jack.martin@lexcorp.biz"
+    ],
+    "to": [
+      "jack.lopez@lexcorp.biz",
+      "rachel.clark@initech.com"
+    ],
+    "cc": [
+      "priya.wilson@acmecorp.com"
+    ],
+    "date": "Sat, 20 Jul 2024 18:32:16",
+    "subject": "Re: Training Session: Observability Stack",
+    "message_id": "<4eb154d2f9f9b437@lexcorp.biz>",
+    "content": "Thanks Rachel,\n\nI reviewed the roadmap for Data Governance.  Some thoughts:\n\n- Section 3 needs more detail on the rollback strategy\n- The retention numbers in Table 1 don't match what I see in the Legacy CRM dashboard (showing 40% vs your 42%)\n- Can we add a dependency map for the User Directory integration? \n- The timeline for Engineering involvement seems optimistic\n\nHappy to discuss in our Thursday sync.    \n\nCheers,   \nJack   \n--\nJack Martin\nLexcorp | Legal Department\nPhone: +1-497-333-5050 | Email: jack.martin@lexcorp.biz\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "jack.lopez@lexcorp.biz"
+    ],
+    "to": [
+      "jack.martin@lexcorp.biz",
+      "rachel.clark@initech.com"
+    ],
+    "cc": [
+      "fatima.miller@cyberdyne.systems",
+      "priya.wilson@acmecorp.com"
+    ],
+    "date": "Sun, 21 Jul 2024 19:05:05",
+    "subject": "Re: Training Session: Observability Stack",
+    "message_id": "<21ba7d0ca764983a@lexcorp.biz>",
+    "content": "Hi Fatima,\n\nThanks for flagging this. I&#39;ve escalated to the Finance team and they're looking into the Payment Gateway issue. Current status:\n\n- Root cause: unhandled null pointer in batch job\n- Impact: ~119 users affected in APAC\n- ETA for fix: 16:30 EST today\n- Severity: P2\n\nI'll keep this thread updated as we learn more. Jack is the point person if you need immediate assistance.\n\nWorkaround: Clear browser cache.\n\nRegards,\nJack\n--\nJack Lopez\nLexcorp | Engineering Department\nPhone: +1-900-234-8664 | Email: jack.lopez@lexcorp.biz\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 2
+  }
+]

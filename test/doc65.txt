@@ -1,0 +1,74 @@
+From: Steve Garcia <steve.garcia@wayneenterprises.com>
+To: Tina Gonzalez <tina.gonzalez@initech.com>, Rachel Moore <rachel.moore@cyberdyne.systems>
+Date: 07/02/2024 01:25 PM
+Subject: Re: Code Review - PR #937
+Message-ID: <769f0032cfc81a3f@wayneenterprises.com>
+
+Rachel — 
+
+Got it, makes sense. I'll loop in Rachel from Finance to get their perspective on the Logging Service changes. In the meantime, I've created a shared doc where we can track the open items:
+
+  https://docs.google.com/d/47d1e990583c9c67
+
+Current open items (7 total):
+- Phoenix integration testing (owner: Rachel)
+- NetSecure Pro contract review (owner: Steve)
+- AWS Cost Optimization documentation (owner: Rachel)
+
+Please add any additional concerns there. I'll consolidate everything before our Thursday sync.
+
+Thanks,
+Steve
+
+Best,
+Steve Garcia
+Engineering Manager, Engineering
+Wayneenterprises
+
+>  From: Steve Garcia <steve.garcia@wayneenterprises.com>
+>  To: Rachel Moore <rachel.moore@cyberdyne.systems>
+>  Date: 07/02/2024 01:10 AM
+>  Subject: Re: Code Review - PR #937
+>  Message-ID: <961335894dd2a109@wayneenterprises.com>
+>  
+>  All,
+>  
+>  Following up from the Roadmap Sync earlier today. Here are the action items:
+>  
+>  - @Tina: Finalize the spec by Friday (target: 11/4)
+>  - @Tina: Schedule the Incident Response review with Sales
+>  - @Rachel: Update the Notification Hub configuration per our discussion
+>  - @Steve: Send out the revised Project Titan timeline by EOW
+>  
+>  Next meeting: Monday at 14:00. Calendar invite to follow.
+>  
+>  Thanks everyone,
+>  Steve
+>  
+>  CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+>  
+
+
+>  From: Tina Gonzalez <tina.gonzalez@initech.com>
+>  To: Rachel Moore <rachel.moore@cyberdyne.systems>   
+>  Date: 07/02/2024 12:40 AM
+>  Subject: Re: Code Review - PR #937
+>  Message-ID: <0a8cf14f0aed3085@initech.com>  
+>  
+>  All,
+>  
+>  Following up from the Sprint Planning earlier today. Here are the action items:
+>  
+>  - @Rachel: Finalize the timeline by Thursday (target: 12/12)  
+>  - @Steve: Schedule the Observability Stack review with Marketing
+>  - @Rachel: Update the Logging Service configuration per our discussion
+>  - @Tina: Send out the revised Project Horizon timeline by EOW    
+>      
+>  Next meeting: Monday at 17:00. Calendar invite to follow.
+>  
+>  Thanks everyone,
+>  Tina
+>  ---
+>  Tina Gonzalez | QA Lead
+>  Initech
+>  M: +1-954-873-9575 | E: tina.gonzalez@initech.com

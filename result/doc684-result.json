@@ -1,0 +1,74 @@
+[
+  {
+    "from": [
+      "eve.brown@umbrella-corp.net"
+    ],
+    "to": [
+      "frank.white@wayneenterprises.com",
+      "priya.smith@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "14 Sep 2024, 07:35",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<082407faec6f933f@umbrella-corp.net>",
+    "content": "Hi Frank,\n\nQuick update on Project Apex: we've completed the integration phase and are\non track for the milestone.  Key highlights:\n\n- Migrated 5 services to the new CI/CD Platform architecture\n- Reduced engagement by 37% across all endpoints\n- Identified 11 blocking issues (see JIRA-8511 for details)\n\nThe Operations team has been instrumental in this effort. Frank has\nvolunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nEve\n---\nEve Brown | Technical Lead\nUmbrella Corp\nM: +1-864-100-5780 | E: eve.brown@umbrella-corp.net\n\n--- This communication is intended for the addressee only. It may contain\nprivileged or confidential information. If you have received this email in\nerror, please notify the sender and delete this message. ---",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "frank.white@wayneenterprises.com"
+    ],
+    "to": [
+      "priya.smith@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "15 Sep 2024, 02:19",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<2ca5c43ffdf78e04@wayneenterprises.com>",
+    "content": "Hi Priya,\n\nQuick update on Project Neptune: we've completed the design phase and are on\ntrack for the milestone. Key highlights:\n\n- Migrated 23 services to the new Analytics Pipeline architecture\n- Reduced retention by 59% across all endpoints\n- Identified 3 blocking issues (see JIRA-8990 for details)    \n\nThe Support team has been instrumental in this effort. Priya has volunteered\nto lead the next phase.\n\nLet me know if you have questions.   \n\nThanks,\nFrank\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "frank.white@wayneenterprises.com"
+    ],
+    "to": [
+      "priya.smith@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "16 Sep 2024, 17:39",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<561573a736725dde@wayneenterprises.com>",
+    "content": "Priya \u2014 \n\nGot it, makes sense. I&#39;ll loop in Priya from HR to get their perspective on\nthe Notification Hub changes. In the meantime, I've created a shared doc\nwhere we can track the open items:\n\nhttps://docs.google.com/d/3dd48ab31d016ffc\n\nCurrent open items (5 total):\n- Horizon integration testing (owner: Priya)\n- DataFlow Systems contract review (owner: Frank)\n- Incident Response documentation (owner: Priya)\n\nPlease add any additional concerns there. I'll consolidate everything before\nour Tuesday sync.\n\nThanks,\nFrank\n--\nFrank White\nWayneenterprises | Marketing Department\nPhone: +1-415-814-7881 | Email: frank.white@wayneenterprises.com",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "eve.brown@umbrella-corp.net"
+    ],
+    "to": [
+      "frank.white@wayneenterprises.com"
+    ],
+    "cc": [],
+    "date": "17 Sep 2024, 12:02",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<0ea2880d5a49dc45@umbrella-corp.net>",
+    "content": "Hi Priya,\n\nQuick update on Project Vanguard: we've completed the testing phase and are\non track for the milestone. Key highlights:\n\n- Migrated 159 services to the new Payment Gateway architecture\n- Reduced retention by 26% across all endpoints\n- Identified 6 blocking issues (see JIRA-2276 for details)\n\nThe Support team has been instrumental in this effort. Frank has volunteered\nto lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nEve\n--\nEve Brown\nUmbrella Corp | Data Science Department\nPhone: +1-864-100-5780 | Email: eve.brown@umbrella-corp.net",
+    "canon_order": 3
+  },
+  {
+    "from": [
+      "frank.white@wayneenterprises.com"
+    ],
+    "to": [
+      "eve.brown@umbrella-corp.net",
+      "priya.smith@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "18 Sep 2024, 15:33",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<ddd8f7f8b51416e2@wayneenterprises.com>",
+    "content": "Hi Eve,\n\nI had a call with CloudSync Inc. today about the Notification Hub\nintegration. Key takeaways:\n\n- They can deliver the testing phase by 6/8, which is 3 weeks ahead of\nour\nschedule\n- Pricing: $262K for the base package + $86K for OKR Planning add-on\n- They require a 1-year commitment minimum\n- Technical contact will be Fatima Lewis (Senior Software Engineer)\n\nFor comparison, StreamLine Solutions quoted $249K with a more flexible\ncontract.\n\nShould we bring this to the Team Offsite for a final decision?\n\nBest,\nFrank\n---\nFrank White | VP of Product\nWayneenterprises\nM: +1-415-814-7881 | E: frank.white@wayneenterprises.com",
+    "canon_order": 4
+  }
+]

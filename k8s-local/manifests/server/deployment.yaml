@@ -23,10 +23,10 @@ spec:
             - name: KAFKA_BOOTSTRAP
               value: kafka.demo.svc.cluster.local:9092
             - name: DATA_DIR
-              value: /data/sample-data
+              value: /data/test
           volumeMounts:
-            - name: sample-data
-              mountPath: /data/sample-data
+            - name: test
+              mountPath: /data/test
               readOnly: true
           readinessProbe:
             httpGet:
@@ -35,7 +35,7 @@ spec:
             initialDelaySeconds: 3
             periodSeconds: 5
       volumes:
-        - name: sample-data
+        - name: test
           hostPath:
-            path: /data/sample-data
+            path: /data/test
             type: DirectoryOrCreate

@@ -1,0 +1,20 @@
+[
+  {
+    "from": [
+      "rachel.davis@initech.com"
+    ],
+    "to": [
+      "grace.hernandez@lexcorp.biz",
+      "quinn.garcia@cyberdyne.systems",
+      "steve.taylor@aperturescience.com"
+    ],
+    "cc": [
+      "zara.martin@umbrella-corp.net"
+    ],
+    "date": "01 Feb 2024, 16:19",
+    "subject": "Re: Client Feedback - Northwind Traders Account",
+    "message_id": "<9d072cf6072f0b6f@initech.com>",
+    "content": "Hi Fatima,\n\nQuick update on Project Phoenix: we've completed the integration phase\nand are on track for the milestone. Key highlights:\n\n- Migrated 197 services to the new Logging Service architecture\n- Reduced uptime by 54% across all endpoints\n- Identified 5 blocking issues (see JIRA-295 for details)\n\nThe HR team has been instrumental in this effort. Grace has volunteered\nto lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nRachel\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 0
+  }
+]

@@ -1,0 +1,71 @@
+From: Leo Sanchez <leo.sanchez@cyberdyne.systems>
+To: Quinn Hernandez <quinn.hernandez@cyberdyne.systems>
+Date: 09/12/2024 05:59 AM
+Subject: Re: Finance Weekly Standup Notes
+Message-ID: <a4c9ec103b27c620@cyberdyne.systems>
+
+Team,
+
+Effective Friday, we're updating the Data Retention policy. Key changes:
+
+1. HR approval is now required for any User Directory changes in production (previously only staging required approval)
+2. All PRs affecting Falcon must include integration tests
+3. EMEA deployments will follow a new canary strategy
+4. Incident response SLA updated: P1 = 16min, P2 = 48min
+
+Full policy doc: https://wiki.internal/policies/8d0a4f2a9a
+
+Please review by EOD Tuesday and flag any concerns to Paul.
+
+Thanks,
+Leo
+
+----------------------------------------
+| From: Leo Sanchez <leo.sanchez@cyberdyne.systems>
+| To: Paul Harris <paul.harris@cyberdyne.systems>
+| Date: 09/11/2024 09:07 AM
+| Subject: Re: Finance Weekly Standup Notes
+| Message-ID: <36361b1d45015885@cyberdyne.systems>
+| 
+| Hi Quinn,
+| 
+| Just a heads up — the Notification Hub deployment (v6.12.99) is scheduled for Tuesday at 15:00 GMT. Expected downtime is approximately 30 minutes.
+| 
+| Changes include:
+| - PR #4019: Remove caching layer
+| - PR #4031: Neptune feature flag rollout
+| - Config update for EMEA region
+| 
+| Please make sure your team is aware and has saved any in-progress work. We'll send a notification to #engineering once complete.
+| 
+| Thanks,
+| Leo
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+| 
+
+
+----------------------------------------
+| From: Quinn Hernandez <quinn.hernandez@cyberdyne.systems>
+| To: Fatima Lopez <fatima.lopez@cyberdyne.systems>
+| Date: 09/10/2024 01:02 AM
+| Subject: Finance Weekly Standup Notes
+| Message-ID: <c6f07f5b2f31675f@cyberdyne.systems>
+| 
+| All,
+| 
+| Following up from the All-Hands earlier today. Here are the action items:
+| 
+| - @Leo: Finalize the spec by Wednesday (target: 8/14)
+| - @Paul: Schedule the Security Hardening review with Legal
+| - @Leo: Update the Search Index configuration per our discussion
+| - @Quinn: Send out the revised Project Falcon timeline by EOW
+| 
+| Next meeting: Wednesday at 8:30. Calendar invite to follow.
+| 
+| Thanks everyone,
+| Quinn
+| --
+| Quinn Hernandez
+| Cyberdyne | Sales Department
+| Phone: +1-463-704-2046 | Email: quinn.hernandez@cyberdyne.systems

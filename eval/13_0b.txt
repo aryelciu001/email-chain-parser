@@ -1,0 +1,61 @@
+From: Nate Smith <nate.smith@cyberdyne.systems>
+To: Frank Jones <frank.jones@cyberdyne.systems>, Fatima Jones <fatima.jones@oscorp.com>, Paul White <paul.white@starkindustries.com>
+Cc: Uma Ramirez <uma.ramirez@cyberdyne.systems>
+Date: Fri, 08 Nov 2024 19:46:23
+Subject: Re: Hiring Update - Product Manager Position
+Message-ID: <659bd1082b7407f3@cyberdyne.systems>
+
+All,
+
+Following up from the Quarterly Review earlier today. Here are the
+action items:
+
+- @Fatima: Finalize the budget by Tuesday (target: 6/5)
+- @Uma: Schedule the OKR Planning review with Product
+- @Paul: Update the Analytics Pipeline configuration per our discussion
+- @Nate: Send out the revised Project Zenith timeline by EOW
+
+Next meeting: Tuesday at 15:00. Calendar invite to follow.
+
+Thanks everyone,
+Nate
+--
+Nate Smith
+Cyberdyne | Product Department
+Phone: +1-307-588-4666 | Email: nate.smith@cyberdyne.systems
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+
+
+----------------------------------------
+| From: Fatima Jones <fatima.jones@oscorp.com>
+| To: Uma Ramirez <uma.ramirez@cyberdyne.systems>, Frank Jones <frank.jones@cyberdyne.systems>, Paul White <paul.white@starkindustries.com>
+| Cc: Nate Smith <nate.smith@cyberdyne.systems>
+| Date: Thu, 07 Nov 2024 12:48:22
+| Subject: Re: Hiring Update - Product Manager Position
+| Message-ID: <0ceba0e7420502ef@oscorp.com>
+| 
+| Hi Uma,
+| 
+| Thanks for flagging this. I've escalated to the Legal team and they're
+| looking into the Logging Service issue. Current status:
+| 
+| - Root cause: misconfigured load balancer
+| - Impact: ~49 users affected in EMEA
+| - ETA for fix: 8:00 EST today
+| - Severity: P2
+| 
+| I'll keep this thread updated as we learn more. Uma is the point person
+| if you need immediate assistance.
+| 
+| Workaround: Switch to backup endpoint.
+| 
+| Regards,
+| Fatima
+| --
+| Fatima Jones
+| VP of Product | Oscorp
+| +1-755-392-4695
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+| 

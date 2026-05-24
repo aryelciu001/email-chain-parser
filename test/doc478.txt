@@ -1,0 +1,58 @@
+From: Carol Brown <carol.brown@lexcorp.biz>
+To: Frank Davis <frank.davis@initech.com>
+Cc: Jack Moore <jack.moore@lexcorp.biz>
+Date: 05 Sep 2024, 14:27
+Subject: Re: Action Items from Architecture Summit Kickoff
+Message-ID: <48c4ab28bba70d46@lexcorp.biz>
+
+Hi Carol,
+
+Thanks for flagging this. I've escalated to the Product team and they're looking into the Logging Service issue. Current status:
+
+- Root cause: oversized payload from partner API
+- Impact: ~198 users affected in North America
+- ETA for fix: 15:00 UTC today
+- Severity: P3
+
+I'll keep this thread updated as we learn more. Carol is the point person if you need immediate assistance.
+
+Workaround: Retry after 5 minutes.
+
+Regards,
+Carol
+
+| From: Xander Taylor <xander.taylor@oscorp.com>
+| To: Jack Moore <jack.moore@lexcorp.biz>
+| Cc: Carol Brown <carol.brown@lexcorp.biz>
+| Date: 04 Sep 2024, 14:12
+| Subject: Action Items from Architecture Summit Kickoff
+| Message-ID: <f7d5362fc7a3cfea@oscorp.com>
+| 
+| Hi Uma,
+| 
+| I had a call with StreamLine Solutions today about the Analytics Pipeline
+| integration. Key takeaways:
+| 
+| - They can deliver the UAT phase by 12/25, which is 1 weeks ahead of our
+| schedule
+| - Pricing: $332K for the base package + $81K for AWS Cost Optimization add-on
+| - They require a 3-year commitment minimum
+| - Technical contact will be Eve Lee (DevOps Engineer)
+| 
+| For comparison, StreamLine Solutions quoted $386K with a more flexible contract.
+| 
+| Should we bring this to the Hackathon for a final decision?
+| 
+| Best,
+| Xander
+| ---
+| Xander Taylor
+| Oscorp | Data Science Department
+| Phone: +1-606-880-8502 | Email: xander.taylor@oscorp.com
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and
+| confidential use of the intended recipient. If you are not the intended
+| recipient, please do not read, distribute, or take action based on this message.
+| If you have received this in error, please notify the sender immediately and
+| delete this message from your system.
+| 

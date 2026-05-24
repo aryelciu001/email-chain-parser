@@ -1,0 +1,54 @@
+[
+  {
+    "from": [
+      "rachel.davis@initech.com"
+    ],
+    "to": [
+      "grace.hernandez@lexcorp.biz",
+      "quinn.garcia@cyberdyne.systems",
+      "steve.taylor@aperturescience.com"
+    ],
+    "cc": [
+      "zara.martin@umbrella-corp.net"
+    ],
+    "date": "01 Feb 2024, 16:19",
+    "subject": "Re: Client Feedback - Northwind Traders Account",
+    "message_id": "<9d072cf6072f0b6f@initech.com>",
+    "content": "Hi Fatima,\n\nQuick update on Project Phoenix: we've completed the integration phase\nand are on track for the milestone. Key highlights:\n\n- Migrated 197 services to the new Logging Service architecture\n- Reduced uptime by 54% across all endpoints \n- Identified 5 blocking issues (see JIRA-295 for details)\n\nThe HR team has been instrumental in this effort. Grace has volunteered\nto lead the next phase.\n\nLet me know if you have questions.  \n\nThanks,\nRachel\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "quinn.garcia@cyberdyne.systems"
+    ],
+    "to": [
+      "grace.hernandez@lexcorp.biz",
+      "zara.martin@umbrella-corp.net"
+    ],
+    "cc": [
+      "fatima.brown@acmecorp.com",
+      "rachel.davis@initech.com"
+    ],
+    "date": "02 Feb 2024, 07:45",
+    "subject": "Re: Client Feedback - Northwind Traders Account",
+    "message_id": "<75faf1f19d0fdde6@cyberdyne.systems>",
+    "content": "Hi Rachel,\n\nThanks for flagging this. I&#39;ve escalated to the Support team and they're\nlooking into the Payment Gateway issue. Current status:\n\n- Root cause: unhandled null pointer in batch job\n- Impact: ~85 users affected in LATAM\n- ETA for fix: 9:30 EST today\n- Severity: P1\n\nI'll keep this thread updated as we learn more. Fatima is the point\nperson if you need immediate assistance.\n\nWorkaround: Switch to backup endpoint.\n\nRegards,\nQuinn\n-- \nQuinn Garcia | Product Manager\nCyberdyne\nM: +1-771-274-8705 | E: quinn.garcia@cyberdyne.systems",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "quinn.garcia@cyberdyne.systems"
+    ],
+    "to": [
+      "steve.taylor@aperturescience.com"
+    ],
+    "cc": [
+      "zara.martin@umbrella-corp.net"
+    ],
+    "date": "02 Feb 2024, 18:33",
+    "subject": "Re: Client Feedback - Northwind Traders Account",
+    "message_id": "<137c8d19af0c095c@cyberdyne.systems>",
+    "content": "Team,\n\nEffective Thursday, we're updating the Remote Work policy. Key changes:\n1. Legal approval is now required for any User Directory changes in\nproduction (previously only staging required approval)\n2. All PRs affecting Aurora must include unit tests\n3. EMEA deployments will follow a new feature-flag strategy\n4. Incident response SLA updated: P1 = 25min, P2 = 31min\n\nFull policy doc: https://wiki.internal/policies/14a5078f66\n\nPlease review by EOD Tuesday and flag any concerns to Steve.\n\nThanks,\nQuinn\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 2
+  }
+]

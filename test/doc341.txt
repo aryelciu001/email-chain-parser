@@ -1,0 +1,90 @@
+From: Paul Thomas <paul.thomas@wayneenterprises.com>
+To: Chen Martinez <chen.martinez@lexcorp.biz>
+Subject: Re: Client Feedback - Blue Ridge Partners Account
+Date: May 07, 2024 at 06:15 PM
+Message-ID: <efa5e997bc67836f@wayneenterprises.com>
+
+Hi Jack,
+
+Just a heads up — the Notification Hub deployment (v9.4.75) is scheduled for Friday at 10:30 CST. Expected downtime is approximately 30 minutes.
+
+Changes include:
+- PR #1801: Add rate limiting
+- PR #1809: Titan feature flag rollout
+- Config update for APAC region
+
+Please make sure your team is aware and has saved any in-progress work. We'll send a notification to #operations once complete.
+
+Thanks,
+Paul
+---
+Paul Thomas | DevOps Engineer
+Wayneenterprises
+M: +1-855-325-3863 | E: paul.thomas@wayneenterprises.com
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+----------------------------------------
+> From: Miguel Smith <miguel.smith@wayneenterprises.com>
+> To: Chen Martinez <chen.martinez@lexcorp.biz>, Paul Thomas <paul.thomas@wayneenterprises.com>
+> Date: May 06, 2024 at 11:29 AM
+> Subject: Re: Client Feedback - Blue Ridge Partners Account
+> Message-ID: <f92df562a50a06fe@wayneenterprises.com>
+> 
+> Hi Paul,
+> 
+> Thanks for the update. A few quick thoughts:
+> 
+> - Agreed on the User Directory approach. Chen and I discussed this
+> yesterday and we're aligned.
+> - For the Finance budget, I'd suggest we cap it at $278K for now and
+> revisit in Q2.
+> - The NPS score improvement looks promising — let's make sure we have
+> proper monitoring via Analytics Pipeline before going live.
+> 
+> I'll update the Horizon tracker accordingly.
+> 
+> Best,
+> Miguel
+> 
+> Best,
+> Miguel Smith
+> Senior Software Engineer, Operations
+> Wayneenterprises
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the
+> exclusive and confidential use of the intended recipient. If you are not
+> the intended recipient, please do not read, distribute, or take action
+> based on this message. If you have received this in error, please notify
+> the sender immediately and delete this message from your system.
+> 
+
+
+----------------------------------------
+> To: Paul Thomas <paul.thomas@wayneenterprises.com>, Jack Lewis <jack.lewis@cyberdyne.systems>
+> From: Miguel Smith <miguel.smith@wayneenterprises.com>
+> Date: May 05, 2024 at 01:18 PM
+> Subject: Re: Client Feedback - Blue Ridge Partners Account
+> Message-ID: <428211c3d8500a81@wayneenterprises.com>
+> 
+> Hi all,
+> 
+> Thanks for a productive Hackathon today. Here's a summary of what we decided:
+> 
+> DECISIONS:
+> - We will proceed with Option B for the API Gateway migration (projected savings: $224K/yr)
+> - Titan launch date moved to Q2 (from original Q2 target)
+> - Legal team will own the Incident Response workstream going forward
+> 
+> OPEN QUESTIONS:
+> - How does this affect the Pinnacle Analytics contract timeline? (Jack to investigate)
+> - Do we need additional headcount for DevOps Lead? (Jack to assess)
+> 
+> Full notes: https://confluence.internal/365cd446f9cf
+> 
+> Regards,
+> Miguel
+> ---
+> Miguel Smith | Senior Software Engineer
+> Wayneenterprises
+> M: +1-478-405-7860 | E: miguel.smith@wayneenterprises.com

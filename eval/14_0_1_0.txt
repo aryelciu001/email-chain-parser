@@ -1,0 +1,114 @@
+From: Quinn Thompson <quinn.thompson@initech.com>
+To: Mona Davis <mona.davis@wayneenterprises.com>, Yuki Rodriguez <yuki.rodriguez@initech.com>
+Cc: Olivia Lee <olivia.lee@starkindustries.com>, Mona Lopez <mona.lopez@starkindustries.com>
+Date: 07/31/2024 03:31 PM
+Subject: FW: Policy Update: Remote Work
+Message-ID: <40d77d5919808514@initech.com>
+
+Hi Mona,
+
+Just a heads up — the Notification Hub deployment (v8.6.97) is scheduled for
+Friday at 14:00 CET. Expected downtime is approximately 15 minutes.
+
+Changes include:
+- PR #8639: Refactor rate limiting
+- PR #8640: Neptune feature flag rollout
+- Config update for North America region
+
+Please make sure your team is aware and has saved any in-progress work. We'll
+send a notification to #data science once complete.
+
+Thanks,
+Quinn
+--
+Quinn Thompson
+Senior Software Engineer | Initech
++1-904-752-5828
+
+> From: Quinn Thompson <quinn.thompson@initech.com>
+> To: Mona Davis <mona.davis@wayneenterprises.com>, Yuki Rodriguez <yuki.rodriguez@initech.com>, Victor Jones <victor.jones@cyberdyne.systems>
+> Cc: Mona Lopez <mona.lopez@starkindustries.com>
+> Date: 07/31/2024 02:33 PM
+> Subject: FW: Policy Update: Remote Work
+> Message-ID: <1071090dcc247d73@initech.com>
+> 
+> Team,
+> 
+> Effective Friday, we're updating the Access Control policy. Key changes:
+> 
+> 1. Product approval is now required for any Notification Hub changes in
+> production (previously only staging required approval)
+> 2. All PRs affecting Catalyst must include unit tests
+> 3. APAC deployments will follow a new rolling strategy
+> 4. Incident response SLA updated: P1 = 5min, P2 = 91min
+> 
+> Full policy doc: https://wiki.internal/policies/8b25ec79d8
+> 
+> Please review by EOD Thursday and flag any concerns to Yuki.
+> 
+> Thanks,
+> Quinn
+> 
+> Best,
+> Quinn Thompson
+> Senior Software Engineer, Legal
+> Initech
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+> From: Mona Lopez <mona.lopez@starkindustries.com>
+> To: Quinn Thompson <quinn.thompson@initech.com>, Mona Davis <mona.davis@wayneenterprises.com>
+> Cc: Olivia Lee <olivia.lee@starkindustries.com>
+> Date: 07/30/2024 10:40 AM
+> Subject: FW: Policy Update: Remote Work
+> Message-ID: <d70001743f4f39ea@starkindustries.com>
+> 
+> All,
+> 
+> Following up from the Quarterly Review earlier today. Here are the action items:
+> 
+> - @Yuki: Finalize the proposal by Wednesday (target: 1/13)
+> - @Mona: Schedule the Incident Response review with Data Science
+> - @Olivia: Update the Legacy CRM configuration per our discussion
+> - @Mona: Send out the revised Project Vanguard timeline by EOW
+> 
+> Next meeting: Monday at 16:30. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Mona
+> 
+> Best,
+> Mona Lopez
+> VP of Product, Sales
+> Starkindustries
+
+
+> From: Mona Lopez <mona.lopez@starkindustries.com>
+> To: Mona Davis <mona.davis@wayneenterprises.com>, Quinn Thompson <quinn.thompson@initech.com>, Victor Jones <victor.jones@cyberdyne.systems>
+> Cc: Olivia Lee <olivia.lee@starkindustries.com>
+> Date: 07/29/2024 06:59 PM
+> Subject: FW: Policy Update: Remote Work
+> Message-ID: <edfb7d36bade8c95@starkindustries.com>
+> 
+> Hi Quinn,
+> 
+> I've reviewed the proposal and have some concerns about the Horizon approach.
+> Specifically:
+> 
+> 1. The proposed timeline seems aggressive given the Sales team's current
+> bandwidth (they're already at 32% capacity with Notification Hub work)
+> 2. We haven't accounted for the Notification Hub deprecation in Q2
+> 3. The $51K budget allocation for NetSecure Pro seems high compared to DataFlow
+> Systems who quoted $30K
+> 4. Olivia's team hasn't signed off on the AWS Cost Optimization dependency
+> 
+> I'd suggest we revisit this in our next 1:1 meeting.
+> 
+> Best,
+> Mona
+> ---
+> Mona Lopez | VP of Product
+> Starkindustries
+> M: +1-893-853-4305 | E: mona.lopez@starkindustries.com

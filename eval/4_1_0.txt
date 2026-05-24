@@ -1,0 +1,72 @@
+From: Rachel Lopez <rachel.lopez@umbrella-corp.net>
+To: Uma Davis <uma.davis@lexcorp.biz>, Carol Lewis <carol.lewis@wayneenterprises.com>, Mona Smith <mona.smith@starkindustries.com>
+Cc: Wendy Lewis <wendy.lewis@cyberdyne.systems>, Rachel Smith <rachel.smith@initech.com>
+Date: 19 Aug 2024, 18:37
+Subject: Re: Reminder: Architecture Summit on 5/15
+Message-ID: <bfef5d376899b9c5@umbrella-corp.net>
+
+Thanks Carol,
+
+I reviewed the proposal for Zero Trust Architecture. Some thoughts:
+
+- Section 7 needs more detail on the rollback strategy
+- The throughput numbers in Table 1 don't match what I see in the Notification Hub dashboard (showing 8% vs your 11%)
+- Can we add a dependency map for the Auth Service integration?
+- The timeline for Marketing involvement seems optimistic
+
+Happy to discuss in our Thursday sync.
+
+Cheers,
+Rachel
+
+----------------------------------------
+| From: Rachel Lopez <rachel.lopez@umbrella-corp.net>
+| To: Uma Davis <uma.davis@lexcorp.biz>, Rachel Smith <rachel.smith@initech.com>
+| Cc: Carol Lewis <carol.lewis@wayneenterprises.com>, Mona Smith <mona.smith@starkindustries.com>
+| Date: 17 Aug 2024, 19:46
+| Subject: Re: Reminder: Architecture Summit on 5/15
+| Message-ID: <36ddcef60866708c@umbrella-corp.net>
+| 
+| Hi all,
+| 
+| Thanks for a productive Quarterly Review today. Here's a summary of what we decided:
+| 
+| DECISIONS:
+| - We will proceed with Option A for the Search Index migration (projected savings: $322K/yr)
+| - Catalyst launch date moved to Q3 (from original Q3 target)
+| - Data Science team will own the GraphQL Migration workstream going forward
+| 
+| OPEN QUESTIONS:
+| - How does this affect the StreamLine Solutions contract timeline? (Wendy to investigate)
+| - Do we need additional headcount for Product Manager? (Wendy to assess)
+| 
+| Full notes: https://confluence.internal/dd1e8c8b04ca
+| 
+| Regards,
+| Rachel
+| ---
+| Rachel Lopez | Technical Lead
+| Umbrella Corp
+| M: +1-674-557-9835 | E: rachel.lopez@umbrella-corp.net
+
+
+----------------------------------------
+| From: Rachel Smith <rachel.smith@initech.com>
+| To: Wendy Lewis <wendy.lewis@cyberdyne.systems>, Uma Davis <uma.davis@lexcorp.biz>, Rachel Lopez <rachel.lopez@umbrella-corp.net>
+| Cc: Mona Smith <mona.smith@starkindustries.com>, Carol Lewis <carol.lewis@wayneenterprises.com>
+| Date: 16 Aug 2024, 09:04
+| Subject: Reminder: Architecture Summit on 5/15
+| Message-ID: <9265550763a25284@initech.com>
+| 
+| Hi Uma,
+| 
+| Thanks for the update. A few quick thoughts:
+| 
+| - Agreed on the CI/CD Platform approach. Wendy and I discussed this yesterday and we're aligned.
+| - For the Support budget, I'd suggest we cap it at $232K for now and revisit in Q4.
+| - The uptime improvement looks promising — let's make sure we have proper monitoring via Legacy CRM before going live.
+| 
+| I'll update the Neptune tracker accordingly.
+| 
+| Cheers,
+| Rachel

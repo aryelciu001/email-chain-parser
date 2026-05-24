@@ -1,0 +1,112 @@
+From: Rachel Robinson <rachel.robinson@umbrella-corp.net>
+To: Frank Lopez <frank.lopez@globex.io>, Uma Clark <uma.clark@globex.io>
+Date: 04 Apr 2024, 03:31
+Subject: Re: Code Review - PR #9101
+Message-ID: <825df0a477a78c1e@umbrella-corp.net>
+
+Team,
+
+I've been analyzing the error rate data from last sprint and noticed some
+interesting trends:
+
+- error rate decreased by 40% compared to the previous sprint
+- The North America region is underperforming by a factor of 2.9x
+- We're seeing a correlation between error rate and engagement
+- The Phoenix rollout appears to have had a positive impact
+
+Dashboard link: https://grafana.internal/632ab82409
+
+I think this warrants a deeper investigation. Uma, could you pull the raw
+data from Search Index so we can cross-reference with Payment Gateway?
+
+Best,
+Rachel
+
+----------------------------------------
+> From: Uma Clark <uma.clark@globex.io>
+> To: Rachel Robinson <rachel.robinson@umbrella-corp.net>
+> Date: 03 Apr 2024, 17:55
+> Subject: Re: Code Review - PR #9101
+> Message-ID: <b11c2725be62bee7@globex.io>
+> 
+> Hi Frank,
+> 
+> Thanks for the update. A few quick thoughts:
+> 
+> - Agreed on the User Directory approach. Rachel and I discussed this during
+> the Design Review and we're aligned.
+> - For the Marketing budget, I'd suggest we cap it at $229K for now and
+> revisit in Q3.
+> - The uptime improvement looks promising — let's make sure we have proper
+> monitoring via CI/CD Platform before going live.
+> 
+> I'll update the Titan tracker accordingly.
+> 
+> Best,
+> Uma
+
+
+----------------------------------------
+> From: Rachel Robinson <rachel.robinson@umbrella-corp.net>
+> To: Frank Lopez <frank.lopez@globex.io>, Uma Clark <uma.clark@globex.io>
+> Date: 01 Apr 2024, 19:43
+> Subject: Re: Code Review - PR #9101
+> Message-ID: <70318ec2985349b4@umbrella-corp.net>
+> 
+> Hi Frank,
+> 
+> I had a call with StreamLine Solutions today about the Auth Service
+> integration. Key takeaways:
+> 
+> - They can deliver the testing phase by 4/14, which is 2 weeks ahead of our
+> schedule
+> - Pricing: $447K for the base package + $83K for Kubernetes Fundamentals
+> add-on
+> - They require a 1-year commitment minimum
+> - Technical contact will be Zara Perez (Architect)
+> 
+> For comparison, StreamLine Solutions quoted $385K with a more flexible
+> contract.
+> 
+> Should we bring this to the All-Hands for a final decision?
+> 
+> Best,
+> Rachel
+> --
+> Rachel Robinson
+> QA Lead | Umbrella Corp
+> +1-381-287-4938
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 
+
+
+----------------------------------------
+> From: Uma Clark <uma.clark@globex.io>
+> To: Rachel Robinson <rachel.robinson@umbrella-corp.net>
+> Date: 31 Mar 2024, 04:27
+> Subject: Re: Code Review - PR #9101
+> Message-ID: <44e15206ebcf51d2@globex.io>
+> 
+> Frank — 
+> 
+> Got it, makes sense. I'll loop in Rachel from Data Science to get their
+> perspective on the Analytics Pipeline changes. In the meantime, I've created
+> a shared doc where we can track the open items:
+> 
+>   https://docs.google.com/d/b73ce398c39f506a
+> 
+> Current open items (5 total):
+> - Apex integration testing (owner: Frank)
+> - NetSecure Pro contract review (owner: Uma)
+> - Data Governance documentation (owner: Rachel)
+> 
+> Please add any additional concerns there. I'll consolidate everything before
+> our Tuesday sync.
+> 
+> Thanks,
+> Uma
+> --
+> Uma Clark
+> Globex | Sales Department
+> Phone: +1-766-712-1180 | Email: uma.clark@globex.io

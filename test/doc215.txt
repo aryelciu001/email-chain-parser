@@ -1,0 +1,129 @@
+From: Miguel Brown <miguel.brown@initech.com>
+To: Tina Davis <tina.davis@starkindustries.com>, Leo Jackson <leo.jackson@lexcorp.biz>
+Date: 2024-07-22 23:06:15
+Subject: Re: Security Audit Findings
+Message-ID: <8496efac8221bbcd@initech.com>
+
+Hi all,
+
+Thanks for a productive Quarterly Review today. Here's a summary of what we
+decided:
+
+DECISIONS:
+- We will proceed with Option B for the Search Index migration (projected
+savings: $494K/yr)
+- Titan launch date moved to Q4 (from original Q1 target)
+- Marketing team will own the Kubernetes Fundamentals workstream going forward
+
+OPEN QUESTIONS:
+- How does this affect the NetSecure Pro contract timeline? (Fatima to
+investigate)
+- Do we need additional headcount for Senior Engineer? (Tina to assess)
+
+Full notes: https://confluence.internal/6dc14b6c7770
+
+Regards,
+Miguel
+--
+Miguel Brown
+Principal Engineer | Initech
++1-460-319-8296
+
+> From: Tina Davis <tina.davis@starkindustries.com>
+> To: Fatima Hernandez <fatima.hernandez@wayneenterprises.com>, Miguel Brown <miguel.brown@initech.com>
+> Date: 2024-07-22 15:32:48
+> Subject: Re: Security Audit Findings
+> Message-ID: <359fd85bed36c308@starkindustries.com>
+> 
+> Thanks Fatima,
+> 
+> I reviewed the design doc for AWS Cost Optimization. Some thoughts:
+> 
+> - Section 2 needs more detail on the rollback strategy
+> - The p99 latency numbers in Table 2 don't match what I see in the User
+> Directory dashboard (showing 33% vs your 37%)
+> - Can we add a dependency map for the Auth Service integration?
+> - The timeline for Product involvement seems optimistic
+> 
+> Happy to discuss in our Friday sync.
+> 
+> Cheers,
+> Tina
+> 
+> Best,
+> Tina Davis
+> DevOps Engineer, Marketing
+> Starkindustries
+
+
+> From: Tina Davis <tina.davis@starkindustries.com>
+> To: Leo Jackson <leo.jackson@lexcorp.biz>, Miguel Brown <miguel.brown@initech.com>
+> Date: 2024-07-21 10:34:39
+> Subject: Re: Security Audit Findings
+> Message-ID: <dc78f334e6cf428d@starkindustries.com>
+> 
+> Hi Leo,
+> 
+> I've reviewed the budget and have some concerns about the Zenith approach.
+> Specifically:
+> 
+> 1. The proposed timeline seems aggressive given the HR team's current bandwidth
+> (they're already at 59% capacity with CI/CD Platform work)
+> 2. We haven't accounted for the User Directory deprecation in Q1
+> 3. The $72K budget allocation for CloudSync Inc. seems high compared to
+> NetSecure Pro who quoted $54K
+> 4. Miguel's team hasn't signed off on the OKR Planning dependency
+> 
+> I'd suggest we revisit this in our next standup meeting.
+> 
+> Best,
+> Tina
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 
+
+
+> From: Leo Jackson <leo.jackson@lexcorp.biz>
+> To: Tina Davis <tina.davis@starkindustries.com>, Fatima Hernandez <fatima.hernandez@wayneenterprises.com>
+> Date: 2024-07-19 16:12:59
+> Subject: Re: Security Audit Findings
+> Message-ID: <c852fa8a384fcd0a@lexcorp.biz>
+> 
+> All,
+> 
+> Following up from the Board Meeting earlier today. Here are the action items:
+> 
+> - @Fatima: Finalize the spec by Thursday (target: 10/3)
+> - @Tina: Schedule the Incident Response review with Sales
+> - @Tina: Update the User Directory configuration per our discussion
+> - @Leo: Send out the revised Project Titan timeline by EOW
+> 
+> Next meeting: Monday at 9:30. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Leo
+
+
+> From: Fatima Hernandez <fatima.hernandez@wayneenterprises.com>
+> To: Miguel Brown <miguel.brown@initech.com>, Tina Davis <tina.davis@starkindustries.com>, Leo Jackson <leo.jackson@lexcorp.biz>
+> Date: 2024-07-18 06:46:44
+> Subject: Re: Security Audit Findings
+> Message-ID: <4a5d6eb71829da1a@wayneenterprises.com>
+> 
+> All,
+> 
+> Following up from the Hackathon earlier today. Here are the action items:
+> 
+> - @Miguel: Finalize the budget by Wednesday (target: 10/8)
+> - @Tina: Schedule the OKR Planning review with Marketing
+> - @Tina: Update the API Gateway configuration per our discussion
+> - @Fatima: Send out the revised Project Catalyst timeline by EOW
+> 
+> Next meeting: Monday at 8:00. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Fatima
+> --
+> Fatima Hernandez
+> Wayneenterprises | Data Science Department
+> Phone: +1-996-341-7089 | Email: fatima.hernandez@wayneenterprises.com

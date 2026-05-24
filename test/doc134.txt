@@ -1,0 +1,55 @@
+From: David Gonzalez <david.gonzalez@acmecorp.com>
+To: Grace Martinez <grace.martinez@umbrella-corp.net>, Fatima Lee <fatima.lee@lexcorp.biz>, Leo Miller <leo.miller@cyberdyne.systems>
+Cc: Irene Gonzalez <irene.gonzalez@globex.io>, Olivia Garcia <olivia.garcia@wayneenterprises.com>
+Date: 2024-05-23 11:50:44
+Subject: Re: Meeting Notes: Finance Sync 8/12
+Message-ID: <840439b59fb01fe6@acmecorp.com>
+
+Team,
+
+Effective Thursday, we're updating the Travel Reimbursement policy. Key changes:
+
+1. Legal approval is now required for any Logging Service changes in production
+(previously only staging required approval)
+2. All PRs affecting Falcon must include security review
+3. North America deployments will follow a new feature-flag strategy
+4. Incident response SLA updated: P1 = 28min, P2 = 59min
+
+Full policy doc: https://wiki.internal/policies/d3c4a9c566
+
+Please review by EOD Wednesday and flag any concerns to Tina.
+
+Thanks,
+David
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+
+
+| From: Tina Taylor <tina.taylor@starkindustries.com>
+| To: David Gonzalez <david.gonzalez@acmecorp.com>
+| Cc: Fatima Lee <fatima.lee@lexcorp.biz>
+| Date: 2024-05-22 11:51:37
+| Subject: Meeting Notes: Finance Sync 8/12
+| Message-ID: <6e8fe727c11597cd@starkindustries.com>
+| 
+| Hi Irene,
+| 
+| I had a call with DataFlow Systems today about the Analytics Pipeline
+| integration. Key takeaways:
+| 
+| - They can deliver the testing phase by 11/11, which is 2 weeks behind our
+| schedule
+| - Pricing: $352K for the base package + $76K for Security Hardening add-on
+| - They require a 3-year commitment minimum
+| - Technical contact will be Olivia Davis (Product Manager)
+| 
+| For comparison, DataFlow Systems quoted $359K with a more flexible contract.
+| 
+| Should we bring this to the Board Meeting for a final decision?
+| 
+| Best,
+| Tina
+| --
+| Tina Taylor
+| Architect | Starkindustries
+| +1-989-809-1066

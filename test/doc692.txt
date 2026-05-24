@@ -1,0 +1,162 @@
+From: Zara Wilson <zara.wilson@oscorp.com>
+To: Quinn Hernandez <quinn.hernandez@starkindustries.com>, Hank Garcia <hank.garcia@initech.com>, Priya Wilson <priya.wilson@umbrella-corp.net>
+Date: 06/27/2024 08:27 PM
+Subject: Re: Infrastructure Cost Analysis
+Message-ID: <1439ed5f3da59598@oscorp.com>
+
+Team,
+
+Effective Tuesday, we're updating the PTO Accrual policy. Key changes:
+
+1. Support approval is now required for any Logging Service changes in
+production (previously only staging required approval)
+2. All PRs affecting Aurora must include unit tests
+3. LATAM deployments will follow a new rolling strategy
+4. Incident response SLA updated: P1 = 17min, P2 = 119min
+
+Full policy doc: https://wiki.internal/policies/15d7b8132d
+
+Please review by EOD Thursday and flag any concerns to Quinn.
+
+Thanks,
+Zara
+
+> From: Zara Wilson <zara.wilson@oscorp.com>
+> To: Quinn Hernandez <quinn.hernandez@starkindustries.com>, Hank Garcia <hank.garcia@initech.com>
+> Date: 06/27/2024 06:56 PM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <9d0d5582e2541dc8@oscorp.com>
+> 
+> Team,
+> 
+> I've been analyzing the p99 latency data from last sprint and noticed some
+> interesting trends:
+> 
+> - p99 latency increased by 62% compared to the previous sprint
+> - The APAC region is underperforming by a factor of 2.7x
+> - We're seeing a correlation between p99 latency and NPS score
+> - The Zenith rollout appears to have had a positive impact
+> 
+> Dashboard link: https://grafana.internal/e9b5b1a608
+> 
+> I think this warrants a deeper investigation. Priya, could you pull the raw data
+> from Legacy CRM so we can cross-reference with Payment Gateway?
+> 
+> Best,
+> Zara
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Priya Wilson <priya.wilson@umbrella-corp.net>
+> Date: 06/27/2024 04:55 AM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <68e12b08dd9f4bf5@starkindustries.com>
+> 
+> Thanks Priya,
+> 
+> I reviewed the RFC for OKR Planning. Some thoughts:
+> 
+> - Section 2 needs more detail on the rollback strategy
+> - The retention numbers in Table 2 don't match what I see in the User Directory
+> dashboard (showing 14% vs your 17%)
+> - Can we add a dependency map for the Auth Service integration?
+> - The timeline for Operations involvement seems optimistic
+> 
+> Happy to discuss in our Monday sync.
+> 
+> Cheers,
+> Quinn
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Hank Garcia <hank.garcia@initech.com>
+> Date: 06/25/2024 02:31 PM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <044ddfa12149bdfa@starkindustries.com>
+> 
+> Hi Zara,
+> 
+> I had a call with Pinnacle Analytics today about the Legacy CRM integration. Key
+> takeaways:
+> 
+> - They can deliver the design phase by 6/22, which is 2 weeks behind our
+> schedule
+> - Pricing: $105K for the base package + $50K for Zero Trust Architecture add-on
+> - They require a 3-year commitment minimum
+> - Technical contact will be Priya Martinez (Software Engineer)
+> 
+> For comparison, DataFlow Systems quoted $43K with a more flexible contract.
+> 
+> Should we bring this to the Board Meeting for a final decision?
+> 
+> Best,
+> Quinn
+> --
+> Quinn Hernandez
+> Starkindustries | Marketing Department
+> Phone: +1-819-160-4800 | Email: quinn.hernandez@starkindustries.com
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Hank Garcia <hank.garcia@initech.com>, Priya Wilson <priya.wilson@umbrella-corp.net>
+> Date: 06/25/2024 04:04 AM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <8182f8f817c33b85@starkindustries.com>
+> 
+> Hi Zara,
+> 
+> Thanks for the update. Some notes:
+> 
+> - Agreed on the Payment Gateway approach. Priya and I discussed this during the
+> All-Hands and we're aligned.
+> - For the Sales budget, I'd suggest we cap it at $344K for now and revisit in
+> Q1.
+> - The error rate improvement looks promising — let's make sure we have proper
+> monitoring via Legacy CRM before going live.
+> 
+> I'll update the Falcon tracker accordingly.
+> 
+> Thanks,
+> Quinn
+> --
+> Quinn Hernandez
+> Starkindustries | Marketing Department
+> Phone: +1-819-160-4800 | Email: quinn.hernandez@starkindustries.com
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Priya Wilson <priya.wilson@umbrella-corp.net>
+> Date: 06/23/2024 04:28 PM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <bd5ee2bddd4db47f@starkindustries.com>
+> 
+> Hi Zara,
+> 
+> I've reviewed the budget and have some concerns about the Neptune approach.
+> Specifically:
+> 
+> 1. The proposed timeline seems aggressive given the Product team's current
+> bandwidth (they're already at 53% capacity with Analytics Pipeline work)
+> 2. We haven't accounted for the Legacy CRM deprecation in Q1
+> 3. The $291K budget allocation for StreamLine Solutions seems high compared to
+> Pinnacle Analytics who quoted $248K
+> 4. Priya's team hasn't signed off on the OKR Planning dependency
+> 
+> I'd suggest we revisit this in our next sync meeting.
+> 
+> Best,
+> Quinn
+> 
+> Best,
+> Quinn Hernandez
+> VP of Product, Marketing
+> Starkindustries
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 

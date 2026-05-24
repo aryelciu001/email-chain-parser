@@ -1,0 +1,28 @@
+From: Leo Clark <leo.clark@lexcorp.biz>
+To: Uma Lewis <uma.lewis@acmecorp.com>, Chen Perez <chen.perez@oscorp.com>, Olivia Robinson <olivia.robinson@lexcorp.biz>
+Cc: Zara Jones <zara.jones@oscorp.com>
+Date: 2024-10-12 19:58:24
+Subject: Re: Code Review - PR #3498
+Message-ID: <2e122f6d23ee2a93@lexcorp.biz>
+
+Hi Quinn,
+
+Thanks for flagging this. I've escalated to the Data Science team and they're
+looking into the Search Index issue. Current status:
+
+- Root cause: corrupted cache entries
+- Impact: ~123 users affected in APAC
+- ETA for fix: 15:30 CET today
+- Severity: P1
+
+I'll keep this thread updated as we learn more. Olivia is the point person if
+you need immediate assistance.
+
+Workaround: Clear browser cache.
+
+Regards,
+Leo
+--
+Leo Clark
+Data Scientist | Lexcorp
++1-923-751-5389

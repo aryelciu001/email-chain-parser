@@ -23,13 +23,13 @@ spec:
             - name: POSTGRES_DSN
               value: host=postgres.demo.svc.cluster.local dbname=emaildb user=app password=app
             - name: DATA_DIR
-              value: /data/sample-data
+              value: /data/test
           volumeMounts:
-            - name: sample-data
-              mountPath: /data/sample-data
+            - name: test
+              mountPath: /data/test
               readOnly: true
       volumes:
-        - name: sample-data
+        - name: test
           hostPath:
-            path: /data/sample-data
+            path: /data/test
             type: DirectoryOrCreate

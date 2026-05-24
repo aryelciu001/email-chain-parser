@@ -1,0 +1,111 @@
+From: Paul Lopez <paul.lopez@initech.com>
+To: Jack Smith <jack.smith@cyberdyne.systems>
+Date: January 25, 2024 at 02:44 AM
+Subject: Re: Training Session: OKR Planning
+Message-ID: <a9d67d1a8cb2f891@initech.com>
+
+Thanks Quinn,
+
+I reviewed the RFC for OKR Planning. Some thoughts:
+
+- Section 4 needs more detail on the rollback strategy
+- The NPS score numbers in Table 5 don't match what I see in the Notification Hub dashboard (showing 60% vs your 70%)
+- Can we add a dependency map for the Payment Gateway integration?
+- The timeline for Product involvement seems optimistic
+
+Happy to discuss in our Wednesday sync.
+
+Cheers,
+Paul
+--
+Paul Lopez
+Director of Engineering | Initech
++1-379-138-1584
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+----------------------------------------
+| From: Paul Lopez <paul.lopez@initech.com> 
+| To: Quinn Rodriguez <quinn.rodriguez@wayneenterprises.com>, Jack Smith <jack.smith@cyberdyne.systems>  
+| Date: January 23, 2024 at 02:10 PM
+| Subject: Re: Training Session: OKR Planning  
+| Message-ID: <f8d098dc5a182f6f@initech.com>    
+| 
+| Hi Quinn,  
+| 
+| I had a call with Pinnacle Analytics today about the API Gateway integration. Key takeaways:
+| - They can deliver the UAT phase by 4/1, which is 3 weeks ahead of our schedule   
+| - Pricing: $207K for the base package + $96K for Kubernetes Fundamentals add-on
+| - They require a 2-year commitment minimum  
+| - Technical contact will be Alice Sanchez (DevOps Engineer)
+|  
+| For comparison, Pinnacle Analytics quoted $167K with a more flexible contract.
+| 
+| Should we bring this to the All-Hands for a final decision?
+| 
+| Best,
+| Paul
+| 
+| Best,   
+| Paul Lopez
+| Director of Engineering, Sales
+| Initech
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.    
+| 
+
+
+----------------------------------------
+| From: Quinn Rodriguez <quinn.rodriguez@wayneenterprises.com>
+| To: Jack Smith <jack.smith@cyberdyne.systems>, Paul Lopez <paul.lopez@initech.com>   
+| Date: January 22, 2024 at 07:46 AM
+| Subject: Re: Training Session: OKR Planning
+|   
+| Message-ID: <f5324f1019abef1d@wayneenterprises.com>   
+| Team,
+| 
+| I've been analyzing the response time data from last sprint and noticed some interesting trends:
+| 
+| - response time decreased by 34% compared to the previous sprint
+| - The APAC region is outperforming by a factor of 1.8x
+| - We're seeing a correlation between response time and throughput    
+| - The Horizon rollout appears to have had no measurable impact
+| 
+| Dashboard link: https://grafana.internal/08d2a4ea35
+| 
+| I think this warrants a deeper investigation. Paul, could you pull the raw data from Legacy CRM so we can cross-reference with Analytics Pipeline?
+|   
+| Best,
+| Quinn
+| --
+| Quinn Rodriguez
+| QA Lead | Wayneenterprises 
+| +1-646-464-8748 
+
+
+----------------------------------------
+| From: Jack Smith <jack.smith@cyberdyne.systems>
+| To: Quinn Rodriguez <quinn.rodriguez@wayneenterprises.com>, Paul Lopez <paul.lopez@initech.com>
+| Date: January 20, 2024 at 12:53 PM
+| Subject: Training Session: OKR Planning
+| Message-ID: <48009dbd6fd8883a@cyberdyne.systems>
+| 
+| Hi Paul,
+| 
+| Just a heads up — the CI/CD Platform deployment (v4.1.96) is scheduled for Wednesday at 16:30 EST. Expected downtime is approximately 15 minutes.
+| 
+| Changes include:
+| - PR #8872: Update rate limiting
+| - PR #8878: Aurora feature flag rollout
+| - Config update for LATAM region
+| 
+| Please make sure your team is aware and has saved any in-progress work. We'll send a notification to #data science once complete.
+| 
+| Thanks,
+| Jack
+| 
+| Best,
+| Jack Smith
+| Principal Engineer, Product
+| Cyberdyne

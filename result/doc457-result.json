@@ -1,0 +1,32 @@
+[
+  {
+    "from": [
+      "grace.johnson@starkindustries.com"
+    ],
+    "to": [
+      "chen.martin@acmecorp.com",
+      "karen.martinez@acmecorp.com",
+      "miguel.clark@lexcorp.biz"
+    ],
+    "cc": [],
+    "date": "10 Dec 2024, 09:06",
+    "subject": "Marketing Weekly Standup Notes",
+    "message_id": "<354c0bb07524d532@starkindustries.com>",
+    "content": "Karen \u2014 \n\nGot it, makes sense. I'll loop in Chen from Data Science to get their  \nperspective on the Search Index changes. In the meantime, I've created a shared\ndoc where we can track the open items:\n\nhttps://docs.google.com/d/36660e59856b4de5    \n\nCurrent open items (6 total):\n- Vanguard integration testing (owner: Karen)\n- Pinnacle Analytics contract review (owner: Grace)    \n- GraphQL Migration documentation (owner: Chen)\n\nPlease add any additional concerns there. I'll consolidate everything before our    \nMonday sync.\n\nThanks,\nGrace",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "karen.martinez@acmecorp.com"
+    ],
+    "to": [
+      "miguel.clark@lexcorp.biz"
+    ],
+    "cc": [],
+    "date": "11 Dec 2024, 10:14",
+    "subject": "Re: Marketing Weekly Standup Notes",
+    "message_id": "<beca8c22be6745e8@acmecorp.com>",
+    "content": "Hi Grace,\n\nQuick update on Project Falcon: we've completed the design phase and are on\ntrack for the milestone. Key highlights:\n- Migrated 19 services to the new Search Index architecture\n- Reduced engagement by 8% across all endpoints\n- Identified 3 blocking issues (see JIRA-1442 for details)\n\nThe Sales team has been instrumental in this effort. Grace has volunteered to\nlead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nKaren\n--\nKaren Martinez\nAcmecorp | Engineering Department\nPhone: +1-353-504-9151 | Email: karen.martinez@acmecorp.com",
+    "canon_order": 1
+  }
+]

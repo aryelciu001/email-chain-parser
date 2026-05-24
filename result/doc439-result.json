@@ -1,0 +1,18 @@
+[
+  {
+    "from": [
+      "xander.taylor@oscorp.com"
+    ],
+    "to": [
+      "jack.moore@lexcorp.biz"
+    ],
+    "cc": [
+      "carol.brown@lexcorp.biz"
+    ],
+    "date": "09/04/2024 02:12 PM",
+    "subject": "Action Items from Architecture Summit Kickoff",
+    "message_id": "<f7d5362fc7a3cfea@oscorp.com>",
+    "content": "Hi Uma,\n\nI had a call with StreamLine Solutions today about the Analytics Pipeline integration. Key takeaways:\n\n- They can deliver the UAT phase by 12/25, which is 1 weeks ahead of our schedule\n- Pricing: $332K for the base package + $81K for AWS Cost Optimization add-on\n- They require a 3-year commitment minimum\n- Technical contact will be Eve Lee (DevOps Engineer)\n\nFor comparison, StreamLine Solutions quoted $386K with a more flexible contract.\n\nShould we bring this to the Hackathon for a final decision?\n\nBest,\nXander\n--\nXander Taylor\nOscorp | Data Science Department\nPhone: +1-606-880-8502 | Email: xander.taylor@oscorp.com\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 0
+  }
+]

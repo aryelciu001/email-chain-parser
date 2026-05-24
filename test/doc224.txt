@@ -1,0 +1,140 @@
+From: Hank Garcia <hank.garcia@initech.com>
+To: Priya Wilson <priya.wilson@umbrella-corp.net>
+Date: 06/27/2024 10:27 PM
+Subject: Re: Infrastructure Cost Analysis
+Message-ID: <942e5a6d756af9f9@initech.com>
+
+Hi Priya,
+
+I've reviewed the budget and have some concerns about the Horizon approach.
+Specifically:
+
+1. The proposed timeline seems aggressive given the Sales team's current
+bandwidth (they're already at 61% capacity with Auth Service work)
+2. We haven't accounted for the CI/CD Platform deprecation in Q1
+3. The $114K budget allocation for Pinnacle Analytics seems high compared to
+CloudSync Inc. who quoted $64K
+4. Zara's team hasn't signed off on the Kubernetes Fundamentals dependency
+
+I'd suggest we revisit this in our next standup meeting.
+
+Best,
+Hank
+--
+Hank Garcia
+Director of Engineering | Initech
++1-621-776-8943
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Priya Wilson <priya.wilson@umbrella-corp.net>
+> Date: 06/27/2024 09:04 AM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <c3886f8cff4e6447@starkindustries.com>
+> 
+> Hi Hank,
+> 
+> I had a call with StreamLine Solutions today about the API Gateway integration.
+> Key takeaways:
+> 
+> - They can deliver the design phase by 9/22, which is 2 weeks behind our
+> schedule
+> - Pricing: $187K for the base package + $19K for Kubernetes Fundamentals add-on
+> - They require a 1-year commitment minimum
+> - Technical contact will be Paul Ramirez (VP of Product)
+> 
+> For comparison, DataFlow Systems quoted $190K with a more flexible contract.
+> 
+> Should we bring this to the Design Review for a final decision?
+> 
+> Best,
+> Quinn
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Hank Garcia <hank.garcia@initech.com>  
+> Date: 06/25/2024 02:31 PM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <044ddfa12149bdfa@starkindustries.com>
+>    
+> Hi Zara,
+>    
+> I had a call with Pinnacle Analytics today about the Legacy CRM integration. Key  
+> takeaways: 
+> 
+> - They can deliver the design phase by 6/22, which is 2 weeks behind our
+> schedule
+> - Pricing: $105K for the base package + $50K for Zero Trust Architecture add-on
+> - They require a 3-year commitment minimum
+> - Technical contact will be Priya Martinez (Software Engineer)
+> 
+> For comparison, DataFlow Systems quoted $43K with a more flexible contract.  
+>    
+> Should we bring this to the Board Meeting for a final decision?  
+> 
+> Best,   
+> Quinn
+> --
+> Quinn Hernandez
+> Starkindustries | Marketing Department
+> Phone: +1-819-160-4800 | Email: quinn.hernandez@starkindustries.com
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Hank Garcia <hank.garcia@initech.com>, Priya Wilson <priya.wilson@umbrella-corp.net>
+> Date: 06/25/2024 04:04 AM   
+> Subject: Re: Infrastructure Cost Analysis 
+> Message-ID: <8182f8f817c33b85@starkindustries.com> 
+> 
+> Hi Zara,
+> 
+> Thanks for the update. Some notes:
+> - Agreed on the Payment Gateway approach. Priya and I discussed this during the
+> All-Hands and we're aligned.
+> - For the Sales budget, I'd suggest we cap it at $344K for now and revisit in
+> Q1.
+> - The error rate improvement looks promising — let's make sure we have proper
+> monitoring via Legacy CRM before going live.   
+> 
+> I'll update the Falcon tracker accordingly.
+>   
+> Thanks,    
+> Quinn  
+> --
+> Quinn Hernandez
+> Starkindustries | Marketing Department
+> Phone: +1-819-160-4800 | Email: quinn.hernandez@starkindustries.com
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Priya Wilson <priya.wilson@umbrella-corp.net>
+> Date: 06/23/2024 04:28 PM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <bd5ee2bddd4db47f@starkindustries.com>
+> 
+> Hi Zara,
+> 
+> I've reviewed the budget and have some concerns about the Neptune approach.
+> Specifically:
+> 
+> 1. The proposed timeline seems aggressive given the Product team's current
+> bandwidth (they're already at 53% capacity with Analytics Pipeline work)
+> 2. We haven't accounted for the Legacy CRM deprecation in Q1
+> 3. The $291K budget allocation for StreamLine Solutions seems high compared to
+> Pinnacle Analytics who quoted $248K
+> 4. Priya's team hasn't signed off on the OKR Planning dependency
+> 
+> I'd suggest we revisit this in our next sync meeting.
+> 
+> Best,
+> Quinn
+> 
+> Best,
+> Quinn Hernandez
+> VP of Product, Marketing
+> Starkindustries
+> 
+> DISCLAIMER: The information contained in this email is intended only for the
+> person or entity to which it is addressed and may contain confidential and/or
+> privileged material. Unauthorized review, use, disclosure or distribution is
+> prohibited.
+> 

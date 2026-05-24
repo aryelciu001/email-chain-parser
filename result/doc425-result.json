@@ -1,0 +1,32 @@
+[
+  {
+    "from": [
+      "jack.smith@cyberdyne.systems"
+    ],
+    "to": [
+      "paul.lopez@initech.com",
+      "quinn.rodriguez@wayneenterprises.com"
+    ],
+    "cc": [],
+    "date": "January 20, 2024 at 12:53 PM",
+    "subject": "Training Session: OKR Planning",
+    "message_id": "<48009dbd6fd8883a@cyberdyne.systems>",
+    "content": "Hi Paul,\n\nJust a heads up \u2014 the CI/CD Platform deployment (v4.1.96) is scheduled for Wednesday at 16:30 EST. Expected downtime is approximately 15 minutes.\n\nChanges include:\n- PR #8872: Update rate limiting\n- PR #8878: Aurora feature flag rollout\n- Config update for LATAM region\n\nPlease make sure your team is aware and has saved any in-progress work. We'll send a notification to #data science once complete.\n\nThanks,\nJack\n\nBest,\nJack Smith\nPrincipal Engineer, Product\nCyberdyne",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "quinn.rodriguez@wayneenterprises.com"
+    ],
+    "to": [
+      "jack.smith@cyberdyne.systems",
+      "paul.lopez@initech.com"
+    ],
+    "cc": [],
+    "date": "January 22, 2024 at 07:46 AM",
+    "subject": "Re: Training Session: OKR Planning",
+    "message_id": "<f5324f1019abef1d@wayneenterprises.com>",
+    "content": "Team,\n\nI've been analyzing the response time data from last sprint and noticed\nsome interesting trends:\n\n- response time decreased by 34% compared to the previous sprint\n- The APAC region is outperforming by a factor of 1.8x\n- We're seeing a correlation between response time and throughput\n- The Horizon rollout appears to have had no measurable impact\n\nDashboard link: https://grafana.internal/08d2a4ea35\n\nI think this warrants a deeper investigation. Paul, could you pull the\nraw data from Legacy CRM so we can cross-reference with Analytics\nPipeline?\n\nBest,\nQuinn\n--\nQuinn Rodriguez\nQA Lead | Wayneenterprises\n+1-646-464-8748",
+    "canon_order": 1
+  }
+]

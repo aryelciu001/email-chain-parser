@@ -1,0 +1,36 @@
+[
+  {
+    "from": [
+      "paul.miller@aperturescience.com"
+    ],
+    "to": [
+      "fatima.clark@wayneenterprises.com",
+      "uma.thomas@aperturescience.com"
+    ],
+    "cc": [
+      "bob.lopez@oscorp.com"
+    ],
+    "date": "October 27, 2024 at 10:40 PM",
+    "subject": "Reminder: Design Review on 3/11",
+    "message_id": "<95f1599027bc9e2d@aperturescience.com>",
+    "content": "Hi Tina,\n\nThanks for the update. Some notes:\n\n- Agreed on the Search Index approach. Tina and I discussed this yesterday and we're aligned.\n- For the Support budget, I'd suggest we cap it at $24K for now and revisit in Q1.\n- The engagement improvement looks promising \u2014 let's make sure we have proper monitoring via Notification Hub before going live.\n\nI'll update the Neptune tracker accordingly.\n\nRegards,\nPaul",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "uma.thomas@aperturescience.com"
+    ],
+    "to": [
+      "bob.lopez@oscorp.com"
+    ],
+    "cc": [
+      "hank.moore@umbrella-corp.net",
+      "paul.miller@aperturescience.com"
+    ],
+    "date": "October 29, 2024 at 04:04 AM",
+    "subject": "Re: Reminder: Design Review on 3/11",
+    "message_id": "<01392e49ea15ceb0@aperturescience.com>",
+    "content": "Hi Hank,\n\nI had a call with Pinnacle Analytics today about the Analytics Pipeline integration. Key takeaways:\n\n- They can deliver the design phase by 12/17, which is 3 weeks behind our schedule\n- Pricing: $132K for the base package + $36K for Agile Retrospectives add-on\n- They require a 1-year commitment minimum\n- Technical contact will be Fatima Rodriguez (VP of Product)\n\nFor comparison, CloudSync Inc. quoted $207K with a more flexible contract.\n\nShould we bring this to the Architecture Summit for a final decision?\n\nBest,\nUma\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 1
+  }
+]

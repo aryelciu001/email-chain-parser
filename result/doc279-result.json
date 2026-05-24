@@ -1,0 +1,87 @@
+[
+  {
+    "from": [
+      "karen.harris@aperturescience.com"
+    ],
+    "to": [
+      "paul.clark@acmecorp.com",
+      "steve.rodriguez@umbrella-corp.net"
+    ],
+    "cc": [
+      "miguel.hernandez@lexcorp.biz",
+      "tina.robinson@umbrella-corp.net"
+    ],
+    "date": "April 11, 2024 at 10:15 PM",
+    "subject": "Action Items from Hackathon Kickoff",
+    "message_id": "<cad86af0b5ee25c8@aperturescience.com>",
+    "content": "Hi Paul,\n\nQuick update on Project Horizon: we've completed the beta phase and are on track for the milestone. Key highlights:\n\n- Migrated 13 services to the new Search Index architecture\n- Reduced churn rate by 45% across all endpoints\n- Identified 7 blocking issues (see JIRA-5394 for details)\n\nThe Operations team has been instrumental in this effort. Steve has volunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nKaren\n---\nKaren Harris | Senior Software Engineer\nAperturescience\nM: +1-339-420-5010 | E: karen.harris@aperturescience.com",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "tina.robinson@umbrella-corp.net"
+    ],
+    "to": [
+      "miguel.hernandez@lexcorp.biz",
+      "steve.rodriguez@umbrella-corp.net"
+    ],
+    "cc": [
+      "paul.clark@acmecorp.com"
+    ],
+    "date": "April 12, 2024 at 12:25 PM",
+    "subject": "Re: Action Items from Hackathon Kickoff",
+    "message_id": "<748978a2a6bacae0@umbrella-corp.net>",
+    "content": "Hi Steve,\n\nJust a heads up \u2014 the Analytics Pipeline deployment (v9.15.46) is scheduled for Friday at 8:00 JST. Expected downtime is approximately 10 minutes.\n\nChanges include:\n- PR #6512: Remove rate limiting\n- PR #6515: Vanguard feature flag rollout\n- Config update for EMEA region\n\nPlease make sure your team is aware and has saved any in-progress work. We'll send a notification to #marketing once complete.\n\nThanks,\nTina\n--\nTina Robinson\nUmbrella Corp | Finance Department\nPhone: +1-911-237-4414 | Email: tina.robinson@umbrella-corp.net\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "paul.clark@acmecorp.com"
+    ],
+    "to": [
+      "karen.harris@aperturescience.com"
+    ],
+    "cc": [
+      "steve.rodriguez@umbrella-corp.net",
+      "tina.robinson@umbrella-corp.net"
+    ],
+    "date": "April 13, 2024 at 12:53 AM",
+    "subject": "Re: Action Items from Hackathon Kickoff",
+    "message_id": "<8584bf9d63730649@acmecorp.com>",
+    "content": "Team,\n\nI've been analyzing the p99 latency data from last month and noticed some interesting trends:\n\n- p99 latency increased by 10% compared to the previous month\n- The APAC region is outperforming by a factor of 1.9x\n- We're seeing a correlation between p99 latency and response time\n- The Phoenix rollout appears to have had a positive impact\n\nDashboard link: https://grafana.internal/22da61f049\n\nI think this warrants a deeper investigation. Karen, could you pull the raw data from CI/CD Platform so we can cross-reference with Logging Service?\n\nBest,\nPaul\n---\nPaul Clark | Data Scientist\nAcmecorp\nM: +1-289-113-2838 | E: paul.clark@acmecorp.com",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "steve.rodriguez@umbrella-corp.net"
+    ],
+    "to": [
+      "karen.harris@aperturescience.com"
+    ],
+    "cc": [
+      "paul.clark@acmecorp.com"
+    ],
+    "date": "April 13, 2024 at 10:01 AM",
+    "subject": "Re: Action Items from Hackathon Kickoff",
+    "message_id": "<2fcc3db08a1f47ef@umbrella-corp.net>",
+    "content": "All,\n\nFollowing up from the Architecture Summit earlier today. Here are the action items:\n\n- @Karen: Finalize the proposal by Tuesday (target: 5/23)\n- @Miguel: Schedule the Kubernetes Fundamentals review with Product\n- @Tina: Update the User Directory configuration per our discussion\n- @Steve: Send out the revised Project Zenith timeline by EOW\n\nNext meeting: Thursday at 11:00. Calendar invite to follow.\n\nThanks everyone,\nSteve\n--\nSteve Rodriguez\nUmbrella Corp | Operations Department\nPhone: +1-377-351-1259 | Email: steve.rodriguez@umbrella-corp.net\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 3
+  },
+  {
+    "from": [
+      "tina.robinson@umbrella-corp.net"
+    ],
+    "to": [
+      "miguel.hernandez@lexcorp.biz",
+      "paul.clark@acmecorp.com"
+    ],
+    "cc": [
+      "karen.harris@aperturescience.com"
+    ],
+    "date": "April 14, 2024 at 07:50 PM",
+    "subject": "Re: Action Items from Hackathon Kickoff",
+    "message_id": "<13786c2c59919266@umbrella-corp.net>",
+    "content": "Team,\n\nI've been analyzing the churn rate data from last sprint and noticed some interesting trends:\n\n- churn rate decreased by 33% compared to the previous sprint\n- The LATAM region is underperforming by a factor of 1.5x\n- We're seeing a correlation between churn rate and conversion rate\n- The Titan rollout appears to have had a positive impact\n\nDashboard link: https://grafana.internal/ec3bf464ca\n\nI think this warrants a deeper investigation. Paul, could you pull the raw data from API Gateway so we can cross-reference with CI/CD Platform?\n\nBest,\nTina",
+    "canon_order": 4
+  }
+]

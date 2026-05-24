@@ -1,0 +1,184 @@
+From: Uma Lee <uma.lee@initech.com>
+To: Frank Sanchez <frank.sanchez@wayneenterprises.com>, Yuki Lopez <yuki.lopez@aperturescience.com>
+Cc: Carol Harris <carol.harris@lexcorp.biz>
+Date: 09/13/2024 08:37 PM
+Subject: FW: Policy Update: PTO Accrual
+Message-ID: <39ebb0718c6d0205@initech.com>
+
+Hi Alice,
+
+Just a heads up — the Legacy CRM deployment (v4.8.73) is scheduled for
+Monday at 9:30 JST. Expected downtime is approximately 30 minutes.
+
+Changes include:
+- PR #5722: Fix caching layer
+- PR #5736: Falcon feature flag rollout
+- Config update for APAC region
+
+Please make sure your team is aware and has saved any in-progress work.
+We'll send a notification to #operations once complete.
+
+Thanks,
+Uma
+---
+Uma Lee | QA Lead
+Initech
+M: +1-463-443-7269 | E: uma.lee@initech.com
+
+----------------------------------------
+> From: Uma Lee <uma.lee@initech.com>
+> To: Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> Cc: Carol Harris <carol.harris@lexcorp.biz>
+> Date: 09/13/2024 05:37 PM
+> Subject: FW: Policy Update: PTO Accrual
+> Message-ID: <6a5054492ed6e922@initech.com>
+> 
+> Hi Frank,  
+>    
+> Quick update on Project Phoenix: we've completed the UAT phase and are on
+> track for the milestone. Key highlights:  
+> 
+> - Migrated 155 services to the new Search Index architecture    
+> - Reduced engagement by 44% across all endpoints
+> - Identified 11 blocking issues (see JIRA-8094 for details)
+>   
+> The Data Science team has been instrumental in this effort. Frank has
+> volunteered to lead the next phase.
+>   
+> Let me know if you have questions.
+> 
+> Thanks,
+> Uma 
+> --
+> Uma Lee
+> Initech | Engineering Department   
+> Phone: +1-463-443-7269 | Email: uma.lee@initech.com
+
+
+----------------------------------------
+> From: Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> To: Yuki Lopez <yuki.lopez@aperturescience.com>, Victor Lopez <victor.lopez@cyberdyne.systems>, David Lopez <david.lopez@globex.io>
+> Cc: Alice Jackson <alice.jackson@cyberdyne.systems>, Uma Lee <uma.lee@initech.com>
+> Date: 09/13/2024 01:45 AM
+> Subject: FW: Policy Update: PTO Accrual   
+> Message-ID: <c63fcde3ff5c972b@wayneenterprises.com>
+> 
+> Team,   
+> 
+> Effective Monday, we're updating the Travel Reimbursement policy. Key
+> changes:
+> 
+> 1. Sales approval is now required for any Payment Gateway changes in
+> production (previously only staging required approval)   
+> 2. All PRs affecting Horizon must include unit tests 
+> 3. North America deployments will follow a new blue-green strategy
+> 4. Incident response SLA updated: P1 = 29min, P2 = 56min 
+> 
+> Full policy doc: https://wiki.internal/policies/843f8e78f2
+> 
+> Please review by EOD Thursday and flag any concerns to Yuki.
+> 
+> Thanks,
+> Frank  
+>   
+> DISCLAIMER: The information contained in this email is intended only for
+> the person or entity to which it is addressed and may contain
+> confidential and/or privileged material. Unauthorized review, use,
+> disclosure or distribution is prohibited.
+
+
+----------------------------------------
+> From: Carol Harris <carol.harris@lexcorp.biz>
+> To: Yuki Lopez <yuki.lopez@aperturescience.com>
+> Cc: Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> Date: 09/11/2024 08:20 PM
+> Subject: FW: Policy Update: PTO Accrual
+> Message-ID: <5f431aac3cee5b6a@lexcorp.biz>
+> 
+> Hi Victor,
+> 
+> Thanks for the update. A few quick thoughts:
+> 
+> - Agreed on the Legacy CRM approach. Uma and I discussed this
+> yesterday and
+> we're aligned.
+> - For the Sales budget, I'd suggest we cap it at $446K for now and
+> revisit
+> in Q1.
+> - The engagement improvement looks promising — let's make sure we have
+> proper monitoring via Legacy CRM before going live.
+> 
+> I'll update the Titan tracker accordingly.
+> 
+> Cheers,
+> Carol
+> 
+> Best,
+> Carol Harris
+> Senior Product Manager, Support
+> Lexcorp
+
+
+----------------------------------------
+> From: Yuki Lopez <yuki.lopez@aperturescience.com>
+> To: David Lopez <david.lopez@globex.io>, Carol Harris <carol.harris@lexcorp.biz>, Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> Cc: Uma Lee <uma.lee@initech.com>
+> Date: 09/11/2024 01:16 PM
+> Subject: FW: Policy Update: PTO Accrual
+> Message-ID: <bc37a98829c78bf8@aperturescience.com>
+> 
+> Hi Alice,
+> 
+> Thanks for flagging this. I&#39;ve escalated to the Sales team and they're
+> looking into the Auth Service issue. Current status:
+> 
+> - Root cause: race condition in queue consumer
+> - Impact: ~82 users affected in EMEA
+> - ETA for fix: 14:30 EST today
+> - Severity: P1
+> 
+> I'll keep this thread updated as we learn more. Uma is the point person if
+> you need immediate assistance.
+> 
+> Workaround: Switch to backup endpoint.
+> 
+> Regards,
+> Yuki
+> --
+> Yuki Lopez
+> Aperturescience | Support Department
+> Phone: +1-294-273-9282 | Email: yuki.lopez@aperturescience.com
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+----------------------------------------
+> From: Frank Sanchez <frank.sanchez@wayneenterprises.com>
+> To: Carol Harris <carol.harris@lexcorp.biz>
+> Cc: Alice Jackson <alice.jackson@cyberdyne.systems>
+> Date: 09/11/2024 04:48 AM
+> Subject: FW: Policy Update: PTO Accrual
+> Message-ID: <85e85aa45990987e@wayneenterprises.com>
+> 
+> Hi Victor,
+> 
+> Just a heads up — the Payment Gateway deployment (v8.12.49) is
+> scheduled for
+> Friday at 11:30 UTC. Expected downtime is approximately 15 minutes.
+> 
+> Changes include:
+> - PR #5658: Update batch processing
+> - PR #5668: Aurora feature flag rollout
+> - Config update for LATAM region
+> 
+> Please make sure your team is aware and has saved any in-progress
+> work.
+> We'll send a notification to #product once complete.
+> 
+> Thanks,
+> Frank
+> 
+> Best,
+> Frank Sanchez
+> Senior Product Manager, Data Science
+> Wayneenterprises

@@ -1,0 +1,62 @@
+[
+  {
+    "from": [
+      "quinn.hernandez@cyberdyne.systems"
+    ],
+    "to": [
+      "fatima.lopez@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "09/10/2024 01:02 AM",
+    "subject": "Finance Weekly Standup Notes",
+    "message_id": "<c6f07f5b2f31675f@cyberdyne.systems>",
+    "content": "All,\n\nFollowing up from the All-Hands earlier today. Here are the action items:\n\n- @Leo: Finalize the spec by Wednesday (target: 8/14)\n- @Paul: Schedule the Security Hardening review with Legal\n- @Leo: Update the Search Index configuration per our discussion\n- @Quinn: Send out the revised Project Falcon timeline by EOW\n\nNext meeting: Wednesday at 8:30. Calendar invite to follow.\n\nThanks everyone,\nQuinn\n--\nQuinn Hernandez\nCyberdyne | Sales Department\nPhone: +1-463-704-2046 | Email: quinn.hernandez@cyberdyne.systems",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "quinn.hernandez@cyberdyne.systems"
+    ],
+    "to": [
+      "leo.sanchez@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "09/11/2024 05:25 PM",
+    "subject": "Re: Finance Weekly Standup Notes",
+    "message_id": "<75a74ff9a5337783@cyberdyne.systems>",
+    "content": "Hi Paul,\n\nThanks for the update. Some notes:\n\n- Agreed on the Analytics Pipeline approach. Fatima and I discussed this yesterday and we're aligned.\n- For the Product budget, I'd suggest we cap it at $257K for now and revisit in Q3.\n- The engagement improvement looks promising \u2014 let's make sure we have proper monitoring via Logging Service before going live.\n\nI'll update the Aurora tracker accordingly.\n\nRegards,\nQuinn",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "paul.harris@cyberdyne.systems"
+    ],
+    "to": [
+      "fatima.lopez@cyberdyne.systems",
+      "leo.sanchez@cyberdyne.systems",
+      "quinn.hernandez@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "09/11/2024 06:17 PM",
+    "subject": "Re: Finance Weekly Standup Notes",
+    "message_id": "<ca9c59dd9f89e1d3@cyberdyne.systems>",
+    "content": "Thanks Leo,\n\nI reviewed the spec for OKR Planning. Some thoughts:\n\n- Section 6 needs more detail on the rollback strategy\n- The engagement numbers in Table 3 don't match what I see in the Notification Hub dashboard (showing 64% vs your 66%)\n- Can we add a dependency map for the CI/CD Platform integration?\n- The timeline for Support involvement seems optimistic\n\nHappy to discuss in our Tuesday sync.\n\nCheers,\nPaul\n---\nPaul Harris | Director of Engineering\nCyberdyne\nM: +1-227-739-4296 | E: paul.harris@cyberdyne.systems",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "fatima.lopez@cyberdyne.systems"
+    ],
+    "to": [
+      "leo.sanchez@cyberdyne.systems",
+      "paul.harris@cyberdyne.systems",
+      "quinn.hernandez@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "09/13/2024 05:01 PM",
+    "subject": "Re: Finance Weekly Standup Notes",
+    "message_id": "<1ae33246e8745307@cyberdyne.systems>",
+    "content": "Hi Paul,\n\nThanks for the update. Some notes:\n\n- Agreed on the Analytics Pipeline approach. Quinn and I discussed this during the Sprint Planning and we're aligned.\n- For the Sales budget, I'd suggest we cap it at $166K for now and revisit in Q1.\n- The throughput improvement looks promising \u2014 let's make sure we have proper monitoring via API Gateway before going live.\n\nI'll update the Titan tracker accordingly.\n\nRegards,\nFatima\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 3
+  }
+]

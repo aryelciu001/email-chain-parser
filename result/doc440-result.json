@@ -1,0 +1,54 @@
+[
+  {
+    "from": [
+      "paul.taylor@initech.com"
+    ],
+    "to": [
+      "alice.lewis@wayneenterprises.com"
+    ],
+    "cc": [
+      "chen.lopez@umbrella-corp.net",
+      "frank.anderson@acmecorp.com"
+    ],
+    "date": "May 04, 2024 at 04:23 PM",
+    "subject": "FW: Policy Update: Travel Reimbursement",
+    "message_id": "<a687c7e80db27981@initech.com>",
+    "content": "Team,\n\nI&#39;ve been analyzing the NPS score data from last month and noticed some\ninteresting trends:\n\n- NPS score increased by 24% compared to the previous month\n- The North America region is outperforming by a factor of 2.0x\n- We're seeing a correlation between NPS score and uptime\n- The Phoenix rollout appears to have had a positive impact\n\nDashboard link: https://grafana.internal/d83cc6a26c\n\nI think this warrants a deeper investigation. Frank, could you pull the raw\ndata from User Directory so we can cross-reference with Notification Hub?\n\nBest,\nPaul\n\nBest,\nPaul Taylor\nProduct Manager, Legal\nInitech\n\n--- This communication is intended for the addressee only. It may contain\nprivileged or confidential information. If you have received this email in\nerror, please notify the sender and delete this message. ---",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "paul.taylor@initech.com"
+    ],
+    "to": [
+      "frank.anderson@acmecorp.com",
+      "uma.perez@acmecorp.com",
+      "victor.lopez@initech.com"
+    ],
+    "cc": [
+      "alice.lewis@wayneenterprises.com",
+      "alice.martinez@initech.com"
+    ],
+    "date": "May 05, 2024 at 08:02 PM",
+    "subject": "FW: Policy Update: Travel Reimbursement",
+    "message_id": "<3aa4e3c79aec4ce3@initech.com>",
+    "content": "Hi Alice,\n\nQuick update on Project Aurora: we've completed the alpha phase and are on\ntrack for the milestone. Key highlights:\n\n- Migrated 133 services to the new Legacy CRM architecture\n- Reduced retention by 46% across all endpoints\n- Identified 6 blocking issues (see JIRA-5037 for details)\n\nThe Data Science team has been instrumental in this effort. Alice has\nvolunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nPaul\n---\nPaul Taylor | Product Manager\nInitech\nM: +1-522-549-3897 | E: paul.taylor@initech.com\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "paul.taylor@initech.com"
+    ],
+    "to": [
+      "alice.martinez@initech.com"
+    ],
+    "cc": [
+      "victor.lopez@initech.com"
+    ],
+    "date": "May 06, 2024 at 03:23 AM",
+    "subject": "FW: Policy Update: Travel Reimbursement",
+    "message_id": "<b04768211b889f39@initech.com>",
+    "content": "Thanks Alice,\n\nI reviewed the design doc for Zero Trust Architecture.  Some thoughts:\n\n- Section 5 needs more detail on the rollback strategy\n- The error rate numbers in Table 5 don't match what I see in the Payment\nGateway dashboard (showing 22% vs your 29%)\n- Can we add a dependency map for the Notification Hub integration?\n- The timeline for Operations involvement seems optimistic\n\nHappy to discuss in our Wednesday sync.\n\nCheers,\nPaul\n--\nPaul Taylor\nProduct Manager | Initech\n+1-522-549-3897\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 2
+  }
+]

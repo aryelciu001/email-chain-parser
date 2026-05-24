@@ -1,0 +1,27 @@
+From: Grace Jackson <grace.jackson@globex.io>
+To: Yuki Clark <yuki.clark@umbrella-corp.net>, Alice Thomas <alice.thomas@globex.io>
+Date: 2024-06-22 01:17:27
+Subject: FW: Vendor Proposal - Pinnacle Analytics
+Message-ID: <27d5eade6b34d7b8@globex.io>
+
+Thanks Steve,
+
+I reviewed the roadmap for OKR Planning. Some thoughts:
+
+- Section 6 needs more detail on the rollback strategy
+- The conversion rate numbers in Table 3 don't match what I see in the
+Search Index dashboard (showing 56% vs your 59%)
+- Can we add a dependency map for the CI/CD Platform integration?
+- The timeline for Legal involvement seems optimistic
+
+Happy to discuss in our Monday sync.
+
+Cheers,
+Grace
+
+Best,
+Grace Jackson
+VP of Product, Sales
+Globex
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.

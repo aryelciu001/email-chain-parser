@@ -1,0 +1,31 @@
+[
+  {
+    "from": [
+      "paul.davis@lexcorp.biz"
+    ],
+    "to": [
+      "frank.thomas@initech.com",
+      "yuki.white@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "Wed, 24 Jan 2024 22:01",
+    "subject": "Re: Incident Report #9958",
+    "message_id": "<5debcbbed414639d@lexcorp.biz>",
+    "content": "Frank \u2014 \n\nGot it, makes sense. I'll loop in Frank from Engineering to get their\nperspective on the Payment Gateway changes. In the meantime, I've\ncreated a shared doc where we can track the open items:\n\nhttps://docs.google.com/d/07e1cd7dca89a167\n\nCurrent open items (8 total):\n- Catalyst integration testing (owner: Frank)\n- StreamLine Solutions contract review (owner: Paul)\n- Agile Retrospectives documentation (owner: Frank)\n\nPlease add any additional concerns there. I'll consolidate everything\nbefore our Thursday sync.\n\nThanks,\nPaul",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "nate.lewis@lexcorp.biz"
+    ],
+    "to": [
+      "frank.thomas@initech.com"
+    ],
+    "cc": [],
+    "date": "Fri, 26 Jan 2024 21:15:29",
+    "subject": "Re: Incident Report #9958",
+    "message_id": "<9fe7ff0f685c7f6b@lexcorp.biz>",
+    "content": "Hi Paul,\n\nI had a call with NetSecure Pro today about the Legacy CRM integration.\nKey takeaways:\n\n- They can deliver the beta phase by 9/4, which is 6 weeks ahead of our\nschedule\n- Pricing: $205K for the base package + $59K for AWS Cost Optimization\nadd-on\n- They require a 1-year commitment minimum\n- Technical contact will be Uma Lee (VP of Product)\n\nFor comparison, DataFlow Systems quoted $149K with a more flexible\ncontract.\n\nShould we bring this to the All-Hands for a final decision?\n\nBest,\nNate\n---\nNate Lewis | Data Scientist\nLexcorp\nM: +1-397-341-5818 | E: nate.lewis@lexcorp.biz\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 1
+  }
+]

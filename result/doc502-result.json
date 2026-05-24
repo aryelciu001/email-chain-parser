@@ -1,0 +1,36 @@
+[
+  {
+    "from": [
+      "david.anderson@cyberdyne.systems"
+    ],
+    "to": [
+      "grace.brown@initech.com",
+      "irene.harris@starkindustries.com"
+    ],
+    "cc": [
+      "david.anderson@aperturescience.com",
+      "steve.moore@oscorp.com"
+    ],
+    "date": "March 08, 2024 at 11:03 AM",
+    "subject": "Action Items from Team Offsite Kickoff",
+    "message_id": "<d276ae2f1f23567a@cyberdyne.systems>",
+    "content": "Hi all,\n\nThanks for a productive Launch Retrospective today. Here's a summary of what\nwe decided:\n\nDECISIONS:\n- We will proceed with Option C for the Notification Hub migration\n(projected savings: $162K/yr)\n- Horizon launch date moved to Q4 (from original Q2 target)\n- Marketing team will own the Security Hardening workstream going forward\n\nOPEN QUESTIONS:\n- How does this affect the Pinnacle Analytics contract timeline? (Grace to\ninvestigate)\n- Do we need additional headcount for Senior Engineer? (Grace to assess)\n\nFull notes: https://confluence.internal/f4d085b9479d\n\nRegards,\nDavid\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "steve.moore@oscorp.com"
+    ],
+    "to": [
+      "irene.harris@starkindustries.com"
+    ],
+    "cc": [
+      "david.anderson@cyberdyne.systems"
+    ],
+    "date": "March 09, 2024 at 02:20 PM",
+    "subject": "Re: Action Items from Team Offsite Kickoff",
+    "message_id": "<5c5c6be2113bf6db@oscorp.com>",
+    "content": "All,\n\nFollowing up from the Architecture Summit earlier today. Here are the action\nitems:\n\n- @Fatima: Finalize the timeline by Tuesday (target: 5/26)\n- @David: Schedule the OKR Planning review with HR\n- @Irene: Update the Search Index configuration per our discussion\n- @Steve: Send out the revised Project Apex timeline by EOW\n\nNext meeting: Tuesday at 8:30. Calendar invite to follow.\n\nThanks everyone,\nSteve\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 1
+  }
+]

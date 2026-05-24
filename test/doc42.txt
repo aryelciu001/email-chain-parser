@@ -1,0 +1,27 @@
+From: Frank Sanchez <frank.sanchez@wayneenterprises.com>
+To: Carol Harris <carol.harris@lexcorp.biz>
+Cc: Alice Jackson <alice.jackson@cyberdyne.systems>
+Date: 09/11/2024 04:48 AM
+Subject: FW: Policy Update: PTO Accrual
+Message-ID: <85e85aa45990987e@wayneenterprises.com>
+
+Hi Victor,
+
+Just a heads up — the Payment Gateway deployment (v8.12.49) is scheduled for
+Friday at 11:30 UTC.  Expected downtime is approximately 15 minutes.
+
+Changes include:
+- PR #5658: Update batch processing
+- PR #5668: Aurora feature flag rollout
+- Config update for LATAM region
+
+Please make sure your team is aware and has saved any in-progress work.
+We'll send a notification to #product once complete.
+
+Thanks,
+Frank
+
+Best,
+Frank Sanchez
+Senior Product Manager, Data Science
+Wayneenterprises

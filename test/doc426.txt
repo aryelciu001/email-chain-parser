@@ -1,0 +1,157 @@
+From: Carol Smith <carol.smith@globex.io>
+To: Karen Thompson <karen.thompson@wayneenterprises.com>, Carol Brown <carol.brown@lexcorp.biz>
+Cc: Xander Taylor <xander.taylor@oscorp.com>
+Date: 09/09/2024 02:22 PM
+Subject: Re: Action Items from Architecture Summit Kickoff
+Message-ID: <68a4a7191b45cb3c@globex.io>
+
+Hi Carol,
+
+Thanks for flagging this. I've escalated to the Marketing team and they're looking into the Payment Gateway issue. Current status:
+
+- Root cause: oversized payload from partner API
+- Impact: ~106 users affected in EMEA
+- ETA for fix: 9:30 CST today
+- Severity: P3
+
+I'll keep this thread updated as we learn more. Uma is the point person if you need immediate assistance.
+
+Workaround: Clear browser cache.
+
+Regards,
+Carol
+---
+Carol Smith | DevOps Engineer
+Globex
+M: +1-707-673-2725 | E: carol.smith@globex.io
+
+| From: Carol Smith <carol.smith@globex.io>
+| To: Carol Brown <carol.brown@lexcorp.biz>, Karen Thompson <karen.thompson@wayneenterprises.com>
+| Cc: Frank Davis <frank.davis@initech.com>, Jack Moore <jack.moore@lexcorp.biz>
+| Date: 09/08/2024 09:44 PM
+| Subject: Re: Action Items from Architecture Summit Kickoff
+| Message-ID: <def8c664c2426b45@globex.io>
+| 
+| Thanks Frank,
+| 
+| I reviewed the proposal for Security Hardening. Some thoughts:
+| 
+| - Section 2 needs more detail on the rollback strategy
+| - The throughput numbers in Table 2 don't match what I see in the Payment Gateway dashboard (showing 20% vs your 28%)
+| - Can we add a dependency map for the Analytics Pipeline integration?
+| - The timeline for Support involvement seems optimistic
+| 
+| Happy to discuss in our Wednesday sync.
+| 
+| Cheers,
+| Carol
+
+
+| From: Karen Thompson <karen.thompson@wayneenterprises.com>
+| To: Carol Smith <carol.smith@globex.io>, Uma Perez <uma.perez@oscorp.com>, Xander Taylor <xander.taylor@oscorp.com>
+| Cc: Carol Brown <carol.brown@lexcorp.biz>, Frank Davis <frank.davis@initech.com>
+| Date: 09/08/2024 01:51 AM
+| Subject: Re: Action Items from Architecture Summit Kickoff
+| Message-ID: <6af991aded66e7a5@wayneenterprises.com>
+| 
+| Hi Xander,
+| 
+| I've reviewed the plan and have some concerns about the Catalyst approach. Specifically:
+| 
+| 1. The proposed timeline seems aggressive given the Engineering team's current bandwidth (they're already at 58% capacity with Analytics Pipeline work)
+| 2. We haven't accounted for the User Directory deprecation in Q1
+| 3. The $252K budget allocation for CloudSync Inc. seems high compared to CloudSync Inc. who quoted $167K
+| 4. Jack's team hasn't signed off on the Incident Response dependency
+| 
+| I'd suggest we revisit this in our next planning meeting.
+| 
+| Best,
+| Karen
+| --
+| Karen Thompson
+| Wayneenterprises | Marketing Department
+| Phone: +1-797-917-9866 | Email: karen.thompson@wayneenterprises.com
+| 
+| --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+| 
+
+
+| From: Frank Davis <frank.davis@initech.com>
+| To: Karen Thompson <karen.thompson@wayneenterprises.com>, Carol Brown <carol.brown@lexcorp.biz>, Uma Perez <uma.perez@oscorp.com>
+| Cc: Carol Smith <carol.smith@globex.io>
+| Date: 09/06/2024 06:03 AM
+| Subject: Re: Action Items from Architecture Summit Kickoff
+| Message-ID: <c442a868639f7b52@initech.com>
+| 
+| Thanks Karen,
+| 
+| I reviewed the RFC for Security Hardening. Some thoughts:
+| 
+| - Section 3 needs more detail on the rollback strategy
+| - The NPS score numbers in Table 2 don't match what I see in the Payment Gateway dashboard (showing 42% vs your 46%)
+| - Can we add a dependency map for the CI/CD Platform integration?
+| - The timeline for Data Science involvement seems optimistic
+| 
+| Happy to discuss in our Monday sync.
+| 
+| Cheers,
+| Frank
+| --
+| Frank Davis
+| Initech | Support Department
+| Phone: +1-391-391-5883 | Email: frank.davis@initech.com
+
+
+| From: Carol Brown <carol.brown@lexcorp.biz>
+| To: Frank Davis <frank.davis@initech.com>
+| Cc: Jack Moore <jack.moore@lexcorp.biz>
+| Date: 09/05/2024 02:27 PM
+| Subject: Re: Action Items from Architecture Summit Kickoff
+| Message-ID: <48c4ab28bba70d46@lexcorp.biz>
+| 
+| Hi Carol,
+| 
+| Thanks for flagging this. I've escalated to the Product team and they're looking into the Logging Service issue. Current status:
+| 
+| - Root cause: oversized payload from partner API
+| - Impact: ~198 users affected in North America
+| - ETA for fix: 15:00 UTC today
+| - Severity: P3
+| 
+| I'll keep this thread updated as we learn more. Carol is the point person if you need immediate assistance.
+| 
+| Workaround: Retry after 5 minutes.
+| 
+| Regards,
+| Carol
+
+
+| From: Xander Taylor <xander.taylor@oscorp.com>
+| To: Jack Moore <jack.moore@lexcorp.biz>
+| Cc: Carol Brown <carol.brown@lexcorp.biz>
+| Date: 09/04/2024 02:12 PM
+| Subject: Action Items from Architecture Summit Kickoff
+| Message-ID: <f7d5362fc7a3cfea@oscorp.com>
+| 
+| Hi Uma,
+| 
+| I had a call with StreamLine Solutions today about the Analytics Pipeline integration. Key takeaways:
+| 
+| - They can deliver the UAT phase by 12/25, which is 1 weeks ahead of our schedule
+| - Pricing: $332K for the base package + $81K for AWS Cost Optimization add-on
+| - They require a 3-year commitment minimum
+| - Technical contact will be Eve Lee (DevOps Engineer)
+| 
+| For comparison, StreamLine Solutions quoted $386K with a more flexible contract.
+| 
+| Should we bring this to the Hackathon for a final decision?
+| 
+| Best,
+| Xander
+| --
+| Xander Taylor
+| Oscorp | Data Science Department
+| Phone: +1-606-880-8502 | Email: xander.taylor@oscorp.com
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+| 

@@ -1,0 +1,29 @@
+From: David Anderson <david.anderson@cyberdyne.systems>
+To: Grace Brown <grace.brown@initech.com>, Irene Harris <irene.harris@starkindustries.com>
+Cc: David Anderson <david.anderson@aperturescience.com>, Steve Moore <steve.moore@oscorp.com>
+Date: March 08, 2024 at 11:03 AM
+Subject: Action Items from Team Offsite Kickoff
+Message-ID: <d276ae2f1f23567a@cyberdyne.systems>
+
+Hi all,
+
+Thanks for a productive Launch Retrospective today. Here's a summary of what
+we decided:
+
+DECISIONS:
+- We will proceed with Option C for the Notification Hub migration
+(projected savings: $162K/yr)
+- Horizon launch date moved to Q4 (from original Q2 target)
+- Marketing team will own the Security Hardening workstream going forward
+
+OPEN QUESTIONS:
+- How does this affect the Pinnacle Analytics contract timeline? (Grace to
+investigate)
+- Do we need additional headcount for Senior Engineer? (Grace to assess)
+
+Full notes: https://confluence.internal/f4d085b9479d
+
+Regards,
+David
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.

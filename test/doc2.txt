@@ -1,0 +1,93 @@
+From: Paul Thomas <paul.thomas@wayneenterprises.com>
+To: Chen Martinez <chen.martinez@lexcorp.biz>, Jack Lewis <jack.lewis@cyberdyne.systems>, Miguel Smith <miguel.smith@wayneenterprises.com>
+Date: May 08, 2024 at 05:37 AM
+Subject: Re: Client Feedback - Blue Ridge Partners Account
+Message-ID: <31a7fae4af19dcf2@wayneenterprises.com>
+
+Team,
+
+I've been analyzing the churn rate data from last week and noticed some interesting trends:
+
+- churn rate decreased by 36% compared to the previous week
+- The LATAM region is outperforming by a factor of 1.6x
+- We're seeing a correlation between churn rate and conversion rate
+- The Neptune rollout appears to have had no measurable impact
+
+Dashboard link: https://grafana.internal/04e46e3968
+
+I think this warrants a deeper investigation. Miguel, could you pull the raw data from CI/CD Platform so we can cross-reference with Legacy CRM?
+
+Best,
+Paul
+---
+Paul Thomas | DevOps Engineer
+Wayneenterprises
+M: +1-855-325-3863 | E: paul.thomas@wayneenterprises.com
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+----------------------------------------
+> From: Miguel Smith <miguel.smith@wayneenterprises.com>
+> To: Chen Martinez <chen.martinez@lexcorp.biz>, Paul Thomas <paul.thomas@wayneenterprises.com>
+> Date: May 06, 2024 at 11:29 AM
+> Subject: Re: Client Feedback - Blue Ridge Partners Account
+> Message-ID: <f92df562a50a06fe@wayneenterprises.com>
+> 
+> Hi Paul,
+> 
+> Thanks for the update.  A few quick thoughts:
+> 
+> - Agreed on the User Directory approach. Chen and I discussed this
+> yesterday and we're aligned.
+> - For the Finance budget, I'd suggest we cap it at $278K for now and
+> revisit in Q2.
+> - The NPS score improvement looks promising — let's make sure we have
+> proper monitoring via Analytics Pipeline before going live.
+> 
+> I'll update the Horizon tracker accordingly.
+> 
+> Best,
+> Miguel
+> 
+> Best,
+> Miguel Smith
+> Senior Software Engineer, Operations
+> Wayneenterprises
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the
+> exclusive and confidential use of the intended recipient. If you are not
+> the intended recipient, please do not read, distribute, or take action
+> based on this message. If you have received this in error, please notify
+> the sender immediately and delete this message from your system.
+> 
+
+
+----------------------------------------
+> From: Miguel Smith <miguel.smith@wayneenterprises.com>
+> To: Paul Thomas <paul.thomas@wayneenterprises.com>, Jack Lewis <jack.lewis@cyberdyne.systems>
+> Date: May 05, 2024 at 01:18 PM
+> Subject: Re: Client Feedback - Blue Ridge Partners Account
+> Message-ID: <428211c3d8500a81@wayneenterprises.com>
+> 
+> Hi all,
+> 
+> Thanks for a productive Hackathon today. Here's a summary of what we decided:
+> 
+> DECISIONS:
+> - We will proceed with Option B for the API Gateway migration (projected savings: $224K/yr)
+> - Titan launch date moved to Q2 (from original Q2 target)
+> - Legal team will own the Incident Response workstream going forward
+> 
+> OPEN QUESTIONS:
+> - How does this affect the Pinnacle Analytics contract timeline? (Jack to investigate)
+> - Do we need additional headcount for DevOps Lead? (Jack to assess)
+> 
+> Full notes: https://confluence.internal/365cd446f9cf
+> 
+> Regards,
+> Miguel
+> ---
+> Miguel Smith | Senior Software Engineer
+> Wayneenterprises
+> M: +1-478-405-7860 | E: miguel.smith@wayneenterprises.com

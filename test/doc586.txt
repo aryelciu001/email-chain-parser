@@ -1,0 +1,115 @@
+From: Jack Lewis <jack.lewis@cyberdyne.systems>
+To: Chen Martinez <chen.martinez@lexcorp.biz>
+Date: May 07, 2024 at 08:58 PM
+Subject: Re: Client Feedback - Blue Ridge Partners Account
+Message-ID: <1d9221c7e436887e@cyberdyne.systems>
+
+Hi Miguel,
+
+Just a heads up — the Analytics Pipeline deployment (v9.1.88) is scheduled for Thursday at 13:30 IST. Expected downtime is approximately 5 minutes.
+
+Changes include:
+- PR #2163: Fix error handling
+- PR #2178: Aurora feature flag rollout
+- Config update for LATAM region
+
+Please make sure your team is aware and has saved any in-progress work. We'll send a notification to #data science once complete.
+
+Thanks,
+Jack
+
+Best,
+Jack Lewis
+Architect, Finance
+Cyberdyne
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+----------------------------------------
+> From: Miguel Smith <miguel.smith@wayneenterprises.com>
+> To: Chen Martinez <chen.martinez@lexcorp.biz>, Paul Thomas <paul.thomas@wayneenterprises.com>, Jack Lewis <jack.lewis@cyberdyne.systems>
+> Date: May 07, 2024 at 12:22 AM
+> Subject: Re: Client Feedback - Blue Ridge Partners Account
+> Message-ID: <a2870af9137be2f9@wayneenterprises.com>
+> 
+> Hi all,
+> 
+> Thanks for a productive Architecture Summit today. Here's a summary of what we decided:
+> 
+> DECISIONS:
+> - We will proceed with Option A for the User Directory migration (projected savings: $346K/yr)
+> - Zenith launch date moved to Q4 (from original Q3 target)
+> - Data Science team will own the Agile Retrospectives workstream going forward
+> 
+> OPEN QUESTIONS:
+> - How does this affect the CloudSync Inc. contract timeline? (Jack to investigate)
+> - Do we need additional headcount for QA Engineer? (Jack to assess)
+> 
+> Full notes: https://confluence.internal/61e6be54d807
+> 
+> Regards,
+> Miguel
+> --
+> Miguel Smith
+> Senior Software Engineer | Wayneenterprises
+> +1-478-405-7860
+
+
+----------------------------------------
+> From: Miguel Smith <miguel.smith@wayneenterprises.com>
+> To: Chen Martinez <chen.martinez@lexcorp.biz>, Paul Thomas <paul.thomas@wayneenterprises.com>
+> Date: May 06, 2024 at 11:29 AM
+> Subject: Re: Client Feedback - Blue Ridge Partners Account
+> Message-ID: <f92df562a50a06fe@wayneenterprises.com>
+> 
+> Hi Paul,
+> 
+> Thanks for the update. A few quick thoughts:
+> 
+> - Agreed on the User Directory approach. Chen and I discussed this yesterday and we're aligned.
+> - For the Finance budget, I'd suggest we cap it at $278K for now and revisit in Q2.
+> - The NPS score improvement looks promising — let's make sure we have proper monitoring via Analytics Pipeline before going live.
+> 
+> I'll update the Horizon tracker accordingly.
+> 
+> Best,
+> Miguel
+> 
+> Best,
+> Miguel Smith
+> Senior Software Engineer, Operations
+> Wayneenterprises
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+----------------------------------------
+> From: Miguel Smith <miguel.smith@wayneenterprises.com>
+> To: Paul Thomas <paul.thomas@wayneenterprises.com>, Jack Lewis <jack.lewis@cyberdyne.systems>
+> Date: May 05, 2024 at 01:18 PM
+> Subject: Re: Client Feedback - Blue Ridge Partners Account
+> Message-ID: <428211c3d8500a81@wayneenterprises.com>
+> 
+> Hi all,
+> 
+> Thanks for a productive Hackathon today. Here's a summary of what we decided:
+> 
+> DECISIONS:
+> - We will proceed with Option B for the API Gateway migration (projected savings: $224K/yr)
+> - Titan launch date moved to Q2 (from original Q2 target)
+> - Legal team will own the Incident Response workstream going forward
+> 
+> OPEN QUESTIONS:
+> - How does this affect the Pinnacle Analytics contract timeline? (Jack to investigate)
+> - Do we need additional headcount for DevOps Lead? (Jack to assess)
+> 
+> Full notes: https://confluence.internal/365cd446f9cf
+> 
+> Regards,
+> Miguel
+> ---
+> Miguel Smith | Senior Software Engineer
+> Wayneenterprises
+> M: +1-478-405-7860 | E: miguel.smith@wayneenterprises.com

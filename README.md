@@ -30,7 +30,7 @@ make cluster-up
 # 2. Build images
 make build
 
-# 3. Deploy (also copies sample-data into the minikube node for the document worker)
+# 3. Deploy (also copies test into the minikube node for the document worker)
 make deploy
 ```
 
@@ -58,7 +58,7 @@ echo "127.0.0.1 my.local" | sudo tee -a /etc/hosts
 
 1. Run this to ingest the documents
 ```bash
-make ingest-all             # ingest all docs in sample-data/
+make ingest-all             # ingest all docs in test/
 ```
 
 2. Once everything is ingested, you can use `my.local` frontend to view the result.

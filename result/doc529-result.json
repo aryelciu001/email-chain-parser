@@ -1,0 +1,36 @@
+[
+  {
+    "from": [
+      "olivia.ramirez@oscorp.com"
+    ],
+    "to": [
+      "irene.hernandez@initech.com",
+      "nate.johnson@globex.io"
+    ],
+    "cc": [
+      "rachel.lopez@starkindustries.com",
+      "xander.rodriguez@starkindustries.com"
+    ],
+    "date": "Fri, 01 Mar 2024 03:04:54",
+    "subject": "Finance Weekly Standup Notes",
+    "message_id": "<d9b6ca39c41c4b3e@oscorp.com>",
+    "content": "Thanks Nate,\n\nI reviewed the design doc for AWS Cost Optimization. Some thoughts:\n\n- Section 1 needs more detail on the rollback strategy\n- The p99 latency numbers in Table 4 don't match what I see in the Analytics Pipeline dashboard (showing 10% vs your 13%)\n- Can we add a dependency map for the Analytics Pipeline integration?\n- The timeline for Legal involvement seems optimistic\n\nHappy to discuss in our Thursday sync.\n\nCheers,\nOlivia\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "olivia.ramirez@oscorp.com"
+    ],
+    "to": [
+      "rachel.lopez@starkindustries.com"
+    ],
+    "cc": [
+      "irene.hernandez@initech.com"
+    ],
+    "date": "Fri, 01 Mar 2024 15:03",
+    "subject": "Re: Finance Weekly Standup Notes",
+    "message_id": "<56820a7cb40e4129@oscorp.com>",
+    "content": "Hi Nate,\n\nThanks for flagging this. I've escalated to the Marketing team and they're\nlooking into the API Gateway issue. Current status:\n\n- Root cause: stale DNS cache\n- Impact: ~18 users affected in North America\n- ETA for fix: 12:30 CET today\n- Severity: P3\n\nI'll keep this thread updated as we learn more. Karen is the point person if you\nneed immediate assistance.\n\nWorkaround: Clear browser cache.\n\nRegards,\nOlivia\n--\nOlivia Ramirez\nQA Lead | Oscorp\n+1-541-131-7819",
+    "canon_order": 1
+  }
+]

@@ -1,0 +1,86 @@
+From: Eve Brown <eve.brown@umbrella-corp.net>
+To: Frank White <frank.white@wayneenterprises.com>
+Date: 15 Sep 2024, 06:18
+Subject: Re: Migration Plan for Logging Service
+Message-ID: <1b5a1d72b37a0d4b@umbrella-corp.net>
+
+Hi all,
+
+Thanks for a productive Team Offsite today. Here's a summary of what we
+decided:
+
+DECISIONS:
+- We will proceed with Option C for the Analytics Pipeline migration
+(projected savings: $269K/yr)
+- Neptune launch date moved to Q1 (from original Q3 target)
+- Operations team will own the GraphQL Migration workstream going forward
+
+OPEN QUESTIONS:
+- How does this affect the NetSecure Pro contract timeline? (Priya to
+investigate)
+- Do we need additional headcount for QA Engineer? (Frank to assess)
+
+Full notes: https://confluence.internal/9cb010f4790d
+
+Regards,
+Eve
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+>  To: Priya Smith <priya.smith@acmecorp.com>
+>  From: Frank White <frank.white@wayneenterprises.com>
+>  Date: 15 Sep 2024, 02:19
+>  Subject: Re: Migration Plan for Logging Service
+>  Message-ID: <2ca5c43ffdf78e04@wayneenterprises.com>
+>  
+>  Hi Priya,
+>  
+>  Quick update on Project Neptune: we've completed the design phase and are on
+>  track for the milestone. Key highlights:
+>  
+>  - Migrated 23 services to the new Analytics Pipeline architecture
+>  - Reduced retention by 59% across all endpoints
+>  - Identified 3 blocking issues (see JIRA-8990 for details)
+>  
+>  The Support team has been instrumental in this effort. Priya has volunteered
+>  to lead the next phase.
+>  
+>  Let me know if you have questions.
+>  
+>  Thanks,
+>  Frank
+>  
+>  --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+>  
+
+
+>  From: Eve Brown <eve.brown@umbrella-corp.net>
+>  To: Frank White <frank.white@wayneenterprises.com>, Priya Smith <priya.smith@acmecorp.com>
+>  Date: 14 Sep 2024, 07:35
+>  Subject: Re: Migration Plan for Logging Service
+>  Message-ID: <082407faec6f933f@umbrella-corp.net>
+>  
+>  Hi Frank,
+>  
+>  Quick update on Project Apex: we've completed the integration phase and are
+>  on track for the milestone. Key highlights:
+>  
+>  - Migrated 5 services to the new CI/CD Platform architecture
+>  - Reduced engagement by 37% across all endpoints
+>  - Identified 11 blocking issues (see JIRA-8511 for details)
+>  
+>  The Operations team has been instrumental in this effort. Frank has
+>  volunteered to lead the next phase.
+>  
+>  Let me know if you have questions.
+>  
+>  Thanks,
+>  Eve
+>  ---
+>  Eve Brown | Technical Lead
+>  Umbrella Corp
+>  M: +1-864-100-5780 | E: eve.brown@umbrella-corp.net
+>  
+>  DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+>  

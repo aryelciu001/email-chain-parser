@@ -1,0 +1,30 @@
+From: Fatima Harris <fatima.harris@acmecorp.com>
+To: Irene Brown <irene.brown@globex.io>
+Date: 14 Apr 2024, 18:27
+Message-ID: <3aaf7fbdc767bb77@acmecorp.com>
+Subject: Action Items from Hackathon Kickoff
+
+Team,
+
+Effective Wednesday, we're updating the Travel Reimbursement policy. Key
+changes:
+
+1. Legal approval is now required for any Legacy CRM changes in
+production (previously only staging required approval)
+2. All PRs affecting Phoenix must include integration tests
+3. APAC deployments will follow a new canary strategy
+4. Incident response SLA updated: P1 = 14min, P2 = 84min
+
+Full policy doc: https://wiki.internal/policies/be2792d142
+
+Please review by EOD Thursday and flag any concerns to Alice.
+
+Thanks,
+Fatima
+
+Best,
+Fatima Harris
+Senior Software Engineer, Data Science
+Acmecorp
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---

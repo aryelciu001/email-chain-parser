@@ -1,0 +1,73 @@
+[
+  {
+    "from": [
+      "rachel.davis@initech.com"
+    ],
+    "to": [
+      "grace.hernandez@lexcorp.biz",
+      "quinn.garcia@cyberdyne.systems",
+      "steve.taylor@aperturescience.com"
+    ],
+    "cc": [
+      "zara.martin@umbrella-corp.net"
+    ],
+    "date": "February 01, 2024 at 04:19 PM",
+    "subject": "Re: Client Feedback - Northwind Traders Account",
+    "message_id": "<9d072cf6072f0b6f@initech.com>",
+    "content": "Hi Fatima,\n\nQuick update on Project Phoenix: we've completed the integration phase\nand are on track for the milestone.  Key highlights:\n\n- Migrated 197 services to the new Logging Service architecture\n- Reduced uptime by 54% across all endpoints\n- Identified 5 blocking issues (see JIRA-295 for details)\n\nThe HR team has been instrumental in this effort. Grace has volunteered\nto lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nRachel\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "quinn.garcia@cyberdyne.systems"
+    ],
+    "to": [
+      "grace.hernandez@lexcorp.biz",
+      "zara.martin@umbrella-corp.net"
+    ],
+    "cc": [
+      "fatima.brown@acmecorp.com",
+      "rachel.davis@initech.com"
+    ],
+    "date": "February 02, 2024 at 07:45 AM",
+    "subject": "Re: Client Feedback - Northwind Traders Account",
+    "message_id": "<75faf1f19d0fdde6@cyberdyne.systems>",
+    "content": "Hi Rachel,\n\nThanks for flagging this. I've escalated to the Support team and they're\nlooking into the Payment Gateway issue. Current status:\n\n- Root cause: unhandled null pointer in batch job\n- Impact: ~85 users affected in LATAM\n- ETA for fix: 9:30 EST today\n- Severity: P1\n\nI'll keep this thread updated as we learn more. Fatima is the point\nperson if you need immediate assistance.\n\nWorkaround: Switch to backup endpoint.\n\nRegards,\nQuinn\n---\nQuinn Garcia | Product Manager\nCyberdyne\nM: +1-771-274-8705 | E: quinn.garcia@cyberdyne.systems",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "steve.taylor@aperturescience.com"
+    ],
+    "to": [
+      "quinn.garcia@cyberdyne.systems",
+      "zara.martin@umbrella-corp.net"
+    ],
+    "cc": [
+      "grace.hernandez@lexcorp.biz"
+    ],
+    "date": "February 04, 2024 at 05:01 AM",
+    "subject": "Re: Client Feedback - Northwind Traders Account",
+    "message_id": "<f57b9171a35d8f9f@aperturescience.com>",
+    "content": "Hi Grace,\n\nI had a call with Pinnacle Analytics today about the Search Index\nintegration. Key takeaways:\n- They can deliver the UAT phase by 10/6, which is 1 weeks ahead of our\nschedule\n- Pricing: $368K for the base package + $21K for Security Hardening add-\non\n- They require a 1-year commitment minimum\n- Technical contact will be Alice Ramirez (Engineering Manager)\n\nFor comparison, StreamLine Solutions quoted $310K with a more flexible\ncontract.\n\nShould we bring this to the Board Meeting for a final decision?\n\nBest,\nSteve\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "grace.hernandez@lexcorp.biz"
+    ],
+    "to": [
+      "fatima.brown@acmecorp.com",
+      "zara.martin@umbrella-corp.net"
+    ],
+    "cc": [
+      "rachel.davis@initech.com",
+      "steve.taylor@aperturescience.com"
+    ],
+    "date": "February 05, 2024 at 01:06 PM",
+    "subject": "Re: Client Feedback - Northwind Traders Account",
+    "message_id": "<b1352a244ec8c593@lexcorp.biz>",
+    "content": "Thanks Steve,\n\nI reviewed the spec for OKR Planning. Some thoughts:\n\n- Section 7 needs more detail on the rollback strategy\n- The throughput numbers in Table 5 don't match what I see in the CI/CD\nPlatform dashboard (showing 57% vs your 65%)\n- Can we add a dependency map for the Legacy CRM integration?\n- The timeline for Marketing involvement seems optimistic\n\nHappy to discuss in our Friday sync.\n\nCheers,\nGrace\n---\nGrace Hernandez | Staff Engineer\nLexcorp\nM: +1-637-777-7906 | E: grace.hernandez@lexcorp.biz",
+    "canon_order": 3
+  }
+]

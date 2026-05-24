@@ -1,0 +1,122 @@
+From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+To: Priya Wilson <priya.wilson@umbrella-corp.net>, Zara Wilson <zara.wilson@oscorp.com>
+Date: 06/26/2024 12:22 PM
+Subject: Re: Infrastructure Cost Analysis
+Message-ID: <5443d3260c83a780@starkindustries.com>
+
+Hi all,
+
+Thanks for a productive Board Meeting today. Here's a summary of what we
+decided:
+
+DECISIONS:
+- We will proceed with Option A for the User Directory migration (projected
+savings: $286K/yr)
+- Aurora launch date moved to Q2 (from original Q2 target)
+- Data Science team will own the Observability Stack workstream going forward
+
+OPEN QUESTIONS:
+- How does this affect the DataFlow Systems contract timeline? (Zara to
+investigate)
+- Do we need additional headcount for DevOps Lead? (Hank to assess)
+
+Full notes: https://confluence.internal/2836c59f8846
+
+Regards,
+Quinn
+---
+Quinn Hernandez
+VP of Product | Starkindustries
++1-819-160-4800
+
+> From: Priya Wilson <priya.wilson@umbrella-corp.net>
+> To: Hank Garcia <hank.garcia@initech.com>, Zara Wilson <zara.wilson@oscorp.com>
+> Date: 06/24/2024 10:54 PM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <1064e9f75fa0a726@umbrella-corp.net>
+> 
+> Hi Quinn,
+> 
+> Thanks for flagging this. I've escalated to the Legal team and they're looking
+> into the Logging Service issue. Current status:
+> 
+> - Root cause: expired TLS certificate
+> - Impact: ~75 users affected in EMEA
+> - ETA for fix: 16:30 GMT today
+> - Severity: P3
+> 
+> I'll keep this thread updated as we learn more. Quinn is the point person if you
+> need immediate assistance.
+> 
+> Workaround: Use the mobile app.
+> 
+> Regards,
+> Priya
+> 
+> Best,
+> Priya Wilson
+> Architect, Data Science
+> Umbrella Corp
+> 
+> --- This communication is intended for the addressee only. It may contain
+> privileged or confidential information. If you have received this email in
+> error, please notify the sender and delete this message. ---
+
+
+> From: Zara Wilson <zara.wilson@oscorp.com>
+> To: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> Date: 06/24/2024 02:48 AM
+> Subject: Re: Infrastructure Cost Analysis
+> Message-ID: <f086300bbd49a2fc@oscorp.com>
+> 
+> Hi Quinn,
+> 
+> Quick update on Project Catalyst: we've completed the integration phase and are
+> on track for the milestone. Key highlights:
+> 
+> - Migrated 172 services to the new Legacy CRM architecture
+> - Reduced churn rate by 36% across all endpoints
+> - Identified 8 blocking issues (see JIRA-3838 for details)
+> 
+> The Operations team has been instrumental in this effort. Quinn has volunteered
+> to lead the next phase.
+> 
+> Let me know if you have questions.
+> 
+> Thanks,
+> Zara
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 
+
+
+> From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+> To: Priya Wilson <priya.wilson@umbrella-corp.net>    
+> Date: 06/23/2024 04:28 PM   
+> Subject: Re: Infrastructure Cost Analysis    
+> Message-ID: <bd5ee2bddd4db47f@starkindustries.com>
+> 
+> Hi Zara,
+> 
+> I've reviewed the budget and have some concerns about the Neptune approach.
+> Specifically:  
+> 
+> 1. The proposed timeline seems aggressive given the Product team's current
+> bandwidth (they're already at 53% capacity with Analytics Pipeline work)
+> 2. We haven't accounted for the Legacy CRM deprecation in Q1  
+> 3. The $291K budget allocation for StreamLine Solutions seems high compared to  
+> Pinnacle Analytics who quoted $248K
+> 4. Priya's team hasn't signed off on the OKR Planning dependency
+> 
+> I'd suggest we revisit this in our next sync meeting. 
+> 
+> Best,
+> Quinn
+> 
+> Best,
+> Quinn Hernandez
+> VP of Product, Marketing 
+> Starkindustries
+>   
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.    
+>   

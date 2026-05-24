@@ -1,0 +1,86 @@
+[
+  {
+    "from": [
+      "rachel.clark@initech.com"
+    ],
+    "to": [
+      "jack.lopez@lexcorp.biz"
+    ],
+    "cc": [
+      "jack.martin@lexcorp.biz"
+    ],
+    "date": "20 Jul 2024, 03:24",
+    "subject": "Training Session: Observability Stack",
+    "message_id": "<c8ccde2aa0a8bf53@initech.com>",
+    "content": "Hi all,\n\nThanks for a productive Launch Retrospective today. Here's a summary of what we decided:\n\nDECISIONS:\n- We will proceed with Option C for the User Directory migration (projected savings: $325K/yr)\n- Falcon launch date moved to Q2 (from original Q4 target)\n- Product team will own the Incident Response workstream going forward\n\nOPEN QUESTIONS:\n- How does this affect the StreamLine Solutions contract timeline? (Fatima to investigate)\n- Do we need additional headcount for DevOps Lead? (Jack to assess)\n\nFull notes: https://confluence.internal/96b7768c8959\n\nRegards,\nRachel\n--\nRachel Clark\nInitech | Operations Department\nPhone: +1-425-630-8144 | Email: rachel.clark@initech.com",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "jack.martin@lexcorp.biz"
+    ],
+    "to": [
+      "jack.lopez@lexcorp.biz",
+      "rachel.clark@initech.com"
+    ],
+    "cc": [
+      "priya.wilson@acmecorp.com"
+    ],
+    "date": "20 Jul 2024, 18:32",
+    "subject": "Re: Training Session: Observability Stack",
+    "message_id": "<4eb154d2f9f9b437@lexcorp.biz>",
+    "content": "Thanks Rachel,\n\nI reviewed the roadmap for Data Governance. Some thoughts:\n\n- Section 3 needs more detail on the rollback strategy\n- The retention numbers in Table 1 don't match what I see in the Legacy CRM dashboard (showing 40% vs your 42%)\n- Can we add a dependency map for the User Directory integration?\n- The timeline for Engineering involvement seems optimistic\n\nHappy to discuss in our Thursday sync.\n\nCheers,\nJack\n--\nJack Martin\nLexcorp | Legal Department\nPhone: +1-497-333-5050 | Email: jack.martin@lexcorp.biz\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "fatima.miller@cyberdyne.systems"
+    ],
+    "to": [
+      "jack.martin@lexcorp.biz",
+      "priya.wilson@acmecorp.com"
+    ],
+    "cc": [
+      "jack.lopez@lexcorp.biz",
+      "rachel.clark@initech.com"
+    ],
+    "date": "21 Jul 2024, 04:06",
+    "subject": "Re: Training Session: Observability Stack",
+    "message_id": "<4de8c2e45aa4f72a@cyberdyne.systems>",
+    "content": "Yuki \u2014 \n\nGot it, makes sense. I'll loop in Rachel from Support to get their perspective on the Payment Gateway changes. In the meantime, I've created a shared doc where we can track the open items:\n\nhttps://docs.google.com/d/320722549d1751cf\n\nCurrent open items (7 total):\n- Apex integration testing (owner: Yuki)\n- Pinnacle Analytics contract review (owner: Fatima)\n- Data Governance documentation (owner: Rachel)\n\nPlease add any additional concerns there. I'll consolidate everything before our Wednesday sync.\n\nThanks,\nFatima\n---\nFatima Miller | QA Lead\nCyberdyne\nM: +1-780-500-7879 | E: fatima.miller@cyberdyne.systems\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "yuki.sanchez@acmecorp.com"
+    ],
+    "to": [
+      "jack.lopez@lexcorp.biz",
+      "jack.martin@lexcorp.biz"
+    ],
+    "cc": [
+      "fatima.miller@cyberdyne.systems"
+    ],
+    "date": "23 Jul 2024, 02:29",
+    "subject": "Re: Training Session: Observability Stack",
+    "message_id": "<b94b4fbaa878f67a@acmecorp.com>",
+    "content": "Team,\n\nEffective Tuesday, we're updating the Data Retention policy. Key changes:\n\n1. Operations approval is now required for any Logging Service changes in production (previously only staging required approval)\n2. All PRs affecting Aurora must include security review\n3. North America deployments will follow a new feature-flag strategy\n4. Incident response SLA updated: P1 = 26min, P2 = 41min\n\nFull policy doc: https://wiki.internal/policies/dd1d807897\n\nPlease review by EOD Tuesday and flag any concerns to Fatima.\n\nThanks,\nYuki\n\nBest,\nYuki Sanchez\nArchitect, Sales\nAcmecorp\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 3
+  },
+  {
+    "from": [
+      "jack.martin@lexcorp.biz"
+    ],
+    "to": [
+      "yuki.sanchez@acmecorp.com"
+    ],
+    "cc": [
+      "rachel.clark@initech.com"
+    ],
+    "date": "24 Jul 2024, 02:08",
+    "subject": "Re: Training Session: Observability Stack",
+    "message_id": "<4d1813e3ed3b355b@lexcorp.biz>",
+    "content": "Hi Rachel,\n\nQuick update on Project Falcon: we've completed the alpha phase and are on track for the milestone. Key highlights:\n\n- Migrated 52 services to the new Analytics Pipeline architecture\n- Reduced uptime by 24% across all endpoints\n- Identified 2 blocking issues (see JIRA-8245 for details)\n\nThe Product team has been instrumental in this effort. Yuki has volunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nJack\n--\nJack Martin\nSoftware Engineer | Lexcorp\n+1-497-333-5050\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 4
+  }
+]

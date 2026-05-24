@@ -1,0 +1,140 @@
+From: Olivia Gonzalez <olivia.gonzalez@starkindustries.com>
+To: Eve Gonzalez <eve.gonzalez@globex.io>, Wendy Miller <wendy.miller@wayneenterprises.com>
+Date: 2024-01-23 13:55:59
+Subject: Re: Q3 Budget Review - Engineering Department
+Message-ID: <93dede7772d4a6f7@starkindustries.com>
+
+Hi Wendy,
+
+Quick update on Project Zenith: we've completed the integration phase
+and are on track for the milestone. Key highlights:
+
+- Migrated 92 services to the new API Gateway architecture
+- Reduced churn rate by 49% across all endpoints
+- Identified 10 blocking issues (see JIRA-2300 for details)
+
+The Product team has been instrumental in this effort. Wendy has
+volunteered to lead the next phase.
+
+Let me know if you have questions.
+
+Thanks,
+Olivia
+
+----------------------------------------
+| From: Eve Gonzalez <eve.gonzalez@globex.io>
+| To: Olivia Gonzalez <olivia.gonzalez@starkindustries.com>
+| Date: 2024-01-22 09:28:44
+| Subject: Re: Q3 Budget Review - Engineering Department
+| Message-ID: <b37baa112600ba6c@globex.io>
+| 
+| Team,
+| 
+| I've been analyzing the NPS score data from last week and noticed some
+| interesting trends:
+| 
+| - NPS score decreased by 19% compared to the previous week
+| - The APAC region is underperforming by a factor of 2.7x
+| - We're seeing a correlation between NPS score and churn rate
+| - The Falcon rollout appears to have had no measurable impact
+| 
+| Dashboard link: https://grafana.internal/9524f7a20c
+| 
+| I think this warrants a deeper investigation. Olivia, could you pull the
+| raw data from Notification Hub so we can cross-reference with Logging
+| Service?
+| 
+| Best,
+| Eve
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+| 
+
+
+----------------------------------------
+| From: Olivia Gonzalez <olivia.gonzalez@starkindustries.com>
+| To: Eve Gonzalez <eve.gonzalez@globex.io>, Wendy Miller <wendy.miller@wayneenterprises.com>
+| Date: 2024-01-21 09:43:36
+| Subject: Re: Q3 Budget Review - Engineering Department
+| Message-ID: <386da0e2757b75e0@starkindustries.com>
+| 
+| Hi Eve,
+| 
+| I had a call with Pinnacle Analytics today about the Notification Hub
+| integration. Key takeaways:
+| 
+| - They can deliver the testing phase by 10/15, which is 4 weeks ahead of
+| our schedule
+| - Pricing: $76K for the base package + $60K for Data Governance add-on
+| - They require a 1-year commitment minimum
+| - Technical contact will be Hank Wilson (DevOps Engineer)
+| 
+| For comparison, Pinnacle Analytics quoted $-13K with a more flexible
+| contract.
+| 
+| Should we bring this to the Sprint Planning for a final decision?
+| 
+| Best,
+| Olivia
+| --
+| Olivia Gonzalez
+| Starkindustries | Engineering Department
+| Phone: +1-377-581-4021 | Email: olivia.gonzalez@starkindustries.com
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 
+
+
+----------------------------------------
+| From: Wendy Miller <wendy.miller@wayneenterprises.com>
+| To: Olivia Gonzalez <olivia.gonzalez@starkindustries.com>, Eve Gonzalez <eve.gonzalez@globex.io>
+| Date: 2024-01-20 05:43:20
+| Subject: Re: Q3 Budget Review - Engineering Department
+| Message-ID: <9c7c3d511f77d699@wayneenterprises.com>
+| 
+| Team,
+| 
+| I've been analyzing the p99 latency data from last sprint and noticed
+| some interesting trends:
+| 
+| - p99 latency increased by 22% compared to the previous sprint
+| - The LATAM region is underperforming by a factor of 2.9x
+| - We're seeing a correlation between p99 latency and conversion rate
+| - The Titan rollout appears to have had no measurable impact
+| 
+| Dashboard link: https://grafana.internal/ee6f4eaa3a
+| 
+| I think this warrants a deeper investigation. Eve, could you pull the
+| raw data from Payment Gateway so we can cross-reference with Legacy CRM?
+| 
+| Best,
+| Wendy
+
+
+----------------------------------------
+| From: Olivia Gonzalez <olivia.gonzalez@starkindustries.com>
+| To: Wendy Miller <wendy.miller@wayneenterprises.com>, Eve Gonzalez <eve.gonzalez@globex.io>
+| Date: 2024-01-19 05:03:55
+| Subject: Q3 Budget Review - Engineering Department
+| Message-ID: <d1deeab23601db3a@starkindustries.com>
+| 
+| Team,
+| 
+| Effective Monday, we're updating the Travel Reimbursement policy. Key
+| changes:
+| 
+| 1. Engineering approval is now required for any Legacy CRM changes in
+| production (previously only staging required approval)
+| 2. All PRs affecting Vanguard must include unit tests
+| 3. LATAM deployments will follow a new canary strategy
+| 4. Incident response SLA updated: P1 = 12min, P2 = 69min
+| 
+| Full policy doc: https://wiki.internal/policies/487f1e03e5
+| 
+| Please review by EOD Monday and flag any concerns to Eve.
+| 
+| Thanks,
+| Olivia
+| 
+| --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+| 

@@ -1,0 +1,71 @@
+[
+  {
+    "from": [
+      "karen.harris@aperturescience.com"
+    ],
+    "to": [
+      "paul.clark@acmecorp.com",
+      "steve.rodriguez@umbrella-corp.net"
+    ],
+    "cc": [
+      "miguel.hernandez@lexcorp.biz",
+      "tina.robinson@umbrella-corp.net"
+    ],
+    "date": "April 11, 2024 at 10:15 PM",
+    "subject": "Action Items from Hackathon Kickoff",
+    "message_id": "<cad86af0b5ee25c8@aperturescience.com>",
+    "content": "Hi Paul,\n\nQuick update on Project Horizon: we've completed the beta phase and are on track for the milestone. Key highlights:\n\n- Migrated 13 services to the new Search Index architecture\n- Reduced churn rate by 45% across all endpoints\n- Identified 7 blocking issues (see JIRA-5394 for details)\n\nThe Operations team has been instrumental in this effort. Steve has volunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nKaren\n---\nKaren Harris | Senior Software Engineer\nAperturescience\nM: +1-339-420-5010 | E: karen.harris@aperturescience.com",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "tina.robinson@umbrella-corp.net"
+    ],
+    "to": [
+      "miguel.hernandez@lexcorp.biz",
+      "steve.rodriguez@umbrella-corp.net"
+    ],
+    "cc": [
+      "paul.clark@acmecorp.com"
+    ],
+    "date": "April 12, 2024 at 12:25 PM",
+    "subject": "Re: Action Items from Hackathon Kickoff",
+    "message_id": "<748978a2a6bacae0@umbrella-corp.net>",
+    "content": "Hi Steve,\n\nJust a heads up \u2014 the Analytics Pipeline deployment (v9.15.46) is scheduled for Friday at 8:00 JST. Expected downtime is approximately 10 minutes.\n\nChanges include:\n- PR #6512: Remove rate limiting\n- PR #6515: Vanguard feature flag rollout\n- Config update for EMEA region\n\nPlease make sure your team is aware and has saved any in-progress work. We'll send a notification to #marketing once complete.\n\nThanks,\nTina\n--\nTina Robinson\nUmbrella Corp | Finance Department\nPhone: +1-911-237-4414 | Email: tina.robinson@umbrella-corp.net\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "paul.clark@acmecorp.com"
+    ],
+    "to": [
+      "karen.harris@aperturescience.com"
+    ],
+    "cc": [
+      "steve.rodriguez@umbrella-corp.net",
+      "tina.robinson@umbrella-corp.net"
+    ],
+    "date": "April 13, 2024 at 12:53 AM",
+    "subject": "Re: Action Items from Hackathon Kickoff",
+    "message_id": "<8584bf9d63730649@acmecorp.com>",
+    "content": "Team,\n\nI've been analyzing the p99 latency data from last month and noticed some interesting trends:\n\n- p99 latency increased by 10% compared to the previous month\n- The APAC region is outperforming by a factor of 1.9x\n- We're seeing a correlation between p99 latency and response time\n- The Phoenix rollout appears to have had a positive impact\n\nDashboard link: https://grafana.internal/22da61f049\n\nI think this warrants a deeper investigation. Karen, could you pull the raw data from CI/CD Platform so we can cross-reference with Logging Service?\n\nBest,\nPaul\n---\nPaul Clark | Data Scientist\nAcmecorp\nM: +1-289-113-2838 | E: paul.clark@acmecorp.com",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "karen.harris@aperturescience.com"
+    ],
+    "to": [
+      "miguel.hernandez@lexcorp.biz"
+    ],
+    "cc": [
+      "paul.clark@acmecorp.com",
+      "tina.robinson@umbrella-corp.net"
+    ],
+    "date": "April 13, 2024 at 03:57 PM",
+    "subject": "Re: Action Items from Hackathon Kickoff",
+    "message_id": "<ea76ec9017ce7a44@aperturescience.com>",
+    "content": "Hi all,\n\nThanks for a productive Sprint Planning today. Here's a summary of what we decided:\n\nDECISIONS:\n- We will proceed with Option B for the Payment Gateway migration (projected savings: $400K/yr)\n- Apex launch date moved to Q4 (from original Q2 target)\n- Finance team will own the OKR Planning workstream going forward\n\nOPEN QUESTIONS:\n- How does this affect the NetSecure Pro contract timeline? (Paul to investigate)\n- Do we need additional headcount for DevOps Lead? (Miguel to assess)\n\nFull notes: https://confluence.internal/9cc25c9a6e59\n\nRegards,\nKaren\n--\nKaren Harris\nSenior Software Engineer | Aperturescience\n+1-339-420-5010",
+    "canon_order": 3
+  }
+]

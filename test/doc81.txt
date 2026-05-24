@@ -1,0 +1,56 @@
+From: Uma Lewis <uma.lewis@acmecorp.com>
+To: Quinn Wilson <quinn.wilson@initech.com>
+Cc: Leo Clark <leo.clark@lexcorp.biz>, Zara Jones <zara.jones@oscorp.com>
+Date: 2024-10-13 02:10:20
+Subject: Re: Code Review - PR #3498
+Message-ID: <e1affa4cbd750a60@acmecorp.com>
+
+Hi Quinn,
+
+I've reviewed the plan and have some concerns about the Phoenix approach.
+Specifically:
+
+1.  The proposed timeline seems aggressive given the Support team's current
+bandwidth (they're already at 52% capacity with User Directory work)
+2. We haven't accounted for the Logging Service deprecation in Q1
+3. The $110K budget allocation for StreamLine Solutions seems high compared to
+StreamLine Solutions who quoted $91K
+4. Olivia's team hasn't signed off on the Incident Response dependency
+
+I'd suggest we revisit this in our next standup meeting.
+
+Best,
+Uma
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+----------------------------------------
+| From: Leo Clark <leo.clark@lexcorp.biz>
+| To: Uma Lewis <uma.lewis@acmecorp.com>, Chen Perez <chen.perez@oscorp.com>, Olivia Robinson <olivia.robinson@lexcorp.biz>
+| Cc: Zara Jones <zara.jones@oscorp.com>
+| Date: 2024-10-12 19:58:24
+| Subject: Re: Code Review - PR #3498
+| Message-ID: <2e122f6d23ee2a93@lexcorp.biz>
+| 
+| Hi Quinn,
+| 
+| Thanks for flagging this. I've escalated to the Data Science team and they're
+| looking into the Search Index issue. Current status:
+| 
+| - Root cause: corrupted cache entries
+| - Impact: ~123 users affected in APAC
+| - ETA for fix: 15:30 CET today
+| - Severity: P1
+| 
+| I'll keep this thread updated as we learn more. Olivia is the point person if
+| you need immediate assistance.
+| 
+| Workaround: Clear browser cache.
+| 
+| Regards,
+| Leo
+| --
+| Leo Clark
+| Data Scientist | Lexcorp
+| +1-923-751-5389

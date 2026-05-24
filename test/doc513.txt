@@ -1,0 +1,107 @@
+From: Eve Gonzalez <eve.gonzalez@globex.io>
+To: Hank Martinez <hank.martinez@oscorp.com>
+Cc: Grace Garcia <grace.garcia@globex.io>
+Date: April 14, 2024 at 05:32 AM
+Subject: Re: Action Items from Team Offsite Kickoff
+Message-ID: <21733ddf51c50d8c@globex.io>
+
+Hi Grace,
+
+I had a call with Pinnacle Analytics today about the CI/CD Platform
+integration. Key takeaways:
+
+- They can deliver the testing phase by 6/28, which is 3 weeks behind our
+schedule
+- Pricing: $452K for the base package + $20K for Zero Trust Architecture
+add-on
+- They require a 2-year commitment minimum
+- Technical contact will be Zara Sanchez (DevOps Engineer)
+
+For comparison, StreamLine Solutions quoted $398K with a more flexible
+contract.
+
+Should we bring this to the Board Meeting for a final decision?
+
+Best,
+Eve
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+----------------------------------------
+> From: Grace Garcia <grace.garcia@globex.io>
+> To: Mona Wilson <mona.wilson@globex.io>, Irene Martinez <irene.martinez@initech.com>, Priya White <priya.white@umbrella-corp.net>
+> Cc: Hank Martinez <hank.martinez@oscorp.com>, Eve Gonzalez <eve.gonzalez@globex.io>
+> Date: April 12, 2024 at 08:47 AM
+> Subject: Re: Action Items from Team Offsite Kickoff
+> Message-ID: <3ecfbd11ea0fdb09@globex.io>
+> 
+> Hi Hank,
+> 
+> Thanks for the update. A few quick thoughts:
+> 
+> - Agreed on the Search Index approach. Hank and I discussed this during the
+> Board Meeting and we're aligned.
+> - For the Support budget, I'd suggest we cap it at $202K for now and revisit
+> in Q3.
+> - The conversion rate improvement looks promising — let's make sure we have
+> proper monitoring via Notification Hub before going live.
+> 
+> I'll update the Aurora tracker accordingly.
+> 
+> Thanks,
+> Grace
+
+
+----------------------------------------
+> From: Priya White <priya.white@umbrella-corp.net>
+> To: Mona Wilson <mona.wilson@globex.io>, Grace Garcia <grace.garcia@globex.io>
+> Cc: Hank Martinez <hank.martinez@oscorp.com>
+> Date: April 10, 2024 at 10:46 AM
+> Subject: Re: Action Items from Team Offsite Kickoff
+> Message-ID: <de07c9608687323b@umbrella-corp.net>
+> 
+> All,
+> 
+> Following up from the All-Hands earlier today. Here are the action items:
+> 
+> - @Irene: Finalize the proposal by Thursday (target: 7/11)
+> - @Irene: Schedule the GraphQL Migration review with Engineering
+> - @Eve: Update the Auth Service configuration per our discussion
+> - @Priya: Send out the revised Project Apex timeline by EOW
+> 
+> Next meeting: Thursday at 14:30. Calendar invite to follow.
+> 
+> Thanks everyone,
+> Priya
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+----------------------------------------
+> From: Priya White <priya.white@umbrella-corp.net>
+> To: Mona Wilson <mona.wilson@globex.io>
+> Cc: Hank Martinez <hank.martinez@oscorp.com>, Irene Martinez <irene.martinez@initech.com>
+> Date: April 09, 2024 at 12:59 AM
+> Subject: Action Items from Team Offsite Kickoff
+> Message-ID: <6c38f1dda58b62ba@umbrella-corp.net>
+> 
+> Hi Hank,
+> 
+> I had a call with Pinnacle Analytics today about the Notification Hub
+> integration. Key takeaways:
+> 
+> - They can deliver the alpha phase by 9/1, which is 5 weeks behind our
+> schedule
+> - Pricing: $463K for the base package + $72K for Zero Trust Architecture
+> add-on
+> - They require a 1-year commitment minimum
+> - Technical contact will be Nate Thomas (DevOps Engineer)
+> 
+> For comparison, StreamLine Solutions quoted $516K with a more flexible
+> contract.
+> 
+> Should we bring this to the Board Meeting for a final decision?
+> 
+> Best,
+> Priya

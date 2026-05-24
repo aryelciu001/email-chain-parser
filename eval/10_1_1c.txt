@@ -1,0 +1,84 @@
+From: Alice Thomas <alice.thomas@globex.io>
+To: Steve Hernandez <steve.hernandez@oscorp.com>, Grace Jackson <grace.jackson@globex.io>, Yuki Clark <yuki.clark@umbrella-corp.net>
+Date: 2024-06-23 13:03:16
+Subject: FW: Vendor Proposal - Pinnacle Analytics
+Message-ID: <4d8b82be19cb04ee@globex.io>
+
+Team,
+
+Effective Friday, we're updating the Data Retention policy. Key changes:
+
+1. HR approval is now required for any Logging Service changes in production
+(previously only staging required approval)
+2. All PRs affecting Catalyst must include unit tests
+3. EMEA deployments will follow a new rolling strategy
+4. Incident response SLA updated: P1 = 5min, P2 = 74min
+
+Full policy doc: https://wiki.internal/policies/d2ee26f21e
+
+Please review by EOD Monday and flag any concerns to Steve.
+
+Thanks,
+Alice
+
+----------------------------------------
+> From: Steve Hernandez <steve.hernandez@oscorp.com>
+> To: Yuki Clark <yuki.clark@umbrella-corp.net>, Grace Jackson <grace.jackson@globex.io>, Alice Thomas <alice.thomas@globex.io>
+> Date: 2024-06-22 03:57
+> Subject: FW: Vendor Proposal - Pinnacle Analytics
+> Message-ID: <5b93f30e79f68e22@oscorp.com>
+> 
+> Yuki — 
+> 
+> Got it, makes sense. I'll loop in Alice from Operations to get their
+> perspective on the Notification Hub changes. In the meantime, I've created a
+> shared doc where we can track the open items:
+> 
+>   https://docs.google.com/d/66f041e16a60928b
+> 
+> Current open items (7 total):
+> - Falcon integration testing (owner: Yuki)
+> - DataFlow Systems contract review (owner: Steve)
+> - AWS Cost Optimization documentation (owner: Alice)
+> 
+> Please add any additional concerns there. I'll consolidate everything before
+> our Monday sync.
+> 
+> Thanks,
+> Steve
+> 
+> Best,
+> Steve Hernandez
+> Software Engineer, Marketing
+> Oscorp
+
+
+----------------------------------------
+> From: Grace Jackson <grace.jackson@globex.io>
+> To: Yuki Clark <yuki.clark@umbrella-corp.net>, Alice Thomas <alice.thomas@globex.io>
+> Date: 2024-06-22 01:17:27
+> Subject: FW: Vendor Proposal - Pinnacle Analytics
+> Message-ID: <27d5eade6b34d7b8@globex.io>
+> 
+> Thanks Steve,
+> 
+> I reviewed the roadmap for OKR Planning. Some thoughts:
+> 
+> - Section 6 needs more detail on the rollback strategy
+> - The conversion rate numbers in Table 3 don't match what I see in the
+> Search Index dashboard (showing 56% vs your 59%)
+> - Can we add a dependency map for the CI/CD Platform integration?
+> - The timeline for Legal involvement seems optimistic
+> 
+> Happy to discuss in our Monday sync.
+> 
+> Cheers,
+> Grace
+> 
+> Best,
+> Grace Jackson
+> VP of Product, Sales
+> Globex
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 

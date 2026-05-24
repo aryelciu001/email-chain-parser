@@ -1,0 +1,60 @@
+[
+  {
+    "from": [
+      "uma.clark@globex.io"
+    ],
+    "to": [
+      "rachel.robinson@umbrella-corp.net"
+    ],
+    "cc": [],
+    "date": "31 Mar 2024, 04:27",
+    "subject": "Re: Code Review - PR #9101",
+    "message_id": "<44e15206ebcf51d2@globex.io>",
+    "content": "Frank \u2014 \n\nGot it, makes sense. I'll loop in Rachel from Data Science to get their\nperspective on the Analytics Pipeline changes. In the meantime, I've created\na shared doc where we can track the open items:\n\nhttps://docs.google.com/d/b73ce398c39f506a\n\nCurrent open items (5 total):\n- Apex integration testing (owner: Frank)\n- NetSecure Pro contract review (owner: Uma)\n- Data Governance documentation (owner: Rachel)\n\nPlease add any additional concerns there. I'll consolidate everything before\nour Tuesday sync.\n\nThanks,\nUma\n--\nUma Clark\nGlobex | Sales Department\nPhone: +1-766-712-1180 | Email: uma.clark@globex.io",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "rachel.robinson@umbrella-corp.net"
+    ],
+    "to": [
+      "frank.lopez@globex.io",
+      "uma.clark@globex.io"
+    ],
+    "cc": [],
+    "date": "01 Apr 2024, 19:43",
+    "subject": "Re: Code Review - PR #9101",
+    "message_id": "<70318ec2985349b4@umbrella-corp.net>",
+    "content": "Hi Frank,\n\nI had a call with StreamLine Solutions today about the Auth Service\nintegration. Key takeaways:\n\n- They can deliver the testing phase by 4/14, which is 2 weeks ahead of our\nschedule\n- Pricing: $447K for the base package + $83K for Kubernetes Fundamentals\nadd-on\n- They require a 1-year commitment minimum\n- Technical contact will be Zara Perez (Architect)\n\nFor comparison, StreamLine Solutions quoted $385K with a more flexible\ncontract.\n\nShould we bring this to the All-Hands for a final decision?\n\nBest,\nRachel\n--\nRachel Robinson\nQA Lead | Umbrella Corp\n+1-381-287-4938\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 1
+  },
+  {
+    "from": [
+      "uma.clark@globex.io"
+    ],
+    "to": [
+      "rachel.robinson@umbrella-corp.net"
+    ],
+    "cc": [],
+    "date": "03 Apr 2024, 17:55",
+    "subject": "Re: Code Review - PR #9101",
+    "message_id": "<b11c2725be62bee7@globex.io>",
+    "content": "Hi Frank,\n\nThanks for the update. A few quick thoughts:\n\n- Agreed on the User Directory approach. Rachel and I discussed this during\nthe Design Review and we're aligned.\n- For the Marketing budget, I'd suggest we cap it at $229K for now and\nrevisit in Q3.\n- The uptime improvement looks promising \u2014 let's make sure we have proper\nmonitoring via CI/CD Platform before going live.\n\nI'll update the Titan tracker accordingly.\n\nBest,\nUma",
+    "canon_order": 2
+  },
+  {
+    "from": [
+      "rachel.robinson@umbrella-corp.net"
+    ],
+    "to": [
+      "frank.lopez@globex.io",
+      "uma.clark@globex.io"
+    ],
+    "cc": [],
+    "date": "04 Apr 2024, 03:31",
+    "subject": "Re: Code Review - PR #9101",
+    "message_id": "<825df0a477a78c1e@umbrella-corp.net>",
+    "content": "Team,\n\nI've been analyzing the error rate data from last sprint and noticed some\ninteresting trends:\n\n- error rate decreased by 40% compared to the previous sprint\n- The North America region is underperforming by a factor of 2.9x\n- We're seeing a correlation between error rate and engagement\n- The Phoenix rollout appears to have had a positive impact\n\nDashboard link: https://grafana.internal/632ab82409\n\nI think this warrants a deeper investigation. Uma, could you pull the raw\ndata from Search Index so we can cross-reference with Payment Gateway?\n\nBest,\nRachel",
+    "canon_order": 3
+  }
+]

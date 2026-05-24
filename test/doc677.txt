@@ -1,0 +1,64 @@
+From: Paul Taylor <paul.taylor@initech.com>
+To: Uma Perez <uma.perez@acmecorp.com>, Victor Lopez <victor.lopez@initech.com>, Frank Anderson <frank.anderson@acmecorp.com>
+Cc: Alice Lewis <alice.lewis@wayneenterprises.com>, Alice Martinez <alice.martinez@initech.com>
+Date: May 05, 2024 at 08:02 PM
+Subject: FW: Policy Update: Travel Reimbursement
+Message-ID: <3aa4e3c79aec4ce3@initech.com>
+
+Hi Alice,
+
+Quick update on Project Aurora: we've completed the alpha phase and are on
+track for the milestone. Key highlights:
+
+- Migrated 133 services to the new Legacy CRM architecture
+- Reduced retention by 46% across all endpoints
+- Identified 6 blocking issues (see JIRA-5037 for details)
+
+The Data Science team has been instrumental in this effort. Alice has
+volunteered to lead the next phase.
+
+Let me know if you have questions.
+
+Thanks,
+Paul
+---
+Paul Taylor | Product Manager
+Initech
+M: +1-522-549-3897 | E: paul.taylor@initech.com
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+
+
+----------------------------------------
+| To: Alice Lewis <alice.lewis@wayneenterprises.com>
+| From: Paul Taylor <paul.taylor@initech.com>
+| Cc: Chen Lopez <chen.lopez@umbrella-corp.net>, Frank Anderson <frank.anderson@acmecorp.com>
+| Date: May 04, 2024 at 04:23 PM
+| Subject: FW: Policy Update: Travel Reimbursement
+| Message-ID: <a687c7e80db27981@initech.com>
+| 
+| Team,
+| 
+| I've been analyzing the NPS score data from last month and noticed some
+| interesting trends:
+| 
+| - NPS score increased by 24% compared to the previous month
+| - The North America region is outperforming by a factor of 2.0x
+| - We're seeing a correlation between NPS score and uptime
+| - The Phoenix rollout appears to have had a positive impact
+| 
+| Dashboard link: https://grafana.internal/d83cc6a26c
+| 
+| I think this warrants a deeper investigation. Frank, could you pull the raw
+| data from User Directory so we can cross-reference with Notification Hub?
+| 
+| Best,
+| Paul
+| 
+| Best,
+| Paul Taylor
+| Product Manager, Legal
+| Initech
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 

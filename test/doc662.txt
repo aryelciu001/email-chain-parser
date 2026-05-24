@@ -1,0 +1,21 @@
+From: Victor Robinson <victor.robinson@aperturescience.com>
+To: Steve Martinez <steve.martinez@globex.io>, Paul Jones <paul.jones@globex.io>, Hank Gonzalez <hank.gonzalez@wayneenterprises.com>
+Date: 02/03/2024 07:44 PM
+Subject: Action Items from Board Meeting Kickoff
+Message-ID: <ec9a9da1ad7d40e1@aperturescience.com>
+
+Team,
+
+Effective Wednesday, we're updating the Remote Work policy. Key changes:
+
+1. HR approval is now required for any Logging Service changes in production (previously only staging required approval)
+2. All PRs affecting Apex must include load test results
+3. LATAM deployments will follow a new rolling strategy
+4. Incident response SLA updated: P1 = 19min, P2 = 64min
+
+Full policy doc: https://wiki.internal/policies/7e54281b7e
+
+Please review by EOD Wednesday and flag any concerns to Steve.
+
+Thanks,
+Victor

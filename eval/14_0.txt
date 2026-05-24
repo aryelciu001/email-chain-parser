@@ -1,0 +1,53 @@
+From: Mona Lopez <mona.lopez@starkindustries.com>
+To: Quinn Thompson <quinn.thompson@initech.com>, Mona Davis <mona.davis@wayneenterprises.com>
+Cc: Olivia Lee <olivia.lee@starkindustries.com>
+Date: 07/30/2024 10:40 AM
+Subject: FW: Policy Update: Remote Work
+Message-ID: <d70001743f4f39ea@starkindustries.com>
+
+All,
+
+Following up from the Quarterly Review earlier today. Here are the action items:
+
+- @Yuki: Finalize the proposal by Wednesday (target: 1/13)
+- @Mona: Schedule the Incident Response review with Data Science
+- @Olivia: Update the Legacy CRM configuration per our discussion
+- @Mona: Send out the revised Project Vanguard timeline by EOW
+
+Next meeting: Monday at 16:30. Calendar invite to follow.
+
+Thanks everyone,
+Mona
+
+Best,
+Mona Lopez
+VP of Product, Sales
+Starkindustries
+
+> From: Mona Lopez <mona.lopez@starkindustries.com>
+> To: Mona Davis <mona.davis@wayneenterprises.com>, Quinn Thompson <quinn.thompson@initech.com>, Victor Jones <victor.jones@cyberdyne.systems>
+> Cc: Olivia Lee <olivia.lee@starkindustries.com>
+> Date: 07/29/2024 06:59 PM
+> Subject: FW: Policy Update: Remote Work
+> Message-ID: <edfb7d36bade8c95@starkindustries.com>
+> 
+> Hi Quinn,
+> 
+> I've reviewed the proposal and have some concerns about the Horizon approach.
+> Specifically:
+> 
+> 1. The proposed timeline seems aggressive given the Sales team's current
+> bandwidth (they're already at 32% capacity with Notification Hub work)
+> 2. We haven't accounted for the Notification Hub deprecation in Q2
+> 3. The $51K budget allocation for NetSecure Pro seems high compared to DataFlow
+> Systems who quoted $30K
+> 4. Olivia's team hasn't signed off on the AWS Cost Optimization dependency
+> 
+> I'd suggest we revisit this in our next 1:1 meeting.
+> 
+> Best,
+> Mona
+> ---
+> Mona Lopez | VP of Product
+> Starkindustries
+> M: +1-893-853-4305 | E: mona.lopez@starkindustries.com

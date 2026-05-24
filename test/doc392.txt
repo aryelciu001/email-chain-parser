@@ -1,0 +1,19 @@
+From: Paul Miller <paul.miller@aperturescience.com>
+To: Uma Thomas <uma.thomas@aperturescience.com>, Fatima Clark <fatima.clark@wayneenterprises.com>
+Cc: Bob Lopez <bob.lopez@oscorp.com>
+Date: October 27, 2024 at 10:40 PM
+Subject: Reminder: Design Review on 3/11
+Message-ID: <95f1599027bc9e2d@aperturescience.com>
+
+Hi Tina,
+
+Thanks for the update. Some notes:
+
+- Agreed on the Search Index approach. Tina and I discussed this yesterday and we're aligned.
+- For the Support budget, I'd suggest we cap it at $24K for now and revisit in Q1.
+- The engagement improvement looks promising — let's make sure we have proper monitoring via Notification Hub before going live.
+
+I'll update the Neptune tracker accordingly.
+
+Regards,
+Paul

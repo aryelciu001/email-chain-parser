@@ -1,0 +1,55 @@
+From: Frank Jones <frank.jones@cyberdyne.systems>
+To: Wendy Jones <wendy.jones@cyberdyne.systems>
+Cc: David Thompson <david.thompson@acmecorp.com>
+Date: Sat, 28 Sep 2024 08:52   
+Subject: Re: Training Session: Agile Retrospectives
+Message-ID: <83a761c9e9909fc7@cyberdyne.systems>  
+
+Hi Eve,    
+   
+I've reviewed the analysis and have some concerns about the Vanguard 
+approach. Specifically:
+
+1. The proposed timeline seems aggressive given the Sales team's current   
+bandwidth (they're already at 21% capacity with API Gateway work)
+2. We haven't accounted for the User Directory deprecation in Q2
+3. The $220K budget allocation for CloudSync Inc. seems high compared to
+CloudSync Inc. who quoted $194K
+4. Miguel's team hasn't signed off on the Observability Stack dependency 
+
+
+I'd suggest we revisit this in our next sync meeting.
+    
+Best, 
+Frank
+
+> From: Miguel White <miguel.white@lexcorp.biz>
+> To: Carol Smith <carol.smith@lexcorp.biz>, Wendy Jones <wendy.jones@cyberdyne.systems>
+> Cc: David Thompson <david.thompson@acmecorp.com>
+> Date: Fri, 27 Sep 2024 08:29:29
+> Subject: Training Session: Agile Retrospectives
+> Message-ID: <00dd5fbfdd6a2c7d@lexcorp.biz>
+> 
+> Eve — 
+> 
+> Got it, makes sense. I'll loop in Priya from Sales to get their
+> perspective on the User Directory changes. In the meantime, I've created
+> a shared doc where we can track the open items:
+> 
+>   https://docs.google.com/d/7f39f8317fbdb198
+> 
+> Current open items (4 total):
+> - Phoenix integration testing (owner: Eve)
+> - NetSecure Pro contract review (owner: Miguel)
+> - GraphQL Migration documentation (owner: Priya)
+> 
+> Please add any additional concerns there. I'll consolidate everything
+> before our Monday sync.
+> 
+> Thanks,
+> Miguel
+> 
+> Best,
+> Miguel White
+> VP of Product, Data Science
+> Lexcorp

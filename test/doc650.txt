@@ -1,0 +1,26 @@
+From: Leo Perez <leo.perez@lexcorp.biz>
+To: Quinn Thompson <quinn.thompson@globex.io>
+Cc: Karen Harris <karen.harris@cyberdyne.systems>, Miguel Robinson <miguel.robinson@cyberdyne.systems>
+Date: 22 May 2024, 11:11
+Subject: Re: Performance Review Cycle
+Message-ID: <c21a36ca5213f0d0@lexcorp.biz>
+
+All,
+
+Following up from the Roadmap Sync earlier today. Here are the action
+items:
+
+- @Quinn: Finalize the proposal by Tuesday (target: 6/8)
+- @Frank: Schedule the Data Governance review with Finance
+- @Quinn: Update the Legacy CRM configuration per our discussion
+- @Leo: Send out the revised Project Titan timeline by EOW
+
+Next meeting: Thursday at 8:30. Calendar invite to follow.
+
+Thanks everyone,
+Leo
+
+Best,
+Leo Perez
+VP of Product, Product
+Lexcorp

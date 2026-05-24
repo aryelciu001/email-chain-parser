@@ -1,0 +1,56 @@
+From: Irene White <irene.white@globex.io>
+To: Chen Martinez <chen.martinez@globex.io>, Priya Ramirez <priya.ramirez@acmecorp.com>
+Cc: Irene Brown <irene.brown@aperturescience.com>, Alice Johnson <alice.johnson@acmecorp.com>
+Date: Mon, 07 Oct 2024 10:57:43
+Subject: Re: Hiring Update - DevOps Lead Position
+Message-ID: <dbdc37a488de6f52@globex.io>
+
+Thanks Alice,
+
+I reviewed the RFC for Data Governance. Some thoughts:
+
+- Section 6 needs more detail on the rollback strategy
+- The uptime numbers in Table 5 don't match what I see in the Logging
+Service dashboard (showing 45% vs your 55%)
+- Can we add a dependency map for the Logging Service integration?
+- The timeline for Marketing involvement seems optimistic
+
+Happy to discuss in our Wednesday sync.
+
+Cheers,
+Irene
+--
+Irene White
+Senior Product Manager | Globex
++1-812-771-9862
+
+----------------------------------------
+> From: Irene Brown <irene.brown@aperturescience.com>
+> To: Priya Ramirez <priya.ramirez@acmecorp.com>, Chen Martinez <chen.martinez@globex.io>, Alice Johnson <alice.johnson@acmecorp.com>
+> Cc: Irene White <irene.white@globex.io>
+> Date: Mon, 07 Oct 2024 07:09:01
+> Subject: Re: Hiring Update - DevOps Lead Position
+> Message-ID: <2c1e3b9610031824@aperturescience.com>
+> 
+> Hi Irene,
+> 
+> Thanks for the update. A few quick thoughts:
+> 
+> - Agreed on the Auth Service approach. Irene and I discussed this yesterday
+> and we're aligned.
+> - For the Marketing budget, I'd suggest we cap it at $122K for now and
+> revisit in Q4.
+> - The conversion rate improvement looks promising — let's make sure we have
+> proper monitoring via Notification Hub before going live.
+> 
+> I'll update the Titan tracker accordingly.
+> 
+> Best,
+> Irene
+> ---
+> Irene Brown | Engineering Manager
+> Aperturescience
+> M: +1-516-254-5993 | E: irene.brown@aperturescience.com
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 

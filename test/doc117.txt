@@ -1,0 +1,101 @@
+From: Leo Sanchez <leo.sanchez@cyberdyne.systems>
+To: Quinn Hernandez <quinn.hernandez@cyberdyne.systems>, Fatima Lopez <fatima.lopez@cyberdyne.systems>, Paul Harris <paul.harris@cyberdyne.systems>
+Date: 09/13/2024 12:39 PM
+Subject: Re: Finance Weekly Standup Notes
+Message-ID: <7280d2572a44a1ff@cyberdyne.systems>
+
+Hi Fatima,
+
+I had a call with StreamLine Solutions today about the User Directory integration. Key takeaways:
+
+- They can deliver the design phase by 2/16, which is 1 weeks ahead of our schedule
+- Pricing: $33K for the base package + $50K for Data Governance add-on
+- They require a 1-year commitment minimum
+- Technical contact will be Grace Jones (Senior Product Manager)
+
+For comparison, NetSecure Pro quoted $95K with a more flexible contract.
+
+Should we bring this to the Team Offsite for a final decision?
+
+Best,
+Leo
+
+Best,
+Leo Sanchez
+DevOps Engineer, Engineering
+Cyberdyne
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+----------------------------------------
+| From: Paul Harris <paul.harris@cyberdyne.systems>
+| To: Quinn Hernandez <quinn.hernandez@cyberdyne.systems>, Fatima Lopez <fatima.lopez@cyberdyne.systems>, Leo Sanchez <leo.sanchez@cyberdyne.systems>
+| Date: 09/12/2024 12:59 AM
+| Subject: Re: Finance Weekly Standup Notes
+| Message-ID: <5c0f004c1e1dc833@cyberdyne.systems>
+| 
+| Hi Quinn,
+| 
+| I've reviewed the budget and have some concerns about the Zenith approach. Specifically:
+| 
+| 1. The proposed timeline seems aggressive given the Marketing team's current bandwidth (they're already at 49% capacity with User Directory work)
+| 2. We haven't accounted for the Legacy CRM deprecation in Q3
+| 3. The $87K budget allocation for CloudSync Inc. seems high compared to NetSecure Pro who quoted $51K
+| 4. Quinn's team hasn't signed off on the Security Hardening dependency
+| 
+| I'd suggest we revisit this in our next planning meeting.
+| 
+| Best,
+| Paul
+| --
+| Paul Harris
+| Director of Engineering | Cyberdyne
+| +1-227-739-4296
+
+
+----------------------------------------
+| From: Quinn Hernandez <quinn.hernandez@cyberdyne.systems>
+| To: Leo Sanchez <leo.sanchez@cyberdyne.systems>
+| Date: 09/11/2024 05:25 PM
+| Subject: Re: Finance Weekly Standup Notes
+| Message-ID: <75a74ff9a5337783@cyberdyne.systems>
+| 
+| Hi Paul,
+| 
+| Thanks for the update. Some notes:
+| 
+| - Agreed on the Analytics Pipeline approach. Fatima and I discussed this yesterday and we're aligned.
+| - For the Product budget, I'd suggest we cap it at $257K for now and revisit in Q3.
+| - The engagement improvement looks promising — let's make sure we have proper monitoring via Logging Service before going live.
+| 
+| I'll update the Aurora tracker accordingly.
+| 
+| Regards,
+| Quinn
+
+
+----------------------------------------
+| From: Quinn Hernandez <quinn.hernandez@cyberdyne.systems>
+| To: Fatima Lopez <fatima.lopez@cyberdyne.systems>
+| Date: 09/10/2024 01:02 AM
+| Subject: Finance Weekly Standup Notes
+| Message-ID: <c6f07f5b2f31675f@cyberdyne.systems>
+| 
+| All,
+| 
+| Following up from the All-Hands earlier today. Here are the action items:
+| 
+| - @Leo: Finalize the spec by Wednesday (target: 8/14)
+| - @Paul: Schedule the Security Hardening review with Legal
+| - @Leo: Update the Search Index configuration per our discussion
+| - @Quinn: Send out the revised Project Falcon timeline by EOW
+| 
+| Next meeting: Wednesday at 8:30. Calendar invite to follow.
+| 
+| Thanks everyone,
+| Quinn
+| --
+| Quinn Hernandez
+| Cyberdyne | Sales Department
+| Phone: +1-463-704-2046 | Email: quinn.hernandez@cyberdyne.systems

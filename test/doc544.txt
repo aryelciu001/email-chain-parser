@@ -1,0 +1,23 @@
+From: Quinn Hernandez <quinn.hernandez@cyberdyne.systems>
+To: Fatima Lopez <fatima.lopez@cyberdyne.systems>
+Date: 09/10/2024 01:02 AM
+Subject: Finance Weekly Standup Notes
+Message-ID: <c6f07f5b2f31675f@cyberdyne.systems>
+
+All,
+
+Following up from the All-Hands earlier today. Here are the action items:
+
+- @Leo: Finalize the spec by Wednesday (target: 8/14)
+- @Paul: Schedule the Security Hardening review with Legal
+- @Leo: Update the Search Index configuration per our discussion
+- @Quinn: Send out the revised Project Falcon timeline by EOW
+
+Next meeting: Wednesday at 8:30. Calendar invite to follow.
+
+Thanks everyone,
+Quinn
+--
+Quinn Hernandez
+Cyberdyne | Sales Department
+Phone: +1-463-704-2046 | Email: quinn.hernandez@cyberdyne.systems

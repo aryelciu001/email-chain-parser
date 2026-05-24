@@ -1,0 +1,78 @@
+From: Grace Perez <grace.perez@starkindustries.com>
+To: Victor Harris <victor.harris@globex.io>
+Cc: Wendy Sanchez <wendy.sanchez@umbrella-corp.net>, Frank Martinez <frank.martinez@globex.io>
+Date: Sun, 08 Sep 2024 23:36:30
+Subject: FW: Policy Update: Data Retention
+Message-ID: <7f02b3e449bf551d@starkindustries.com>
+
+All,
+
+Following up from the Hackathon earlier today. Here are the action items:
+
+- @Eve: Finalize the budget by Tuesday (target: 7/10)
+- @Frank: Schedule the Zero Trust Architecture review with Data Science
+- @Frank: Update the Search Index configuration per our discussion
+- @Grace: Send out the revised Project Titan timeline by EOW
+
+Next meeting: Monday at 17:00. Calendar invite to follow.
+
+Thanks everyone,
+Grace
+---
+Grace Perez | Engineering Manager
+Starkindustries
+M: +1-669-287-1667 | E: grace.perez@starkindustries.com
+
+----------------------------------------
+| From: Grace Perez <grace.perez@starkindustries.com>
+| To: Frank Martinez <frank.martinez@globex.io>, Victor Harris <victor.harris@globex.io>
+| Cc: Wendy Sanchez <wendy.sanchez@umbrella-corp.net>
+| Date: Sat, 07 Sep 2024 06:24:25
+| Subject: FW: Policy Update: Data Retention
+|   
+| Message-ID: <a21857dd30a41de1@starkindustries.com>
+| Hi Frank,
+| 
+| I had a call with StreamLine Solutions today about the Legacy CRM integration. Key takeaways:
+| 
+| - They can deliver the UAT phase by 11/21, which is 3 weeks ahead of our schedule
+| - Pricing: $198K for the base package + $71K for Security Hardening add-on    
+| - They require a 3-year commitment minimum
+| - Technical contact will be Bob Hernandez (Staff Engineer)
+| 
+| For comparison, DataFlow Systems quoted $154K with a more flexible contract. 
+| 
+| Should we bring this to the Design Review for a final decision?
+| 
+| Best,
+| Grace
+| 
+| 
+| --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+| 
+
+
+----------------------------------------
+| From: Grace Perez <grace.perez@starkindustries.com>
+| To: Victor Harris <victor.harris@globex.io>, Wendy Sanchez <wendy.sanchez@umbrella-corp.net>
+| Cc: Frank Martinez <frank.martinez@globex.io>
+| Date: Thu, 05 Sep 2024 07:05:20
+| Subject: FW: Policy Update: Data Retention
+| Message-ID: <bd00efc44ea59bc0@starkindustries.com>
+| 
+| Team,
+| 
+| Effective Monday, we're updating the Access Control policy. Key changes:
+| 
+| 1. Engineering approval is now required for any Legacy CRM changes in
+| production (previously only staging required approval)
+| 2. All PRs affecting Titan must include integration tests
+| 3. EMEA deployments will follow a new feature-flag strategy
+| 4. Incident response SLA updated: P1 = 29min, P2 = 39min
+| 
+| Full policy doc: https://wiki.internal/policies/265757339f
+| 
+| Please review by EOD Tuesday and flag any concerns to Eve.
+| 
+| Thanks,
+| Grace

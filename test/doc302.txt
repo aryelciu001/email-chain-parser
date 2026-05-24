@@ -1,0 +1,124 @@
+From: Eve Thompson <eve.thompson@aperturescience.com>
+To: Zara Gonzalez <zara.gonzalez@starkindustries.com>
+Cc: Fatima Rodriguez <fatima.rodriguez@lexcorp.biz>, Jack Lee <jack.lee@cyberdyne.systems>
+Date: Tue, 04 Jun 2024 22:30:23
+Subject: Re: Security Audit Findings
+Message-ID: <11ced2f5386fb4b9@aperturescience.com>
+
+Team,
+
+Effective Wednesday, we're updating the Travel Reimbursement policy. Key
+changes:
+
+1. Marketing approval is now required for any Logging Service changes in
+production (previously only staging required approval)
+2. All PRs affecting Titan must include unit tests
+3. APAC deployments will follow a new blue-green strategy
+4. Incident response SLA updated: P1 = 25min, P2 = 48min
+
+Full policy doc: https://wiki.internal/policies/12ba1cb573
+
+Please review by EOD Wednesday and flag any concerns to Zara.
+
+Thanks,
+Eve
+--
+Eve Thompson
+Aperturescience | Operations Department
+Phone: +1-754-490-8602 | Email: eve.thompson@aperturescience.com
+
+----------------------------------------
+> From: Fatima Rodriguez <fatima.rodriguez@lexcorp.biz>
+> To: Xander Sanchez <xander.sanchez@lexcorp.biz>
+> Cc: Eve Thompson <eve.thompson@aperturescience.com>
+> Date: Mon, 03 Jun 2024 08:39:38
+> Subject: Re: Security Audit Findings
+> Message-ID: <d93e87ed16287910@lexcorp.biz>
+> 
+> Hi Fatima,
+> 
+> I had a call with DataFlow Systems today about the Notification Hub
+> integration. Key takeaways:
+> 
+> - They can deliver the integration phase by 1/13, which is 1 weeks
+> behind our schedule
+> - Pricing: $381K for the base package + $12K for OKR Planning add-on
+> - They require a 3-year commitment minimum
+> - Technical contact will be Jack Moore (Product Manager)
+> 
+> For comparison, NetSecure Pro quoted $401K with a more flexible
+> contract.
+> 
+> Should we bring this to the Architecture Summit for a final decision?
+> 
+> Best,
+> Fatima
+> --
+> Fatima Rodriguez
+> Lexcorp | Sales Department
+> Phone: +1-985-864-8684 | Email: fatima.rodriguez@lexcorp.biz
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+----------------------------------------
+> From: Fatima Rodriguez <fatima.rodriguez@lexcorp.biz>
+> To: Zara Gonzalez <zara.gonzalez@starkindustries.com>, Eve Thompson <eve.thompson@aperturescience.com>
+> Cc: Jack Lee <jack.lee@cyberdyne.systems>
+> Date: Sun, 02 Jun 2024 02:51:21
+> Subject: Re: Security Audit Findings
+> Message-ID: <d93802b4f65d4754@lexcorp.biz>
+> 
+> Team,
+> 
+> I've been analyzing the engagement data from last quarter and noticed
+> some interesting trends:
+> 
+> - engagement decreased by 62% compared to the previous quarter
+> - The LATAM region is underperforming by a factor of 1.7x
+> - We're seeing a correlation between engagement and error rate
+> - The Neptune rollout appears to have had a positive impact
+> 
+> Dashboard link: https://grafana.internal/6c102998ea
+> 
+> I think this warrants a deeper investigation. Wendy, could you pull the
+> raw data from Notification Hub so we can cross-reference with Analytics
+> Pipeline?
+> 
+> Best,
+> Fatima
+
+
+----------------------------------------
+> From: Jack Lee <jack.lee@cyberdyne.systems>
+> To: Xander Sanchez <xander.sanchez@lexcorp.biz>, Zara Gonzalez <zara.gonzalez@starkindustries.com>
+> Cc: Eve Thompson <eve.thompson@aperturescience.com>
+> Date: Sat, 01 Jun 2024 07:48:43
+> Subject: Re: Security Audit Findings
+> Message-ID: <3410e4b0a71090bb@cyberdyne.systems>
+> 
+> Hi Fatima,
+> 
+> Thanks for flagging this. I've escalated to the Product team and they're
+> looking into the Analytics Pipeline issue. Current status:
+> 
+> - Root cause: unhandled null pointer in batch job
+> - Impact: ~197 users affected in APAC
+> - ETA for fix: 13:30 EST today
+> - Severity: P2
+> 
+> I'll keep this thread updated as we learn more. Fatima is the point
+> person if you need immediate assistance.
+> 
+> Workaround: Use the mobile app.
+> 
+> Regards,
+> Jack
+> --
+> Jack Lee
+> Technical Lead | Cyberdyne
+> +1-997-679-2957
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 

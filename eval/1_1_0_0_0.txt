@@ -1,0 +1,139 @@
+From: Eve Anderson <eve.anderson@cyberdyne.systems>
+To: Wendy Sanchez <wendy.sanchez@umbrella-corp.net>, Victor Harris <victor.harris@globex.io>, Grace Perez <grace.perez@starkindustries.com>
+Cc: Frank Martinez <frank.martinez@globex.io>, Rachel Wilson <rachel.wilson@initech.com>
+Date: Wed, 11 Sep 2024 15:20:37
+Subject: FW: Policy Update: Data Retention
+Message-ID: <93aca1a4df517191@cyberdyne.systems>
+
+Team,
+
+Effective Friday, we're updating the Travel Reimbursement policy. Key changes:
+
+1. Finance approval is now required for any CI/CD Platform changes in production (previously only staging required approval)
+2. All PRs affecting Zenith must include security review
+3. North America deployments will follow a new blue-green strategy
+4. Incident response SLA updated: P1 = 27min, P2 = 53min
+
+Full policy doc: https://wiki.internal/policies/239e7d98ea
+
+Please review by EOD Monday and flag any concerns to Grace.
+
+Thanks,
+Eve
+---
+Eve Anderson | Technical Lead
+Cyberdyne
+M: +1-405-123-9778 | E: eve.anderson@cyberdyne.systems
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+----------------------------------------
+| From: Grace Perez <grace.perez@starkindustries.com>
+| To: Rachel Wilson <rachel.wilson@initech.com>
+| Cc: Eve Anderson <eve.anderson@cyberdyne.systems>, Frank Martinez <frank.martinez@globex.io>
+| Date: Mon, 09 Sep 2024 15:54:55
+| Subject: FW: Policy Update: Data Retention
+| Message-ID: <08b2250accaed6b5@starkindustries.com>
+| 
+| Hi Eve,
+| 
+| Quick update on Project Neptune: we've completed the integration phase and are on track for the milestone. Key highlights:
+| 
+| - Migrated 143 services to the new Logging Service architecture
+| - Reduced retention by 48% across all endpoints
+| - Identified 8 blocking issues (see JIRA-6669 for details)
+| 
+| The Support team has been instrumental in this effort. Victor has volunteered to lead the next phase.
+| 
+| Let me know if you have questions.
+| 
+| Thanks,
+| Grace
+| ---
+| Grace Perez | Engineering Manager
+| Starkindustries
+| M: +1-669-287-1667 | E: grace.perez@starkindustries.com
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+| 
+
+
+----------------------------------------
+| From: Grace Perez <grace.perez@starkindustries.com>
+| To: Victor Harris <victor.harris@globex.io>
+| Cc: Wendy Sanchez <wendy.sanchez@umbrella-corp.net>, Frank Martinez <frank.martinez@globex.io>
+| Date: Sun, 08 Sep 2024 23:36:30
+| Subject: FW: Policy Update: Data Retention
+| Message-ID: <7f02b3e449bf551d@starkindustries.com>
+| 
+| All,
+| 
+| Following up from the Hackathon earlier today. Here are the action items:
+| 
+| - @Eve: Finalize the budget by Tuesday (target: 7/10)
+| - @Frank: Schedule the Zero Trust Architecture review with Data Science
+| - @Frank: Update the Search Index configuration per our discussion
+| - @Grace: Send out the revised Project Titan timeline by EOW
+| 
+| Next meeting: Monday at 17:00. Calendar invite to follow.
+| 
+| Thanks everyone,
+| Grace
+| ---
+| Grace Perez | Engineering Manager
+| Starkindustries
+| M: +1-669-287-1667 | E: grace.perez@starkindustries.com
+
+
+----------------------------------------
+| From: Grace Perez <grace.perez@starkindustries.com>
+| To: Frank Martinez <frank.martinez@globex.io>, Victor Harris <victor.harris@globex.io>
+| Cc: Wendy Sanchez <wendy.sanchez@umbrella-corp.net>
+| Date: Sat, 07 Sep 2024 06:24:25
+| Subject: FW: Policy Update: Data Retention
+| Message-ID: <a21857dd30a41de1@starkindustries.com>
+| 
+| Hi Frank,
+| 
+| I had a call with StreamLine Solutions today about the Legacy CRM integration. Key takeaways:
+| 
+| - They can deliver the UAT phase by 11/21, which is 3 weeks ahead of our schedule
+| - Pricing: $198K for the base package + $71K for Security Hardening add-on
+| - They require a 3-year commitment minimum
+| - Technical contact will be Bob Hernandez (Staff Engineer)
+| 
+| For comparison, DataFlow Systems quoted $154K with a more flexible contract.
+| 
+| Should we bring this to the Design Review for a final decision?
+| 
+| Best,
+| Grace
+| 
+| --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+| 
+
+
+----------------------------------------
+| From: Grace Perez <grace.perez@starkindustries.com>
+| To: Victor Harris <victor.harris@globex.io>, Wendy Sanchez <wendy.sanchez@umbrella-corp.net>
+| Cc: Frank Martinez <frank.martinez@globex.io>
+| Date: Thu, 05 Sep 2024 07:05:20
+| Subject: FW: Policy Update: Data Retention
+| Message-ID: <bd00efc44ea59bc0@starkindustries.com>
+| 
+| Team,
+| 
+| Effective Monday, we're updating the Access Control policy. Key changes:
+| 
+| 1. Engineering approval is now required for any Legacy CRM changes in production (previously only staging required approval)
+| 2. All PRs affecting Titan must include integration tests
+| 3. EMEA deployments will follow a new feature-flag strategy
+| 4. Incident response SLA updated: P1 = 29min, P2 = 39min
+| 
+| Full policy doc: https://wiki.internal/policies/265757339f
+| 
+| Please review by EOD Tuesday and flag any concerns to Eve.
+| 
+| Thanks,
+| Grace

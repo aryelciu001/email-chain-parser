@@ -1,0 +1,31 @@
+[
+  {
+    "from": [
+      "tina.gonzalez@initech.com"
+    ],
+    "to": [
+      "rachel.moore@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "07/02/2024 12:40 AM",
+    "subject": "Re: Code Review - PR #937",
+    "message_id": "<0a8cf14f0aed3085@initech.com>",
+    "content": "All,\n\nFollowing up from the Sprint Planning earlier today. Here are the action items:\n\n- @Rachel: Finalize the timeline by Thursday (target: 12/12)\n- @Steve: Schedule the Observability Stack review with Marketing\n- @Rachel: Update the Logging Service configuration per our discussion\n- @Tina: Send out the revised Project Horizon timeline by EOW\n\nNext meeting: Monday at 17:00. Calendar invite to follow.\n\nThanks everyone,\nTina\n-- \nTina Gonzalez | QA Lead\nInitech\nM: +1-954-873-9575 | E: tina.gonzalez@initech.com",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "tina.gonzalez@initech.com"
+    ],
+    "to": [
+      "rachel.moore@cyberdyne.systems",
+      "steve.garcia@wayneenterprises.com"
+    ],
+    "cc": [],
+    "date": "07/03/2024 05:22 PM",
+    "subject": "Re: Code Review - PR #937",
+    "message_id": "<093bf809087af662@initech.com>",
+    "content": "Hi Steve,\n   \nQuick update on Project Vanguard: we've completed the beta phase and are on\ntrack for the milestone. Key highlights:\n\n- Migrated 125 services to the new Notification Hub architecture\n- Reduced churn rate by 28% across all endpoints  \n- Identified 5 blocking issues (see JIRA-425 for details)\n   \nThe HR team has been instrumental in this effort. Rachel has volunteered to\nlead the next phase.\n\nLet me know if you have questions.\n\nThanks,   \nTina\n\nBest,\nTina Gonzalez\nQA Lead, Legal\nInitech",
+    "canon_order": 1
+  }
+]

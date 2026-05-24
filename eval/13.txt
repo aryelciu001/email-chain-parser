@@ -1,0 +1,34 @@
+From: Fatima Jones <fatima.jones@oscorp.com>
+To: Uma Ramirez <uma.ramirez@cyberdyne.systems>, Frank Jones <frank.jones@cyberdyne.systems>, Paul White <paul.white@starkindustries.com>
+Cc: Nate Smith <nate.smith@cyberdyne.systems>
+Date: 11/07/2024 12:48 PM
+Subject: Re: Hiring Update - Product Manager Position
+Message-ID: <0ceba0e7420502ef@oscorp.com>
+
+Hi Uma,
+
+Thanks for flagging this. I've escalated to the Legal team and they're
+looking into the Logging Service issue. Current status:
+
+- Root cause: misconfigured load balancer
+- Impact: ~49 users affected in EMEA
+- ETA for fix: 8:00 EST today
+- Severity: P2
+
+I'll keep this thread updated as we learn more. Uma is the point person
+if you need immediate assistance.
+
+Workaround: Switch to backup endpoint.
+
+Regards,
+Fatima
+--
+Fatima Jones
+VP of Product | Oscorp
++1-755-392-4695
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive
+and confidential use of the intended recipient. If you are not the intended
+recipient, please do not read, distribute, or take action based on this
+message. If you have received this in error, please notify the sender
+immediately and delete this message from your system.

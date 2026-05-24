@@ -1,0 +1,119 @@
+From: Uma Clark <uma.clark@globex.io>
+To: Frank Lopez <frank.lopez@globex.io>
+Date: 02 Apr 2024, 15:52
+Subject: Re: Code Review - PR #9101
+Message-ID: <9dc8ca34c5d760c6@globex.io>
+
+Thanks Rachel,
+
+I reviewed the design doc for Agile Retrospectives. Some thoughts:
+
+- Section 3 needs more detail on the rollback strategy
+- The retention numbers in Table 5 don't match what I see in the Logging
+Service dashboard (showing 21% vs your 23%)
+- Can we add a dependency map for the Notification Hub integration?
+- The timeline for HR involvement seems optimistic
+
+Happy to discuss in our Friday sync.
+
+Cheers,
+Uma
+
+Best,
+Uma Clark
+Senior Product Manager, Sales
+Globex
+
+----------------------------------------
+> From: Frank Lopez <frank.lopez@globex.io>
+> To: Rachel Robinson <rachel.robinson@umbrella-corp.net>
+> Date: 02 Apr 2024, 10:21
+> Subject: Re: Code Review - PR #9101
+> Message-ID: <decc2d0456f6fe45@globex.io>
+> 
+> Hi Rachel,
+> 
+> Thanks for flagging this. I've escalated to the Legal team and they're
+> looking into the Search Index issue. Current status:
+> 
+> - Root cause: expired TLS certificate
+> - Impact: ~12 users affected in North America
+> - ETA for fix: 16:30 IST today
+> - Severity: P2
+> 
+> I'll keep this thread updated as we learn more. Uma is the point person if
+> you need immediate assistance.
+> 
+> Workaround: Use the mobile app.
+> 
+> Regards,
+> Frank
+> 
+> CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+> 
+
+
+----------------------------------------
+> From: Rachel Robinson <rachel.robinson@umbrella-corp.net>
+> To: Frank Lopez <frank.lopez@globex.io>, Uma Clark <uma.clark@globex.io>
+> Date: 01 Apr 2024, 19:43
+> Subject: Re: Code Review - PR #9101
+> Message-ID: <70318ec2985349b4@umbrella-corp.net>
+> 
+> Hi Frank,
+> 
+> I had a call with StreamLine Solutions today about the Auth Service
+> integration. Key takeaways:
+> 
+> - They can deliver the testing phase by 4/14, which is 2 weeks ahead of our
+> schedule
+> - Pricing: $447K for the base package + $83K for Kubernetes Fundamentals
+> add-on
+> - They require a 1-year commitment minimum
+> - Technical contact will be Zara Perez (Architect)
+> 
+> For comparison, StreamLine Solutions quoted $385K with a more flexible
+> contract.
+> 
+> Should we bring this to the All-Hands for a final decision?
+> 
+> Best,
+> Rachel
+> --
+> Rachel Robinson
+> QA Lead | Umbrella Corp
+> +1-381-287-4938
+> 
+> --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+> 
+
+
+----------------------------------------
+> From: Uma Clark <uma.clark@globex.io>
+> To: Rachel Robinson <rachel.robinson@umbrella-corp.net>
+> Date: 31 Mar 2024, 04:27
+> Subject: Re: Code Review - PR #9101
+> Message-ID: <44e15206ebcf51d2@globex.io>
+> 
+> Frank — 
+> 
+> Got it, makes sense. I'll loop in Rachel from Data Science to get their
+> perspective on the Analytics Pipeline changes. In the meantime, I've created
+> a shared doc where we can track the open items:
+> 
+>   https://docs.google.com/d/b73ce398c39f506a
+> 
+> Current open items (5 total):
+> - Apex integration testing (owner: Frank)
+> - NetSecure Pro contract review (owner: Uma)
+> - Data Governance documentation (owner: Rachel)
+> 
+> Please add any additional concerns there. I'll consolidate everything before
+> our Tuesday sync.
+> 
+> Thanks,
+> Uma
+> --
+> Uma Clark
+> Globex | Sales Department
+> Phone: +1-766-712-1180 | Email: uma.clark@globex.io

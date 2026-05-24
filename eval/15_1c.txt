@@ -1,0 +1,63 @@
+From: Alice Davis <alice.davis@wayneenterprises.com>
+To: Frank Robinson <frank.robinson@aperturescience.com>, Quinn Thomas <quinn.thomas@wayneenterprises.com>
+Cc: Alice Ramirez <alice.ramirez@umbrella-corp.net>
+Date: 2024-11-19 06:31:45
+Subject: Re: Training Session: Agile Retrospectives
+Message-ID: <5bcc6d6525ee19b9@wayneenterprises.com>
+
+Hi Quinn,
+
+Thanks for flagging this. I've escalated to the HR team and they're looking into
+the Auth Service issue. Current status:
+
+- Root cause: misconfigured load balancer
+- Impact: ~22 users affected in APAC
+- ETA for fix: 13:00 GMT today
+- Severity: P1
+
+I'll keep this thread updated as we learn more. Hank is the point person if you
+need immediate assistance.
+
+Workaround: Use the mobile app.
+
+Regards,
+Alice
+---
+Alice Davis | Software Engineer
+Wayneenterprises
+M: +1-632-539-3841 | E: alice.davis@wayneenterprises.com
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+
+
+----------------------------------------
+> From: Alice Davis <alice.davis@wayneenterprises.com>
+> To: Leo Taylor <leo.taylor@cyberdyne.systems>
+> Date: 2024-11-17 16:08:59
+> Cc: Frank Robinson <frank.robinson@aperturescience.com>
+> Subject: Training Session: Agile Retrospectives
+> Message-ID: <fd3d79b34d50c20b@wayneenterprises.com>
+> 
+> Team,
+> 
+> Effective Tuesday, we're updating the PTO Accrual policy. Key changes:
+> 
+> 1. HR approval is now required for any Auth Service changes in production
+> (previously only staging required approval)
+> 2. All PRs affecting Aurora must include load test results
+> 3. LATAM deployments will follow a new canary strategy
+> 4. Incident response SLA updated: P1 = 28min, P2 = 51min
+> 
+> Full policy doc: https://wiki.internal/policies/c137aece13
+> 
+> Please review by EOD Friday and flag any concerns to Quinn.
+> 
+> Thanks,
+> Alice
+> --
+> Alice Davis
+> Software Engineer | Wayneenterprises
+> +1-632-539-3841
+> 
+> DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+> 

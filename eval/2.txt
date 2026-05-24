@@ -1,0 +1,23 @@
+From: Yuki Harris <yuki.harris@umbrella-corp.net>
+To: Grace Martin <grace.martin@acmecorp.com>
+Date: July 19, 2024 at 07:42 AM
+Subject: Re: Incident Report #5158
+Message-ID: <a913d52fb0577c48@umbrella-corp.net>
+
+Nate — 
+
+Got it, makes sense. I'll loop in Nate from Product to get their perspective on the Legacy CRM changes. In the meantime, I've created a shared doc where we can track the open items:
+
+  https://docs.google.com/d/aab3238922bcc25a
+
+Current open items (6 total):
+- Vanguard integration testing (owner: Nate)
+- DataFlow Systems contract review (owner: Yuki)
+- OKR Planning documentation (owner: Nate)
+
+Please add any additional concerns there. I'll consolidate everything before our Thursday sync.
+
+Thanks,
+Yuki
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.

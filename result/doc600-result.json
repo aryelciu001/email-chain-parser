@@ -1,0 +1,31 @@
+[
+  {
+    "from": [
+      "eve.brown@umbrella-corp.net"
+    ],
+    "to": [
+      "frank.white@wayneenterprises.com",
+      "priya.smith@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "09/14/2024 07:35 AM",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<082407faec6f933f@umbrella-corp.net>",
+    "content": "Hi Frank,\n\nQuick update on Project Apex: we've completed the integration phase and are\non track for the milestone. Key highlights:\n\n- Migrated 5 services to the new CI/CD Platform architecture\n- Reduced engagement by 37% across all endpoints\n- Identified 11 blocking issues (see JIRA-8511 for details)\n\nThe Operations team has been instrumental in this effort. Frank has\nvolunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nEve\n---\nEve Brown | Technical Lead\nUmbrella Corp\nM: +1-864-100-5780 | E: eve.brown@umbrella-corp.net\n\nCONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "eve.brown@umbrella-corp.net"
+    ],
+    "to": [
+      "priya.smith@acmecorp.com"
+    ],
+    "cc": [],
+    "date": "09/14/2024 03:59 PM",
+    "subject": "Re: Migration Plan for Logging Service",
+    "message_id": "<74a2780c11c57072@umbrella-corp.net>",
+    "content": "Hi Priya,\n\nQuick update on Project Aurora: we&#39;ve completed the design phase and are on\ntrack for the milestone. Key highlights:\n\n- Migrated 80 services to the new Logging Service architecture\n- Reduced retention by 15% across all endpoints\n- Identified 4 blocking issues (see JIRA-1208 for details)\n\nThe Marketing team has been instrumental in this effort. Frank has\nvolunteered to lead the next phase.\n\nLet me know if you have questions.\n\nThanks,\nEve\n\nBest,\nEve Brown\nTechnical Lead, Data Science\nUmbrella Corp",
+    "canon_order": 1
+  }
+]

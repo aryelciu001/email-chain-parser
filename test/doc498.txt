@@ -1,0 +1,30 @@
+From: Jack Lee <jack.lee@cyberdyne.systems>
+To: Xander Sanchez <xander.sanchez@lexcorp.biz>, Zara Gonzalez <zara.gonzalez@starkindustries.com>
+Cc: Eve Thompson <eve.thompson@aperturescience.com>
+Date: Sat, 01 Jun 2024 07:48:43
+Subject: Re: Security Audit Findings
+Message-ID: <3410e4b0a71090bb@cyberdyne.systems>
+
+Hi Fatima,
+
+Thanks for flagging this. I've escalated to the Product team and they're
+looking into the Analytics Pipeline issue. Current status:
+
+- Root cause: unhandled null pointer in batch job
+- Impact: ~197 users affected in APAC
+- ETA for fix: 13:30 EST today
+- Severity: P2
+
+I'll keep this thread updated as we learn more. Fatima is the point
+person if you need immediate assistance.
+
+Workaround: Use the mobile app.
+
+Regards,
+Jack
+--
+Jack Lee
+Technical Lead | Cyberdyne
++1-997-679-2957
+
+--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---

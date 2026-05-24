@@ -1,0 +1,82 @@
+From: David Anderson <david.anderson@cyberdyne.systems>
+To: David Anderson <david.anderson@aperturescience.com>
+Cc: Grace Brown <grace.brown@initech.com>
+Date: March 09, 2024 at 04:09 PM
+Subject: Re: Action Items from Team Offsite Kickoff
+Message-ID: <945ff2953293a0af@cyberdyne.systems>
+
+Hi Steve,
+
+Thanks for the update. A few quick thoughts:
+
+- Agreed on the CI/CD Platform approach. Irene and I discussed this during
+the Sprint Planning and we're aligned.
+- For the Operations budget, I'd suggest we cap it at $337K for now and
+revisit in Q1.
+- The retention improvement looks promising — let's make sure we have proper
+monitoring via Payment Gateway before going live.
+
+I'll update the Apex tracker accordingly.
+
+Talk soon,
+David
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+----------------------------------------
+| From: Steve Moore <steve.moore@oscorp.com>
+| To: Irene Harris <irene.harris@starkindustries.com>
+| Cc: David Anderson <david.anderson@cyberdyne.systems>    
+| Date: March 09, 2024 at 02:20 PM
+| Subject: Re: Action Items from Team Offsite Kickoff    
+| Message-ID: <5c5c6be2113bf6db@oscorp.com>    
+| 
+| All,    
+| 
+| Following up from the Architecture Summit earlier today. Here are the action
+| items:
+| - @Fatima: Finalize the timeline by Tuesday (target: 5/26)  
+| - @David: Schedule the OKR Planning review with HR
+| - @Irene: Update the Search Index configuration per our discussion
+| - @Steve: Send out the revised Project Apex timeline by EOW
+| 
+| Next meeting: Tuesday at 8:30. Calendar invite to follow.
+| 
+| Thanks everyone,    
+| Steve
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 
+
+
+----------------------------------------
+| From: David Anderson <david.anderson@cyberdyne.systems>
+| To: Grace Brown <grace.brown@initech.com>, Irene Harris <irene.harris@starkindustries.com>
+| Cc: David Anderson <david.anderson@aperturescience.com>, Steve Moore <steve.moore@oscorp.com>
+| Date: March 08, 2024 at 11:03 AM
+| Subject: Action Items from Team Offsite Kickoff
+| Message-ID: <d276ae2f1f23567a@cyberdyne.systems>
+| 
+| Hi all,
+| 
+| Thanks for a productive Launch Retrospective today. Here&#39;s a summary of what
+| we decided:
+| 
+| DECISIONS:
+| - We will proceed with Option C for the Notification Hub migration
+| (projected savings: $162K/yr)
+| - Horizon launch date moved to Q4 (from original Q2 target)
+| - Marketing team will own the Security Hardening workstream going forward
+| 
+| OPEN QUESTIONS:
+| - How does this affect the Pinnacle Analytics contract timeline? (Grace to
+| investigate)
+| - Do we need additional headcount for Senior Engineer? (Grace to assess)
+| 
+| Full notes: https://confluence.internal/f4d085b9479d
+| 
+| Regards,
+| David
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.

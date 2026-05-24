@@ -1,0 +1,94 @@
+From: Steve Moore <steve.moore@oscorp.com>
+To: Irene Lewis <irene.lewis@oscorp.com>, Fatima Davis <fatima.davis@cyberdyne.systems>
+Cc: David Anderson <david.anderson@aperturescience.com>, David Anderson <david.anderson@cyberdyne.systems>
+Date: March 10, 2024 at 01:55 AM
+Subject: Re: Action Items from Team Offsite Kickoff
+Message-ID: <cff62809467fbccb@oscorp.com>
+
+Hi Grace,
+
+I've reviewed the budget and have some concerns about the Aurora approach.
+Specifically:
+
+1. The proposed timeline seems aggressive given the Finance team's current
+bandwidth (they're already at 59% capacity with Auth Service work)
+2. We haven't accounted for the User Directory deprecation in Q1
+3. The $55K budget allocation for NetSecure Pro seems high compared to
+Pinnacle Analytics who quoted $37K
+4. Irene's team hasn't signed off on the Data Governance dependency
+
+I'd suggest we revisit this in our next standup meeting.
+
+Best,
+Steve
+
+Best,
+Steve Moore
+Architect, Support
+Oscorp
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+----------------------------------------
+| From: Grace Brown <grace.brown@initech.com>
+| To: David Anderson <david.anderson@aperturescience.com>, Fatima Davis <fatima.davis@cyberdyne.systems>, Steve Moore <steve.moore@oscorp.com>
+| Cc: Irene Lewis <irene.lewis@oscorp.com>, Irene Harris <irene.harris@starkindustries.com>
+| Date: March 09, 2024 at 02:05 AM
+| Subject: Re: Action Items from Team Offsite Kickoff
+| Message-ID: <4b3585c8c6fa7f03@initech.com>
+| 
+| Team,
+| 
+| Effective Monday, we're updating the Access Control policy. Key changes:
+| 
+| 1. Marketing approval is now required for any Auth Service changes in
+| production (previously only staging required approval)
+| 2. All PRs affecting Phoenix must include load test results
+| 3. North America deployments will follow a new rolling strategy
+| 4. Incident response SLA updated: P1 = 22min, P2 = 62min
+| 
+| Full policy doc: https://wiki.internal/policies/4cdee3887b
+| 
+| Please review by EOD Monday and flag any concerns to Irene.
+| 
+| Thanks,
+| Grace
+| 
+| Best,
+| Grace Brown
+| Director of Engineering, Marketing
+| Initech
+
+
+----------------------------------------
+| From: David Anderson <david.anderson@cyberdyne.systems>
+| To: Grace Brown <grace.brown@initech.com>, Irene Harris <irene.harris@starkindustries.com>
+| Cc: David Anderson <david.anderson@aperturescience.com>, Steve Moore <steve.moore@oscorp.com>
+| Date: March 08, 2024 at 11:03 AM
+| Subject: Action Items from Team Offsite Kickoff
+| Message-ID: <d276ae2f1f23567a@cyberdyne.systems>
+| 
+| Hi all,
+| 
+| Thanks for a productive Launch Retrospective today. Here's a summary of what
+| we decided:
+| 
+| DECISIONS:
+| - We will proceed with Option C for the Notification Hub migration
+| (projected savings: $162K/yr)
+| - Horizon launch date moved to Q4 (from original Q2 target)
+| - Marketing team will own the Security Hardening workstream going forward
+| 
+| OPEN QUESTIONS:
+| - How does this affect the Pinnacle Analytics contract timeline? (Grace to
+| investigate)
+| - Do we need additional headcount for Senior Engineer? (Grace to assess)
+| 
+| Full notes: https://confluence.internal/f4d085b9479d
+| 
+| Regards,
+| David
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 

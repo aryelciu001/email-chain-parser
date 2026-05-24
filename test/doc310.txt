@@ -1,0 +1,22 @@
+From: Quinn Perez <quinn.perez@initech.com>
+To: Irene Clark <irene.clark@umbrella-corp.net>, Victor Robinson <victor.robinson@acmecorp.com>, Grace White <grace.white@starkindustries.com>
+Cc: Fatima Hernandez <fatima.hernandez@umbrella-corp.net>, Wendy Hernandez <wendy.hernandez@umbrella-corp.net>
+Date: 09/28/2024 08:47 AM
+Subject: Re: Performance Review Cycle
+Message-ID: <14dfcf0b2ddabb55@initech.com>
+
+Hi Irene,
+
+Thanks for the update. Some notes:
+- Agreed on the Search Index approach. Wendy and I discussed this yesterday and we're aligned.
+- For the Legal budget, I'd suggest we cap it at $368K for now and revisit in Q3.
+- The response time improvement looks promising — let's make sure we have proper monitoring via Logging Service before going live.
+
+I'll update the Phoenix tracker accordingly.
+
+Thanks,
+Quinn
+---
+Quinn Perez | Data Scientist
+Initech
+M: +1-362-282-3845 | E: quinn.perez@initech.com

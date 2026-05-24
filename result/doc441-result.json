@@ -1,0 +1,17 @@
+[
+  {
+    "from": [
+      "paul.davis@lexcorp.biz"
+    ],
+    "to": [
+      "frank.thomas@initech.com",
+      "yuki.white@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "January 24, 2024 at 10:01 PM",
+    "subject": "Re: Incident Report #9958",
+    "message_id": "<5debcbbed414639d@lexcorp.biz>",
+    "content": "Frank \u2014 \n\nGot it, makes sense. I'll loop in Frank from Engineering to get their\nperspective on the Payment Gateway changes. In the meantime, I've\ncreated a shared doc where we can track the open items:\n\n  https://docs.google.com/d/07e1cd7dca89a167\n\nCurrent open items (8 total):\n- Catalyst integration testing (owner: Frank)\n- StreamLine Solutions contract review (owner: Paul)\n- Agile Retrospectives documentation (owner: Frank)\n\nPlease add any additional concerns there. I'll consolidate everything\nbefore our Thursday sync.\n\nThanks,\nPaul",
+    "canon_order": 0
+  }
+]

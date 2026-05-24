@@ -1,0 +1,118 @@
+From: Victor Harris <victor.harris@globex.io>
+To: Frank Martinez <frank.martinez@globex.io>
+Cc: Rachel Wilson <rachel.wilson@initech.com>
+Date: 09/06/2024 06:39 PM
+Subject: FW: Policy Update: Data Retention
+Message-ID: <f70a2d071d9bc1a4@globex.io>
+
+Rachel — 
+
+Got it, makes sense. I&#39;ll loop in Eve from Finance to get their perspective on the API Gateway changes. In the meantime, I've created a shared doc where we can track the open items:
+
+  https://docs.google.com/d/a87ff679a2f3e71d
+
+Current open items (6 total):
+- Phoenix integration testing (owner: Rachel)
+- StreamLine Solutions contract review (owner: Victor)
+- Zero Trust Architecture documentation (owner: Eve)
+
+Please add any additional concerns there. I'll consolidate everything before our Thursday sync.
+
+Thanks,
+Victor
+
+Best,
+Victor Harris
+Data Scientist, Marketing
+Globex
+
+----------------------------------------
+| From: Rachel Wilson <rachel.wilson@initech.com>
+| To: Frank Martinez <frank.martinez@globex.io>
+| Date: 09/06/2024 02:04 AM
+| Cc: Wendy Sanchez <wendy.sanchez@umbrella-corp.net>, Victor Harris <victor.harris@globex.io>
+| Subject: FW: Policy Update: Data Retention
+| Message-ID: <60aa53c8968005d1@initech.com>
+| 
+| Team,
+| 
+| I've been analyzing the churn rate data from last month and noticed some
+| interesting trends:
+| 
+| - churn rate increased by 15% compared to the previous month
+| - The LATAM region is outperforming by a factor of 3.2x
+| - We're seeing a correlation between churn rate and NPS score
+| - The Vanguard rollout appears to have had no measurable impact
+| 
+| Dashboard link: https://grafana.internal/3338e103e5
+| 
+| I think this warrants a deeper investigation. Victor, could you pull the raw
+| data from Notification Hub so we can cross-reference with User Directory?
+| 
+| Best,
+| Rachel
+| ---
+| Rachel Wilson | Engineering Manager
+| Initech
+| M: +1-887-346-6967 | E: rachel.wilson@initech.com
+| 
+| DISCLAIMER: The information contained in this email is intended only for the
+| person or entity to which it is addressed and may contain confidential and/or
+| privileged material. Unauthorized review, use, disclosure or distribution is
+| prohibited.
+| 
+
+
+----------------------------------------
+| From: Eve Anderson <eve.anderson@cyberdyne.systems>
+| To: Frank Martinez <frank.martinez@globex.io>, Grace Perez <grace.perez@starkindustries.com>, Wendy Sanchez <wendy.sanchez@umbrella-corp.net>
+| Cc: Victor Harris <victor.harris@globex.io>, Rachel Wilson <rachel.wilson@initech.com>
+| Date: 09/05/2024 12:17 PM
+| Subject: FW: Policy Update: Data Retention
+| Message-ID: <33c9e4f89c8e7127@cyberdyne.systems>
+| 
+| Hi all,
+| 
+| Thanks for a productive Hackathon today. Here's a summary of what we decided:
+| 
+| DECISIONS:
+| - We will proceed with Option B for the User Directory migration (projected savings: $466K/yr)
+| - Catalyst launch date moved to Q2 (from original Q3 target)
+| - Data Science team will own the Security Hardening workstream going forward
+| 
+| OPEN QUESTIONS:
+| - How does this affect the CloudSync Inc. contract timeline? (Victor to investigate)
+| - Do we need additional headcount for Senior Engineer? (Rachel to assess)
+| 
+| Full notes: https://confluence.internal/d4bc6d5ca64d
+| 
+| Regards,
+| Eve
+| 
+| --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+| 
+
+
+----------------------------------------
+| From: Grace Perez <grace.perez@starkindustries.com>
+| To: Victor Harris <victor.harris@globex.io>, Wendy Sanchez <wendy.sanchez@umbrella-corp.net>
+| Cc: Frank Martinez <frank.martinez@globex.io>
+| Date: 09/05/2024 07:05 AM
+| Subject: FW: Policy Update: Data Retention
+| Message-ID: <bd00efc44ea59bc0@starkindustries.com>
+| 
+| Team,
+| 
+| Effective Monday, we're updating the Access Control policy. Key changes:
+| 
+| 1. Engineering approval is now required for any Legacy CRM changes in production (previously only staging required approval)
+| 2. All PRs affecting Titan must include integration tests
+| 3. EMEA deployments will follow a new feature-flag strategy
+| 4. Incident response SLA updated: P1 = 29min, P2 = 39min
+| 
+| Full policy doc: https://wiki.internal/policies/265757339f
+| 
+| Please review by EOD Tuesday and flag any concerns to Eve.
+| 
+| Thanks,
+| Grace

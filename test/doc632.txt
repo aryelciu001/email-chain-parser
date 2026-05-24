@@ -1,0 +1,145 @@
+From: Irene Gonzalez <irene.gonzalez@globex.io>
+To: Olivia Garcia <olivia.garcia@wayneenterprises.com>, Leo Miller <leo.miller@cyberdyne.systems>
+Cc: Grace Martinez <grace.martinez@umbrella-corp.net>, David Gonzalez <david.gonzalez@acmecorp.com>
+Date: 2024-05-25 10:16:28
+Subject: Re: Meeting Notes: Finance Sync 8/12
+Message-ID: <009de64faffdb145@globex.io>
+
+Thanks Fatima,
+
+I reviewed the proposal for Data Governance. Some thoughts:
+
+- Section 5 needs more detail on the rollback strategy
+- The p99 latency numbers in Table 4 don't match what I see in the Notification
+Hub dashboard (showing 46% vs your 47%)
+- Can we add a dependency map for the Analytics Pipeline integration?
+- The timeline for Marketing involvement seems optimistic
+
+Happy to discuss in our Wednesday sync.
+
+Cheers,
+Irene
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+
+
+| From: Grace Martinez <grace.martinez@umbrella-corp.net>
+| To: Fatima Lee <fatima.lee@lexcorp.biz>, Leo Miller <leo.miller@cyberdyne.systems>, Irene Gonzalez <irene.gonzalez@globex.io>
+| Cc: Olivia Garcia <olivia.garcia@wayneenterprises.com>, Tina Taylor <tina.taylor@starkindustries.com>
+| Date: 2024-05-25 06:56:48
+| Subject: Re: Meeting Notes: Finance Sync 8/12
+| Message-ID: <7551a4b6607527b9@umbrella-corp.net>
+| 
+| Hi Leo,
+| 
+| I've reviewed the proposal and have some concerns about the Aurora approach.
+| Specifically:
+| 
+| 1. The proposed timeline seems aggressive given the Operations team's current
+| bandwidth (they're already at 59% capacity with Payment Gateway work)
+| 2. We haven't accounted for the CI/CD Platform deprecation in Q2
+| 3. The $452K budget allocation for CloudSync Inc. seems high compared to
+| CloudSync Inc. who quoted $250K
+| 4. Leo's team hasn't signed off on the Incident Response dependency
+| 
+| I'd suggest we revisit this in our next sync meeting.
+| 
+| Best,
+| Grace
+| --
+| Grace Martinez
+| Umbrella Corp | Finance Department
+| Phone: +1-557-698-7469 | Email: grace.martinez@umbrella-corp.net
+| 
+| CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.
+| 
+
+
+| From: Tina Taylor <tina.taylor@starkindustries.com>
+| To: Olivia Garcia <olivia.garcia@wayneenterprises.com>, Grace Martinez <grace.martinez@umbrella-corp.net>
+| Cc: Fatima Lee <fatima.lee@lexcorp.biz>, David Gonzalez <david.gonzalez@acmecorp.com>
+| Date: 2024-05-24 04:34:17
+| Subject: Re: Meeting Notes: Finance Sync 8/12
+| Message-ID: <7c649f967bdb8b9a@starkindustries.com>
+| 
+| Team,
+| 
+| Effective Thursday, we're updating the Travel Reimbursement policy. Key changes:
+| 
+| 1. Legal approval is now required for any Logging Service changes in production
+| (previously only staging required approval)
+| 2. All PRs affecting Apex must include unit tests
+| 3. North America deployments will follow a new feature-flag strategy
+| 4. Incident response SLA updated: P1 = 8min, P2 = 30min
+| 
+| Full policy doc: https://wiki.internal/policies/f5bc81a0d8
+| 
+| Please review by EOD Thursday and flag any concerns to Olivia.
+| 
+| Thanks,
+| Tina
+| --
+| Tina Taylor
+| Architect | Starkindustries
+| +1-989-809-1066
+| 
+| --- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---
+| 
+
+
+| From: David Gonzalez <david.gonzalez@acmecorp.com>
+| To: Grace Martinez <grace.martinez@umbrella-corp.net>, Fatima Lee <fatima.lee@lexcorp.biz>, Leo Miller <leo.miller@cyberdyne.systems>
+| Cc: Irene Gonzalez <irene.gonzalez@globex.io>, Olivia Garcia <olivia.garcia@wayneenterprises.com>
+| Date: 2024-05-23 11:50:44
+| Subject: Re: Meeting Notes: Finance Sync 8/12
+| Message-ID: <840439b59fb01fe6@acmecorp.com>
+| 
+| Team,
+| 
+| Effective Thursday, we're updating the Travel Reimbursement policy. Key changes:
+| 
+| 1. Legal approval is now required for any Logging Service changes in production
+| (previously only staging required approval)
+| 2. All PRs affecting Falcon must include security review
+| 3. North America deployments will follow a new feature-flag strategy
+| 4. Incident response SLA updated: P1 = 28min, P2 = 59min
+| 
+| Full policy doc: https://wiki.internal/policies/d3c4a9c566
+| 
+| Please review by EOD Wednesday and flag any concerns to Tina.
+| 
+| Thanks,
+| David
+| 
+| DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
+| 
+
+
+| From: Tina Taylor <tina.taylor@starkindustries.com>
+| To: David Gonzalez <david.gonzalez@acmecorp.com>
+| Cc: Fatima Lee <fatima.lee@lexcorp.biz>
+| Date: 2024-05-22 11:51:37
+| Subject: Meeting Notes: Finance Sync 8/12
+| Message-ID: <6e8fe727c11597cd@starkindustries.com>
+| 
+| Hi Irene,
+| 
+| I had a call with DataFlow Systems today about the Analytics Pipeline
+| integration. Key takeaways:
+| 
+| - They can deliver the testing phase by 11/11, which is 2 weeks behind our
+| schedule
+| - Pricing: $352K for the base package + $76K for Security Hardening add-on
+| - They require a 3-year commitment minimum
+| - Technical contact will be Olivia Davis (Product Manager)
+| 
+| For comparison, DataFlow Systems quoted $359K with a more flexible contract.
+| 
+| Should we bring this to the Board Meeting for a final decision?
+| 
+| Best,
+| Tina
+| --
+| Tina Taylor
+| Architect | Starkindustries
+| +1-989-809-1066

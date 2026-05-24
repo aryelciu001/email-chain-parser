@@ -1,0 +1,51 @@
+From: Karen Martinez <karen.martinez@acmecorp.com>
+To: Miguel Clark <miguel.clark@lexcorp.biz>
+Date: 2024-12-11 10:14:18
+Subject: Re: Marketing Weekly Standup Notes
+Message-ID: <beca8c22be6745e8@acmecorp.com>
+
+Hi Grace,
+
+Quick update on Project Falcon: we've completed the design phase and are on
+track for the milestone.  Key highlights:
+
+- Migrated 19 services to the new Search Index architecture
+- Reduced engagement by 8% across all endpoints
+- Identified 3 blocking issues (see JIRA-1442 for details)
+
+The Sales team has been instrumental in this effort. Grace has volunteered to
+lead the next phase.
+
+Let me know if you have questions.
+
+Thanks,
+Karen
+--
+Karen Martinez
+Acmecorp | Engineering Department
+Phone: +1-353-504-9151 | Email: karen.martinez@acmecorp.com
+
+| From: Grace Johnson <grace.johnson@starkindustries.com>
+| To: Karen Martinez <karen.martinez@acmecorp.com>, Chen Martin <chen.martin@acmecorp.com>, Miguel Clark <miguel.clark@lexcorp.biz>
+| Date: 2024-12-10 09:06:06
+| Subject: Marketing Weekly Standup Notes
+| Message-ID: <354c0bb07524d532@starkindustries.com>
+| 
+| Karen — 
+| 
+| Got it, makes sense. I'll loop in Chen from Data Science to get their
+| perspective on the Search Index changes. In the meantime, I've created a shared
+| doc where we can track the open items:
+| 
+|   https://docs.google.com/d/36660e59856b4de5
+| 
+| Current open items (6 total):
+| - Vanguard integration testing (owner: Karen)
+| - Pinnacle Analytics contract review (owner: Grace)
+| - GraphQL Migration documentation (owner: Chen)
+| 
+| Please add any additional concerns there. I'll consolidate everything before our
+| Monday sync.
+| 
+| Thanks,
+| Grace

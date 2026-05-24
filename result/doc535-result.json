@@ -1,0 +1,18 @@
+[
+  {
+    "from": [
+      "rachel.smith@oscorp.com"
+    ],
+    "to": [
+      "bob.johnson@umbrella-corp.net",
+      "priya.moore@aperturescience.com",
+      "priya.taylor@cyberdyne.systems"
+    ],
+    "cc": [],
+    "date": "Thu, 04 Apr 2024 07:10:03",
+    "subject": "Reminder: Design Review on 6/28",
+    "message_id": "<dcab84de6f527713@oscorp.com>",
+    "content": "Hi all,\n\nThanks for a productive Team Offsite today. Here's a summary of what we\ndecided:\n\nDECISIONS:\n- We will proceed with Option C for the Notification Hub migration\n(projected savings: $455K/yr)\n- Vanguard launch date moved to Q3 (from original Q1 target)\n- Legal team will own the Zero Trust Architecture workstream going\nforward\n\nOPEN QUESTIONS:\n- How does this affect the CloudSync Inc. contract timeline? (Priya to\ninvestigate)\n- Do we need additional headcount for UX Designer? (Bob to assess)\n\nFull notes: https://confluence.internal/a4d9b57ce027\n\nRegards,\nRachel\n\nBest,\nRachel Smith\nTechnical Lead, Support\nOscorp",
+    "canon_order": 0
+  }
+]

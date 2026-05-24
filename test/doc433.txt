@@ -1,0 +1,30 @@
+From: Jack Lopez <jack.lopez@aperturescience.com>
+To: Nate Jackson <nate.jackson@acmecorp.com>, Frank Wilson <frank.wilson@lexcorp.biz>, Steve Lewis <steve.lewis@lexcorp.biz>
+Cc: Irene Smith <irene.smith@aperturescience.com>    
+Date: 01/07/2024 08:21 PM
+Subject: Re: Incident Report #5635
+Message-ID: <fea25afa970e5793@aperturescience.com>    
+
+Team,
+
+I've been analyzing the response time data from last week and noticed some
+interesting trends:
+
+- response time increased by 37% compared to the previous week
+- The APAC region is underperforming by a factor of 2.5x
+- We're seeing a correlation between response time and churn rate
+- The Vanguard rollout appears to have had a positive impact
+ 
+Dashboard link: https://grafana.internal/23cda08f8e
+
+I think this warrants a deeper investigation. Steve, could you pull the raw data   
+from Logging Service so we can cross-reference with User Directory?
+
+Best,
+Jack 
+--
+Jack Lopez
+DevOps Engineer | Aperturescience  
++1-498-649-3482
+
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient. If you are not the intended recipient, please do not read, distribute, or take action based on this message. If you have received this in error, please notify the sender immediately and delete this message from your system.    

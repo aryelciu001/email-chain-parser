@@ -1,0 +1,31 @@
+[
+  {
+    "from": [
+      "steve.taylor@globex.io"
+    ],
+    "to": [
+      "quinn.anderson@oscorp.com",
+      "yuki.gonzalez@lexcorp.biz"
+    ],
+    "cc": [],
+    "date": "2024-07-23 01:37:48",
+    "subject": "Re: Incident Report #2087",
+    "message_id": "<2d47fdeebb632f21@globex.io>",
+    "content": "All,\n\nFollowing up from the Design Review earlier today. Here are the action items:\n\n- @Quinn: Finalize the proposal by Thursday (target: 3/8)\n- @Jack: Schedule the AWS Cost Optimization review with Engineering\n- @Quinn: Update the Payment Gateway configuration per our discussion\n- @Steve: Send out the revised Project Neptune timeline by EOW\n\nNext meeting: Thursday at 14:00. Calendar invite to follow.\n\nThanks everyone,\nSteve\n--\nSteve Taylor\nTechnical Lead | Globex\n+1-340-981-9986\n\n--- This communication is intended for the addressee only. It may contain privileged or confidential information. If you have received this email in error, please notify the sender and delete this message. ---",
+    "canon_order": 0
+  },
+  {
+    "from": [
+      "quinn.anderson@oscorp.com"
+    ],
+    "to": [
+      "yuki.gonzalez@lexcorp.biz"
+    ],
+    "cc": [],
+    "date": "2024-07-23 19:30:43",
+    "subject": "Re: Incident Report #2087",
+    "message_id": "<fbcab0e42685d22a@oscorp.com>",
+    "content": "Hi all,\n\nThanks for a productive Launch Retrospective today. Here's a summary of what we\ndecided:\n\nDECISIONS:\n- We will proceed with Option B for the User Directory migration (projected\nsavings: $225K/yr)\n- Neptune launch date moved to Q1 (from original Q4 target)\n- Operations team will own the AWS Cost Optimization workstream going forward\n\nOPEN QUESTIONS:\n- How does this affect the DataFlow Systems contract timeline? (Steve to\ninvestigate)\n- Do we need additional headcount for Product Manager? (Yuki to assess)\n\nFull notes: https://confluence.internal/6802d88687da\n\nRegards,\nQuinn\n--\nQuinn Anderson\nOscorp | Engineering Department\nPhone: +1-380-160-8355 | Email: quinn.anderson@oscorp.com\n\nDISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.",
+    "canon_order": 1
+  }
+]

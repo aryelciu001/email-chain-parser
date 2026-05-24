@@ -1,0 +1,29 @@
+From: Quinn Hernandez <quinn.hernandez@starkindustries.com>
+To: Priya Wilson <priya.wilson@umbrella-corp.net>
+Date: 06/23/2024 04:28 PM
+Subject: Re: Infrastructure Cost Analysis
+Message-ID: <bd5ee2bddd4db47f@starkindustries.com>
+
+Hi Zara,
+
+I've reviewed the budget and have some concerns about the Neptune approach.
+Specifically:
+
+1. The proposed timeline seems aggressive given the Product team's current
+bandwidth (they're already at 53% capacity with Analytics Pipeline work)
+2. We haven't accounted for the Legacy CRM deprecation in Q1
+3. The $291K budget allocation for StreamLine Solutions seems high compared to
+Pinnacle Analytics who quoted $248K
+4. Priya's team hasn't signed off on the OKR Planning dependency
+
+I'd suggest we revisit this in our next sync meeting.
+
+Best,
+Quinn
+
+Best,
+Quinn Hernandez
+VP of Product, Marketing
+Starkindustries
+
+DISCLAIMER: The information contained in this email is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Unauthorized review, use, disclosure or distribution is prohibited.
