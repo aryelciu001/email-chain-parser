@@ -1,12 +1,15 @@
 import json
 import logging
 import os
+import pathlib
 import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import parse_qs, urlparse
 
 import requests
 from confluent_kafka import Producer
+
+FRONTEND_DIR = pathlib.Path(__file__).parent / "frontend"
 
 ES_URL = os.environ.get("ES_URL", "http://elasticsearch.demo.svc.cluster.local:9200")
 ES_INDEX = "email"
@@ -33,7 +36,9 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
         params = parse_qs(parsed.query)
-        if parsed.path == "/health":
+        if parsed.path in ("/", "/index.html"):
+            self._serve_file(FRONTEND_DIR / "index.html", "text/html; charset=utf-8")
+        elif parsed.path == "/health":
             self.send_response(200)
             self.end_headers()
             self.wfile.write(b"ok")
@@ -53,7 +58,16 @@ class Handler(BaseHTTPRequestHandler):
             "size": 0,
             "aggs": {
                 "threads": {
-                    "terms": {"field": "thread_id", "size": 10000}
+                    "terms": {"field": "thread_id", "size": 10000},
+                    "aggs": {
+                        "first_email": {
+                            "top_hits": {
+                                "size": 1,
+                                "sort": [{"canon_order": "asc"}],
+                                "_source": ["subject"]
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -61,7 +75,11 @@ class Handler(BaseHTTPRequestHandler):
             resp = requests.post(f"{ES_URL}/{ES_INDEX}/_search", json=query, timeout=10)
             resp.raise_for_status()
             buckets = resp.json()["aggregations"]["threads"]["buckets"]
-            threads = [{"thread_id": b["key"], "count": b["doc_count"]} for b in buckets]
+            threads = []
+            for b in buckets:
+                hits = b["first_email"]["hits"]["hits"]
+                subject = hits[0]["_source"].get("subject", "") if hits else ""
+                threads.append({"thread_id": b["key"], "count": b["doc_count"], "subject": subject})
             self._respond(200, json.dumps({"threads": threads, "total": len(threads)}).encode())
         except Exception as exc:
             log.error("failed to fetch threads: %s", exc)
@@ -108,6 +126,18 @@ class Handler(BaseHTTPRequestHandler):
         log.info("published doc_url=%s to documents", doc_url)
 
         self._respond(202, json.dumps({"doc_url": doc_url, "status": "queued"}).encode())
+
+    def _serve_file(self, path: pathlib.Path, content_type: str) -> None:
+        try:
+            data = path.read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", content_type)
+            self.send_header("Content-Length", str(len(data)))
+            self.end_headers()
+            self.wfile.write(data)
+        except FileNotFoundError:
+            self.send_response(404)
+            self.end_headers()
 
     def _respond(self, code: int, body: bytes) -> None:
         self.send_response(code)

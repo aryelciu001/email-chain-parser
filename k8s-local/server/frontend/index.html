@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Threads</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      color: #f8fafc;
+    }
+
+    #status {
+      font-size: 0.875rem;
+      color: #94a3b8;
+      margin-bottom: 1rem;
+    }
+
+    #threads-container {
+      display: grid;
+      gap: 0.75rem;
+      max-width: 900px;
+    }
+
+    .thread-card {
+      background: #1e2130;
+      border: 1px solid #2d3148;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+
+    .thread-card:hover { border-color: #4f46e5; }
+
+    .thread-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.875rem 1rem;
+      user-select: none;
+    }
+
+    .thread-title {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      min-width: 0;
+    }
+
+    .thread-id {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #a5b4fc;
+      font-family: monospace;
+    }
+
+    .thread-subject {
+      font-size: 0.875rem;
+      color: #e2e8f0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 600px;
+    }
+
+    .thread-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.8rem;
+      color: #64748b;
+    }
+
+    .badge {
+      background: #312e81;
+      color: #a5b4fc;
+      border-radius: 9999px;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .chevron {
+      transition: transform 0.2s;
+      font-size: 0.75rem;
+      color: #64748b;
+    }
+
+    .thread-card.open .chevron { transform: rotate(180deg); }
+
+    .thread-docs {
+      display: none;
+      border-top: 1px solid #2d3148;
+      padding: 0.75rem 1rem;
+      background: #171a26;
+    }
+
+    .thread-card.open .thread-docs { display: block; }
+
+    .loading-dots { color: #4f46e5; font-size: 0.875rem; padding: 0.5rem 0; }
+
+    .doc-item {
+      border: 1px solid #2d3148;
+      border-radius: 6px;
+      padding: 0.75rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.8rem;
+      background: #1e2130;
+    }
+
+    .doc-item:last-child { margin-bottom: 0; }
+
+    .doc-subject {
+      font-weight: 600;
+      color: #e2e8f0;
+      margin-bottom: 0.4rem;
+    }
+
+    .doc-meta {
+      display: flex;
+      gap: 1rem;
+      color: #64748b;
+      flex-wrap: wrap;
+    }
+
+    .doc-meta span { white-space: nowrap; }
+
+    .doc-body {
+      margin-top: 0.5rem;
+      color: #94a3b8;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-break: break-word;
+      max-height: 6rem;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .doc-body.expanded { max-height: none; }
+
+    .toggle-body {
+      font-size: 0.75rem;
+      color: #4f46e5;
+      cursor: pointer;
+      margin-top: 0.25rem;
+      background: none;
+      border: none;
+      padding: 0;
+    }
+
+    .duplicate-badge {
+      display: inline-block;
+      background: #7f1d1d;
+      color: #fca5a5;
+      border-radius: 4px;
+      padding: 0.1rem 0.4rem;
+      font-size: 0.7rem;
+      margin-left: 0.5rem;
+    }
+
+    .error { color: #f87171; font-size: 0.875rem; padding: 0.5rem 0; }
+  </style>
+</head>
+<body>
+  <h1>📬 Email Threads</h1>
+  <div id="status">Loading…</div>
+  <div id="threads-container"></div>
+
+  <script>
+    const container = document.getElementById('threads-container');
+    const status = document.getElementById('status');
+
+    async function fetchJSON(url) {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    }
+
+    async function loadThreads() {
+      try {
+        const data = await fetchJSON('/threads');
+        const threads = data.threads || [];
+        status.textContent = `${threads.length} thread${threads.length !== 1 ? 's' : ''}`;
+        container.innerHTML = '';
+        threads.forEach(t => container.appendChild(buildThreadCard(t)));
+      } catch (e) {
+        status.textContent = '';
+        container.innerHTML = `<div class="error">Failed to load threads: ${e.message}</div>`;
+      }
+    }
+
+    function buildThreadCard({ thread_id, count, subject }) {
+      const card = document.createElement('div');
+      card.className = 'thread-card';
+      card.innerHTML = `
+        <div class="thread-header">
+          <div class="thread-title">
+            <span class="thread-id">${escHtml(thread_id)}</span>
+            ${subject ? `<span class="thread-subject">${escHtml(subject)}</span>` : ''}
+          </div>
+          <div class="thread-meta">
+            <span class="badge">${count} doc${count !== 1 ? 's' : ''}</span>
+            <span class="chevron">▼</span>
+          </div>
+        </div>
+        <div class="thread-docs"></div>
+      `;
+
+      const header = card.querySelector('.thread-header');
+      const docs = card.querySelector('.thread-docs');
+      let loaded = false;
+
+      header.addEventListener('click', async () => {
+        const wasOpen = card.classList.contains('open');
+        card.classList.toggle('open');
+        if (!wasOpen && !loaded) {
+          loaded = true;
+          docs.innerHTML = `<div class="loading-dots">Loading…</div>`;
+          try {
+            const data = await fetchJSON(`/threads?thread_id=${encodeURIComponent(thread_id)}`);
+            docs.innerHTML = '';
+            (data.docs || []).forEach(doc => docs.appendChild(buildDocItem(doc)));
+            if (!data.docs?.length) docs.innerHTML = '<div class="error">No documents found.</div>';
+          } catch (e) {
+            docs.innerHTML = `<div class="error">Failed: ${e.message}</div>`;
+          }
+        }
+      });
+
+      return card;
+    }
+
+    function buildDocItem(doc) {
+      const item = document.createElement('div');
+      item.className = 'doc-item';
+
+      const subject = doc.subject || '(no subject)';
+      const from = doc.from || '';
+      const to = doc.to || '';
+      const date = doc.date || '';
+      const body = (doc.body || '').trim();
+      const isDup = doc.duplicate === true;
+
+      item.innerHTML = `
+        <div class="doc-subject">
+          ${escHtml(subject)}
+          ${isDup ? '<span class="duplicate-badge">duplicate</span>' : ''}
+        </div>
+        <div class="doc-meta">
+          ${from ? `<span>From: ${escHtml(from)}</span>` : ''}
+          ${to ? `<span>To: ${escHtml(to)}</span>` : ''}
+          ${date ? `<span>${escHtml(date)}</span>` : ''}
+          ${doc.doc_id ? `<span>doc: ${escHtml(doc.doc_id)}</span>` : ''}
+          ${doc.canon_order != null ? `<span>#${doc.canon_order}</span>` : ''}
+        </div>
+        ${body ? `<div class="doc-body" id="body-${escHtml(doc.doc_id || '')}">${escHtml(body)}</div>
+          <button class="toggle-body" onclick="toggleBody(this)">Show more</button>` : ''}
+      `;
+
+      return item;
+    }
+
+    function toggleBody(btn) {
+      const bodyEl = btn.previousElementSibling;
+      if (bodyEl.classList.toggle('expanded')) {
+        btn.textContent = 'Show less';
+      } else {
+        btn.textContent = 'Show more';
+      }
+    }
+
+    function escHtml(s) {
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    loadThreads();
+  </script>
+</body>
+</html>
