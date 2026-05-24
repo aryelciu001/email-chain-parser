@@ -38,11 +38,11 @@ class Handler(BaseHTTPRequestHandler):
         params = parse_qs(parsed.query)
         if parsed.path in ("/", "/index.html"):
             self._serve_file(FRONTEND_DIR / "index.html", "text/html; charset=utf-8")
-        elif parsed.path == "/health":
+        elif parsed.path == "/api/health":
             self.send_response(200)
             self.end_headers()
             self.wfile.write(b"ok")
-        elif parsed.path == "/threads":
+        elif parsed.path == "/api/threads":
             thread_id = params.get("thread_id", [None])[0]
             doc_id = params.get("doc_id", [None])[0]
             if thread_id or doc_id:
@@ -107,7 +107,7 @@ class Handler(BaseHTTPRequestHandler):
             self._respond(500, json.dumps({"error": str(exc)}).encode())
 
     def do_POST(self):
-        if self.path != "/ingest":
+        if self.path != "/api/ingest":
             self.send_response(404)
             self.end_headers()
             return

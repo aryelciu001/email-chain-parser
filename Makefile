@@ -23,20 +23,20 @@ tunnel:
 	minikube tunnel
 
 ingest:
-	curl -s -X POST http://my.local/ingest \
+	curl -s -X POST http://my.local/api/ingest \
 		-H "Content-Type: application/json" \
 		-d "{\"doc_url\":\"$(DOC)\"}"
 
 ingest-all:
 	for f in sample-data/*; do \
-		curl -s -X POST http://my.local/ingest \
+		curl -s -X POST http://my.local/api/ingest \
 			-H "Content-Type: application/json" \
 			-d "{\"doc_url\":\"$$(basename $$f)\"}"; \
 		echo; \
 	done
 
 test:
-	curl -s http://my.local/health || echo "Run 'minikube tunnel' in another terminal first, then add '127.0.0.1 my.local' to /etc/hosts"
+	curl -s http://my.local/api/health || echo "Run 'minikube tunnel' in another terminal first, then add '127.0.0.1 my.local' to /etc/hosts"
 
 cluster-down:
 	kubectl delete namespace demo

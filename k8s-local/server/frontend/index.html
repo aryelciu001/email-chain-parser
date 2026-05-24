@@ -191,7 +191,7 @@
 
     async function loadThreads() {
       try {
-        const data = await fetchJSON('/threads');
+        const data = await fetchJSON('/api/threads');
         const threads = data.threads || [];
         status.textContent = `${threads.length} thread${threads.length !== 1 ? 's' : ''}`;
         container.innerHTML = '';
@@ -230,7 +230,7 @@
           loaded = true;
           docs.innerHTML = `<div class="loading-dots">Loading…</div>`;
           try {
-            const data = await fetchJSON(`/threads?thread_id=${encodeURIComponent(thread_id)}`);
+            const data = await fetchJSON(`/api/threads?thread_id=${encodeURIComponent(thread_id)}`);
             docs.innerHTML = '';
             (data.docs || []).forEach(doc => docs.appendChild(buildDocItem(doc)));
             if (!data.docs?.length) docs.innerHTML = '<div class="error">No documents found.</div>';
