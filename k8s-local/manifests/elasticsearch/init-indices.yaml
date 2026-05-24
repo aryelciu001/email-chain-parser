@@ -38,7 +38,8 @@ spec:
                       "thread_id":    { "type": "keyword" },
                       "canon_order":  { "type": "keyword" },
                       "content":      { "type": "text" },
-                      "content_hash": { "type": "keyword" }
+                      "content_hash": { "type": "keyword" },
+                      "duplicate":    { "type": "boolean" }
                     }
                   }
                 }'

@@ -62,7 +62,8 @@ def find_similar(msg: dict, from_key: str, to_key: str, thread_id: str | None) -
 
 
 def index_email(es_id: str, msg: dict, thread_id: str, content: str,
-                content_hash: str, from_key: str, to_key: str) -> None:
+                content_hash: str, from_key: str, to_key: str,
+                duplicate: bool = False) -> None:
     doc = {
         "id": es_id,
         "doc_id": msg["doc_id"],
@@ -76,10 +77,11 @@ def index_email(es_id: str, msg: dict, thread_id: str, content: str,
         "date": msg.get("date"),
         "content": content,
         "content_hash": content_hash,
+        "duplicate": duplicate,
     }
     resp = requests.put(f"{ES_URL}/{ES_INDEX}/_doc/{es_id}", json=doc, timeout=10)
     resp.raise_for_status()
-    log.info("indexed email id=%s thread_id=%s", es_id, thread_id)
+    log.info("indexed email id=%s thread_id=%s duplicate=%s", es_id, thread_id, duplicate)
 
 
 def process_email(email: dict, thread_id: str | None) -> str:
@@ -95,7 +97,9 @@ def process_email(email: dict, thread_id: str | None) -> str:
         best = hits[0]
         src = best["_source"]
         if src.get("content_hash") == content_hash:
-            log.info("exact content match id=%s, skipping", best["_id"])
+            log.info("exact content match id=%s, marking duplicate", best["_id"])
+            es_id = f"{docname}_{email['canon_order']}"
+            index_email(es_id, email, src["thread_id"], content, content_hash, from_key, to_key, duplicate=True)
             return src["thread_id"]
         ratio = Levenshtein.normalized_similarity(content, src.get("content") or "")
         log.info("best candidate id=%s lev=%.3f", best["_id"], ratio)
