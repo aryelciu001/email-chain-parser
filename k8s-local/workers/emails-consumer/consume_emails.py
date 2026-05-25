@@ -63,7 +63,7 @@ def find_similar(msg: dict, from_key: str, to_key: str, thread_id: str | None) -
 
 def index_email(es_id: str, msg: dict, thread_id: str, content: str,
                 content_hash: str, from_key: str, to_key: str,
-                duplicate: bool = False) -> None:
+                duplicate: bool = False, parent_id: str | None = None) -> None:
     doc = {
         "id": es_id,
         "doc_id": msg["doc_id"],
@@ -78,14 +78,15 @@ def index_email(es_id: str, msg: dict, thread_id: str, content: str,
         "content": content,
         "content_hash": content_hash,
         "duplicate": duplicate,
+        "parent_id": parent_id,
     }
     resp = requests.put(f"{ES_URL}/{ES_INDEX}/_doc/{es_id}", json=doc, timeout=10)
     resp.raise_for_status()
-    log.info("indexed email id=%s thread_id=%s duplicate=%s", es_id, thread_id, duplicate)
+    log.info("indexed email id=%s thread_id=%s duplicate=%s parent_id=%s", es_id, thread_id, duplicate, parent_id)
 
 
-def process_email(email: dict, thread_id: str | None) -> str:
-    """Index one email, returning the thread_id it belongs to (to carry forward)."""
+def process_email(email: dict, thread_id: str | None, parent_id: str | None) -> tuple[str, str]:
+    """Index one email, returning (thread_id, es_id) to carry forward."""
     docname = os.path.splitext(email["doc_id"])[0]
     content = email.get("content") or ""
     content_hash = hashlib.md5(content.encode()).hexdigest()
@@ -99,27 +100,28 @@ def process_email(email: dict, thread_id: str | None) -> str:
         if src.get("content_hash") == content_hash:
             log.info("exact content match id=%s, marking duplicate", best["_id"])
             es_id = f"{docname}_{email['canon_order']}"
-            index_email(es_id, email, src["thread_id"], content, content_hash, from_key, to_key, duplicate=True)
-            return src["thread_id"]
+            index_email(es_id, email, src["thread_id"], content, content_hash, from_key, to_key, duplicate=True, parent_id=parent_id)
+            return src["thread_id"], es_id
         ratio = Levenshtein.normalized_similarity(content, src.get("content") or "")
         log.info("best candidate id=%s lev=%.3f", best["_id"], ratio)
         if ratio > SIMILARITY_THRESHOLD:
             es_id = best["_id"] + "m"
-            index_email(es_id, email, src["thread_id"], content, content_hash, from_key, to_key)
-            return src["thread_id"]
+            index_email(es_id, email, src["thread_id"], content, content_hash, from_key, to_key, parent_id=parent_id)
+            return src["thread_id"], es_id
 
     thread_id = thread_id or str(uuid.uuid4())
     es_id = f"{docname}_{email['canon_order']}"
-    index_email(es_id, email, thread_id, content, content_hash, from_key, to_key)
-    return thread_id
+    index_email(es_id, email, thread_id, content, content_hash, from_key, to_key, parent_id=parent_id)
+    return thread_id, es_id
 
 
 def process(msg: dict) -> None:
     emails = sorted(msg["emails"], key=lambda e: e["canon_order"])
     log.info("processing %s emails for doc_id=%s", len(emails), msg.get("doc_id"))
     thread_id = None
+    parent_id = None
     for email in emails:
-        thread_id = process_email(email, thread_id)
+        thread_id, parent_id = process_email(email, thread_id, parent_id)
 
 
 def wait_for_topic(consumer: Consumer, topic: str, interval: float = 3.0) -> None:

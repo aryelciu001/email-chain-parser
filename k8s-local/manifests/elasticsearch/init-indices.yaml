@@ -39,7 +39,8 @@ spec:
                       "canon_order":  { "type": "keyword" },
                       "content":      { "type": "text" },
                       "content_hash": { "type": "keyword" },
-                      "duplicate":    { "type": "boolean" }
+                      "duplicate":    { "type": "boolean" },
+                      "parent_id":    { "type": "keyword" }
                     }
                   }
                 }'
