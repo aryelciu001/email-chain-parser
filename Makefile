@@ -58,3 +58,6 @@ restart-document:
 	kubectl -n demo rollout restart deployment/documents-consumer
 
 ready: log-document log-email
+
+restart-server: build
+	kubectl -n demo rollout restart deployment/server

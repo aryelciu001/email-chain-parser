@@ -173,9 +173,49 @@ h2 {
 .loading { color: #4f46e5; font-size: 0.875rem; padding: 0.5rem 0; }
 .error   { color: #f87171; font-size: 0.875rem; padding: 0.5rem 0; }
 
-/* ── Canon slot (one per canon_order in a thread) ── */
-.canon-slot { margin-bottom: 0.5rem; }
-.canon-slot:last-child { margin-bottom: 0; }
+/* ── Email tree ── */
+.tree-root { margin-bottom: 0.5rem; }
+.tree-root:last-child { margin-bottom: 0; }
+
+.tree-node-inner { position: relative; }
+
+.tree-children {
+  margin-left: 1.25rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid #2d3148;
+  margin-top: 0.25rem;
+}
+
+.tree-node {
+  margin-top: 0.25rem;
+  position: relative;
+}
+
+.tree-node::before {
+  content: '';
+  position: absolute;
+  left: -0.75rem;
+  top: 1.1rem;
+  width: 0.6rem;
+  height: 2px;
+  background: #2d3148;
+}
+
+.tree-collapsible { cursor: pointer; }
+.tree-collapsible:hover .doc-item { border-color: #4f46e5; }
+
+.tree-collapsible::after {
+  content: ' ▾';
+  font-size: 0.7rem;
+  color: #4f46e5;
+  float: right;
+  margin-top: -1.4rem;
+  margin-right: 0.5rem;
+}
+
+.tree-is-collapsed::after { content: ' ▸'; }
+
+.tree-collapsed { display: none; }
 
 .dup-list {
   display: flex;
